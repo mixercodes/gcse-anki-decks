@@ -1,0 +1,12 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Cloze	Levels of ecological organisation: {{c1::individual}} → {{c2::population}} (same species in one area) → {{c3::community}} (all populations in one area) → {{c4::ecosystem}} (community + abiotic environment).		Science::Biology::Paper 2::Ecology
+Basic	What are abiotic and biotic factors?	Abiotic (non-living): temperature, light intensity, moisture, pH, wind speed, CO₂ levels, oxygen levels. Biotic (living): food availability, predators, competitors, disease. Both affect distribution and abundance of organisms.	Science::Biology::Paper 2::Ecology
+Basic	What is a food chain and what do the terms mean?	Shows feeding relationships. Producer → Primary consumer → Secondary consumer → Tertiary consumer. Arrows show direction of energy transfer. Producers are photosynthetic plants. Decomposers (bacteria/fungi) break down dead matter, returning nutrients to soil.	Science::Biology::Paper 2::Ecology
+Cloze	Biomass decreases at each trophic level because energy is lost through {{c1::respiration}}, {{c2::waste products}} (urine/faeces), and {{c3::heat}}. Typically only {{c4::10%}} of energy is transferred between levels.		Science::Biology::Paper 2::Ecology
+Basic	What is the carbon cycle?	Carbon is recycled through: photosynthesis (CO₂ absorbed by plants). Respiration (CO₂ released by all organisms). Decomposition (CO₂ released by bacteria/fungi). Combustion (burning fossil fuels releases CO₂). Ocean absorption. Limestone/fossil fuels lock carbon away for millions of years.	Science::Biology::Paper 2::Ecology
+Basic	What are the effects of human activities on ecosystems?	Deforestation (reduces CO₂ absorption, destroys habitats). Pollution (water: fertilisers/sewage causing eutrophication; air: acid rain, greenhouse gases). Peat bog destruction (releases stored CO₂). Overfishing. Intensive farming reduces biodiversity.	Science::Biology::Paper 2::Ecology
+Cloze	Eutrophication: excess {{c1::nitrates/phosphates}} from fertilisers enter water → algae bloom → blocks light → plants die → decomposers use up {{c2::oxygen}} → aquatic life dies. Called {{c3::eutrophication}}.		Science::Biology::Paper 2::Ecology
+Basic	What methods are used to protect biodiversity?	Breeding programmes for endangered species. Seed banks. Conservation of habitats (nature reserves, marine protected areas). Reforestation. Reducing pollution. Sustainable fishing (quotas, mesh size). International agreements (e.g. CITES on endangered species trade).	Science::Biology::Paper 2::Ecology

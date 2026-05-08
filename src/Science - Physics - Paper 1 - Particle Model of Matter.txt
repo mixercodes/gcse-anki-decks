@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What are the properties of solids, liquids and gases in terms of particle theory?	Solid: particles close together in fixed positions, vibrate — fixed shape and volume. Liquid: particles close together but can move — fixed volume, no fixed shape. Gas: particles far apart, move randomly and fast — no fixed shape or volume. As energy increases, particles move faster.	Science::Physics::Paper 1::Particle Model of Matter
+Cloze	Specific heat capacity (SHC): energy needed to raise the temperature of {{c1::1kg}} of a substance by {{c2::1°C}}. Formula: Q = {{c3::mcΔT}}. Water has a high SHC of {{c4::4200 J/kg°C}} — ideal for central heating.		Science::Physics::Paper 1::Particle Model of Matter
+Cloze	Specific latent heat: energy required to change the state of {{c1::1kg}} of a substance without changing {{c2::temperature}}. Fusion (melting): Q = {{c3::mL_f}}. Vaporisation (boiling): Q = {{c4::mL_v}}. During state changes, energy breaks/forms intermolecular bonds — temperature stays {{c5::constant}}.		Science::Physics::Paper 1::Particle Model of Matter
+Basic	What is gas pressure and how does it change with temperature?	Gas pressure caused by particles colliding with walls of container. Increasing temperature → particles move faster → more frequent and forceful collisions → increased pressure (if volume constant). Increasing volume → fewer collisions per unit area → decreased pressure (if temperature constant).	Science::Physics::Paper 1::Particle Model of Matter

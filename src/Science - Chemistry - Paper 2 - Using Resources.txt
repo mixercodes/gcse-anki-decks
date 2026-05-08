@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is the difference between potable water and pure water?	Pure water contains only H₂O molecules. Potable water is safe to drink but may contain dissolved minerals — it is not 100% pure. Treatment of fresh water: screening → sedimentation → filtration → chlorination. Desalination (for seawater): distillation or reverse osmosis — both energy-intensive.	Science::Chemistry::Paper 2::Using Resources
+Basic	What are the four stages of sewage treatment?	1. Screening — removes large solids. 2. Primary treatment — sedimentation, sludge settles. 3. Secondary treatment — aeration tank, aerobic bacteria break down organic matter. 4. Sludge digestion — anaerobic bacteria produce biogas; dried sludge used as fertiliser.	Science::Chemistry::Paper 2::Using Resources
+Basic	What is the life cycle assessment (LCA)?	Evaluates the environmental impact of a product across its entire life: raw material extraction, manufacturing, use, and disposal. Considers energy use, water use, waste production and pollution at each stage. Used to compare products and make more sustainable choices. Can be biased depending on assumptions made.	Science::Chemistry::Paper 2::Using Resources
+Cloze	Finite resources: {{c1::fossil fuels}}, metal ores — cannot be replaced on a human timescale. Renewable resources: {{c2::wood}}, {{c3::plant-based materials}} — can be replaced. Recycling metals saves {{c4::energy}} and reduces need to mine new ore (reduces habitat destruction).		Science::Chemistry::Paper 2::Using Resources

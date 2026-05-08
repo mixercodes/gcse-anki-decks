@@ -1,0 +1,12 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Cloze	Charge (Q) = {{c1::current (I)}} × {{c2::time (t)}}. Q in {{c3::coulombs (C)}}, I in {{c4::amperes (A)}}, t in {{c5::seconds (s)}}. 3A flowing for 10s: Q = {{c6::30C}}.		Science::Physics::Paper 1::Electricity
+Cloze	Ohm's Law: {{c1::V = IR}}. V = voltage/potential difference ({{c2::volts, V}}), I = current ({{c3::amps, A}}), R = resistance ({{c4::ohms, Ω}}). A 12V battery with 3Ω resistance: I = {{c5::4A}}.		Science::Physics::Paper 1::Electricity
+Basic	What is the difference between series and parallel circuits?	Series: components connected in one loop. Same current through all. Total resistance = sum of individual resistances. Voltage shared. One breaks — all break. Parallel: components connected in separate branches. Same voltage across each branch. Total resistance less than smallest individual resistance. One breaks — others work.	Science::Physics::Paper 1::Electricity
+Cloze	Power equations: P = {{c1::IV}} = {{c2::I²R}} = {{c3::V²/R}}. Units: {{c4::watts (W)}}. A 230V device drawing 2A: P = {{c5::460W}}.		Science::Physics::Paper 1::Electricity
+Basic	What are the I-V characteristics of a resistor, filament lamp and diode?	Resistor: straight line through origin (constant resistance — Ohm's law). Filament lamp: curved — as current increases, temperature increases, resistance increases. Diode: only allows current in one direction — very high resistance in reverse direction.	Science::Physics::Paper 1::Electricity
+Cloze	A thermistor's resistance {{c1::decreases}} as temperature increases. An LDR's resistance {{c2::decreases}} as light intensity increases. Both used in {{c3::sensing circuits}}.		Science::Physics::Paper 1::Electricity
+Basic	What is the National Grid and why are transformers used?	The National Grid transmits electricity from power stations to homes and industry. Step-up transformers increase voltage (and decrease current) for transmission — reduces energy loss due to resistance in cables. Step-down transformers reduce voltage to safe levels for use (230V in homes).	Science::Physics::Paper 1::Electricity
+Cloze	Mains electricity in the UK: {{c1::230V}} AC at {{c2::50Hz}}. AC = {{c3::alternating current}} (direction changes). DC = {{c4::direct current}} (one direction, from batteries). Live wire: {{c5::brown}}. Neutral: {{c6::blue}}. Earth: {{c7::green and yellow}} (safety).		Science::Physics::Paper 1::Electricity

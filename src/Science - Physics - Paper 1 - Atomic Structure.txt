@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is radioactive decay and what are the three types?	Unstable nuclei emit radiation spontaneously to become more stable. Alpha (α): 2 protons + 2 neutrons (helium nucleus) — most ionising, least penetrating (stopped by paper/skin). Beta (β): high-speed electron from nucleus — moderately ionising (stopped by aluminium). Gamma (γ): electromagnetic radiation — least ionising, most penetrating (reduced by thick lead/concrete).	Science::Physics::Paper 1::Atomic Structure
+Cloze	Alpha decay: atomic number decreases by {{c1::2}}, mass number decreases by {{c2::4}}. Beta decay: atomic number increases by {{c3::1}}, mass number stays the {{c4::same}} (a neutron becomes a proton + electron).		Science::Physics::Paper 1::Atomic Structure
+Cloze	Half-life: time taken for {{c1::half}} the radioactive nuclei in a sample to decay. After 2 half-lives: {{c2::25%}} remains. After 3 half-lives: {{c3::12.5%}} remains. Used for {{c4::radioactive dating}} of rocks and organic material.		Science::Physics::Paper 1::Atomic Structure
+Basic	What are the uses of nuclear radiation?	Medical: gamma used in radiotherapy (kills cancer cells), beta used in tracers. Industrial: gamma used to check for cracks in pipes/metal. Carbon-14 dating (archaeological). Nuclear power: fission of uranium-235 releases energy. Nuclear fusion (stars, potential future energy): joins nuclei together, releases enormous energy.	Science::Physics::Paper 1::Atomic Structure

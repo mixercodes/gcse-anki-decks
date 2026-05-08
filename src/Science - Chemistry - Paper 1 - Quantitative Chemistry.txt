@@ -1,0 +1,9 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Cloze	Relative formula mass (Mr): sum of relative atomic masses (Ar) of all atoms in the formula. E.g. H₂O: (2×{{c1::1}}) + {{c2::16}} = {{c3::18}}. CO₂: 12 + (2×16) = {{c4::44}}.		Science::Chemistry::Paper 1::Quantitative Chemistry
+Cloze	1 mole of a substance contains {{c1::6.02 × 10²³}} particles (Avogadro's constant). Moles = {{c2::mass (g)}} ÷ {{c3::Mr}}. If Mr of NaCl = 58.5 and you have 11.7g: moles = 11.7÷58.5 = {{c4::0.2 mol}}.		Science::Chemistry::Paper 1::Quantitative Chemistry
+Basic	What is percentage yield and why is it rarely 100%?	% yield = (actual yield ÷ theoretical yield) × 100. Never 100% because: reaction may be reversible (doesn't go to completion), some product lost during separation/purification, side reactions occur.	Science::Chemistry::Paper 1::Quantitative Chemistry
+Basic	What is atom economy and why does it matter?	Atom economy = (Mr of desired product ÷ total Mr of all products) × 100. Measures how much reactant mass ends up in the desired product. High atom economy = less waste = more sustainable and cost-effective.	Science::Chemistry::Paper 1::Quantitative Chemistry
+Cloze	The law of conservation of mass: mass of {{c1::reactants}} = mass of {{c2::products}}. If mass appears to change in an experiment, it is because a {{c3::gas}} has been produced or has been used from the air (e.g. burning magnesium gains mass from {{c4::oxygen}}).		Science::Chemistry::Paper 1::Quantitative Chemistry

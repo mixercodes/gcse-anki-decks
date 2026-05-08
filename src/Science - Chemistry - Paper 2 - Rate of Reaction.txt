@@ -1,0 +1,9 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What four factors affect the rate of reaction and why?	Concentration (more particles per unit volume → more frequent collisions). Temperature (particles move faster → more frequent AND more energetic collisions → more exceed activation energy). Surface area (more area exposed → more collisions). Catalyst (lowers activation energy → more particles have enough energy to react).	Science::Chemistry::Paper 2::Rate of Reaction
+Basic	What is a catalyst and how does it work?	A substance that increases the rate of a reaction without being used up. Provides an alternative reaction pathway with a lower activation energy. Biological catalysts are called enzymes. Heterogeneous catalysts (different state to reactants) — e.g. iron in Haber process.	Science::Chemistry::Paper 2::Rate of Reaction
+Cloze	Collision theory: for a reaction to occur, particles must {{c1::collide}} with {{c2::sufficient energy}} (equal to or greater than the {{c3::activation energy}}) and with the {{c4::correct orientation}}.		Science::Chemistry::Paper 2::Rate of Reaction
+Basic	What is a reversible reaction and what is dynamic equilibrium?	A reversible reaction can proceed in both directions (⇌). Dynamic equilibrium: in a closed system, the forward and reverse reactions occur at the same rate — concentrations remain constant. Le Chatelier's principle: if conditions change, the equilibrium shifts to oppose the change.	Science::Chemistry::Paper 2::Rate of Reaction
+Cloze	Le Chatelier's principle — temperature: increasing temperature shifts equilibrium in the {{c1::endothermic}} direction. Pressure: increasing pressure shifts equilibrium towards fewer {{c2::gas molecules}}. Concentration: increasing reactant concentration shifts equilibrium towards the {{c3::products}}.		Science::Chemistry::Paper 2::Rate of Reaction

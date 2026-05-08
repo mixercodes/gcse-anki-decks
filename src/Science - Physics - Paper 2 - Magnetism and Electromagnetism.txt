@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is the difference between permanent and induced magnets?	Permanent magnets: always magnetic (e.g. bar magnet — made of steel). Induced magnets: temporarily magnetic when in a magnetic field (made of iron). Magnetic field lines run from north to south pole, closer together = stronger field.	Science::Physics::Paper 2::Magnetism and Electromagnetism
+Basic	What is the motor effect and what factors affect the force?	A current-carrying conductor in a magnetic field experiences a force (the motor effect). F = BIL (force = magnetic flux density × current × length). Direction given by Fleming's Left Hand Rule: thuMb = Motion, First finger = Field, seCond finger = Current.	Science::Physics::Paper 2::Magnetism and Electromagnetism
+Basic	What is electromagnetic induction?	Moving a conductor through a magnetic field (or changing the magnetic field around a conductor) induces a potential difference — and a current if the circuit is complete. The generator effect. Increasing the speed, field strength, or number of turns increases the induced EMF.	Science::Physics::Paper 2::Magnetism and Electromagnetism
+Cloze	A transformer uses {{c1::electromagnetic induction}}. Step-up transformer: {{c2::more}} turns on secondary coil → higher voltage. Step-down: {{c3::fewer}} turns → lower voltage. Formula: {{c4::Vs/Vp = Ns/Np}}. Only works with {{c5::AC}} (alternating current).		Science::Physics::Paper 2::Magnetism and Electromagnetism

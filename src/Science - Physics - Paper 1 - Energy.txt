@@ -1,0 +1,11 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What are the main energy stores and transfers?	Stores: kinetic, gravitational potential, elastic potential, chemical, thermal, magnetic, electrostatic, nuclear. Transfers: mechanically (forces), electrically (current), by heating (temperature difference), by radiation (light/sound). Energy is conserved — total energy before = total energy after.	Science::Physics::Paper 1::Energy
+Cloze	Kinetic energy: Ek = {{c1::½mv²}}. Where m = {{c2::mass (kg)}}, v = {{c3::speed (m/s)}}. E.g. 2kg object at 3m/s: Ek = 0.5 × 2 × 9 = {{c4::9 J}}.		Science::Physics::Paper 1::Energy
+Cloze	Gravitational potential energy: Ep = {{c1::mgh}}. Where m = mass (kg), g = {{c2::9.8 m/s²}} (gravitational field strength), h = {{c3::height (m)}}. E.g. 5kg object raised 10m: Ep = 5 × 9.8 × 10 = {{c4::490 J}}.		Science::Physics::Paper 1::Energy
+Cloze	Power = {{c1::energy transferred}} ÷ {{c2::time}}. Unit: {{c3::watts (W)}}. 1W = 1 J/s. A device with 60J in 3s: power = {{c4::20W}}.		Science::Physics::Paper 1::Energy
+Basic	What is the difference between renewable and non-renewable energy resources?	Non-renewable: fossil fuels (coal, oil, gas) + nuclear — will run out, provide reliable baseload power, produce CO₂ (except nuclear). Renewable: solar, wind, hydroelectric, geothermal, tidal, wave, biofuel — won't run out, often intermittent, smaller environmental footprint.	Science::Physics::Paper 1::Energy
+Cloze	Efficiency = {{c1::useful output energy}} ÷ {{c2::total input energy}} (× 100 for %). A device that transfers 80J usefully from 200J input: efficiency = {{c3::80/200 = 0.4 or 40%}}. Wasted energy goes to {{c4::thermal energy}} (heat).		Science::Physics::Paper 1::Energy
+Basic	How is energy transferred in heating and what reduces unwanted transfer?	Conduction: vibrations passed between particles (solids). Convection: hot fluid rises, cool sinks — creates a current (fluids). Radiation: infrared electromagnetic waves — no medium needed. Reducing: insulation (traps air), double glazing, cavity walls, draught excluders, reflective foil.	Science::Physics::Paper 1::Energy

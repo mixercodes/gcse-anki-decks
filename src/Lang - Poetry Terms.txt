@@ -1,0 +1,35 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Cloze	{{c1::Alliteration}}: the first letter of a word is repeated in words that follow. E.g. '{{c2::cold, crisp, clear ice}}'. When the repeated sound is 's' or 'sh', this is called {{c3::sibilance}}.		English Lang::Poetry Terms
+Cloze	{{c1::Anaphora}}: the repetition of the same {{c2::words or phrases at the beginning}} of lines of poetry. Creates emphasis and rhythm.		English Lang::Poetry Terms
+Cloze	{{c1::Assonance}}: the same {{c2::vowel sound}} is repeated but the consonants are different. E.g. '{{c3::he passed her a sharp, dark glance}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Caesura}}: a {{c2::pause}} in a line of poetry, often marked by punctuation. Creates tension, emphasis or a sense of interruption.		English Lang::Poetry Terms
+Cloze	{{c1::Colloquial}}: sounding like {{c2::spoken speech}}, usually with an {{c3::informal}} meaning. Creates a sense of authenticity or character voice.		English Lang::Poetry Terms
+Cloze	{{c1::Consonance}}: the repetition of {{c2::consonant sounds}} in nearby words. Similar to alliteration but not restricted to the first letter.		English Lang::Poetry Terms
+Cloze	{{c1::Dramatic monologue}}: a poem that uses the assumed voice of a {{c2::single speaker who is not the poet}}, addressing an implied audience. E.g. My Last Duchess.		English Lang::Poetry Terms
+Cloze	{{c1::Enjambment}}: when a sentence or phrase {{c2::runs over from one line to the next}} without a pause. Creates flow, urgency or a sense of things not ending.		English Lang::Poetry Terms
+Cloze	{{c1::Form}}: the {{c2::type of poem}} and its features — number of lines, rhyme scheme, structure. E.g. a {{c3::sonnet}} has 14 lines, traditionally used for love.		English Lang::Poetry Terms
+Cloze	{{c1::Free verse}}: poetry that {{c2::doesn't rhyme}} and has no regular {{c3::rhythm or line length}}. Can suggest freedom, chaos or natural speech.		English Lang::Poetry Terms
+Cloze	{{c1::Half-rhyme}} (pararhyme): words that have a {{c2::similar but not identical}} end sound. E.g. '{{c3::crisp and grasp}}'. Creates a sense of discord or unease.		English Lang::Poetry Terms
+Cloze	{{c1::Imagery}}: similes, metaphors and personification — they all compare something '{{c2::real}}' with something '{{c3::imagined}}'. Creates vivid pictures in the reader's mind.		English Lang::Poetry Terms
+Cloze	{{c1::In media res}}: when a narrative starts {{c2::in the middle of the action}}. Creates immediacy and disorientation. E.g. Bayonet Charge: '{{c3::Suddenly, he was awake and running}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Irony}}: using words to imply the {{c2::opposite}} of what they normally mean. Can also describe a difference between what is expected and what happens.		English Lang::Poetry Terms
+Cloze	{{c1::Juxtaposition}}: placing two contrasting {{c2::ideas, characters or images}} close together to invite the reader to contrast them.		English Lang::Poetry Terms
+Cloze	{{c1::Metaphor}}: a word or phrase used to imply {{c2::figurative}} resemblance — NOT literal. E.g. '{{c3::he flew into the room}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Metre}}: the arrangement of {{c2::stressed and unstressed syllables}} to create a particular rhythm. E.g. iambic pentameter = da-DUM × 5.		English Lang::Poetry Terms
+Cloze	{{c1::Onomatopoeia}}: a word that {{c2::sounds like}} the noise it describes. E.g. '{{c3::splash, bang, pop, hiss}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Oxymoron}}: where two {{c2::contradictory}} words are brought together. E.g. '{{c3::cold heat}}', '{{c4::doubtful joy}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Personification}}: attributing a {{c2::human quality}} to a thing or idea. E.g. '{{c3::the moon calls me to her darkened world}}'.		English Lang::Poetry Terms
+Cloze	{{c1::Plosive}}: a short burst of sound created by the letters {{c2::b, d, g, k, p or t}}. Creates a sense of impact or aggression.		English Lang::Poetry Terms
+Cloze	{{c1::Polyphonic}}: incorporating {{c2::many voices}} within a poem.		English Lang::Poetry Terms
+Cloze	{{c1::Polysemous}}: when a poem or word has {{c2::many meanings}}. Good for analysis — shows depth of language choice.		English Lang::Poetry Terms
+Cloze	{{c1::Sibilance}}: repetition of the '{{c2::s}}' sound in consecutive words. Can create hissing, whispering or sinister effects.		English Lang::Poetry Terms
+Cloze	{{c1::Simile}}: a comparison using '{{c2::like}}' or '{{c3::as}}'. E.g. 'as white as snow'. Establishes similarity to emphasise a point.		English Lang::Poetry Terms
+Cloze	{{c1::Stanza}}: a {{c2::group of lines}} in a poem. NOT a paragraph — never call it a paragraph.		English Lang::Poetry Terms
+Cloze	{{c1::Symbolism}}: when an object {{c2::stands for}} something else. E.g. a dove symbolises {{c3::peace}}.		English Lang::Poetry Terms
+Cloze	{{c1::Syntax}}: the {{c2::arrangement of words}} in a sentence / the order of words. 'Fronted syntax' = important word placed first.		English Lang::Poetry Terms
+Cloze	{{c1::Tone}}: the {{c2::mood or feelings}} suggested by the narrator's writing. E.g. angry, pensive, melancholic, defiant.		English Lang::Poetry Terms
+Cloze	{{c1::Volta}}: the {{c2::turning point}} in a poem where the tone, argument or perspective shifts. Often signals a change in understanding.		English Lang::Poetry Terms
+Cloze	{{c1::Voice}}: the {{c2::characteristics}} of the person narrating the poem — their personality, attitude, position.		English Lang::Poetry Terms

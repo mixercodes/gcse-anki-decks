@@ -1,0 +1,7 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is the difference between exothermic and endothermic reactions?	Exothermic: releases energy to surroundings — temperature rises. Products have less energy than reactants. Examples: combustion, neutralisation, respiration, hand warmers. Endothermic: absorbs energy from surroundings — temperature falls. Products have more energy. Examples: photosynthesis, thermal decomposition, sports injury packs.	Science::Chemistry::Paper 1::Energy Changes
+Basic	How do you interpret reaction profile (energy level) diagrams?	X-axis = reaction progress. Y-axis = energy. Reactants on left, products on right. Exothermic: products lower than reactants (overall energy released). Endothermic: products higher than reactants. Activation energy = energy needed to start the reaction (the 'hump'). A catalyst lowers activation energy.	Science::Chemistry::Paper 1::Energy Changes
+Cloze	Bond energy calculations: energy is required to {{c1::break}} bonds (endothermic). Energy is released when bonds {{c2::form}} (exothermic). Overall energy change = energy to {{c3::break bonds}} − energy {{c4::released forming bonds}}. If result is negative, reaction is {{c5::exothermic}}.		Science::Chemistry::Paper 1::Energy Changes

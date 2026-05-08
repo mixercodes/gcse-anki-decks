@@ -1,0 +1,8 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Cloze	Current atmosphere: approximately {{c1::78%}} nitrogen, {{c2::21%}} oxygen, {{c3::1%}} argon, {{c4::0.04%}} carbon dioxide and small amounts of other gases including water vapour.		Science::Chemistry::Paper 2::The Earth's Atmosphere
+Basic	What was the Earth's early atmosphere and how did it change?	Early atmosphere: mostly CO₂, water vapour, small amounts of methane, ammonia and nitrogen. Released by volcanic activity. As Earth cooled, water vapour condensed to form oceans. Oceans dissolved CO₂. Algae and plants evolved (photosynthesis) — CO₂ absorbed, O₂ released. Nitrogen built up as unreactive gas. CO₂ also locked in fossil fuels and limestone.	Science::Chemistry::Paper 2::The Earth's Atmosphere
+Cloze	Greenhouse gases ({{c1::CO₂}}, {{c2::methane}}, {{c3::water vapour}}) absorb {{c4::long-wave (infrared) radiation}} emitted by Earth and re-radiate it back → keeps Earth warm. Increased greenhouse gases from human activity → {{c5::enhanced greenhouse effect}} → global warming.		Science::Chemistry::Paper 2::The Earth's Atmosphere
+Basic	What are the atmospheric pollutants from combustion and their effects?	CO₂: greenhouse gas → global warming. CO: toxic (binds to haemoglobin). SO₂: acid rain (dissolves in rainwater → sulfuric acid) → damages ecosystems, buildings. NO/NO₂: acid rain; formed by N₂ + O₂ at high temperatures in engines. Particulates (soot): global dimming, respiratory problems.	Science::Chemistry::Paper 2::The Earth's Atmosphere

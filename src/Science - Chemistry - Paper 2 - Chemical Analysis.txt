@@ -1,0 +1,7 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	How do you test for hydrogen, oxygen, CO₂ and chlorine gas?	Hydrogen: burning splint → squeaky pop. Oxygen: glowing splint → relights. CO₂: limewater → turns milky/cloudy. Chlorine: damp litmus paper → bleaches it white.	Science::Chemistry::Paper 2::Chemical Analysis
+Basic	What is paper chromatography used for and how do you calculate Rf?	Identifies substances in a mixture by how far they travel up chromatography paper. Rf = distance travelled by substance ÷ distance travelled by solvent. Pure substances give one spot. Can be used to identify unknown substances by comparing Rf values.	Science::Chemistry::Paper 2::Chemical Analysis
+Basic	What is a pure substance and what is a formulation?	Pure substance: only one type of element or compound — has sharp melting/boiling point. Formulation: deliberately designed mixture with specific proportions for a purpose (e.g. medicines, fuels, paints, fertilisers, foods). Impure substances melt/boil over a range of temperatures.	Science::Chemistry::Paper 2::Chemical Analysis

@@ -1,0 +1,13 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is the difference between scalar and vector quantities?	Scalar: magnitude only (e.g. speed, distance, mass, temperature, time). Vector: magnitude AND direction (e.g. velocity, displacement, acceleration, force, momentum, weight). Vectors are represented by arrows.	Science::Physics::Paper 2::Forces
+Cloze	Speed = {{c1::distance}} ÷ {{c2::time}}. Velocity = {{c3::displacement}} ÷ time. Acceleration = {{c4::change in velocity}} ÷ {{c5::time}}. Units: speed/velocity = {{c6::m/s}}, acceleration = {{c7::m/s²}}.		Science::Physics::Paper 2::Forces
+Basic	What do distance-time and velocity-time graphs show?	Distance-time: gradient = speed. Horizontal line = stationary. Curved line = acceleration. Velocity-time: gradient = acceleration. Area under graph = distance. Horizontal line = constant velocity. Negative gradient = deceleration.	Science::Physics::Paper 2::Forces
+Cloze	Newton's Second Law: {{c1::F = ma}}. Force in {{c2::Newtons (N)}}, mass in {{c3::kg}}, acceleration in {{c4::m/s²}}. A 1000kg car accelerating at 2m/s²: F = {{c5::2000N}}.		Science::Physics::Paper 2::Forces
+Basic	What are the three laws of motion?	1st: An object remains at rest or moves with constant velocity unless acted on by a resultant force. 2nd: F = ma (resultant force = mass × acceleration). 3rd: Every action has an equal and opposite reaction — forces act on different objects.	Science::Physics::Paper 2::Forces
+Cloze	Stopping distance = {{c1::thinking distance}} + {{c2::braking distance}}. Thinking distance affected by: {{c3::speed, tiredness, alcohol, drugs}}. Braking distance affected by: {{c4::speed, road conditions, tyre condition, brake condition}}. Braking force causes {{c5::deceleration}}.		Science::Physics::Paper 2::Forces
+Cloze	Weight = {{c1::mass}} × {{c2::gravitational field strength (g)}}. On Earth, g = {{c3::9.8 N/kg}}. A 50kg person: weight = {{c4::490 N}}. Weight is a {{c5::vector}} (has direction — downwards). Mass is a {{c6::scalar}}.		Science::Physics::Paper 2::Forces
+Basic	What is the principle of moments?	For a system in equilibrium (not rotating): sum of clockwise moments = sum of anticlockwise moments. Moment = force × perpendicular distance from pivot. Units: Newton-metres (Nm).	Science::Physics::Paper 2::Forces
+Cloze	Momentum = {{c1::mass}} × {{c2::velocity}}. Units: {{c3::kg m/s}}. Law of conservation of momentum: total momentum before = total momentum after in a {{c4::closed system}} (no external forces). Force = {{c5::change in momentum}} ÷ time.		Science::Physics::Paper 2::Forces

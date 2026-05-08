@@ -1,0 +1,9 @@
+#separator:tab
+#html:true
+#notetype column:1
+#deck column:4
+Basic	What is crude oil and how is it separated?	Crude oil is a mixture of hydrocarbons (compounds of C and H only). Separated by fractional distillation — heated, vapours rise through a fractionating column, condense at different temperatures (different boiling points). Shorter chain = lower boiling point = more flammable = less viscous.	Science::Chemistry::Paper 2::Organic Chemistry
+Cloze	Alkanes: general formula {{c1::CₙH₂ₙ₊₂}}. Saturated hydrocarbons — only {{c2::single}} C-C bonds. First four: {{c3::methane (CH₄)}}, {{c4::ethane (C₂H₆)}}, {{c5::propane (C₃H₈)}}, {{c6::butane (C₄H₁₀)}}.		Science::Chemistry::Paper 2::Organic Chemistry
+Cloze	Alkenes: general formula {{c1::CₙH₂ₙ}}. Unsaturated — contain a {{c2::C=C double bond}}. Test with {{c3::bromine water}}: alkenes turn it from {{c4::orange/brown to colourless}} (decolourises). Alkanes do NOT decolourise bromine water.		Science::Chemistry::Paper 2::Organic Chemistry
+Basic	What is cracking and why is it important?	Long-chain alkanes are cracked (broken down) to produce shorter, more useful molecules — alkanes and alkenes. Two methods: catalytic cracking (zeolite catalyst, ~500°C) and steam cracking (steam, very high temperature). Important because demand for short-chain hydrocarbons (fuels, plastics) exceeds supply from fractional distillation.	Science::Chemistry::Paper 2::Organic Chemistry
+Basic	What are the products of complete vs incomplete combustion?	Complete combustion (excess O₂): hydrocarbon + O₂ → CO₂ + H₂O. Incomplete combustion (limited O₂): produces CO (toxic, colourless, odourless) + C (soot/particulates) + H₂O. Soot causes global dimming and respiratory problems. CO is toxic — binds to haemoglobin preventing O₂ transport.	Science::Chemistry::Paper 2::Organic Chemistry
