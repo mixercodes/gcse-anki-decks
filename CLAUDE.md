@@ -5,16 +5,16 @@ This repo stores GCSE revision flashcards for AQA English, Geography and Combine
 ## Repo structure
 
 ```
-src/          ← card source files (.txt, tab-separated) — edit these
-deck/         ← built CrowdAnki JSON (deck.json) — never edit manually
-build.py      ← converts src/ → deck/deck.json
-.github/      ← GitHub Actions: auto-builds on every push to main
+src/                    ← card source files (.txt, tab-separated) — edit these
+gcse-anki-decks.json    ← built CrowdAnki JSON — never edit manually
+build.py                ← converts src/ → gcse-anki-decks.json
+.github/                ← GitHub Actions: auto-builds on every push to main
 ```
 
 ## Workflow for adding/editing cards
 
 1. Edit the relevant file in `src/`
-2. Run `python build.py` to regenerate `deck/deck.json`
+2. Run `python build.py` to regenerate `gcse-anki-decks.json`
 3. `git add . && git commit -m "description" && git push`
 
 GitHub Actions runs `build.py` automatically on push and commits the updated JSON.
@@ -135,4 +135,4 @@ Not:
 - `Update files`
 - `Changes`
 
-Always run `python build.py` before committing if any `src/` files were changed.
+Always run `python build.py` before committing if any `src/` files were changed. This regenerates `gcse-anki-decks.json` which must be committed alongside the source changes.

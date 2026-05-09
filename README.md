@@ -7,14 +7,22 @@
 ## How to install
 
 1. Install [CrowdAnki](https://ankiweb.net/shared/info/1788670778) in Anki (Tools → Add-ons → Get Add-ons → code `1788670778`)
+
+**Option A — GitHub (easiest, gets updates automatically):**
+
+2. In Anki: **File → CrowdAnki: Import from GitHub**
+3. Enter: `https://github.com/mixercodes/gcse-anki-decks`
+
+**Option B — Manual download:**
+
 2. Download the latest release from the [Releases page](../../releases) and extract the zip
 3. In Anki: **File → CrowdAnki: Import from disk**
-4. Select the **`deck/`** folder (the one containing `deck.json`) — do not select the file itself
+4. Select the **repo root folder** (the one containing `gcse-anki-decks.json`) — do not select the file itself
 5. Click OK
 
 ## How to update (without losing progress)
 
-Same process as installing. CrowdAnki matches cards by GUID, so your review history is preserved. New cards are added, edited cards are updated, nothing is duplicated.
+Repeat the same import — CrowdAnki matches cards by GUID, so your review history is preserved. New cards are added, edited cards are updated, nothing is duplicated.
 
 ---
 

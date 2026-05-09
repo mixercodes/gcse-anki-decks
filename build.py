@@ -2,8 +2,9 @@
 """
 build.py — converts src/*.txt card files into a CrowdAnki JSON deck.
 Run:    python build.py
-Output: deck/deck.json
-Import: Anki > CrowdAnki: Import from disk > select the deck/ folder
+Output: gcse-anki-decks.json  (repo root — named after the repo for GitHub import)
+Import from disk:   Anki > CrowdAnki: Import from disk > select this repo's root folder
+Import from GitHub: Anki > CrowdAnki: Import from GitHub > https://github.com/mixercodes/gcse-anki-decks
 """
 
 import json
@@ -12,8 +13,8 @@ import glob
 import hashlib
 import sys
 
-SRC_DIR = "src"
-OUT_DIR = "deck"
+SRC_DIR  = "src"
+OUT_FILE = "gcse-anki-decks.json"  # must match repo name for GitHub import
 DECK_NAME = "GCSE Revision"
 
 # Stable UUIDs — NEVER change these or Anki will treat everything as new cards
@@ -243,13 +244,12 @@ def main():
 
     deck = build_deck_tree(all_cards)
 
-    os.makedirs(OUT_DIR, exist_ok=True)
-    out_path = os.path.join(OUT_DIR, "deck.json")
-    with open(out_path, "w", encoding="utf-8") as f:
+    with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(deck, f, indent=2, ensure_ascii=False)
 
-    print(f"\nWrote {out_path}")
-    print("Import: Anki > CrowdAnki: Import from disk > select the deck/ folder")
+    print(f"\nWrote {OUT_FILE}")
+    print("Import from disk:   Anki > CrowdAnki: Import from disk > select this folder")
+    print("Import from GitHub: Anki > CrowdAnki: Import from GitHub > https://github.com/mixercodes/gcse-anki-decks")
 
 
 if __name__ == "__main__":
