@@ -54,6 +54,2294 @@
   "children": [
     {
       "__type__": "Deck",
+      "crowdanki_uuid": "8329f510-5520-a1b7-2d06-2628c077ddfa",
+      "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+      "desc": "",
+      "dyn": 0,
+      "extendNew": 0,
+      "extendRev": 0,
+      "name": "Computer Science",
+      "children": [
+        {
+          "__type__": "Deck",
+          "crowdanki_uuid": "22cb9e6f-97b4-8e63-403c-98e2bbbb54de",
+          "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+          "desc": "",
+          "dyn": 0,
+          "extendNew": 0,
+          "extendRev": 0,
+          "name": "Paper 1",
+          "children": [
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "000448ac-2cac-b14c-6e69-f663e4f8edf5",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Computer Networks",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "m7O64FHJGt",
+                  "guid": "m7O64FHJGt",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a LAN and a WAN?",
+                    "<b>LAN (Local Area Network):</b> connects devices within a small geographical area (one building or site). Owned and managed by the organisation. Uses Ethernet cables or Wi-Fi. Fast, cheap to maintain.<br><b>WAN (Wide Area Network):</b> connects LANs across a large geographical area (countries, globally). Uses leased telephone lines, fibre optic, or satellite links. The Internet is the largest WAN — not owned by any single organisation."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lWIcT2VJGC",
+                  "guid": "lWIcT2VJGC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Compare client-server and peer-to-peer (P2P) networks.",
+                    "<b>Client-server:</b> a central server provides resources/services; clients request them. Centralised security, easier backups, scalable. Better for businesses and schools.<br><b>Peer-to-peer (P2P):</b> all devices (peers) are equal and can share resources directly. No central server. Cheaper to set up, harder to secure and manage. Better for small home networks and file-sharing (e.g. BitTorrent)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "txAMR83q3S",
+                  "guid": "txAMR83q3S",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Network topologies: {{c1::star}} — all devices connect to a central switch; fast, easy fault isolation, but expensive (more cable) and switch failure brings down the whole network. {{c2::Bus}} — all devices share one backbone cable; cheap but collisions occur and backbone failure crashes everything. {{c3::Mesh}} — devices connect to multiple others; highly resilient but very expensive and complex to cable.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "csijk3UAGo",
+                  "guid": "csijk3UAGo",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the function of each: NIC, switch, router, WAP?",
+                    "<b>NIC (Network Interface Card):</b> hardware that enables a device to connect to a network (wired or wireless).<br><b>Switch:</b> connects devices on a LAN; directs data only to the intended recipient using MAC addresses (more efficient than a hub).<br><b>Router:</b> connects different networks (e.g. home LAN to the Internet); routes data packets between networks using IP addresses.<br><b>WAP (Wireless Access Point):</b> connects wireless devices to a wired network using Wi-Fi (radio waves)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qOGfRCBMYz",
+                  "guid": "qOGfRCBMYz",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "An {{c1::IP address}} is a logical numerical label assigned to a device on a network — it can change. A {{c2::MAC address}} is a unique 48-bit physical address permanently assigned to a NIC by the manufacturer (shown as 6 hex pairs, e.g. A1:B2:C3:D4:E5:F6) — it cannot normally change. {{c3::DNS}} (Domain Name System) translates {{c4::domain names}} (e.g. google.com) into {{c5::IP addresses}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rBNV1kqgn1",
+                  "guid": "rBNV1kqgn1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is packet switching? What does a packet contain?",
+                    "Packet switching breaks data into small chunks called <b>packets</b>. Each packet is sent independently across the network (possibly via different routes) and reassembled at the destination.<br><b>Each packet contains:</b> source IP address, destination IP address, packet sequence number, payload (data), error-checking data (checksum/CRC).<br><b>Benefits:</b> network resources shared efficiently; if one route fails, packets find another."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "p5uRP6r0x6",
+                  "guid": "p5uRP6r0x6",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Key network protocols: {{c1::HTTP}} — transfers web pages (unencrypted); {{c2::HTTPS}} — HTTP encrypted with {{c3::TLS}}; {{c4::FTP}} — transfers files between systems; {{c5::SMTP}} — sends email; {{c6::IMAP/POP3}} — retrieves email; {{c7::TCP/IP}} — reliable data delivery over the Internet (TCP reassembles packets; IP handles routing).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "c99U2fX5Tp",
+                  "guid": "c99U2fX5Tp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between the Internet and the World Wide Web?",
+                    "<b>The Internet</b> is the global physical infrastructure — a network of interconnected networks (cables, routers, servers). It hosts many services.<br><b>The World Wide Web (WWW)</b> is one service that runs <i>over</i> the Internet — a collection of web pages stored on web servers and accessed via browsers using HTTP/HTTPS.<br>The Internet also hosts: email (SMTP/IMAP), FTP, VoIP, streaming, online gaming."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tVZJMaco6s",
+                  "guid": "tVZJMaco6s",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a network protocol and why is it needed?",
+                    "A protocol is an agreed set of rules governing how data is transmitted between devices on a network. Protocols ensure that devices from different manufacturers running different software can communicate reliably.<br><b>Without protocols:</b> incompatible systems could not understand each other's data (like people speaking different languages with no translation rules)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tTZHzeaDs5",
+                  "guid": "tTZHzeaDs5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The TCP/IP model has 4 layers: {{c1::Application}} layer (HTTP, FTP, SMTP, DNS), {{c2::Transport}} layer (TCP — breaks data into packets, ensures reliable delivery, error checking), {{c3::Internet/Network}} layer (IP — addressing and routing of packets), {{c4::Link/Network Access}} layer (physical transmission — Ethernet, Wi-Fi).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bCTPTzSU9J",
+                  "guid": "bCTPTzSU9J",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between HTTP and HTTPS?",
+                    "<b>HTTP:</b> HyperText Transfer Protocol — sends web data as <b>plain text</b>. Can be intercepted and read by attackers (man-in-the-middle attack).<br><b>HTTPS:</b> HTTP Secure — encrypts all data using <b>TLS (Transport Layer Security)</b>. A padlock appears in the browser. Essential for login pages, banking, any site handling sensitive data.<br>All modern websites should use HTTPS; HTTP is considered insecure."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "t3JFe5g2qh",
+                  "guid": "t3JFe5g2qh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Wi-Fi advantages over Ethernet: {{c1::mobility}} (devices can move around), {{c2::easier}} to add new devices, no {{c3::physical cables}} needed. Disadvantages: {{c4::slower}} speeds, less {{c5::secure}} (signals broadcast and can be intercepted), more {{c6::interference}}, higher {{c7::latency}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "b6BAISMSMp",
+                  "guid": "b6BAISMSMp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Compare star and bus network topologies in detail.",
+                    "<b>Star topology:</b> each device has its own cable to a central switch. Fast data transfer, easy to diagnose faults (one cable failure only affects one device), easy to add devices. Disadvantage: switch failure = whole network down; more cable needed = more expensive.<br><b>Bus topology:</b> all devices share one backbone cable with terminators at each end. Cheap, easy to install. Disadvantages: data collisions (only one device transmits at a time), backbone cable failure crashes entire network, performance degrades with more devices."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "l45fEm1SmU",
+                  "guid": "l45fEm1SmU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between the Internet and an intranet?",
+                    "<b>Internet:</b> global public network accessible to anyone with an internet connection.<br><b>Intranet:</b> a private internal network using the same Internet technologies (HTTP, TCP/IP) but restricted to an organisation's own employees/authorised devices. Not publicly accessible — requires authentication. Used for: internal documents, staff portals, HR systems.<br><b>Extranet:</b> extends the intranet to allow controlled external access (e.g. for suppliers or partners)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iKuzZ5iuUG",
+                  "guid": "iKuzZ5iuUG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a VPN (Virtual Private Network)?",
+                    "A VPN creates an <b>encrypted tunnel</b> over the public Internet between a device and a private network. All data sent through the tunnel is encrypted so it cannot be read if intercepted.<br><b>Uses:</b> remote workers securely accessing an organisation's internal network from home, bypassing geographical content restrictions, increasing privacy on public Wi-Fi.<br>The remote user appears to be physically inside the private network."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "b24oZwm6EW",
+                  "guid": "b24oZwm6EW",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the role of DNS (Domain Name System)?",
+                    "DNS acts like a phone book for the Internet. When a user types a domain name (e.g. www.bbc.co.uk), the DNS server translates it into the corresponding <b>IP address</b> (e.g. 212.58.244.22) so the router can direct the request to the correct server. Without DNS, users would have to memorise IP addresses for every website."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rroH63FdZ8",
+                  "guid": "rroH63FdZ8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "IPv4 addresses are {{c1::32}}-bit numbers written as four {{c2::denary}} numbers separated by dots (e.g. 192.168.1.1). IPv6 uses {{c3::128}}-bit addresses written in hexadecimal (e.g. 2001:0db8::1). IPv6 was introduced because IPv4 only supports about {{c4::4.3 billion}} unique addresses — not enough for all modern devices.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "b014f9dd-4499-d02d-cebb-6eae106bb618",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Ethical Legal Cultural Environmental",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lXev6srwQf",
+                  "guid": "lXev6srwQf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does the Data Protection Act 2018 require?",
+                    "The DPA 2018 implements GDPR in UK law. Personal data must be:<br>• Collected for a <b>specified, explicit purpose</b> and not used beyond that<br>• <b>Adequate, relevant</b> and limited to what is necessary<br>• <b>Accurate</b> and kept up to date<br>• <b>Not kept longer than necessary</b><br>• Processed <b>securely</b><br>• Not transferred outside the UK without adequate protection<br><b>Individual rights:</b> right to access, correct, delete their data; right to object to processing."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "n0nxAYKmXY",
+                  "guid": "n0nxAYKmXY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What three offences does the Computer Misuse Act 1990 define?",
+                    "<b>Section 1 — Unauthorised access to computer material:</b> hacking into someone's account/system without permission. Up to 2 years imprisonment.<br><b>Section 2 — Unauthorised access with intent to commit further offences:</b> hacking to commit fraud, blackmail, etc. Up to 5 years.<br><b>Section 3 — Unauthorised modification of computer data:</b> installing malware, deleting others' files, altering data. Up to 10 years."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "daZ57IFXkX",
+                  "guid": "daZ57IFXkX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does the Copyright, Designs and Patents Act 1988 protect?",
+                    "It protects the <b>intellectual property</b> of creators. Makes it illegal to:<br>• Copy, distribute or sell someone's software, music, films, images or written content without permission<br>• Modify copyrighted software<br>• Software <b>piracy</b> (illegal copying/distribution)<br>Covers both paid and free software. Copyright is automatic — no registration needed.<br><b>Software licences</b> define what users can legally do with purchased software."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dZlaz1bLV3",
+                  "guid": "dZlaz1bLV3",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between open source and proprietary software?",
+                    "<b>Open source:</b> source code is publicly available; free to use, modify, and distribute; community-developed and supported; examples: Linux, Firefox, LibreOffice, Python. Advantages: free, customisable, transparent (auditable for security).<br><b>Proprietary (closed source):</b> source code is kept secret; requires purchasing a licence; commercially developed; examples: Windows, Microsoft Office, Adobe Photoshop. Advantages: dedicated support, polished UX, accountability."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fKRsWzAC5c",
+                  "guid": "fKRsWzAC5c",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Creative Commons is a type of {{c1::licence}} that lets creators specify how their work may be used by others — a middle ground between full {{c2::copyright}} and the {{c3::public domain}}. Options include: allowing {{c4::commercial}} use, requiring {{c5::attribution}}, allowing {{c6::modification (derivatives)}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sPwf0wYDDT",
+                  "guid": "sPwf0wYDDT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the digital divide?",
+                    "The digital divide is the inequality between those who have access to digital technology (internet, computers, smartphones) and those who do not.<br><b>Causes:</b> cost of devices and internet access, lack of digital skills (digital literacy), geographical isolation (rural/developing areas), physical disability, age.<br><b>Consequences:</b> reduced access to education, employment opportunities, healthcare information, government services, and social connection — widening broader social inequality."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ncIvUGCOpF",
+                  "guid": "ncIvUGCOpF",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the environmental impacts of digital technology?",
+                    "<b>Negative impacts:</b><br>• Manufacturing devices uses rare earth minerals (mining causes habitat destruction) and creates carbon emissions<br>• Data centres consume vast amounts of electricity and water for cooling<br>• E-waste from discarded devices contains toxic materials (lead, mercury) — often exported to developing countries<br>• Planned obsolescence encourages frequent device replacement<br><b>Positive impacts:</b><br>• Paperless communication reduces deforestation<br>• Remote working reduces commuting emissions<br>• Smart technology can improve energy efficiency"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "skmUgaFqVU",
+                  "guid": "skmUgaFqVU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a digital footprint and what are the privacy implications?",
+                    "A digital footprint is the trail of data created by online activity — websites visited, social media posts, purchases, search history, emails, cookies, app usage, location data.<br><b>Passive footprint:</b> created without actively submitting information (cookies tracking browsing).<br><b>Active footprint:</b> created by deliberate actions (posting, registering, purchasing).<br><b>Implications:</b> data used for targeted advertising, profiling by employers/universities, can be hacked or leaked, difficult to permanently erase, governments may monitor it."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gmQajWC8DV",
+                  "guid": "gmQajWC8DV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What ethical issues surround artificial intelligence?",
+                    "<b>Algorithmic bias:</b> AI trained on biased data produces biased outputs (e.g. facial recognition less accurate for darker skin tones; biased hiring algorithms).<br><b>Privacy:</b> AI systems process vast amounts of personal data.<br><b>Job displacement:</b> automation replacing workers in manufacturing, transport, customer service.<br><b>Autonomous weapons:</b> AI-controlled weapons with no human moral judgement.<br><b>Deepfakes:</b> AI-generated fake videos/audio used for disinformation.<br><b>Accountability:</b> unclear who is responsible when AI causes harm."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rbuckZgNiT",
+                  "guid": "rbuckZgNiT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the cultural impacts of digital technology?",
+                    "<b>Positive:</b> global communication and collaboration; preservation of endangered languages and cultures online; increased access to education (MOOCs, YouTube); breaking down geographical barriers.<br><b>Negative:</b> cultural homogenisation (dominant cultures overpower minority ones online); addiction and reduced face-to-face interaction; misinformation spreading rapidly; cyberbullying; privacy erosion; surveillance capitalism."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nz39ygZ862",
+                  "guid": "nz39ygZ862",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is meant by ethical vs legal issues in computing?",
+                    "<b>Legal issues</b> concern what is actually permitted or prohibited by law (Computer Misuse Act, DPA, Copyright Act). Breaking the law carries legal penalties.<br><b>Ethical issues</b> concern what society considers right or wrong — even if something is legal, it may be considered unethical. Example: a company legally collecting and selling users' data may be considered ethically wrong even though it is permitted."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "9f74cf9d-a87e-4cf0-8edb-43003413f06d",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Memory and Storage",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sZLt3wTeji",
+                  "guid": "sZLt3wTeji",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between RAM and ROM?",
+                    "<b>RAM (Random Access Memory):</b> volatile — loses all data when power is removed; stores the OS, running programs, and current data; read/write; typically 8–64 GB in modern computers.<br><b>ROM (Read-Only Memory):</b> non-volatile — retains data without power; stores the BIOS/firmware boot instructions; normally read-only; cannot be easily changed. ROM is accessed on startup before the OS loads."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "0afHr6czYI",
+                  "guid": "0afHr6czYI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "RAM is {{c1::volatile}} (loses data when power off). ROM is {{c2::non-volatile}} (retains data without power). The {{c3::BIOS}} (Basic Input Output System) is stored in ROM and runs when the computer {{c4::boots}}. RAM is {{c5::read/write}}; ROM is normally {{c6::read-only}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dzUMfOT37Y",
+                  "guid": "dzUMfOT37Y",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is virtual memory and what are its drawbacks?",
+                    "Virtual memory uses a portion of secondary storage (HDD/SSD) as an extension of RAM when RAM is full. The OS moves least-recently-used pages from RAM to a <b>swap file</b> on disk, freeing RAM for active processes.<br><b>Drawbacks:</b> Much slower than RAM (HDD: ~10ms vs RAM: ~100ns access time); causes <b>thrashing</b> if RAM is severely insufficient — OS spends most time swapping rather than executing programs."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mLrvt7Dk7C",
+                  "guid": "mLrvt7Dk7C",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Units of data: 1 byte = {{c1::8}} bits; 1 nibble = {{c2::4}} bits; 1 kilobyte = {{c3::1,024}} bytes; 1 megabyte = {{c4::1,024}} KB; 1 gigabyte = {{c5::1,024}} MB; 1 terabyte = {{c6::1,024}} GB; 1 petabyte = {{c7::1,024}} TB.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vCP43apv8A",
+                  "guid": "vCP43apv8A",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Compare HDD, SSD, and optical storage.",
+                    "<table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th></th><th>HDD</th><th>SSD</th><th>Optical</th></tr><tr><td><b>Technology</b></td><td>Magnetic platters</td><td>Flash memory</td><td>Laser/dye</td></tr><tr><td><b>Speed</b></td><td>Slow (moving parts)</td><td>Very fast</td><td>Slowest</td></tr><tr><td><b>Cost/GB</b></td><td>Cheapest</td><td>More expensive</td><td>Cheapest per disc</td></tr><tr><td><b>Capacity</b></td><td>Up to 20+ TB</td><td>Up to 8+ TB</td><td>Up to 128 GB (Blu-ray)</td></tr><tr><td><b>Durability</b></td><td>Fragile (moving parts)</td><td>Very durable</td><td>Scratches easily</td></tr><tr><td><b>Portability</b></td><td>Low</td><td>Medium</td><td>High</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gRQM6oAF77",
+                  "guid": "gRQM6oAF77",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert the binary number 10110101 to denary.",
+                    "Place values (right to left): 128, 64, 32, 16, 8, 4, 2, 1<br>Bits: 1, 0, 1, 1, 0, 1, 0, 1<br>= 128 + 32 + 16 + 4 + 1 = <b>181</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sfEa33QR9A",
+                  "guid": "sfEa33QR9A",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert the denary number 75 to 8-bit binary.",
+                    "75 = 64 + 8 + 2 + 1<br>Place values: 128(0) 64(1) 32(0) 16(0) 8(1) 4(0) 2(1) 1(1)<br>Answer: <b>01001011</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j1hqyv037c",
+                  "guid": "j1hqyv037c",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert the hexadecimal number B4 to denary.",
+                    "B = 11 in denary, 4 = 4<br>(11 × 16) + (4 × 1) = 176 + 4 = <b>180</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oQTvLiEKPr",
+                  "guid": "oQTvLiEKPr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert the denary number 253 to hexadecimal.",
+                    "253 ÷ 16 = 15 remainder 13<br>15 = <b>F</b>, 13 = <b>D</b><br>Answer: <b>FD</b><br>Check: (15 × 16) + 13 = 240 + 13 = 253 ✓"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vl0Hguus5t",
+                  "guid": "vl0Hguus5t",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert binary 10110111 to hexadecimal. Show all steps.",
+                    "Split into nibbles from the right: <b>1011</b> | <b>0111</b><br>1011 = 8+2+1 = 11 = <b>B</b><br>0111 = 4+2+1 = 7 = <b>7</b><br>Answer: <b>B7</b><br>Verify: B7 hex = (11×16)+7 = 183. Binary 10110111 = 128+32+16+4+2+1 = 183 ✓"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "snFeXlQ256",
+                  "guid": "snFeXlQ256",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Convert binary 11001010 to hexadecimal.",
+                    "Split into nibbles: <b>1100</b> | <b>1010</b><br>1100 = 8+4 = 12 = <b>C</b><br>1010 = 8+2 = 10 = <b>A</b><br>Answer: <b>CA</b><br>Verify: (12×16)+10 = 192+10 = 202. Binary: 128+64+8+2 = 202 ✓"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "stHbovjpYs",
+                  "guid": "stHbovjpYs",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "To convert binary to hex: split into groups of {{c1::4}} bits ({{c2::nibbles}}) from the {{c3::right}}, then convert each nibble to its hex digit (0–9, {{c4::A–F}}). Each hex digit represents exactly {{c5::4}} bits. This is why hex is more {{c6::compact}} than binary.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pETXDc3Ci0",
+                  "guid": "pETXDc3Ci0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why do programmers use hexadecimal?",
+                    "Hex is more compact and readable than binary while still mapping directly onto binary. Each hex digit represents exactly 4 bits (one nibble), so an 8-bit byte needs only 2 hex digits.<br><b>Uses:</b> colour codes (#FF5733), memory addresses (0x7FFF), MAC addresses (A1:B2:C3:D4:E5:F6), error codes, HTML, assembly language, debugging."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r6OGCuHUnN",
+                  "guid": "r6OGCuHUnN",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a binary overflow error?",
+                    "Overflow occurs when the result of a binary calculation produces more bits than the register/variable can store. E.g. adding two 8-bit numbers whose result exceeds 255 (11111111<sub>2</sub>). The carry bit beyond position 7 is lost, giving an incorrect (wrapped) result.<br><b>Example:</b> 11111111 + 00000001 = 100000000 — the leading 1 is lost, leaving 00000000."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oosO2SjNO4",
+                  "guid": "oosO2SjNO4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Binary shifts: a logical shift <b>left</b> by 1 bit multiplies the value by {{c1::2}}. A logical shift <b>right</b> by 1 bit divides by {{c2::2}} (integer). Bits shifted off the end are {{c3::lost}} (overflow). Example: 00001010 (10) shifted left 1 = {{c4::00010100}} ({{c5::20}}).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iwlSCSZkWe",
+                  "guid": "iwlSCSZkWe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does ASCII encode characters? What is its limitation?",
+                    "<b>ASCII</b> (American Standard Code for Information Interchange) uses <b>7 bits</b> to represent <b>128 characters</b> (0–127): uppercase and lowercase letters, digits 0–9, punctuation, and control characters.<br><b>Key values:</b> 'A' = 65, 'a' = 97, '0' = 48<br><b>Limitation:</b> Cannot represent non-Latin characters (Chinese, Arabic, accented letters like é, ñ) — only designed for English."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gPC3JBNgox",
+                  "guid": "gPC3JBNgox",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is Unicode and why was it introduced?",
+                    "Unicode is a universal character encoding standard that supports over 1 million characters covering all world languages, symbols, emoji, and special characters.<br><b>UTF-8</b> (most common): uses 1–4 bytes per character; backward-compatible with ASCII for the first 128 characters.<br><b>UTF-16:</b> uses 2–4 bytes. <b>UTF-32:</b> uses 4 bytes per character.<br>Introduced because ASCII was insufficient for non-English languages and global communication."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "d0EO3sDWzd",
+                  "guid": "d0EO3sDWzd",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "ASCII uses {{c1::7}} bits → {{c2::128}} characters. Extended ASCII uses {{c3::8}} bits → {{c4::256}} characters. Unicode covers over {{c5::1,000,000}} characters. ASCII values: 'A' = {{c6::65}}, 'a' = {{c7::97}}, '0' = {{c8::48}}. 'B' = {{c9::66}} (each subsequent letter is one higher).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h2XUIk4ziB",
+                  "guid": "h2XUIk4ziB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Image file size (in bits) = {{c1::width (px)}} × {{c2::height (px)}} × {{c3::colour depth (bits per pixel)}}. Divide by 8 for bytes, 1024 for KB, 1024 again for MB. Colour depth is the number of {{c4::bits}} used per pixel. A 24-bit image allows 2<sup>24</sup> = {{c5::16,777,216}} possible colours.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "c39Rt1aZRO",
+                  "guid": "c39Rt1aZRO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do resolution and colour depth affect image quality and file size?",
+                    "<b>Higher resolution</b> (more pixels) → better quality AND larger file size.<br><b>Greater colour depth</b> (more bits per pixel) → more colours, smoother gradients AND larger file size.<br><b>Doubling</b> both width and height quadruples file size.<br><b>Adding 1 bit</b> to colour depth doubles the number of possible colours and proportionally increases file size."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pUIj0ynZlY",
+                  "guid": "pUIj0ynZlY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How many colours can be represented by a given colour depth?",
+                    "Number of colours = 2<sup>colour depth</sup><br><table border=\"1\" cellpadding=\"4\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Colour depth</th><th>Colours</th><th>Name</th></tr><tr><td>1-bit</td><td>2</td><td>Monochrome</td></tr><tr><td>8-bit</td><td>256</td><td>256 colour</td></tr><tr><td>16-bit</td><td>65,536</td><td>High colour</td></tr><tr><td>24-bit</td><td>16,777,216</td><td>True colour</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "k5xogjnE9o",
+                  "guid": "k5xogjnE9o",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sound file size (bits) = {{c1::sample rate (Hz)}} × {{c2::bit depth (bits per sample)}} × {{c3::duration (seconds)}}. Sample rate is the number of {{c4::samples}} taken per second. Bit depth (sample resolution) is the number of {{c5::bits}} used per sample. Higher sample rate → better {{c6::quality}} and larger file.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "exHrWF9DIn",
+                  "guid": "exHrWF9DIn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between lossy and lossless compression?",
+                    "<b>Lossy:</b> permanently removes data to achieve greater compression. Quality is reduced and the original file cannot be perfectly restored. Examples: <b>MP3</b> (audio), <b>JPEG</b> (image), <b>AAC</b> (audio), <b>MP4</b> (video).<br><b>Lossless:</b> reduces file size without losing any data — original can be perfectly restored. Examples: <b>PNG</b> (image), <b>FLAC</b> (audio), <b>ZIP</b>, <b>GIF</b>.<br>Use lossy for media where perfect quality is less critical; use lossless for text, programs, medical images."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "i6XmXXM9fo",
+                  "guid": "i6XmXXM9fo",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does Run-Length Encoding (RLE) work? Give an example.",
+                    "RLE is a lossless compression technique. It replaces runs of consecutive identical values with a <b>count + value</b> pair.<br><b>Example:</b> BBBBBWWWWWWRRR → 5B6W3R (from 13 values to 6 values — smaller!)<br><b>Best for:</b> simple images with large blocks of identical colour (computer graphics, pixel art, fax documents).<br><b>Worst for:</b> photographic images with lots of colour variation — could make the file larger."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "c2GqRdkjVx",
+                  "guid": "c2GqRdkjVx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Calculate the file size of an image that is 640×480 pixels with a colour depth of 24 bits.",
+                    "File size = 640 × 480 × 24<br>= 7,372,800 bits<br>÷ 8 = 921,600 bytes<br>÷ 1,024 = 900 KB<br>÷ 1,024 ≈ <b>0.88 MB</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "b8utnT3Sgi",
+                  "guid": "b8utnT3Sgi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Calculate the file size of a 2-minute audio recording at 44,100 Hz sample rate and 16-bit depth.",
+                    "File size = 44,100 × 16 × (2 × 60)<br>= 44,100 × 16 × 120<br>= 84,672,000 bits<br>÷ 8 = 10,584,000 bytes<br>÷ 1,024 ≈ 10,336 KB<br>÷ 1,024 ≈ <b>10.1 MB</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nxmY0EdvD8",
+                  "guid": "nxmY0EdvD8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is metadata in an image file?",
+                    "Metadata is data about data — additional information stored in the file header alongside the image pixels. For images this includes: width, height, colour depth, file format, creation date/time, camera settings (EXIF data), GPS coordinates, copyright information.<br>Metadata is <b>not</b> visible in the image itself but is stored in the file and can be read by software or stripped for privacy."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sHrTpIEFui",
+                  "guid": "sHrTpIEFui",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Compare cloud storage and local storage.",
+                    "<b>Local storage</b> (HDD/SSD on the device): fast access, works offline, one-time cost, data stays private, limited by device capacity.<br><b>Cloud storage</b> (Google Drive, OneDrive, Dropbox): accessible from any device/location, automatic backup, shareable, scales easily, requires internet, ongoing subscription cost, privacy concerns (data on third-party servers), dependent on provider's uptime."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "09498be0-2c10-8433-39cb-74d7cdd83656",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Network Security",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g1E6VtGPq0",
+                  "guid": "g1E6VtGPq0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is malware? Name and describe five types.",
+                    "<b>Malware</b> is any software designed to harm or gain unauthorised access to a computer system.<br><b>Virus:</b> attaches itself to files; activates and replicates when the infected file is opened.<br><b>Worm:</b> self-replicating; spreads across networks by exploiting software vulnerabilities — no user action needed.<br><b>Trojan:</b> disguised as legitimate software; installs harmful payload when run.<br><b>Ransomware:</b> encrypts the victim's files and demands payment for the decryption key.<br><b>Spyware:</b> secretly monitors user activity and sends data (passwords, browsing history) to an attacker."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gmUfGPgvsM",
+                  "guid": "gmUfGPgvsM",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Types of malware: a {{c1::virus}} replicates by attaching to files (needs human action to spread). A {{c2::worm}} self-propagates across networks without user interaction. A {{c3::trojan}} is disguised as legitimate software. {{c4::Ransomware}} encrypts files and demands payment. {{c5::Spyware}} covertly monitors user activity. {{c6::Adware}} displays unwanted advertisements.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vAHyv56vXj",
+                  "guid": "vAHyv56vXj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a phishing attack? What is spear phishing?",
+                    "<b>Phishing:</b> mass fraudulent emails claiming to be from a reputable source (bank, HMRC, PayPal) to trick recipients into revealing passwords, card details, or clicking malicious links that install malware. Relies on creating urgency (\"your account will be closed\").<br><b>Spear phishing:</b> a targeted phishing attack aimed at a specific individual or organisation, using personal details (name, employer, colleague names) to appear more convincing."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "q6dPA9Zu0V",
+                  "guid": "q6dPA9Zu0V",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a brute force attack? How is it prevented?",
+                    "A brute force attack systematically tries every possible combination of passwords until the correct one is found. Simple passwords can be cracked in seconds; long complex ones take years.<br><b>Defences:</b> account lockout after N failed attempts, CAPTCHA, rate limiting, long complex passwords (uppercase, lowercase, digits, symbols), two-factor authentication (2FA)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iDlxAoSYv8",
+                  "guid": "iDlxAoSYv8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a Denial of Service (DoS) attack? What is a DDoS?",
+                    "<b>DoS:</b> floods a server/network with so many requests that it becomes overloaded and cannot respond to legitimate users — effectively taking a website offline.<br><b>DDoS (Distributed DoS):</b> the same attack launched simultaneously from thousands of infected computers (a <b>botnet</b>) — much harder to block because the traffic comes from many different IP addresses. Botnet owners are often unaware their machines are infected."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kRdysNcNnV",
+                  "guid": "kRdysNcNnV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is SQL injection and how does it work?",
+                    "SQL injection inserts malicious SQL code into an input field (e.g. a login form). If the application does not sanitise input, the injected code is executed by the database.<br><b>Example:</b> entering <code>' OR '1'='1</code> into a password field can bypass authentication by making the SQL query always return true.<br><b>Prevention:</b> input validation/sanitisation, parameterised queries (prepared statements), using stored procedures, applying least-privilege database permissions."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kJAn2WWcfo",
+                  "guid": "kJAn2WWcfo",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Network security measures: {{c1::Firewall}} — filters network traffic based on rules. {{c2::Encryption}} — scrambles data so only authorised parties can read it. {{c3::Anti-malware}} software — detects and removes malicious programs. {{c4::Access levels/permissions}} — users only access what they need (principle of least privilege). {{c5::Two-factor authentication (2FA)}} — requires two forms of verification to log in.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kalCGRFjJY",
+                  "guid": "kalCGRFjJY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between symmetric and asymmetric encryption?",
+                    "<b>Symmetric encryption:</b> the same key is used to encrypt and decrypt data. Fast, but the key must be shared securely — if intercepted, data is compromised. Used for bulk data encryption.<br><b>Asymmetric encryption:</b> uses a mathematically linked key pair — a <b>public key</b> (anyone can encrypt with it) and a <b>private key</b> (only the owner can decrypt). Slower but solves the key exchange problem. HTTPS uses asymmetric encryption to securely exchange a symmetric session key."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ekk8otlk2V",
+                  "guid": "ekk8otlk2V",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is social engineering? Give three techniques.",
+                    "Social engineering manipulates people (rather than exploiting technical vulnerabilities) to reveal confidential information or perform insecure actions.<br><b>Techniques:</b><br><b>Phishing:</b> fraudulent emails.<br><b>Pretexting:</b> creating a fabricated scenario (e.g. impersonating IT support) to extract information.<br><b>Baiting:</b> leaving infected USB drives in public places hoping someone will plug one in.<br><b>Tailgating:</b> following an authorised person through a secure door."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gbARjxdur3",
+                  "guid": "gbARjxdur3",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a firewall and how does it protect a network?",
+                    "A firewall is a hardware device or software program that monitors and filters all incoming and outgoing network traffic based on a set of predefined security rules.<br><b>Functions:</b> blocks traffic from suspicious IP addresses, blocks certain ports (e.g. port 23 Telnet), inspects packet contents, logs attempted connections.<br><b>Acts as a barrier</b> between a trusted internal network and an untrusted external network (the Internet)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "t6RVSgwmAU",
+                  "guid": "t6RVSgwmAU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a botnet and how is it created?",
+                    "A botnet is a network of computers infected with malware (called <b>bots</b> or <b>zombies</b>) and secretly controlled remotely by an attacker (the <b>bot herder</b>).<br><b>Created by:</b> distributing malware via phishing emails, drive-by downloads, or infected software. Victims' machines run silently in the background.<br><b>Used for:</b> DDoS attacks, sending spam, credential stuffing, cryptocurrency mining. The device owners are unaware."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "f2jU9q27fT",
+                  "guid": "f2jU9q27fT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is two-factor authentication (2FA) and why is it more secure than a password alone?",
+                    "2FA requires two separate forms of verification before granting access. Even if a password is stolen/guessed, the attacker cannot access the account without the second factor.<br><b>Three categories:</b><br>Something you <b>KNOW</b> — password or PIN<br>Something you <b>HAVE</b> — smartphone (SMS code/authenticator app), hardware token<br>Something you <b>ARE</b> — biometric (fingerprint, face recognition)<br>Typical 2FA uses two different categories."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hqFaNUXcAy",
+                  "guid": "hqFaNUXcAy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is penetration testing and why is it used?",
+                    "Penetration testing (pen testing) is an <b>authorised</b>, simulated cyberattack carried out by professional security experts to identify vulnerabilities in a system before real attackers do.<br>Pen testers have written permission from the organisation. They attempt the same techniques as real attackers (SQL injection, phishing, brute force) and produce a report of vulnerabilities found with recommended fixes.<br>Distinct from hacking — which is unauthorised and illegal under the Computer Misuse Act 1990."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jisJEONRmR",
+                  "guid": "jisJEONRmR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "To prevent SQL injection: use {{c1::parameterised queries}} (prepared statements) so user input is never directly concatenated into SQL. Also: {{c2::input validation}} (reject unexpected characters), {{c3::least-privilege}} database accounts (users cannot DROP tables), and {{c4::web application firewalls}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eVh4iliwgI",
+                  "guid": "eVh4iliwgI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What encryption does HTTPS use and how does it work?",
+                    "HTTPS uses <b>TLS (Transport Layer Security)</b>. The process (TLS handshake):<br>1. Server sends its <b>public key</b> and SSL certificate (verified by a trusted Certificate Authority).<br>2. Browser verifies the certificate.<br>3. Browser uses the server's public key to encrypt a symmetric session key and send it.<br>4. Server decrypts it with its private key.<br>5. Both sides now share the same symmetric session key and use it for fast encrypted communication.<br>Padlock icon = HTTPS in use."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "594b0d2d-0749-8fb3-e92f-b98067498086",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Systems Architecture",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h3uZDCIiFJ",
+                  "guid": "h3uZDCIiFJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does CPU stand for and what is its purpose?",
+                    "The <b>Central Processing Unit</b> is the brain of the computer. It processes all instructions by carrying out the <b>Fetch-Decode-Execute (FDE) cycle</b> repeatedly. It performs arithmetic, logic, and control operations on data."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jfdvZAHn18",
+                  "guid": "jfdvZAHn18",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The four main components of the CPU are: {{c1::ALU}} (performs arithmetic and logical operations), {{c2::Control Unit (CU)}} (coordinates all CPU activities, manages the FDE cycle), {{c3::Cache}} (fast temporary storage for frequently used data/instructions), and {{c4::registers}} (tiny, extremely fast storage locations inside the CPU itself).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qKWPDvTuDn",
+                  "guid": "qKWPDvTuDn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the three stages of the Fetch-Decode-Execute (FDE) cycle?",
+                    "<b>1. FETCH:</b> The CU copies the address in the Program Counter (PC) to the MAR. The instruction is fetched from RAM into the MDR, then copied to the Current Instruction Register. The PC increments by 1 to point to the next instruction.<br><b>2. DECODE:</b> The CU decodes the instruction — determines what operation is required and what operands are needed.<br><b>3. EXECUTE:</b> The ALU or other components carry out the instruction (arithmetic, data movement, branching, I/O)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bJOWAJBHpD",
+                  "guid": "bJOWAJBHpD",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Key CPU registers: {{c1::Program Counter (PC)}} holds the address of the <i>next</i> instruction. {{c2::Accumulator (ACC)}} stores results of ALU operations. {{c3::Memory Address Register (MAR)}} holds the address being read from or written to. {{c4::Memory Data Register (MDR)}} holds data being transferred to/from memory. {{c5::Current Instruction Register (CIR)}} holds the instruction currently being decoded/executed.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "taPuUakJfR",
+                  "guid": "taPuUakJfR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The fetch stage step-by-step: address in {{c1::PC}} → copied to {{c2::MAR}} → instruction fetched from {{c3::RAM}} into {{c4::MDR}} → copied to {{c5::CIR}} → PC {{c6::incremented}} by 1 ready for the next instruction.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "HLaIsFgRU9",
+                  "guid": "HLaIsFgRU9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What three factors affect CPU performance? Explain each.",
+                    "<b>1. Clock speed (GHz):</b> Higher = more FDE cycles per second. A 3 GHz CPU completes 3 billion cycles/second.<br><b>2. Number of cores:</b> Each core processes an independent instruction stream. Dual-core can process two threads simultaneously — better for multi-tasking and parallel programs.<br><b>3. Cache size:</b> Larger cache = more data kept close to the CPU, reducing slow RAM accesses. L1 (fastest/smallest) → L2 → L3 (largest/slowest but still far faster than RAM)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jb5GbvDoVv",
+                  "guid": "jb5GbvDoVv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Von Neumann architecture stores both {{c1::programs}} and {{c2::data}} in the same {{c3::memory}}. The CPU connects to memory and I/O via three buses: {{c4::data bus}} (carries data), {{c5::address bus}} (carries memory addresses — one directional), {{c6::control bus}} (carries control signals like read/write).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vtT9TVPcDv",
+                  "guid": "vtT9TVPcDv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an embedded system? Give three examples.",
+                    "An embedded system is a computer system with a fixed program built into another device to perform a specific, dedicated function. The programming rarely or never changes.<br><b>Examples:</b> microcontroller in a washing machine (controls cycles), ABS braking system in a car, processor in a pacemaker, CPU in a traffic light, microcontroller in a microwave, smart TV processor."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dR5cqX1pIo",
+                  "guid": "dR5cqX1pIo",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is cache memory? Describe the three cache levels.",
+                    "Cache is extremely fast SRAM built into or adjacent to the CPU chip. It stores recently/frequently used instructions and data to reduce the number of slower main RAM accesses.<br><b>L1:</b> Smallest (KB range), fastest, built directly into each core.<br><b>L2:</b> Larger (MB range), slightly slower, on or near the CPU die.<br><b>L3:</b> Largest (several MB), shared between all cores, slowest cache but still much faster than RAM."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pi4HYqbH4T",
+                  "guid": "pi4HYqbH4T",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between increasing clock speed and adding more cores?",
+                    "<b>Higher clock speed:</b> each core completes more FDE cycles per second — benefits single-threaded tasks most.<br><b>More cores:</b> multiple instruction streams execute in true parallel — benefits multi-threaded tasks (video editing, running multiple programs simultaneously).<br><b>Key point:</b> Not all programs can exploit multiple cores (some tasks are sequential), so more cores does not always give proportional speed improvement."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iJz6mxahtf",
+                  "guid": "iJz6mxahtf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between primary storage and secondary storage?",
+                    "<b>Primary storage</b> (RAM, ROM, Cache): directly accessible by the CPU; fast; limited capacity; volatile (RAM) or non-volatile (ROM/Cache).<br><b>Secondary storage</b> (HDD, SSD, optical): not directly accessed by CPU; slower; large/permanent storage; always non-volatile. Data must be loaded into RAM before the CPU can use it."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "o23Ql1q6HH",
+                  "guid": "o23Ql1q6HH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the advantages of having multiple CPU cores?",
+                    "Multiple cores allow <b>parallel processing</b> — each core can execute a different thread simultaneously. Benefits: faster multi-tasking, better performance in multi-threaded applications (games, video editing, databases). Modern CPUs have 4–32+ cores. However, performance gain depends on how well the software is written to use multiple threads."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "f4b0b594-4239-9ca9-f2b2-bf2852bcda38",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Systems Software",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dYLrj85dtS",
+                  "guid": "dYLrj85dtS",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Operating System manages: {{c1::memory management}} (allocating RAM to processes, managing virtual memory), {{c2::process management}} (scheduling CPU time, multitasking), {{c3::file management}} (organising, storing and retrieving files), {{c4::device management}} (communicating with hardware via drivers), {{c5::user interface}} (providing GUI or CLI), {{c6::security}} (user accounts, access control).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rTHBK57qJn",
+                  "guid": "rTHBK57qJn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an Operating System (OS) and what are its five main roles?",
+                    "The OS is system software that manages hardware and provides an environment for application software to run.<br><b>1. Memory management</b> — allocates RAM to programs, manages virtual memory.<br><b>2. Process management</b> — schedules which process gets CPU time (multitasking).<br><b>3. File management</b> — organises files in directories, controls read/write access.<br><b>4. Device management</b> — uses device drivers to communicate with hardware.<br><b>5. User interface</b> — provides GUI (Windows, macOS) or CLI (Linux terminal)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qghGIFLm5Y",
+                  "guid": "qghGIFLm5Y",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are utility programs? Give five examples.",
+                    "Utility programs are software that perform system maintenance to keep the computer running efficiently.<br><b>Examples:</b><br>• <b>Disk defragmenter</b> — reorganises fragmented files on HDDs for faster access<br>• <b>Anti-malware</b> — scans and removes malicious software<br>• <b>Backup software</b> — creates copies of data for recovery<br>• <b>Disk cleanup</b> — removes temporary/unnecessary files to free space<br>• <b>Encryption tools</b> — secures files with encryption<br>• <b>File compression tools</b> — reduce file sizes (ZIP)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oI2XWpNhym",
+                  "guid": "oI2XWpNhym",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a compiler and an interpreter?",
+                    "<b>Compiler:</b> translates the entire source code into machine code <i>all at once</i>, producing a standalone executable file (.exe). Errors only reported after full translation. Fast to run after compilation. Code distributed as executable (source hidden).<br><b>Interpreter:</b> translates and executes source code <i>one line at a time</i>. Stops at the first error — easier to debug. No executable produced. Slower to run. Source code must be present on the machine."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uB6YOehXzb",
+                  "guid": "uB6YOehXzb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A compiler translates {{c1::all}} source code at once into {{c2::machine code}}, creating a standalone {{c3::executable}} file. An interpreter translates and executes {{c4::one line at a time}}. Compilation is {{c5::faster}} to run; interpretation is {{c6::easier to debug}}. Compilers report all errors after {{c7::full translation}}; interpreters stop at the {{c8::first error}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fr91qUmmUR",
+                  "guid": "fr91qUmmUR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Programming language levels: {{c1::Machine code}} (binary — directly executed by CPU, completely hardware-specific, fastest). {{c2::Assembly language}} (uses mnemonics like ADD, MOV — translated by an assembler, low-level). {{c3::High-level language}} (Python, Java, C# — human-readable, portable, translated by compiler or interpreter).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iVMWX4Zku0",
+                  "guid": "iVMWX4Zku0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an assembler? How does it differ from a compiler?",
+                    "An assembler translates <b>assembly language</b> (low-level mnemonics: ADD, MOV, LDA, STA) into <b>machine code</b> (binary). Each assembly instruction typically translates to <b>one</b> machine code instruction (unlike a compiler where one high-level statement may produce many machine code instructions). Assembly language is processor-specific — different CPU architectures have different instruction sets."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rhDVgqpQ5s",
+                  "guid": "rhDVgqpQ5s",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a device driver and why is it needed?",
+                    "A device driver is a small program that allows the OS to communicate with a specific piece of hardware (printer, keyboard, GPU, webcam). It translates the OS's generic commands into hardware-specific instructions the device understands.<br><b>Without drivers:</b> the OS cannot use the hardware. When you plug in a new device, the OS looks for the appropriate driver (often downloaded automatically or from a disc)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "prsbfXrCsZ",
+                  "guid": "prsbfXrCsZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is defragmentation and when is it needed?",
+                    "Defragmentation is a utility program that reorganises the data on an HDD so that each file is stored in <b>contiguous</b> (adjacent) sectors on the disk. Over time, as files are created, deleted, and modified, they become <b>fragmented</b> (split across non-adjacent sectors), causing the read head to travel more — slower access.<br><b>NOT needed</b> for SSDs — they have no moving read heads, access all sectors equally fast, and repeated defragmentation would wear them out."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lmZBYhdzpY",
+                  "guid": "lmZBYhdzpY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is multitasking and how does the OS achieve it?",
+                    "Multitasking is the ability of an OS to run multiple programs apparently simultaneously on a single-core CPU. The OS <b>scheduler</b> rapidly switches between processes, allocating short time slices to each. Since switching is so fast (milliseconds), programs appear to run simultaneously.<br>With multiple cores, true parallel execution is possible for different processes/threads."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "obMDT0DFtj",
+                  "guid": "obMDT0DFtj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a CLI and a GUI?",
+                    "<b>CLI (Command Line Interface):</b> user types text commands. Advantages: fast, powerful, scriptable, low resource use. Disadvantages: steep learning curve, must memorise commands. Used by: programmers, system administrators.<br><b>GUI (Graphical User Interface):</b> user interacts with windows, icons, menus, pointer (WIMP). Advantages: intuitive, no commands to memorise, accessible. Disadvantages: more CPU/RAM required, slower for some tasks."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "__type__": "Deck",
+          "crowdanki_uuid": "98c64344-3ed5-5f31-a1b0-7df1e305650a",
+          "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+          "desc": "",
+          "dyn": 0,
+          "extendNew": 0,
+          "extendRev": 0,
+          "name": "Paper 2",
+          "children": [
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "852b54e8-c7a5-2fa3-055b-f7ae879a8e6c",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Algorithms",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hISdm027pN",
+                  "guid": "hISdm027pN",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the three key features of computational thinking?",
+                    "<b>1. Decomposition:</b> breaking a large, complex problem into smaller, more manageable sub-problems that are easier to understand and solve individually.<br><b>2. Abstraction:</b> removing unnecessary detail and focusing only on the information relevant to solving the problem.<br><b>3. Algorithmic thinking:</b> designing a precise, step-by-step solution (an algorithm) that can be followed to solve the problem or sub-problem."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "v3RsMSs7vk",
+                  "guid": "v3RsMSs7vk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is abstraction? Give a real-world example.",
+                    "Abstraction means ignoring irrelevant details and representing only what matters for the task at hand.<br><b>Example 1:</b> A London Underground map shows stations and connections — it ignores actual scale, curves, depths underground, and above-ground geography. This makes it useful for navigation.<br><b>Example 2:</b> A programmer using <code>print()</code> doesn't need to know how the OS and hardware output text to screen — that complexity is hidden (abstracted away)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "joJ66g3wZh",
+                  "guid": "joJ66g3wZh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Name the five standard flowchart symbols, their shapes, and purposes.",
+                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Symbol</th><th>Shape</th><th>Purpose</th></tr><tr><td><b>Terminal</b></td><td><svg width=\"110\" height=\"38\"><ellipse cx=\"55\" cy=\"19\" rx=\"50\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Start / End</text></svg></td><td>Marks the beginning or end of the algorithm</td></tr><tr><td><b>Process</b></td><td><svg width=\"110\" height=\"38\"><rect x=\"4\" y=\"4\" width=\"102\" height=\"30\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">x = x + 1</text></svg></td><td>A processing step / instruction / action</td></tr><tr><td><b>Decision</b></td><td><svg width=\"110\" height=\"52\"><polygon points=\"55,4 106,26 55,48 4,26\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#222\">x &gt; 10?</text></svg></td><td>A condition — two exits (Yes/No or True/False)</td></tr><tr><td><b>Input/Output</b></td><td><svg width=\"120\" height=\"38\"><polygon points=\"14,4 116,4 102,34 0,34\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"58\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Input / Output</text></svg></td><td>User input or program output (print/read)</td></tr><tr><td><b>Subroutine</b></td><td><svg width=\"120\" height=\"38\"><rect x=\"4\" y=\"4\" width=\"112\" height=\"30\" fill=\"#e1bee7\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"18\" y1=\"4\" x2=\"18\" y2=\"34\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"102\" y1=\"4\" x2=\"102\" y2=\"34\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"60\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Subroutine</text></svg></td><td>A call to a predefined subroutine/function</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "yUHby5hY8H",
+                  "guid": "yUHby5hY8H",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In a flowchart: a {{c1::diamond}} represents a {{c2::decision}} with {{c3::two}} exits labelled {{c4::Yes/No}} (or True/False). A {{c5::parallelogram}} represents {{c6::input or output}}. A {{c7::rounded rectangle (oval)}} represents {{c8::Start or End}}. A {{c9::rectangle with double vertical lines}} represents a {{c10::subroutine}} call.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gWp5somTcK",
+                  "guid": "gWp5somTcK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is pseudocode and why is it used in OCR exams?",
+                    "Pseudocode is a text-based, structured representation of an algorithm using English-like keywords and indentation. It is not a real programming language — it cannot be run on a computer.<br><b>OCR Exam Reference Language</b> is used in J277 exams for: writing algorithms, expressing program logic, asking students to trace/interpret code.<br><b>Purpose:</b> planning algorithms before coding, communicating logic clearly, language-independent specification."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kLPd5j464n",
+                  "guid": "kLPd5j464n",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a count-controlled FOR loop that prints 1 to 5.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">for i = 1 to 5<br>    print(i)<br>next i</pre>The loop executes a <b>fixed number of times</b>. The variable i takes values 1, 2, 3, 4, 5 in turn."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bi47Yt5WE9",
+                  "guid": "bi47Yt5WE9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a WHILE loop that keeps asking for input until valid.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">num = int(input(\"Enter a number 1-10: \"))<br>while num &lt; 1 OR num &gt; 10<br>    print(\"Invalid. Try again.\")<br>    num = int(input(\"Enter a number 1-10: \"))<br>endwhile</pre>Condition checked at the <b>start</b> — the body may not execute at all if condition is false initially."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "yX9FFpjwNI",
+                  "guid": "yX9FFpjwNI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a DO UNTIL loop. How does it differ from WHILE?",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">do<br>    num = int(input(\"Enter a positive number: \"))<br>until num &gt; 0</pre>Condition checked at the <b>end</b> — the loop body <b>always executes at least once</b>. WHILE checks at the start (may execute zero times). DO UNTIL is good when you always need one pass (e.g. first input attempt)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h5e9hRaIYj",
+                  "guid": "h5e9hRaIYj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for an IF-ELSEIF-ELSE structure with three branches.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">score = int(input(\"Enter score: \"))<br>if score &gt;= 90 then<br>    print(\"Grade A\")<br>elseif score &gt;= 70 then<br>    print(\"Grade B\")<br>elseif score &gt;= 50 then<br>    print(\"Grade C\")<br>else<br>    print(\"Fail\")<br>endif</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qBvZkG3Asn",
+                  "guid": "qBvZkG3Asn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a SWITCH/CASE statement.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">day = input(\"Enter day: \")<br>switch day:<br>    case \"Mon\":<br>        print(\"Monday\")<br>    case \"Tue\":<br>        print(\"Tuesday\")<br>    case \"Wed\":<br>        print(\"Wednesday\")<br>    default:<br>        print(\"Unknown day\")<br>endswitch</pre>Use switch instead of many if/elseif when comparing the <b>same variable</b> against multiple fixed values."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mj5Bo5d1vK",
+                  "guid": "mj5Bo5d1vK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "OCR comparison operators: == ({{c1::equal to}}), != ({{c2::not equal to}}), &lt; ({{c3::less than}}), &gt; ({{c4::greater than}}), &lt;= ({{c5::less than or equal to}}), &gt;= ({{c6::greater than or equal to}}). Assignment uses a single {{c7::=}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cmaGFPahZC",
+                  "guid": "cmaGFPahZC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "OCR arithmetic operators: + {{c1::addition}}, - {{c2::subtraction}}, * {{c3::multiplication}}, / {{c4::division}}, ^ {{c5::exponentiation (power)}}, MOD {{c6::remainder after division}}, DIV {{c7::integer division (quotient, no remainder)}}. Example: 17 MOD 5 = {{c8::2}}; 17 DIV 5 = {{c9::3}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r8Pb2VZWK1",
+                  "guid": "r8Pb2VZWK1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a trace table? When is it used?",
+                    "A trace table manually tracks the value of each variable at each step of an algorithm to verify it produces correct output or to find logic errors (dry run).<br><b>Format:</b> columns = variables + output; rows = each step/iteration.<br><b>Used for:</b> manually testing an algorithm before coding, finding bugs in exam questions asking you to trace code, understanding how a loop iterates."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qbFdYdRa2H",
+                  "guid": "qbFdYdRa2H",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Trace table example: trace this code for i = 1 to 3, total = 0; total = total + i.<br>What is total after each iteration?",
+                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>i</th><th>total</th></tr><tr><td>—</td><td>0</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>6</td></tr></table>Final answer: total = 6 (1+2+3)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qrV9imYZnt",
+                  "guid": "qrV9imYZnt",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the linear search algorithm. When is it appropriate?",
+                    "<b>Linear search</b> checks each element in the list one by one from the start until the target is found or the list is exhausted.<br><b>Steps:</b> start at index 0; compare current element to target; if match → found; if not → move to next; if end reached → not found.<br><b>Time complexity:</b> O(n) — worst case checks every element.<br><b>Appropriate when:</b> data is unsorted, list is small, or only one search is needed."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ewHhq2CLYu",
+                  "guid": "ewHhq2CLYu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the binary search algorithm. What is its requirement?",
+                    "<b>Requirement: data MUST be sorted.</b><br><b>Steps:</b><br>1. Find the middle element.<br>2. If middle = target → found.<br>3. If target &lt; middle → discard right half, repeat on left half.<br>4. If target &gt; middle → discard left half, repeat on right half.<br>5. Repeat until found or list empty → not found.<br><b>Time complexity:</b> O(log n) — each step halves the search space. For 1,024 elements: max 10 comparisons (log₂1024 = 10)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g1LZyl3s6W",
+                  "guid": "g1LZyl3s6W",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Binary search worked example: find 34 in [5, 12, 23, 34, 45, 56, 78].",
+                    "List (indices 0–6): [5, 12, 23, <b>34</b>, 45, 56, 78]<br><b>Step 1:</b> Middle index = 3, value = 34. Target = 34.<br><b>Match found at index 3.</b><br><br>Harder example: find 23 in same list.<br><b>Step 1:</b> Middle = index 3 = 34. 23 &lt; 34 → search left half [5, 12, 23].<br><b>Step 2:</b> Middle = index 1 = 12. 23 &gt; 12 → search right half [23].<br><b>Step 3:</b> Middle = 23. Match found."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "izOOtEjhsr",
+                  "guid": "izOOtEjhsr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Binary search requires data to be {{c1::sorted}}. Linear search works on {{c2::unsorted}} data. Binary search has O({{c3::log n}}) complexity; linear has O({{c4::n}}). For 1,000 items, binary needs at most {{c5::10}} comparisons; linear needs up to {{c6::1,000}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tlrr3wSiXh",
+                  "guid": "tlrr3wSiXh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the bubble sort algorithm with a worked example.",
+                    "<b>Algorithm:</b> repeatedly pass through the list; compare adjacent pairs; swap if in wrong order; repeat until a full pass with no swaps occurs.<br><b>Example:</b> sort [5, 3, 8, 1]<br>Pass 1: [3,5,8,1]→[3,5,8,1]→[3,5,1,8] (8 and 1 swapped)<br>Pass 2: [3,5,1,8]→[3,1,5,8]→[3,1,5,8]<br>Pass 3: [1,3,5,8]→[1,3,5,8] (no swaps — sorted!)<br><b>Complexity:</b> O(n²) worst case; O(n) best case (already sorted)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "NcGaeYaU7V",
+                  "guid": "NcGaeYaU7V",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the merge sort algorithm.",
+                    "<b>Merge sort uses divide and conquer:</b><br>1. <b>Divide:</b> repeatedly split the list in half until every sublist contains only one element.<br>2. <b>Conquer:</b> merge pairs of sublists back together in sorted order by comparing elements one by one.<br>3. Continue merging until the full list is reconstructed in sorted order.<br><b>Example:</b> [5,3,8,1] → [5,3] [8,1] → [5][3][8][1] → [3,5][1,8] → [1,3,5,8]<br><b>Complexity:</b> O(n log n) — much faster than bubble for large datasets but uses more memory."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vZ8muKQnIQ",
+                  "guid": "vZ8muKQnIQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the insertion sort algorithm.",
+                    "<b>Insertion sort</b> builds a sorted portion of the list one element at a time:<br>1. Start with the second element; compare it to the sorted portion.<br>2. Shift larger elements right to make space.<br>3. Insert the element in the correct position.<br>4. Repeat for each remaining element.<br><b>Example:</b> [5,3,8,1] → [3,5,8,1] → [3,5,8,1] → [1,3,5,8]<br><b>Complexity:</b> O(n) best case (nearly sorted); O(n²) worst case. Efficient for small or nearly-sorted lists."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bm5BnUMoZO",
+                  "guid": "bm5BnUMoZO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sorting algorithm comparison: Bubble sort — simple, O({{c1::n²}}) worst case, in-place. Merge sort — O({{c2::n log n}}), requires extra {{c3::memory}} for merging. Insertion sort — efficient for nearly-{{c4::sorted}} data, O({{c5::n}}) best case, O(n²) worst case. For large datasets, {{c6::merge sort}} is most efficient.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "0ee76cf5-d693-9f9e-8416-836b51f0cc6f",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Boolean Logic",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oZyuHFaa28",
+                  "guid": "oZyuHFaa28",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the three basic logic gates used in OCR GCSE? Describe each.",
+                    "<b>AND gate:</b> output is 1 (True) <i>only</i> when <b>ALL</b> inputs are 1. Like \"both A AND B must be true.\"<br><b>OR gate:</b> output is 1 when <b>at least one</b> input is 1. Like \"A OR B (or both) must be true.\"<br><b>NOT gate</b> (inverter): has <b>one</b> input; output is the <b>opposite</b> of the input. NOT 1 = 0; NOT 0 = 1."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mSjkEYPpEN",
+                  "guid": "mSjkEYPpEN",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Complete the full truth table for AND, OR and NOT gates.",
+                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>A OR B</th><th>NOT A</th><th>NOT B</th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lJG5JXDIaQ",
+                  "guid": "lJG5JXDIaQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Draw and describe the three logic gate symbols.",
+                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Gate</th><th>Symbol</th><th>Key rule</th></tr><tr><td><b>AND</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"15\" x2=\"26\" y2=\"15\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"0\" y1=\"35\" x2=\"26\" y2=\"35\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M26,5 L26,45 Q78,45 78,25 Q78,5 26,5 Z\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"78\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"44\" y=\"29\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">AND</text></svg></td><td>Output 1 only when ALL inputs = 1</td></tr><tr><td><b>OR</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"15\" x2=\"20\" y2=\"15\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"0\" y1=\"35\" x2=\"20\" y2=\"35\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M16,5 Q28,5 68,25 Q28,45 16,45 Q30,25 16,5 Z\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"68\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"32\" y=\"29\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OR</text></svg></td><td>Output 1 when AT LEAST ONE input = 1</td></tr><tr><td><b>NOT</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"25\" x2=\"18\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"18,5 62,25 18,45\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"2\"/><circle cx=\"67\" cy=\"25\" r=\"5\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"72\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"28\" y=\"42\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">NOT</text></svg></td><td>Output is the INVERSE of the input</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bgdRRZrSv9",
+                  "guid": "bgdRRZrSv9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A truth table for a circuit with {{c1::2}} inputs has {{c2::4}} rows (2²). With {{c3::3}} inputs it has {{c4::8}} rows (2³). The general formula is {{c5::2<sup>n</sup>}} rows, where n = number of {{c6::inputs}}. Always list inputs in binary counting order: 00, 01, 10, 11.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g4xueEoRNg",
+                  "guid": "g4xueEoRNg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Evaluate: A=1, B=0. What is the output of: (A AND B) OR (NOT B)?",
+                    "Step 1: A AND B = 1 AND 0 = <b>0</b><br>Step 2: NOT B = NOT 0 = <b>1</b><br>Step 3: 0 OR 1 = <b>1</b><br>Final output: <b>1</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "t6QGUUutkc",
+                  "guid": "t6QGUUutkc",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Evaluate: A=1, B=1, C=0. What is: NOT(A AND B) OR C?",
+                    "Step 1: A AND B = 1 AND 1 = <b>1</b><br>Step 2: NOT 1 = <b>0</b><br>Step 3: 0 OR C = 0 OR 0 = <b>0</b><br>Final output: <b>0</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uEw5QcKV0L",
+                  "guid": "uEw5QcKV0L",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Evaluate: A=0, B=1, C=1. What is: A OR (NOT B AND C)?",
+                    "Step 1: NOT B = NOT 1 = <b>0</b><br>Step 2: 0 AND C = 0 AND 1 = <b>0</b><br>Step 3: A OR 0 = 0 OR 0 = <b>0</b><br>Final output: <b>0</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dPqLCQRjfh",
+                  "guid": "dPqLCQRjfh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Complete the truth table for: output = (A AND B) OR (NOT A)",
+                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>NOT A</th><th>Output</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uJ99gATdLJ",
+                  "guid": "uJ99gATdLJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a logic diagram (circuit)? Describe the circuit for: output = NOT A AND (B OR C).",
+                    "A logic diagram shows how logic gates are connected to form a circuit. To build NOT A AND (B OR C):<br>1. OR gate takes inputs B and C → produces intermediate output X = B OR C<br>2. NOT gate takes input A → produces Y = NOT A<br>3. AND gate takes inputs Y and X → produces final output = NOT A AND (B OR C)<br><br>Evaluation for A=1, B=1, C=0:<br>B OR C = 1. NOT A = 0. 0 AND 1 = <b>0</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g4ZlGhqzMn",
+                  "guid": "g4ZlGhqzMn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In Boolean logic, 1 represents {{c1::True}} and 0 represents {{c2::False}}. The AND operation is sometimes written as {{c3::A · B}} or {{c4::A ∧ B}}. OR is written as {{c5::A + B}} or {{c6::A ∨ B}}. NOT is written as {{c7::Ā}} or {{c8::¬A}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "c42f6c9f-739f-6adb-c8b0-70a9faf8b3b2",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Languages and IDEs",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uKPcfLJsxA",
+                  "guid": "uKPcfLJsxA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the advantages and disadvantages of high-level vs low-level programming languages?",
+                    "<b>High-level (Python, Java, C#):</b><br>Advantages: human-readable, easier to write/debug, portable (runs on different hardware), abstracted from hardware details, large standard libraries.<br>Disadvantages: translated (slower execution), less direct hardware control.<br><b>Low-level (Assembly, Machine Code):</b><br>Advantages: directly controls hardware, very fast execution, small memory footprint.<br>Disadvantages: hardware-specific (not portable), difficult to read/write/debug, time-consuming."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vKUyDaM8bC",
+                  "guid": "vKUyDaM8bC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Programming language types: {{c1::Machine code}} — binary instructions directly executed by the CPU, hardware-specific. {{c2::Assembly language}} — human-readable mnemonics (ADD, MOV) translated by an {{c3::assembler}}. {{c4::High-level languages}} — readable, portable, translated by a {{c5::compiler}} or {{c6::interpreter}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qzPSGxZpQK",
+                  "guid": "qzPSGxZpQK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an IDE (Integrated Development Environment)? Why use one?",
+                    "An IDE is a software application that provides a complete environment for writing, testing, and debugging programs. It combines multiple development tools into one interface.<br><b>Why use an IDE?</b> Increases productivity — tools like syntax highlighting, auto-completion, and integrated debugging remove friction and help find errors faster than using a plain text editor and separate tools."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nWBO4pblmb",
+                  "guid": "nWBO4pblmb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "IDE features: {{c1::Code editor}} (syntax highlighting, line numbers), {{c2::Error diagnostics}} (underlines errors, shows error messages), {{c3::Breakpoints}} (pauses execution at a specific line for inspection), {{c4::Run-time environment}} (compiles/runs the program), {{c5::Variable watch window}} (shows current values of variables during execution), {{c6::Auto-complete/IntelliSense}} (suggests completions as you type).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j3aBsj8YYX",
+                  "guid": "j3aBsj8YYX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a breakpoint and how is it used for debugging?",
+                    "A breakpoint is a marker placed on a specific line of code in an IDE. When the program runs, it <b>pauses execution</b> at that line — allowing the developer to:<br>• Inspect the current values of all variables<br>• Check that the program has reached that point<br>• Step through subsequent lines one at a time<br>• Identify exactly where the logic diverges from expectation<br>Breakpoints are used to debug logic errors — code that runs but gives wrong results."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hONZkVkGNG",
+                  "guid": "hONZkVkGNG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Explain: step-over, step-into, and step-out in IDE debugging.",
+                    "<b>Step-over:</b> executes the current line and pauses at the next line — if the line is a function call, the whole function runs without entering it.<br><b>Step-into:</b> if the current line calls a function, execution enters the function body line by line — useful for debugging subroutines.<br><b>Step-out:</b> finishes executing the current function and pauses at the line after the call — used when you've seen enough of a subroutine."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "t6mrGy0Vyy",
+                  "guid": "t6mrGy0Vyy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does syntax highlighting do and why is it helpful?",
+                    "Syntax highlighting colours different parts of code (keywords, strings, numbers, comments) using different colours automatically.<br><b>Benefits:</b> makes code easier to read at a glance; helps spot typos (a misspelled keyword won't be highlighted); distinguishes comments from executable code; reduces cognitive load when reading complex code."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "geCg1I8pOE",
+                  "guid": "geCg1I8pOE",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a compiler and an interpreter? Which is used in IDEs?",
+                    "<b>Compiler:</b> translates entire source code to machine code at once → creates an executable. Errors reported after full translation. Fast execution. Used for production software (C, C++).<br><b>Interpreter:</b> translates and executes one line at a time. Stops at first error. No separate executable. Slower. Used for development/scripting (Python, JavaScript).<br><b>IDEs</b> typically support both — Python IDEs use interpreters; C++ IDEs use compilers."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rMCpIi0btE",
+                  "guid": "rMCpIi0btE",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is auto-complete (IntelliSense) in an IDE?",
+                    "Auto-complete suggests completions for partially typed code — variable names, function names, method parameters, module contents. <br><b>Benefits:</b> reduces typing errors (typos in identifiers), speeds up coding, helps discover available functions/methods without consulting documentation, reminds programmer of required parameters/argument types."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "bf794609-62a8-3d62-4fa9-422f509461be",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Producing Robust Programs",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nLvswZIU3F",
+                  "guid": "nLvswZIU3F",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is input validation? Name and describe five types of validation check.",
+                    "Input validation ensures data is sensible and acceptable before the program processes it.<br><b>1. Range check:</b> is the value within acceptable limits? (age 0–120)<br><b>2. Type check:</b> is the data the correct type? (must be an integer, not letters)<br><b>3. Length check:</b> is the data the right length? (password 8+ characters)<br><b>4. Presence check:</b> has a required field been filled in?<br><b>5. Format check:</b> does the data match a required pattern? (email contains @, date is DD/MM/YYYY)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mZYtcU1LI5",
+                  "guid": "mZYtcU1LI5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode to validate an age input between 1 and 120.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">age = int(input(\"Enter your age: \"))<br>while age &lt; 1 OR age &gt; 120<br>    print(\"Invalid. Enter an age between 1 and 120.\")<br>    age = int(input(\"Enter your age: \"))<br>endwhile<br>print(\"Age accepted: \" + str(age))</pre>The loop keeps repeating until valid data is entered."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uUtvUXKVtC",
+                  "guid": "uUtvUXKVtC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a syntax error and a logic error?",
+                    "<b>Syntax error:</b> code breaks the grammatical rules of the language — the program <i>cannot run at all</i>. Found by the compiler/interpreter before execution.<br>Examples: missing colon, misspelled keyword (<code>prit</code> instead of <code>print</code>), unclosed bracket.<br><b>Logic error:</b> code runs without crashing but produces <i>wrong results</i> — the algorithm is flawed.<br>Examples: using &lt; instead of &lt;=, off-by-one error in a loop (iterating one too many or few times), wrong formula."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uPI5YarSS3",
+                  "guid": "uPI5YarSS3",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a runtime error? Give two examples.",
+                    "A runtime error occurs <i>during</i> program execution and causes the program to crash. Not detected at compile time.<br><b>Examples:</b><br>• Division by zero: <code>x = 10 / 0</code><br>• Index out of bounds: accessing <code>array[10]</code> when the array only has 5 elements<br>• Trying to open a file that does not exist<br>• Stack overflow from infinite recursion<br>• Type mismatch at runtime"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eKCZgUST05",
+                  "guid": "eKCZgUST05",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The three types of test data: {{c1::Normal}} (valid data the program should accept, e.g. age = 25 for range 1–120), {{c2::Boundary/extreme}} (values at the edge of the valid range — e.g. age = 1 and age = 120; also test just outside: 0 and 121), {{c3::Erroneous/invalid}} (data that should be rejected — wrong type, out of range: e.g. age = -5, age = \"hello\").",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oUhKWDioGt",
+                  "guid": "oUhKWDioGt",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why do we test with boundary values? What is a boundary test for age 1–120?",
+                    "Boundary values are the most likely places for logic errors — conditions using &lt;, &gt;, &lt;=, &gt;= are very commonly wrong by one.<br><b>For valid range 1–120:</b><br>Boundary values: 1 (minimum valid), 120 (maximum valid)<br>Just outside: 0 (should be rejected), 121 (should be rejected)<br>All four should be tested. A bug using &lt; instead of &lt;= would pass 119 but incorrectly reject 120."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tJN8a4Ablf",
+                  "guid": "tJN8a4Ablf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What techniques make a program more maintainable?",
+                    "<b>1. Meaningful identifiers:</b> <code>playerScore</code> not <code>x</code><br><b>2. Comments:</b> explain the WHY (non-obvious logic), not the WHAT<br><b>3. Indentation:</b> consistent indentation makes structure visible<br><b>4. Modular design:</b> break code into subroutines (functions/procedures)<br><b>5. Constants:</b> use named constants instead of \"magic numbers\" (<code>MAX_LIVES = 3</code> not <code>3</code>)<br><b>6. Consistent style:</b> naming conventions (camelCase or snake_case consistently)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "YJIziG03d0",
+                  "guid": "YJIziG03d0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is authentication in a program and how is it implemented securely?",
+                    "Authentication verifies the identity of a user attempting to access a system.<br><b>Implementation:</b><br>• Username/password checked against stored credentials<br>• <b>Passwords hashed</b> (never stored as plain text) — use SHA-256 or bcrypt<br>• <b>Limit failed login attempts</b> (lock after 3 failures) — prevents brute force<br>• <b>CAPTCHA</b> — prevents automated attacks<br>• <b>Two-factor authentication</b> — adds a second verification layer<br>• <b>Salt</b> added to passwords before hashing — prevents rainbow table attacks"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dgv4Z8YVeQ",
+                  "guid": "dgv4Z8YVeQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What makes a program 'robust'?",
+                    "A robust program handles all inputs and situations gracefully without crashing:<br>• <b>Input validation</b> — rejects invalid data before processing<br>• <b>Error handling</b> — gracefully manages runtime errors (try/except/catch blocks)<br>• <b>Authentication</b> — controls who can access the program<br>• <b>Testing</b> with normal, boundary and erroneous test data<br>• <b>Meaningful error messages</b> — tells the user what went wrong and how to fix it"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sR7bvpJUK5",
+                  "guid": "sR7bvpJUK5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between white box and black box testing?",
+                    "<b>White box testing:</b> the tester has full knowledge of the internal code/logic. Tests designed based on the structure and paths through the code. Used by developers.<br><b>Black box testing:</b> the tester has no knowledge of internal code — only tests inputs and outputs (what the program should do, not how). Tests based on the specification. Can be done by end users who are not programmers."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "ab9aebe6-eb9c-08e1-4a71-bcbae95d07ee",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Programming Fundamentals",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r3XPfwfw3i",
+                  "guid": "r3XPfwfw3i",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "OCR data types: {{c1::Integer}} (whole numbers, e.g. 42, -7), {{c2::Real/Float}} (decimal numbers, e.g. 3.14), {{c3::Boolean}} (True or False only), {{c4::Character}} (single character in single quotes, e.g. 'A'), {{c5::String}} (sequence of characters in double quotes, e.g. \"Hello\"). The correct data type reduces {{c6::memory}} use and prevents errors.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ukqs9w6dyC",
+                  "guid": "ukqs9w6dyC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a variable and a constant? Give examples.",
+                    "<b>Variable:</b> a named storage location whose value <i>can change</i> during program execution.<br><code>score = 0</code> then later <code>score = score + 10</code><br><b>Constant:</b> a named storage location whose value is <i>fixed</i> — it cannot be changed once assigned. Declared using <code>const</code> in many languages.<br><code>const PI = 3.14159</code><br><b>Why use constants?</b> Improves readability (PI is clearer than 3.14159), prevents accidental changes, makes updates easier (change value in one place)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lP3UOhro7Q",
+                  "guid": "lP3UOhro7Q",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is casting (type conversion)? Give three examples.",
+                    "Casting converts a value from one data type to another. Essential because user input is always returned as a string.<br><b>int(\"42\")</b> → integer 42<br><b>float(\"3.14\")</b> → float 3.14<br><b>str(100)</b> → string \"100\"<br><b>bool(0)</b> → False (0 = False, any non-zero = True)<br>Without casting, attempting arithmetic on a string causes a type error."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bPrYOOgwyj",
+                  "guid": "bPrYOOgwyj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "OCR pseudocode string operations: {{c1::length(\"hello\")}} returns {{c2::5}}. {{c3::substring(\"hello\", 1, 3)}} returns {{c4::\"ell\"}} (start index 1, length 3). {{c5::upper(\"hello\")}} → \"HELLO\". {{c6::lower(\"HELLO\")}} → \"hello\". Concatenation: \"Hi\" {{c7::+}} \" there\" → \"Hi there\".",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "holgDlGpha",
+                  "guid": "holgDlGpha",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write pseudocode to access individual characters in a string.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">name = \"Alice\"<br>print(name[0])      // outputs \"A\"<br>print(name[4])      // outputs \"e\"<br>print(length(name)) // outputs 5<br>print(name[1:3])    // outputs \"li\" (substring)</pre>Strings are indexed from <b>0</b>. The last character is at index <b>length-1</b>."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "q2c0vcbk8e",
+                  "guid": "q2c0vcbk8e",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a 1D array? Write pseudocode to declare one and access elements.",
+                    "A 1D array stores multiple values of the <b>same data type</b> under one variable name, accessed by index (starting at 0).<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array scores[5]<br>scores[0] = 85<br>scores[1] = 72<br>scores[2] = 91<br>scores[3] = 68<br>scores[4] = 79<br>print(scores[2])    // outputs 91</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sdvIWKo2Gw",
+                  "guid": "sdvIWKo2Gw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a 2D array? Write pseudocode to declare and access it.",
+                    "A 2D array is an array of arrays — like a grid/table. Accessed using two indices: [row][column].<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array grid[3][3]<br>grid[0][0] = 1<br>grid[0][1] = 2<br>grid[1][2] = 5<br>print(grid[1][2])   // outputs 5<br><br>// Iterate all elements:<br>for row = 0 to 2<br>    for col = 0 to 2<br>        print(grid[row][col])<br>    next col<br>next row</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h1D3huGrwg",
+                  "guid": "h1D3huGrwg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a function and a procedure?",
+                    "<b>Procedure:</b> a named, reusable block of code that performs a task. Does <b>NOT</b> return a value. Called by name alone.<br><b>Function:</b> a named, reusable block of code that performs a task and <b>DOES return a value</b> using the <code>return</code> keyword.<br>Both can accept <b>parameters</b> (input values).<br><b>Benefits of both:</b> code reuse (write once, use many times), easier testing, shorter/cleaner code, modular design."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tzpaZ4dF0N",
+                  "guid": "tzpaZ4dF0N",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a function with parameters and a return value.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">function multiply(a, b)<br>    return a * b<br>endfunction<br><br>result = multiply(4, 5)<br>print(result)    // outputs 20</pre>The function receives parameters <code>a</code> and <code>b</code>, calculates the product, and <b>returns</b> it to the calling code."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iCDLLdERBg",
+                  "guid": "iCDLLdERBg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode for a procedure with parameters.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">procedure greet(name)<br>    print(\"Hello, \" + name + \"!\")<br>endprocedure<br><br>greet(\"Alice\")    // outputs: Hello, Alice!<br>greet(\"Bob\")      // outputs: Hello, Bob!</pre>Procedures perform actions but do <b>not return</b> a value."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sWxsiMTGqg",
+                  "guid": "sWxsiMTGqg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A {{c1::local}} variable is declared inside a function/procedure and can only be accessed {{c2::within}} that block — it ceases to exist when the function ends. A {{c3::global}} variable is declared outside all functions and can be accessed from {{c4::anywhere}} in the program. Local variables are preferred because they reduce {{c5::side effects}} and make debugging {{c6::easier}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j2bPg8eV2A",
+                  "guid": "j2bPg8eV2A",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does MOD and DIV do? Give exam-style examples.",
+                    "<b>MOD</b> returns the <b>remainder</b> after integer division.<br>17 MOD 5 = 2 (17 = 3×5 + <b>2</b>)<br>10 MOD 2 = 0 (even number check!)<br><b>DIV</b> returns the <b>quotient</b> (integer division, ignoring remainder).<br>17 DIV 5 = 3<br>10 DIV 3 = 3<br><b>Exam uses:</b> checking if a number is even (n MOD 2 == 0), extracting digits (n DIV 10 gives all digits except the last)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "b2EU0viuaH",
+                  "guid": "b2EU0viuaH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write pseudocode to find the largest value in an array of 5 integers.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array nums[5] = [3, 7, 2, 9, 4]<br>largest = nums[0]<br>for i = 1 to 4<br>    if nums[i] &gt; largest then<br>        largest = nums[i]<br>    endif<br>next i<br>print(largest)    // outputs 9</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h5YIA0dYh8",
+                  "guid": "h5YIA0dYh8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write pseudocode to calculate the total and average of an array.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array scores[5] = [60, 70, 80, 90, 100]<br>total = 0<br>for i = 0 to 4<br>    total = total + scores[i]<br>next i<br>average = total / 5<br>print(\"Total: \" + str(total))      // 400<br>print(\"Average: \" + str(average))  // 80.0</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nDA4v7u0iC",
+                  "guid": "nDA4v7u0iC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write pseudocode to read from and write to a text file.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">// WRITING to a file<br>myFile = openWrite(\"data.txt\")<br>myFile.writeLine(\"Hello World\")<br>myFile.writeLine(\"Second line\")<br>myFile.close()<br><br>// READING from a file<br>myFile = openRead(\"data.txt\")<br>while NOT myFile.endOfFile()<br>    line = myFile.readLine()<br>    print(line)<br>endwhile<br>myFile.close()</pre>Always <b>close</b> the file after use to ensure data is saved/released."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uFYwRhDn66",
+                  "guid": "uFYwRhDn66",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the advantages of using subroutines (functions and procedures)?",
+                    "<b>1. Code reuse:</b> write once, call many times — avoids duplicating code.<br><b>2. Easier to test:</b> each subroutine can be tested independently (unit testing).<br><b>3. Easier to maintain:</b> fix a bug in one place rather than many.<br><b>4. Shorter code:</b> the main program is cleaner and more readable.<br><b>5. Modular design:</b> large problems broken into manageable, logical units.<br><b>6. Team collaboration:</b> different programmers can write different subroutines simultaneously."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qXCL3yOr13",
+                  "guid": "qXCL3yOr13",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write pseudocode to reverse a string.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">function reverseString(s)<br>    reversed = \"\"<br>    for i = length(s) - 1 to 0 step -1<br>        reversed = reversed + s[i]<br>    next i<br>    return reversed<br>endfunction<br><br>print(reverseString(\"Hello\"))  // \"olleH\"</pre>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "__type__": "Deck",
       "crowdanki_uuid": "84352d0c-f230-738e-4ee2-98790e4b5265",
       "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
       "desc": "",

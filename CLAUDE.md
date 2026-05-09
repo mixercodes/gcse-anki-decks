@@ -74,6 +74,17 @@ Science::Physics::Paper 1::Atomic Structure
 Science::Physics::Paper 2::Forces
 Science::Physics::Paper 2::Waves
 Science::Physics::Paper 2::Magnetism and Electromagnetism
+Computer Science::Paper 1::Systems Architecture
+Computer Science::Paper 1::Memory and Storage
+Computer Science::Paper 1::Computer Networks
+Computer Science::Paper 1::Network Security
+Computer Science::Paper 1::Systems Software
+Computer Science::Paper 1::Ethical Legal Cultural Environmental
+Computer Science::Paper 2::Algorithms
+Computer Science::Paper 2::Programming Fundamentals
+Computer Science::Paper 2::Producing Robust Programs
+Computer Science::Paper 2::Boolean Logic
+Computer Science::Paper 2::Languages and IDEs
 ```
 
 ---
