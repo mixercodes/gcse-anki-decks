@@ -9,6 +9,7 @@ This repo stores GCSE revision flashcards for five subjects:
 | Geography | AQA | 8035 |
 | Science (Biology, Chemistry, Physics) | AQA Combined Science Trilogy | 8464 |
 | Computer Science | OCR | J277 |
+| History | OCR | J411 (History B — Schools History Project) |
 
 ## Repo structure
 
@@ -93,6 +94,11 @@ Computer Science::Paper 2::Programming Fundamentals
 Computer Science::Paper 2::Producing Robust Programs
 Computer Science::Paper 2::Boolean Logic
 Computer Science::Paper 2::Languages and IDEs
+History::Paper 1::People's Health
+History::Paper 1::Norman Conquest
+History::Paper 2::Life in Nazi Germany
+History::Paper 2::Making of America
+History::Paper 3::Framlingham Castle
 ```
 
 ---

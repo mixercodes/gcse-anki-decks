@@ -1580,6 +1580,45 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "jH0uZjpa0B",
+                  "guid": "jH0uZjpa0B",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What type of error does a trace table reveal, and how do you use one to find a bug?",
+                    "A trace table reveals <b>logic errors</b> — the program runs without crashing but produces wrong output. (Syntax errors are caught by the interpreter/compiler before running.)<br><b>Method:</b> execute each line in order; only update a variable's column when that line changes its value; only record output when a print/output statement runs. The row where your expected value diverges from the program's actual output is where the bug is."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j2r1rQZdlX",
+                  "guid": "j2r1rQZdlX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Trace this algorithm (OCR J277 style). What is the full output and the final value of <code>start</code>?<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01  start = 3<br>02  do<br>03      print(start)<br>04      start = start - 1<br>05  until start == -1<br>06  print(\"Finished\")</pre>",
+                    "The loop body runs first, condition checked at the end — so it always executes at least once. Loop runs 4 times (start: 3→2→1→0→−1). When start reaches −1 the condition is True and the loop exits.<br><b>Full output:</b> 3 &nbsp; 2 &nbsp; 1 &nbsp; 0 &nbsp; Finished<br><b>Final value of start:</b> −1<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;margin-top:6px;\"><tr><th>Line</th><th>start</th><th>Output</th></tr><tr><td>01</td><td>3</td><td></td></tr><tr><td>03</td><td></td><td>3</td></tr><tr><td>04</td><td>2</td><td></td></tr><tr><td>03</td><td></td><td>2</td></tr><tr><td>04</td><td>1</td><td></td></tr><tr><td>03</td><td></td><td>1</td></tr><tr><td>04</td><td>0</td><td></td></tr><tr><td>03</td><td></td><td>0</td></tr><tr><td>04</td><td>-1</td><td></td></tr><tr><td>06</td><td></td><td>Finished</td></tr></table>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jQOCNP8lQm",
+                  "guid": "jQOCNP8lQm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Tracing a do...until loop: the condition is checked at the {{c1::end}}, so the body always executes {{c2::at least once}}. For <code>start = 3; do: print(start); start = start − 1; until start == −1</code> — the loop runs {{c3::4}} times, the final value of start is {{c4::−1}}, and the last line outputs {{c5::Finished}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "qrV9imYZnt",
                   "guid": "qrV9imYZnt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -5343,6 +5382,1605 @@
                   "fields": [
                     "What geographical skills are tested across all three papers?",
                     "OS map skills (grid references, scale, compass). Graph interpretation (bar, line, pie, scatter). Photograph analysis. Statistics (mean, median, mode, percentage change). Describing distributions and patterns. Evaluating data quality."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            }
+          ],
+          "notes": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "__type__": "Deck",
+      "crowdanki_uuid": "16d2b386-b203-4b94-8899-6466aaae0b57",
+      "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+      "desc": "",
+      "dyn": 0,
+      "extendNew": 0,
+      "extendRev": 0,
+      "name": "History",
+      "children": [
+        {
+          "__type__": "Deck",
+          "crowdanki_uuid": "209e885e-e832-39ab-0c22-a81ad1166a2f",
+          "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+          "desc": "",
+          "dyn": 0,
+          "extendNew": 0,
+          "extendRev": 0,
+          "name": "Paper 1",
+          "children": [
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "b73d7b51-0664-eb53-a03e-edd902a11009",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Norman Conquest",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pLUZeB2ZQv",
+                  "guid": "pLUZeB2ZQv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the key features of Anglo-Saxon England before 1066?",
+                    "Towns defended by royal burhs (fortified mud walls). Women had legal rights — could own land, claim fines for harassment, and divorce. Anglo-Saxons were known for engraving and metalwork (e.g. Alfred Jewel, Fuller Brooch). The Church used English not Latin; Archbishop Stigand practised pluralism (held multiple posts) — the Pope was unhappy."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bsIHMu8YNm",
+                  "guid": "bsIHMu8YNm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Anglo-Saxon England in January 1066: King {{c1::Edward the Confessor}} died on {{c2::5 January}} with no direct heir. On {{c3::6 January}}, {{c4::Harold Godwinson}} was crowned king by the Witan. Three other claimants: {{c5::Harald Hardrada}} (Norway), {{c6::Edgar the Atheling}} (blood-relative), and {{c7::William Duke of Normandy}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ueqfmnjTT3",
+                  "guid": "ueqfmnjTT3",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Battle of {{c1::Fulford}} took place on {{c2::20 September 1066}}. {{c3::Harald Hardrada}} and {{c4::Tostig}} (Harold's brother) defeated English earls {{c5::Edwin and Morcar}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bX01BxWNg6",
+                  "guid": "bX01BxWNg6",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Battle of {{c1::Stamford Bridge}} took place on {{c2::25 September 1066}}. Harold Godwinson marched north and defeated {{c3::Harald Hardrada}}. Tostig was killed. Harold {{c4::spared}} Hardrada's son {{c5::Olaf}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "s2vlLlb71x",
+                  "guid": "s2vlLlb71x",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did William win the Battle of Hastings (14 October 1066)?",
+                    "Harold's army was exhausted after marching south from Stamford Bridge. William used the feigned retreat trick — Normans pretended to flee, drawing English off the hill. Normans had stirrups, which allowed knights to fight effectively on horseback. Harold was killed (arrow in the eye or cut down by knights — shown in the Bayeux Tapestry). The English shield wall broke after hours of fighting."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j0uF9j0ykh",
+                  "guid": "j0uF9j0ykh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "After Hastings, William waited two weeks for the English to {{c1::surrender}}. Instead, the Witan elected {{c2::Edgar the Atheling}} as king. William decided to take control by force. He was crowned at {{c3::Westminster}} on {{c4::25 December 1066}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eucndX846b",
+                  "guid": "eucndX846b",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What happened during January–March 1067 (establishing control)?",
+                    "William wanted to calm the situation. He took land from English lords but let some buy it back. He built castles across East Anglia and gave them to loyal followers: William FitzOsbern in Norwich, Odo (Bishop of Bayeux) in the south-east at Dover. Then William returned to Normandy, taking Edwin, Morcar and Edgar with him as insurance."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g9vj4RmJbZ",
+                  "guid": "g9vj4RmJbZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "August 1067: {{c1::Edric the Wild}} of Mercia raided Herefordshire. He had lost his land in Shropshire to Normans. He allied with the {{c2::Welsh}}. William {{c3::did not leave Normandy}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bM6J568Miu",
+                  "guid": "bM6J568Miu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "1068: {{c1::Gytha}} (Harold's mother) began plotting with the {{c2::Irish}}. William marched to {{c3::Exeter}} in January. The townspeople promised to behave, then broke their word — William {{c4::gouged out hostages' eyes}}. May 1068: {{c5::Matilda}} was crowned queen.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rJlATVhePV",
+                  "guid": "rJlATVhePV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Harrying of the North took place in {{c1::winter 1069–70}}. William marched north and used a {{c2::scorched earth}} policy — burning crops, livestock and villages. Sixteen years later, the Domesday Book recorded these areas as still {{c3::wasteland}}. It caused widespread {{c4::starvation}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iSCdiI12U0",
+                  "guid": "iSCdiI12U0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The rebellion of {{c1::Ely}} (1070–71) was led by {{c2::Hereward the Wake}}, who joined with {{c3::Danes}} who had attacked Ely in June 1070. William crushed the rebellion in {{c4::1071}}. This was the last major English resistance to Norman rule.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jGeuFkvYDf",
+                  "guid": "jGeuFkvYDf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Normans change castles in England?",
+                    "Built many more — especially motte-and-bailey (wooden keep on a raised mound, surrounded by a bailey). Later replaced with stone. Key castles: Tower of London (started 1075–79), Castle Acre, Old Sarum. Castles served as military bases and symbols of Norman power and control."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "4VyPm4sJbT",
+                  "guid": "4VyPm4sJbT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Domesday Book}} was compiled in {{c2::1086}} on William's orders. It was a survey of all land, owners and values in England. By this date, only {{c3::5%}} of land was still owned by Englishmen. It showed William how much {{c4::tax}} he could collect.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lACATGnnOB",
+                  "guid": "lACATGnnOB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "New Norman laws: {{c1::Murdrum Fine}} — if a Norman was killed and the killer not found, the whole {{c2::local community}} was fined. {{c3::Forest Law}} — William claimed all forests as royal hunting land; poaching meant death. {{c4::Trial by combat}} replaced Anglo-Saxon oaths.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r9lxyLXgqy",
+                  "guid": "r9lxyLXgqy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "William replaced Archbishop {{c1::Stigand}} with {{c2::Lanfranc}}, a much stricter Norman archbishop. The Pope {{c3::approved}} the Conquest. William began rebuilding cathedrals — {{c4::Winchester, York, Canterbury, Ely}}. By 1087, only {{c5::10%}} of people lived in towns.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tjh5ZAL9L8",
+                  "guid": "tjh5ZAL9L8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the main rebellions against William after 1066 and who led them?",
+                    "Edric the Wild (Mercia, 1067). Gytha's rebellion (Exeter, 1068). Northern rebellions (1068–69) — Edwin, Morcar, Edgar the Atheling. Danish-backed revolt and Harrying of the North (1069–70). Hereward the Wake at Ely (1070–71). All were eventually crushed, with the North suffering most."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hSdsoCZ2Ic",
+                  "guid": "hSdsoCZ2Ic",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Who were the key individuals in the Norman Conquest and what roles did they play?",
+                    "Harold Godwinson: English king, killed at Hastings. Harald Hardrada: Viking claimant, killed at Stamford Bridge. Tostig: Harold's traitorous brother, killed at Stamford Bridge. William of Normandy: conqueror, became king. Edgar the Atheling: blood-claim but young, eventually submitted. Hereward the Wake: last rebel at Ely. Lanfranc: new Norman Archbishop, stricter than Stigand."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jVX97Gkwk5",
+                  "guid": "jVX97Gkwk5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Bayeux Tapestry shows Harold's death as an {{c1::arrow in the eye}} or being {{c2::cut down by Norman knights}}. It was made by the {{c3::Normans}} and so presents a {{c4::Norman perspective}} on the Conquest.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "e8cnKQ8gaJ",
+                  "guid": "e8cnKQ8gaJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the positive and negative changes brought by the Norman Conquest?",
+                    "Positive: beautiful stone churches and cathedrals built; Domesday Book created a clear record of land ownership; more organised feudal system. Negative: English lost their land and language; Harrying caused mass starvation in the North; harsh laws like Murdrum Fine and Forest Law; English culture (language, engraving) suppressed."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lANedUYsyr",
+                  "guid": "lANedUYsyr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the OCR Norman Conquest exam question types and their mark allocations?",
+                    "3-mark question: identify and explain one feature of an interpretation. 5-mark question: propose a further line of enquiry (must include a second-order concept). 12-mark question: compare two interpretations — what do they say? Why do they differ? 20-mark essay: 4 paragraphs + introduction + conclusion, agree/disagree structure."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "84eb2f7c-ca9c-2691-8e27-aa78f68a4193",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "People's Health",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uN8qY75QMA",
+                  "guid": "uN8qY75QMA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the four periods covered in People's Health and roughly what years do they cover?",
+                    "Medieval (1250–1500), Early Modern (1500–1750), Industrial (1750–1900), Modern (1900–present). The theme is continuity and change in living conditions and government responses to disease across these periods."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qfLw4hylwB",
+                  "guid": "qfLw4hylwB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were medieval towns like for ordinary people? (housing, water, waste, food)",
+                    "Housing: cramped, thatched, shared with animals (hovels). Smoke stayed inside; trades like tanning done indoors. Water: water sellers with leather sacks (went stagnant); conduits funded by monasteries; streams. Waste: cesspits emptied by gongfermers twice a year; rakers cleared streets; middens (waste heaps). Food: pottage (stew kept for days); rotten meat sold at markets; fresh fish/veg in the countryside."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "9doTufqyYC",
+                  "guid": "9doTufqyYC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Medieval water: in towns, water sellers used {{c1::leather sacks}} in which water quickly went {{c2::stagnant}}. Conduits (lead pipes) were often paid for by {{c3::monasteries}}. Most people collected water from {{c4::streams or rivers}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kdGZK3w7Ev",
+                  "guid": "kdGZK3w7Ev",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Medieval waste: {{c1::gongfermers}} emptied cesspits, usually only {{c2::twice a year}}. {{c3::Rakers}} swept the streets, but left them if too narrow. {{c4::Middens}} were waste heaps outside homes. Cesspits often {{c5::overflowed}} if not watertight.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lb0npaIdXO",
+                  "guid": "lb0npaIdXO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Black Death arrived in England in {{c1::1348}} and eventually killed about {{c2::one third}} of Europe's population. There were three forms: {{c3::bubonic}} (swellings/buboes), {{c4::septicaemic}} (blood), and {{c5::pneumonic}} (lungs).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ndHdpOTA7c",
+                  "guid": "ndHdpOTA7c",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What did medieval people believe caused the Black Death?",
+                    "Punishment from God for sin. Jews had poisoned the water. Miasma (bad-smelling air). Volcano fumes. The movement of planets. The four humours being out of balance."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cFVWIKqteV",
+                  "guid": "cFVWIKqteV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did individuals and the Church respond to the Black Death?",
+                    "Flagellants walked barefoot through streets whipping themselves to beg God's forgiveness. People tied live toads or chickens to their buboes. Others balanced the four humours by bloodletting. Rich people fled to the countryside to escape miasma. Sweet-smelling herbs were carried; candles were burned."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uQgjnrB4Uz",
+                  "guid": "uQgjnrB4Uz",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the government respond to the Black Death?",
+                    "There was no national government — the king and Church acted locally. Edward I ordered York to clean its streets (1301). Edward III ordered London to clear up (1349). No centralised laws were passed. Local towns made their own rules. These were largely ineffective."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "chQW3BXDNB",
+                  "guid": "chQW3BXDNB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Medieval improvements: in 1329 the {{c1::butcher's guild of Winchester}} was set up to check meat quality. In 1415 the Mayor of London ordered {{c2::public latrines}} to be rebuilt. In 1385 a {{c3::warden}} was hired to check the Thames was clean. These were {{c4::local}} not national responses.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cKkijPOUX1",
+                  "guid": "cKkijPOUX1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did living conditions change (or not) in the Early Modern period (1500–1750)?",
+                    "Some improvement: stone houses began replacing thatch for the wealthy; piped water arrived for the rich (1600s); flushing closet invented 1596. But for the poor: water sellers still common (now using barrels); cesspits still overflowed; main diet still pottage. Little changed for the majority."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "klVv0m0U1o",
+                  "guid": "klVv0m0U1o",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In the Early Modern period, {{c1::Henry VIII}} was the first monarch to issue national plague orders, requiring {{c2::40 days' isolation}} (1518). In 1578, {{c3::Elizabeth I}} introduced {{c4::17 Plague Orders}}, including burning victims' clothing, killing stray animals, and holding funerals after dusk. In 1604, James I added {{c5::hanging and whipping}} as punishments for ignoring plague orders.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vx6p580NVU",
+                  "guid": "vx6p580NVU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was the Gin Craze and why was it a public health problem?",
+                    "In the early 1700s, cheap gin flooded London. By the 1720s: crime increased, families fell into poverty, death rates rose (alcohol-related), babies were harmed by mothers drinking while pregnant. Hundreds of thousands drank gin as an escape from hardship."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r5fy0dflYi",
+                  "guid": "r5fy0dflYi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::1729, 1736 and 1743}} Gin Acts introduced taxes and licences for gin sellers but were {{c2::largely ineffective}} — the government did not enforce them and illegal gin shops flourished. The {{c3::1751}} Gin Act was much tougher: only people who paid rent and taxes could sell gin; illegal sellers faced {{c4::imprisonment and whipping}}, and gin drinking was hugely reduced.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kffMqay4lO",
+                  "guid": "kffMqay4lO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the key features of Industrial-era living conditions (1750–1900)?",
+                    "Housing: back-to-back houses; up to 8 people per room; lodging houses; cellars. Water: shared pumps serving up to 200 people; water drawn from polluted canals. Waste: shared privies over cesspools; 'night soil men' collected waste. Food: widespread adulteration (sawdust in bread, chalk in milk, copper in butter)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lqTJrTd79M",
+                  "guid": "lqTJrTd79M",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Cholera first arrived in Britain in {{c1::1831–32}}, killing {{c2::32,000}} people. A second epidemic in {{c3::1877}} killed {{c4::12,000}}. Symptoms were {{c5::fever, diarrhoea and vomiting}}. Most believed it was spread by {{c6::miasma}} (bad air).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sD0PcmUF8z",
+                  "guid": "sD0PcmUF8z",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In 1842, {{c1::Edwin Chadwick}} published a report linking {{c2::poverty and dirt}} to disease. This led to the {{c3::first Public Health Act in 1848}}, which set up a Central Board of Health. Chadwick argued that {{c4::clean water and sewers}} would reduce disease and poverty.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "269Eaha1Ps",
+                  "guid": "269Eaha1Ps",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In 1854, {{c1::John Snow}} investigated a cholera outbreak in {{c2::Soho, London}}. He mapped deaths and found they centred around the {{c3::Broad Street water pump}}. He persuaded the council to {{c4::remove the pump handle}}, ending the outbreak. He proved cholera was spread through {{c5::contaminated water}}, not miasma.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qw5C08gB3o",
+                  "guid": "qw5C08gB3o",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Great Stink}} of {{c2::1858}} made the smell from the River Thames so unbearable that Parliament could not sit. This forced the government to fund {{c3::Joseph Bazalgette}}'s sewer system — over {{c4::1,300 miles}} of sewers were built, cleaning up the Thames and reducing cholera.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pWUmKzmIKk",
+                  "guid": "pWUmKzmIKk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::1875 Public Health Act}} (under Disraeli) made it {{c2::compulsory}} for local authorities to provide clean water, sewers, and housing inspections. Unlike the {{c3::1848}} Act, which was voluntary, the 1875 Act had real {{c4::enforcement powers}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pHWT2b2Vv5",
+                  "guid": "pHWT2b2Vv5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "{{c1::Louis Pasteur}} developed germ theory in {{c2::1861}}, proving that {{c3::germs (microbes)}} — not miasma or bad air — caused disease. This was a turning point: governments could now target the {{c4::actual cause}} of disease rather than its symptoms.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tDinFwbbQS",
+                  "guid": "tDinFwbbQS",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What key improvements to public health were made in the industrial period (1750–1900)?",
+                    "1842: Chadwick's report on poverty and disease. 1848: first (voluntary) Public Health Act. 1854: John Snow identifies cholera waterborne source. 1858: Great Stink → Bazalgette's sewers. 1861: Pasteur's germ theory. 1867: working class men get the vote. 1875: second (compulsory) Public Health Act. 1860: Pure Food Act."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dARkbrVFFG",
+                  "guid": "dARkbrVFFG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Spanish Flu of {{c1::1918–19}} killed over {{c2::50 million}} people worldwide and over {{c3::228,000}} in the UK. Symptoms began as a common cold then became {{c4::pneumonia}}. The national government response was {{c5::limited}} — key action came from individuals like {{c6::Dr Niven}} in Manchester.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "c6Z0H4Uuse",
+                  "guid": "c6Z0H4Uuse",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Dr {{c1::Niven}} in Manchester: published detailed advice in {{c2::newspapers and cinemas}}; kept {{c3::detailed case records}} to track patterns; urged councils to {{c4::shut schools and theatres}}; praised NHS workers. Only {{c5::2,000}} died in Manchester — far fewer than London or Glasgow.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ekNUE6LdEW",
+                  "guid": "ekNUE6LdEW",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was the 'Homes for Heroes' initiative and who introduced it?",
+                    "After WW1, Lloyd George's government promised to build council houses ('Homes for Heroes') for returning soldiers. Back-to-back housing was banned in 1909 and removed by 1919. However, Margaret Thatcher sold off council houses in the 1980s — they passed to private landlords who often failed to maintain hygiene standards."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vpyw7gjvwm",
+                  "guid": "vpyw7gjvwm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the five phases of society's response to AIDS in Britain?",
+                    "1. Growing awareness (1970s–1983): deaths reported, Terrence Higgins Trust set up. 2. Growing alarm (1984–85): fear, firemen stopped giving mouth-to-mouth, schools withdrew pupils. 3. Growing understanding (1986–87): clean needle programmes, Princess Diana shook hands with AIDS patients. 4. Growing acceptance (1988–95): Freddie Mercury concert raised £20 million. 5. Growing complacency (1996+): anti-retrovirals led people to believe AIDS was curable."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eaCvJJz270",
+                  "guid": "eaCvJJz270",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In {{c1::1987}}, {{c2::Princess Diana}} visited an AIDS clinic and shook hands with a patient, proving AIDS was {{c3::not spread by touch}}. This broke the social stigma and created widespread publicity. In {{c4::1992}}, a tribute concert for Freddie Mercury raised {{c5::£20 million}} for AIDS research.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kWFVXD6wQ7",
+                  "guid": "kWFVXD6wQ7",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In {{c1::1996}}, scientists developed {{c2::anti-retroviral}} drugs that slowed the development of AIDS in HIV-positive patients. As a result, the government {{c3::relaxed its campaigns}}, leading to {{c4::growing complacency}}. By 2009, over {{c5::100,000}} people in Britain had HIV.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gHdHiqBrg8",
+                  "guid": "gHdHiqBrg8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does RARE stand for in the context of Nazi Germany's impact on the German people? (Also used in People's Health for 20th century analysis)",
+                    "Rationing, Area bombing, Refugees, Employment. A framework for analysing the impact of Total War (WW2) on Germany — or used by teachers to structure analysis of modern public health impacts."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rjCFBCU1ic",
+                  "guid": "rjCFBCU1ic",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the key second-order concepts used in OCR History People's Health essays?",
+                    "Cause, Consequence, Change, Continuity, Significance, Diversity (Typicality). Always name which concept you are using — e.g. 'this shows continuity because...' or 'a consequence of this was...'. The 9-mark summary question requires at least two different second-order concepts."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "__type__": "Deck",
+          "crowdanki_uuid": "18411e8a-7cf8-c3de-0c03-f5dcebc91ded",
+          "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+          "desc": "",
+          "dyn": 0,
+          "extendNew": 0,
+          "extendRev": 0,
+          "name": "Paper 2",
+          "children": [
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "239fb2e1-8352-1df8-1fdc-3647dc00abf4",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Life in Nazi Germany",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fmmQ5bFcqw",
+                  "guid": "fmmQ5bFcqw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What key events between 1918 and 1933 helped Hitler rise to power?",
+                    "1918: Armistice — 'Stab in the Back' myth. 1919: Treaty of Versailles — punishments humiliated Germany. 1919: Hitler joins DAP (German Workers' Party). 1920: 25 Point Programme. 1923: Hyperinflation crisis. 1923: Munich Putsch — failed coup, Hitler jailed. 1925: Mein Kampf published. 1929: Wall Street Crash → Great Depression → 6 million unemployed. January 1933: Hitler appointed Chancellor."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fXsd9hxtk0",
+                  "guid": "fXsd9hxtk0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Hitler became {{c1::Chancellor}} of Germany in {{c2::January 1933}}. The Reichstag (parliament building) was set on fire on {{c3::27 February 1933}} — the Nazis blamed the {{c4::Communists}}. This was used to justify banning communists and calling new elections on {{c5::5 March 1933}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mHPZbzxmv0",
+                  "guid": "mHPZbzxmv0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Enabling Act}} was passed on {{c2::24 March 1933}}. It gave Hitler the power to {{c3::pass laws without consulting the Reichstag}} for four years. This made him a dictator. Trade unions were banned on {{c4::2 May 1933}}. All political parties were banned in {{c5::July 1933}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hrVkgWodms",
+                  "guid": "hrVkgWodms",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Night of the Long Knives took place on {{c1::29–30 June 1934}}. Hitler had the leaders of the {{c2::SA (Sturmabteilung)}} killed, including {{c3::Ernst Röhm}}. This removed a rival power base and reassured the {{c4::army}}. After this, Hitler was seen as above the law.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oBuToqFPuo",
+                  "guid": "oBuToqFPuo",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "President Hindenburg died on {{c1::2 August 1934}}. Hitler immediately combined the roles of {{c2::Chancellor and President}}, calling himself {{c3::der Führer}} (the Leader). The army swore an oath of personal loyalty {{c4::to Hitler}} (not Germany) on {{c5::August 1934}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kjOtijl5hA",
+                  "guid": "kjOtijl5hA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Nazis control Germany through fear?",
+                    "SS (Schutzstaffel): Hitler's personal bodyguard and elite force — ran concentration camps. SD (Sicherheitsdienst): Nazi intelligence service. Gestapo: secret state police — used informers and torture; 26% of cases came from public denunciations. People's Court: dealt with political crimes; unfair trials. Concentration camps: first opened March 1933; held political opponents."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gd03ZQDq6L",
+                  "guid": "gd03ZQDq6L",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Gestapo had very few officers — they relied on the public to {{c1::inform on their neighbours}}. In Düsseldorf, {{c2::26%}} of cases came from the {{c3::general public}}. Despite Nazi propaganda suggesting agents were {{c4::everywhere}}, the reality was that Germans {{c5::informed on each other}} voluntarily.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g6yfNmkMJw",
+                  "guid": "g6yfNmkMJw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Nazis control Germany through propaganda?",
+                    "Goebbels ran the Ministry of Propaganda. Controlled: all radio stations (taken over 1934), newspapers, cinema, art, music, theatre, school curriculum. Rallies like Nuremberg used spectacle and emotion. Public loudspeakers broadcast Hitler's speeches in workplaces, shops and pubs. Key message: national pride, anti-Semitism, racial purity."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "imsAR8QH7D",
+                  "guid": "imsAR8QH7D",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Who opposed the Nazis between 1933 and 1939, and how effective were they?",
+                    "Social Democrats and Communists: forced underground; had limited impact. Christians for/against: Concordat 1933 initially silenced Catholics; 1937 Papal Encyclical 'With Burning Anxiety' opposed the Nazis. Swing Kids: rejected Nazi music for jazz; minor youth rebellion. Edelweiss Pirates: youth groups who fought Hitler Youth and sang anti-Nazi songs — not organised enough to threaten the regime."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eGgLFqFdhq",
+                  "guid": "eGgLFqFdhq",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What did the Nazis want from German workers, and what was the reality?",
+                    "Wanted: full employment, loyalty, productivity. Did: Strength Through Joy (cheap holidays, leisure), Beauty of Labour (improve workplaces), abolish trade unions. Results: unemployment fell from 6 million (1933) to near zero (1938). BUT: workers had no rights, could not strike, wages were controlled. Standard of living for workers was mixed."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rnofvrLorl",
+                  "guid": "rnofvrLorl",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Nazi policies towards women: marriage loans of up to {{c1::1,000 Reichsmarks}} offered to Aryan couples — reduced by {{c2::a quarter}} for each child born. The {{c3::Honour Cross of the German Mother}} was awarded: {{c4::bronze}} for 4–5 children, {{c5::silver}} for 6–7, {{c6::gold}} for 8+.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "d8YCi7Gz85",
+                  "guid": "d8YCi7Gz85",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Nazi women policies: the number of marriages {{c1::increased}} from 516,000 (1932) to 772,000 (1939). But women in employment {{c2::also increased}} — in agriculture from 4.6 million to {{c3::4.9 million}}; in industry from 2.7 to {{c4::3.3 million}}. Female university enrolment was capped at {{c5::10%}}. The Nazis' aims for women were {{c6::largely unsuccessful}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uUNAN7fzw8",
+                  "guid": "uUNAN7fzw8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Nazis control young people through education and youth groups?",
+                    "Schools: all teachers had to join the National Socialist Teachers League (1933); curriculum pushed Nazi ideology in every subject (e.g. maths problems about racial 'impurity'). Youth groups: Hitler Youth (boys 10–18) and League of German Maidens (BDM, girls) — cheap holidays, hikes, sports, Nazi songs. Membership was compulsory from 1936. Some children informed on parents to the Gestapo."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "u1gxz2yyMR",
+                  "guid": "u1gxz2yyMR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Nuremberg Laws}} were passed in {{c2::1935}}. They stripped German Jews of {{c3::citizenship}} and banned marriage or sexual relations between Jews and {{c4::Aryans}}.{{c5::Kristallnacht}} (Night of Broken Glass) occurred on {{c6::9–10 November 1938}}: Jewish businesses, synagogues and homes were attacked; around {{c7::100}} Jews were killed and {{c8::30,000}} arrested.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kHgvxaxSQl",
+                  "guid": "kHgvxaxSQl",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the stages of Nazi persecution of Jews leading to the Final Solution?",
+                    "1933–38: boycotts, civil service sackings, Nuremberg Laws. 1938: Kristallnacht. First solution (1938–39): forced emigration. Second solution (1939–41): concentration in ghettos (e.g. Warsaw). 1941: Einsatzgruppen (mobile killing units) followed the army into the Soviet Union. 1942: Wannsee Conference planned the Final Solution. Death camps set up in Eastern Europe (e.g. Auschwitz, Treblinka)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sVBbLpmsPu",
+                  "guid": "sVBbLpmsPu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did World War II affect Germany in its early stages (1939–42)?",
+                    "Initially positive: Germany gained food, raw materials from conquered territory. 2/5 Germans actually ate better due to rationing. Luxury goods imported (mostly to senior Nazis). But: coal shortages in winter 1940; rationing queues; children evacuated; up to 4 air raids a week."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "h4QTMQEwZf",
+                  "guid": "h4QTMQEwZf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "{{c1::Albert Speer}} was put in charge of the German war economy in {{c2::1942}}. He reorganised production and increased output. {{c3::Total War}} was declared in {{c4::February 1943}} after the German defeat at {{c5::Stalingrad}}, requiring all resources to be focused on the war effort.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iSdDlQZRev",
+                  "guid": "iSdDlQZRev",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Use the RARE framework to analyse the impact of WW2 on Germans: {{c1::R}}ationing (diets became bread, potato, preserves by 1945), {{c2::A}}rea bombing (500,000 Berliners homeless by Nov 1943; 400,000 Germans killed in raids 1943–45), {{c3::R}}efugees (11 million ethnic Germans expelled by 1945), {{c4::E}}mployment (7.6 million forced foreign workers; elderly and Hitler Youth conscripted 1944).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pBn7PhQ2NX",
+                  "guid": "pBn7PhQ2NX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Who opposed the Nazis during World War II and how effective were they?",
+                    "White Rose (Munich University, 1942–43): Hans and Sophie Scholl distributed anti-Nazi leaflets; arrested and executed February 1943. July Bomb Plot (1944): senior military officers tried to assassinate Hitler; failed; 5,000 executed. Rosenstrasse (February 1943): German women protested for release of Jewish husbands; succeeded. Cardinal Galen (1941): publicly condemned Nazi euthanasia programme. Passive resistance: absenteeism, spreading rumours, listening to BBC."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "zC3A229mj4",
+                  "guid": "zC3A229mj4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Nazis treat occupied Poland and the Netherlands differently?",
+                    "Poland: first country occupied (1939); 500,000 Germans moved in, Poles moved out; Hans Frank ruled by terror; 1.9 million Poles killed; 3 of 3.5 million Polish Jews murdered; extermination camps built. Netherlands (occupied May 1940): Dutch seen as Aryan, so no mass murder; no German resettlement; but Dutch Jews still deported 1943; 500,000 Dutch workers sent to Germany as forced labour."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qBGdCwig3n",
+                  "guid": "qBGdCwig3n",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the OCR Nazi Germany exam question types and mark allocations?",
+                    "7-mark source question: analyse usefulness of one source (content, origin, purpose). 15-mark question: analyse two sources and one interpretation. 18-mark essay: 4 paragraphs + one-sentence intro + conclusion. Each paragraph starts 'I agree/disagree because…'. Always include specific facts and link back to the question."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tve6MZfFC1",
+                  "guid": "tve6MZfFC1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Key Nazi Germany chronology: 1918 {{c1::Armistice}}; 1919 {{c2::Treaty of Versailles}}; 1923 {{c3::Munich Putsch}}; Jan 1933 {{c4::Chancellor}}; Feb 1933 {{c5::Reichstag Fire}}; March 1933 {{c6::Enabling Act}}; June 1934 {{c7::Night of the Long Knives}}; Aug 1934 {{c8::Hindenburg dies → Führer}}; 1935 {{c9::Nuremberg Laws}}; Nov 1938 {{c10::Kristallnacht}}; Sept 1939 {{c11::invasion of Poland}}; 1942 {{c12::Wannsee Conference}}; July 1944 {{c13::Bomb Plot}}; April 1945 {{c14::Hitler's suicide}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            },
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "87045a3b-9d39-4ed1-fa71-b0e3306d1d31",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Making of America",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "p7Ax5bNSOe",
+                  "guid": "p7Ax5bNSOe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the structure of Making of America and what period does it cover?",
+                    "The Making of America, 1789–1900. Covers: American expansion 1789–1838 (Constitution, slavery, Indian removal); The West 1839–60 (Plains Indians, migration, gold rush); Civil War and Reconstruction 1861–77; Settlement and conflict on the Plains 1861–77; American cultures 1877–1900 (changing lives of Plains Indians and Black Americans)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nEnJG1nE7s",
+                  "guid": "nEnJG1nE7s",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Constitution}} set out the rules for how the USA would be governed. The country was divided into {{c2::states}} (fully governed) and {{c3::territories}} (not yet states). The {{c4::Louisiana Purchase}} in {{c5::1803}} — President Jefferson bought the Louisiana colony from France for {{c6::$15 million}}, doubling the size of the USA.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oyfmMOAWWk",
+                  "guid": "oyfmMOAWWk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In 1793, {{c1::Eli Whitney}} invented the {{c2::cotton gin}}, which could process cotton {{c3::50 times faster}} than by hand. This led to a massive expansion of cotton production in the South and a huge increase in demand for {{c4::enslaved people}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ohkrHQBPFi",
+                  "guid": "ohkrHQBPFi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In 1820, the {{c1::Missouri Compromise}} agreed that slavery would not be allowed {{c2::north and west of Missouri}}. This temporarily resolved tensions between North and South. Only {{c3::25%}} of Southerners owned slaves; by 1820, cotton made up {{c4::42%}} of all US exports.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "l43mi7Yuzc",
+                  "guid": "l43mi7Yuzc",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were conditions like for enslaved people in the Cotton Kingdom?",
+                    "The 'pushing system' forced enslaved people to farm more land each year (5 acres in 1805; 10 acres in 1850). Families were separated at slave auctions. A healthy 18-year-old male could sell for $900–$1,100 in New Orleans. Between 1815 and 1820, 2,646 children under 13 were sold in New Orleans alone. Women were searched naked to check fertility."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "s1XXFJp7dI",
+                  "guid": "s1XXFJp7dI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "New Orleans was the centre of the {{c1::Cotton Kingdom}}. It {{c2::tripled}} in size between 1803 and 1819, becoming the {{c3::4th largest}} city in the USA. Land {{c4::speculators}} (often from the North) bought land in new territories hoping to make profits by running {{c5::plantations}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kWs5VhHj6l",
+                  "guid": "kWs5VhHj6l",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Indian Removal Act}} was passed by President {{c2::Andrew Jackson}} in {{c3::1830}}. It moved the {{c4::Five Civilised Tribes}} (Cherokee, Creek, Choctaw, Chickasaw, Seminole) from the south-east to {{c5::Indian Territory}} west of the Mississippi.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nyloPHhJkf",
+                  "guid": "nyloPHhJkf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Trail of Tears}} (1838): the US army forced {{c2::18,000}} Cherokee into concentration camps, then marched them to Indian Territory. Over {{c3::4,000}} died. The {{c4::Seminole}} refused to leave and fought a costly war — the US spent {{c5::$40–60 million}}; the army killed Seminole chief {{c6::Osceola}} in 1842.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qkTpOjjkGh",
+                  "guid": "qkTpOjjkGh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was the culture of the Plains Indians (focus on Lakota Sioux)?",
+                    "Nomadic lifestyle — followed the buffalo for food, clothing, shelter (tepees). Leadership by councils of elders and chiefs; decisions made by consensus. Buffalo sacred — used for everything (food, clothing, tools, fuel). Believed land could not be owned — it belonged to everyone. Warfare was about honour (counting coup), not conquest. Clashed fundamentally with white American values."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gwXO6ounwi",
+                  "guid": "gwXO6ounwi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "{{c1::Manifest Destiny}} was the belief that it was America's God-given duty to expand westward across the continent. This justified white settlement on Indian lands. The {{c2::Pre-emption Act of 1841}} gave farmers who cleared land and built a house in Oregon the {{c3::first right to buy}} it.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "VtJDgBo7R4",
+                  "guid": "VtJDgBo7R4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Mormons settled in {{c1::Salt Lake City, Utah}} in {{c2::1847}} after their leader {{c3::Brigham Young}} had a vision. They succeeded because: Young's leadership was {{c4::unquestioned}} (seen as God's link); land was {{c5::centrally divided by the Church}} (not privately owned); they built {{c6::irrigation ditches}} immediately to allow farming.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pRcHugLffK",
+                  "guid": "pRcHugLffK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Gold was discovered in {{c1::California}} in {{c2::1848}}. The 'Gold Rush' brought {{c3::thousands}} of miners West in 1849. This led to conflict with Plains Indians as migration routes crossed their lands. The Fort Laramie Treaty of {{c4::1851}} gave Plains tribes compensation for damage to hunting grounds in return for allowing safe routes through.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ccLCm3gKSI",
+                  "guid": "ccLCm3gKSI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the causes of the American Civil War (1861–65)?",
+                    "North–South economic/cultural divide (industrial North vs agricultural, slave South). Abolitionist pressure (Garrison, Douglass, Tubman, Beecher-Stowe). Missouri Compromise 1820 — uneasy truce. Clay Compromise 1850 — free states must return escaped slaves. Kansas-Nebraska Act 1854 — popular sovereignty on slavery → 'Bleeding Kansas'. Republican Party founded as anti-slavery party. Lincoln elected president 1860 — South Carolina seceded immediately. Fort Sumter attacked 12 April 1861 → war declared."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "utwbwkC7On",
+                  "guid": "utwbwkC7On",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Kansas-Nebraska Act 1854}} overturned the Missouri Compromise and allowed territories to vote on slavery ('{{c2::popular sovereignty}}'). This led to violent clashes known as '{{c3::Bleeding Kansas}}'. It led to the founding of the {{c4::Republican Party}} as an anti-slavery party.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qeTjTZYHap",
+                  "guid": "qeTjTZYHap",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "{{c1::Abraham Lincoln}} was elected President in {{c2::November 1860}}. {{c3::South Carolina}} seceded immediately; six more states followed. They formed the {{c4::Confederacy}}. On {{c5::12 April 1861}}, Confederate forces fired on {{c6::Fort Sumter}}; Lincoln declared war three days later.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rB9rfrhGWP",
+                  "guid": "rB9rfrhGWP",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Key abolitionists: {{c1::William Lloyd Garrison}} created the newspaper 'The Liberator' (1830) and the National Anti-Slavery Society (1833). {{c2::Frederick Douglass}} was a freed slave who lectured about slavery's horrors. {{c3::Harriet Tubman}} helped thousands escape via the Underground Railroad. {{c4::Harriet Beecher-Stowe}} published 'Uncle Tom's Cabin' in 1851, selling over {{c5::2 million}} copies.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "litgRysapM",
+                  "guid": "litgRysapM",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was the experience of Black Americans during the Civil War (1861–65)?",
+                    "Before 1861: in North, free but few rights; in South, enslaved. 1862: some escaped slaves used as labourers by Union army. 1863: Emancipation Proclamation freed slaves in Confederate states. Black regiments formed but initially: no equal pay; no officer roles; race riots in Northern cities. By war's end: 180,000 Black soldiers served in the Union army; gained citizenship rights in principle."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "knZFlJYwId",
+                  "guid": "knZFlJYwId",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Emancipation Proclamation}} (January 1863) freed enslaved people in the {{c2::Confederate states}}. The {{c3::13th Amendment}} (1865) abolished slavery throughout the USA. The {{c4::14th Amendment}} (1868) granted citizenship to all people born in the USA. The {{c5::15th Amendment}} (1870) gave Black men the right to vote.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jEot9f6EBT",
+                  "guid": "jEot9f6EBT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What happened during Reconstruction (1865–77) and how limited was the progress?",
+                    "Freedmen's Bureau set up to help formerly enslaved people. Land given to Black families in Sea Islands, South Carolina. Missionaries taught reading and writing. BUT: sharecropping replaced slavery economically — freed people farmed land in exchange for a share of the crop (remained in poverty). KKK used terror to stop Black people voting. By 1877, federal troops withdrew and Southern states rolled back rights."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lsJCkrdC2x",
+                  "guid": "lsJCkrdC2x",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Little Crow's War (1862): the Santee Sioux were {{c1::starving}} on their reservation in Minnesota. When Little Crow asked for food, a white trader said '{{c2::let them eat grass}}'. The Sioux attacked whites; the trader was found dead with his {{c3::mouth stuffed with grass}}. {{c4::38}} Santee Sioux were hanged before a cheering crowd.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "n3NZq0QocM",
+                  "guid": "n3NZq0QocM",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sand Creek Massacre ({{c1::1864}}): US soldiers attacked a peaceful Cheyenne and Arapaho camp led by {{c2::Black Kettle}}, killing around {{c3::150–200}} people including women and children. Key word: {{c4::guns}} — the US army used superior firepower against a peaceful group.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bhkSGCRsxm",
+                  "guid": "bhkSGCRsxm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Red Cloud's War (1866–68): the Lakota Sioux, led by {{c1::Red Cloud}}, fought to close the {{c2::Bozeman Trail}} through their hunting lands. The US army was forced to sign the {{c3::Fort Laramie Treaty 1868}}, abandoning the trail. Key word: {{c4::gold}} — miners used the trail to reach Montana gold fields.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j0ik7bEXBO",
+                  "guid": "j0ik7bEXBO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Great Sioux War (1876–77): Lieutenant Colonel {{c1::Custer}} and 260 soldiers were defeated at the {{c2::Battle of Little Bighorn}} (1876) by Sioux led by {{c3::Sitting Bull}} and Crazy Horse. Key word: {{c4::Sitting Bull's vision}} — he saw soldiers falling like grasshoppers. Despite this victory, the Sioux were eventually forced onto reservations.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lvToYdRn6O",
+                  "guid": "lvToYdRn6O",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The {{c1::Dawes Act 1887}} broke up Indian reservations into individual plots of land. Indians who farmed their plots and 'behaved' could become US citizens. It destroyed {{c2::tribal culture}} and benefitted {{c3::white land speculators}}, who bought 'surplus' reservation land. {{c4::Carlisle Indian School}} was one of many boarding schools that forcibly assimilated Indian children, banning their language and culture.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oXNMXgloye",
+                  "guid": "oXNMXgloye",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What happened to Black Americans in the period 1877–1900?",
+                    "Reconstruction ended 1877 — federal troops withdrew; Southern states introduced Jim Crow laws (segregation). Sharecropping kept most Black Southerners in poverty. Lynching increased — KKK used terror. Exodusters: around 40,000 Black Americans moved to Kansas in 1879, escaping Southern violence. Booker T. Washington argued for gradual progress through education and work."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "v7TMnqbgWj",
+                  "guid": "v7TMnqbgWj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the OCR Making of America exam question types and mark allocations?",
+                    "1-mark questions (×3): give a specific fact — very short answers. 9-mark summary: analyse a topic with examples; use two different second-order concepts. 10-mark 'why/impact' question: 3–4 bullet-point paragraphs + one-sentence conclusion; always answer WHY, not just narrate events. 18-mark essay: 4 paragraphs + introduction + conclusion; argue a clear agree/disagree."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                }
+              ]
+            }
+          ],
+          "notes": []
+        },
+        {
+          "__type__": "Deck",
+          "crowdanki_uuid": "47d696f3-1a6a-3652-618c-6e1e982012bb",
+          "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+          "desc": "",
+          "dyn": 0,
+          "extendNew": 0,
+          "extendRev": 0,
+          "name": "Paper 3",
+          "children": [
+            {
+              "__type__": "Deck",
+              "crowdanki_uuid": "c51220a4-98ce-8e3c-1364-c9b0972b05eb",
+              "deck_config_uuid": "a1b2c3d4-0001-0001-0001-000000000002",
+              "desc": "",
+              "dyn": 0,
+              "extendNew": 0,
+              "extendRev": 0,
+              "name": "Framlingham Castle",
+              "children": [],
+              "notes": [
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "raGXuFMW1m",
+                  "guid": "raGXuFMW1m",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Who were the Bigods and why did they choose Framlingham?",
+                    "Roger Bigod I was granted the manor in 1101 by Henry I. Framlingham was already a reasonably sized town (600 people, worth £44 in the Domesday Book). It had a Saxon settlement and was a strategic location. Roger likely built a timber fortress overlooking the mere. The Bigods became Earls of Norfolk — one of the most powerful noble families in England."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vf6KENJyrF",
+                  "guid": "vf6KENJyrF",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Hugh Bigod (1st Earl of Norfolk) made changes to his father's timber fortress: a {{c1::stone chamber block}} with {{c2::2}} storeys, {{c3::fireplaces and stone chimneys}} (2 survive today), a large {{c4::timber hall}} for feasting, and a {{c5::chapel}}. The {{c6::chapel window}} in the curtain wall still survives. Hugh later sided with {{c7::Empress Matilda}} against King Stephen, so Henry II had the castle destroyed in {{c8::1175}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mLXdPERmub",
+                  "guid": "mLXdPERmub",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Roger Bigod II rebuilt Framlingham from {{c1::1189}} under King Richard I. He built the massive {{c2::stone curtain wall}} we see today. In {{c3::1213}} he hosted King John at the castle. He was among the barons who forced King John to sign the {{c4::Magna Carta}} in {{c5::1215}}. As punishment, King John {{c6::besieged}} Framlingham and seized it in {{c7::1216}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "k55rkGjvso",
+                  "guid": "k55rkGjvso",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the key physical features of the Bigod curtain wall at Framlingham?",
+                    "Built c.1190. Stands 10.5m high and 2.3m thick. Built from local flint and septaria stone. 13 towers rising 3.8m above the wall walk — backless (no enclosed interior). Arrow loops for archers. Holes for wooden shutters. Crenellations at the top. Wall walk wide enough for two people to pass."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jewrMcsBpR",
+                  "guid": "jewrMcsBpR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the key defensive features Roger Bigod II added to Framlingham?",
+                    "Two deep dry ditches around the castle (not water-filled) — to prevent tunnelling and make the walls look more intimidating. Gatehouse with drawbridge and portcullis (portcullis slot still visible; actual portcullis gone). Well 30m deep near the gate — essential for withstanding a siege. All visible from the castle today."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kpzJcc5jCb",
+                  "guid": "kpzJcc5jCb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Framlingham's {{c1::well}} is {{c2::30m}} deep and located near the gate. It was essential in times of {{c3::siege}} for fresh water and sanitation. The {{c4::gatehouse}} still shows the {{c5::portcullis slot}} above the gate-tower, but the portcullis itself is {{c6::gone}}. The latrines expelled waste down chutes through the curtain wall — an example survives on {{c7::Tower 13}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qgphBdtVGJ",
+                  "guid": "qgphBdtVGJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Great Hall was built by {{c1::Roger Bigod II}} for dining and entertaining, including {{c2::King John}} in 1213. It was located where the {{c3::poorhouse}} building now stands and would have been open to the roof with an open {{c4::hearth}}. Today only {{c5::wooden beam holes}} in the curtain wall survive to show where it stood.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tRtMw4b9LV",
+                  "guid": "tRtMw4b9LV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did the Howard family come to own Framlingham and what changes did they make?",
+                    "John Howard was made Duke of Norfolk in 1483 by Richard III. After the Battle of Bosworth (1485) the castle briefly passed to John de Vere. Thomas Howard I recovered it from 1489, becoming a leading Tudor courtier. The Howards added: decorative brick chimneys (both functional and fake, imitating Hampton Court style), wider gatehouse, red brick buildings, a bridge to pleasure gardens. Thomas Howard I died at Framlingham aged 80 in 1524."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jTVcRLu7XX",
+                  "guid": "jTVcRLu7XX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The Howard chimneys at Framlingham were built to imitate the style of {{c1::Hampton Court}}, Henry VIII's palace. Some chimneys are {{c2::functional}} (attached to fireplaces) and some are {{c3::fake}} (built purely for show). This shows the Howards were keen to display {{c4::wealth and power}} and their links to {{c5::Henry VIII}}. Thomas Howard promoted two nieces as Henry's wives: {{c6::Anne Boleyn}} (2nd wife) and {{c7::Catherine Howard}} (5th wife) — both were beheaded.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qvnhY6PY2Q",
+                  "guid": "qvnhY6PY2Q",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In {{c1::1552}}, Framlingham was given to {{c2::Mary Tudor}} in Henry VIII's will. When Edward VI died in {{c3::1553}}, he tried to make {{c4::Lady Jane Grey}} queen. Mary fled to Framlingham and on {{c5::12 July 1553}} raised her standard and rallied her troops. By {{c6::19 July}} the Privy Council accepted her as queen. She was the first {{c7::Queen Regnant}} of England.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vKjoPgNSz1",
+                  "guid": "vKjoPgNSz1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did Framlingham change under Elizabeth I (1558–1603)?",
+                    "The fourth Howard duke (Elizabeth's relative through Anne Boleyn) was initially the premier nobleman. But he was executed in 1572 for plotting to marry Mary Queen of Scots. Framlingham passed back to the Crown. By 1580 the Great Park was turned into fields. From 1580 the castle was used as a prison — by 1600 it held 40 Roman Catholic priests and recusants. A 1589 survey estimated £100 of urgent repairs were needed."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iU7vrQW9Is",
+                  "guid": "iU7vrQW9Is",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sir {{c1::Robert Hitcham}} bought Framlingham in {{c2::1635}} for £{{c3::14,000}}. He came from humble origins but became a lawyer to {{c4::James I}} and an MP for Suffolk. In his will he instructed that 'all the castle, saving the {{c5::stone walls}}, be pulled down' and a {{c6::poorhouse}} built. Pembroke College, {{c7::Cambridge}} was left the castle on the condition they carried out his wishes.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "sqpeYokVjE",
+                  "guid": "sqpeYokVjE",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What happened to the poorhouse at Framlingham (1635–1839)?",
+                    "Hitcham died 1636; legal wrangling delayed action. Almshouses built 1654; Red House erected soon after. 1666: plague struck Framlingham; castle buildings used as isolation wards. Funds mismanaged; poorhouse closed temporarily. 1699: failed attempt to re-establish poorhouse for children. 1729: new poorhouse built on site of medieval Great Hall with parish funds. Housed adults and children until 1839, when poor were moved to Wickham Market workhouse. Building became a parish hall — now a tourist attraction run by English Heritage."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ho0Z3JQ8Do",
+                  "guid": "ho0Z3JQ8Do",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How is Framlingham typical or atypical compared to other castles?",
+                    "Typical: curtain wall of local flint and septaria stone similar to Orford Castle (12 miles away, also built c.1166–73); both built as baronial power bases; both had ditches and gatehouses. Atypical: Framlingham has no keep (shell keep or stone tower) — unusual for a Norman castle; it has 13 backless towers (no enclosed rooms). Unlike many castles, Framlingham never fell out of use — it served as castle, prison, and poorhouse continuously."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vmROXVIuO9",
+                  "guid": "vmROXVIuO9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the key exam question themes for the OCR Historical Environment paper (Framlingham)?",
+                    "(a) Reasons for location. (b) When/why first created. (c) Ways the site has changed over time. (d) How the site has been used throughout its history. (e) Diversity of activities and people. (f) Reasons for changes. (g) Significant times: peak activity, turning points. (h) Significance of specific physical features. (i) Local or national importance. (j) Typicality vs other sites. (k) What the site reveals about attitudes and values in particular periods."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uNRDVm41Zx",
+                  "guid": "uNRDVm41Zx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the main periods and owners of Framlingham Castle in chronological order?",
+                    "1101–1216: Bigod family (Roger I, Hugh, Roger II). 1216: King John seizes it after Magna Carta siege. 1483–1547: Howard family (John, Thomas I, Thomas II). 1547: Crown (Edward VI). 1552–58: Mary Tudor. 1558–72: Fourth Howard duke, then Crown again. 1580s–1603: Prison under Elizabeth I. 1635: sold to Robert Hitcham. 1636 onwards: poorhouse under Pembroke College, Cambridge. 1839: poorhouse closes. Now: English Heritage tourist site."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hyY6vUh638",
+                  "guid": "hyY6vUh638",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What OCR exam technique is needed for the Framlingham 20-mark question?",
+                    "Always name your site and period in the first line. Use specific physical features with precise detail (e.g. '10.5m high', '13 towers', 'portcullis slot'). Explain what the feature reveals — what it tells us about attitudes, priorities, or events. Address challenges and benefits of using the physical remains. Link physical features to wider history (e.g. chimneys = imitating Hampton Court = Howard ambition). End with a conclusion that directly answers the question."
                   ],
                   "flags": 0,
                   "tags": [],

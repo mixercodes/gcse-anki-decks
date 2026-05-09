@@ -1,6 +1,6 @@
 # GCSE Revision — Anki Decks
 
-**1124 flashcards** across five subjects.
+**1238 flashcards** across six subjects.
 
 ---
 
@@ -59,6 +59,15 @@ Repeat the same import — CrowdAnki matches cards by GUID, so your review histo
 |---|---|
 | Paper 1 — Computer Systems | 94 |
 | Paper 2 — Computational Thinking, Algorithms and Programming | 81 |
+
+### History — OCR (J411, History B — Schools History Project)
+| Topic | Cards |
+|---|---|
+| Paper 1 — People's Health (c.1250–present) | 29 |
+| Paper 1 — Norman Conquest (1065–1087) | 20 |
+| Paper 2 — Life in Nazi Germany | 22 |
+| Paper 2 — Making of America (1789–1900) | 26 |
+| Paper 3 — Historical Environment: Framlingham Castle | 17 |
 
 ---
 
