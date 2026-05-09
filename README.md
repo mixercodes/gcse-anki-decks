@@ -1,6 +1,6 @@
 # GCSE Revision — Anki Decks
 
-**1238 flashcards** across six subjects.
+**1264 flashcards** across six subjects.
 
 ---
 

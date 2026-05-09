@@ -5675,6 +5675,84 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "eDwxWhwkjZ",
+                  "guid": "eDwxWhwkjZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "William's coronation ({{c1::25 December 1066}}): the crowd outside Westminster cheered for William. Norman guards outside mistook the noise for a rebellion and {{c2::set fire to London houses}}. Inside, the ceremony continued in chaos. This shows the tension and {{c3::fear}} that underpinned Norman rule from the very beginning.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gTVnAo9t0V",
+                  "guid": "gTVnAo9t0V",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Norman castle placements 1067: William gave {{c1::William FitzOsbern}} control of {{c2::Norwich}} in East Anglia. {{c3::Odo of Bayeux}} (William's half-brother, Bishop of Bayeux) controlled the south-east, based at {{c4::Dover}}. These were William's two most trusted lieutenants.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ns0CrEAFal",
+                  "guid": "ns0CrEAFal",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Spring 1069: {{c1::Robert of Comins}} was made new Earl of Northumbria with over {{c2::500}} Norman soldiers. Rebels {{c3::killed Robert in Durham}}. Edgar the Atheling attacked {{c4::York}} again. This time William did not build castles — he attacked. He left {{c5::William FitzOsbern}} in charge of a new castle at York.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "n2HtNO9VBh",
+                  "guid": "n2HtNO9VBh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "William's 3-point plan (winter 1069): 1. Defeat the {{c1::English rebels}}. 2. Defeat the {{c2::Danes}}. 3. The {{c3::Harrying of the North}} — destroy crops, livestock and villages so rebels could never rise again. The Harrying killed approximately {{c4::100,000}} people and left land recorded as {{c5::wasteland}} in Domesday Book 16 years later.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kkEMcWRuTL",
+                  "guid": "kkEMcWRuTL",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the key features of a motte-and-bailey castle?",
+                    "Motte: raised mound of earth (sometimes layered with stone/turf) with a wooden keep on top. Bailey: large walled enclosure around the base where soldiers, animals and villagers lived. Palisade: wooden fence wall around the bailey. Moat: deep ditch (sometimes water-filled) around the outside. Drawbridge: only entrance to the bailey — could be raised if attacked. Later replaced by stone (e.g. Tower of London started 1075–79)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vj4THIccPJ",
+                  "guid": "vj4THIccPJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Who were the main chroniclers of the Norman Conquest and why are they useful/limited as sources?",
+                    "William of Poitiers: William's personal chaplain and biographer — detailed but extremely pro-Norman. Orderic Vitalis: wrote decades later, includes English perspective — more balanced but less contemporary. Bayeux Tapestry: visual Norman account — narrative but made by the victors. All sources have Norman bias; no surviving English account exists from 1066 itself."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "lANedUYsyr",
                   "guid": "lANedUYsyr",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -6065,6 +6143,71 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "vCNwuxPqGu",
+                  "guid": "vCNwuxPqGu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How did monasteries contribute to medieval public health?",
+                    "Infirmaries cared for the sick (Benedictine rule: 'care for the sick stands before all'). Herb/physick gardens grew medicinal plants. Monasteries built near running fresh water — provided drinking and washing water for the sick. Latrines built so waste discharged into rivers. Even without running water, cathedrals built pipes to supply fresh water. Monks believed caring for the sick brought them closer to God. Limited: only helped those who could reach a monastery; no national system."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vJkcXtiooB",
+                  "guid": "vJkcXtiooB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Leeds local board of health ({{c1::1831}}): set up in response to cholera. Employed surgeon {{c2::Dr Robert Baker}} to investigate. He {{c3::mapped}} the outbreak and found cases concentrated in {{c4::dirty areas}}. Baker believed in {{c5::miasma}} (incorrect), but his report was important evidence linking {{c6::dirt and disease}}. The board also published advice on {{c7::posters and newspapers}} and opened a {{c8::cholera hospital}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jcoSkufpWe",
+                  "guid": "jcoSkufpWe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How can you classify the different responses to cholera in the 1830s?",
+                    "Three belief categories: (1) Punishment from God — prayer, church attendance, fasting. (2) Miasma — cleaning streets, burning barrels of tar, adding chloride of lime to sewers to mask smells. (3) Contagion — quarantine (stopping people moving from town centres to suburbs), cholera hospitals to isolate victims. Most responses were based on miasma theory — incorrect, but accidentally useful (cleaning streets did reduce disease). John Snow's 1854 waterborne proof was not widely accepted for years."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jeB3b2BYyf",
+                  "guid": "jeB3b2BYyf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "{{c1::Laissez-faire}}: the political belief that the government should {{c2::not interfere}} in people's everyday lives. This was the main reason the 1848 Public Health Act was {{c3::voluntary}} — the government did not feel it had the right to force local councils to act. It also explains why the {{c4::1751 Gin Act}} was tougher than earlier acts — eventually public opinion shifted enough to force action. Laissez-faire slowed health reform throughout the {{c5::Industrial period}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "s9JgY9x31L",
+                  "guid": "s9JgY9x31L",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do you structure the People's Health 18-mark essay (individuals vs government)?",
+                    "Typical question: 'The actions of great individuals were the most important factor in improving Public Health.' Structure: Para 1 (agree — individual, e.g. John Snow). Para 2 (agree — individual, e.g. Bazalgette/Chadwick). Para 3 (disagree — government, e.g. 1875 Public Health Act compulsory). Para 4 (disagree — events forcing change, e.g. Great Stink, cholera epidemics). Conclusion: both individuals AND government were needed — individuals provided the evidence; government provided the enforcement. Link to laissez-faire as the brake on progress."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "rjCFBCU1ic",
                   "guid": "rjCFBCU1ic",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -6382,6 +6525,58 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
                     "Key Nazi Germany chronology: 1918 {{c1::Armistice}}; 1919 {{c2::Treaty of Versailles}}; 1923 {{c3::Munich Putsch}}; Jan 1933 {{c4::Chancellor}}; Feb 1933 {{c5::Reichstag Fire}}; March 1933 {{c6::Enabling Act}}; June 1934 {{c7::Night of the Long Knives}}; Aug 1934 {{c8::Hindenburg dies → Führer}}; 1935 {{c9::Nuremberg Laws}}; Nov 1938 {{c10::Kristallnacht}}; Sept 1939 {{c11::invasion of Poland}}; 1942 {{c12::Wannsee Conference}}; July 1944 {{c13::Bomb Plot}}; April 1945 {{c14::Hitler's suicide}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lLk5wVADd5",
+                  "guid": "lLk5wVADd5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do you classify Hitler's steps to dictatorship as legal or violent?",
+                    "Legal steps: Reichstag Fire (used legally to ban Communists and call elections); Enabling Act (passed by the Reichstag — legal but forced); ban on all other political parties July 1933; Hindenburg's death merged roles legally. Violent steps: SA intimidation during 1933 elections; Night of the Long Knives (political murder); SS/Gestapo used terror. Key argument: Hitler used a mixture of both — the legal veneer made it harder for opponents to resist, and harder for foreign powers to intervene."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gEA5tGtIMO",
+                  "guid": "gEA5tGtIMO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do you answer the Nazi Germany 7-mark source question (Content, Origin, Purpose)?",
+                    "Structure: (1) Content — what does the source actually say/show? Quote it directly and explain what it tells us. (2) Origin — who made it, when, what type of source? Consider what this means for its reliability. (3) Purpose — why was it made? What was it trying to do? (e.g. to persuade, to inform, to justify). Example: Source A (German newspaper 1934 ordering loudspeakers for Hitler's speech) → Content: shows propaganda reach into workplaces. Origin: official Nazi newspaper, 1934. Purpose: to maximise exposure to Hitler's message and create impression of total support."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hw80Edy0mu",
+                  "guid": "hw80Edy0mu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do you answer the Nazi Germany 15-mark question (two sources + interpretation)?",
+                    "Structure: Three paragraphs — each like a mini 7-mark answer. Para 1: What does Source A suggest? Use content/origin/purpose. Para 2: What does Source B suggest? Same structure. Para 3: What does the interpretation suggest? How does it compare to the sources — does it agree or disagree? Always use specific quotes from the sources. The sources and interpretation are usually on the same theme — identify what they agree/disagree on."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vHmmqdGhUw",
+                  "guid": "vHmmqdGhUw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Example 7-mark source: Source A is a {{c1::German newspaper announcement (March 1934)}} ordering that loudspeakers be placed in {{c2::factories, shops, pubs and blocks of flats}} so people could hear Hitler's speech. Content shows: propaganda was spread into {{c3::all areas of everyday life}}. Origin: an official {{c4::Nazi}} source, so likely exaggerates compliance. Purpose: to {{c5::maximise the audience}} for Hitler's speeches and reinforce the impression of {{c6::total national unity}}.",
                     ""
                   ],
                   "flags": 0,
@@ -6728,6 +6923,45 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "eJ7u5F1Ux7",
+                  "guid": "eJ7u5F1Ux7",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A {{c1::coffle}} was a chained group of slaves force-marched for months from old states (Maryland, North Carolina) to the Deep South. When they arrived, slaves were {{c2::deloused and fed butter}} to regain weight. Once restored, a slave could sell for over {{c3::$1,000}}. So much money was made that slave traders even began to {{c4::kidnap free Black people in the Northern states}} to sell into slavery.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "m4dXwSt1Le",
+                  "guid": "m4dXwSt1Le",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was Rachel's story and why is it significant?",
+                    "Rachel arrived in New Orleans in 1819. Women were searched naked to check if they could have children. In January 1819 a healthy 18-year-old male sold for $900–$1,100. Rachel was sold for $800. Her story is significant because it shows the dehumanisation of enslaved people — reduced to their physical capacity to work and reproduce — and evidence that women were sold at lower prices than men in this market."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mHJpNxaMbE",
+                  "guid": "mHJpNxaMbE",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the four key Native American conflicts and their key words?",
+                    "Grass — Little Crow's War (1862): Santee Sioux starving; trader said 'let them eat grass'; trader found dead with mouth stuffed with grass. Guns — Sand Creek Massacre (1864): US army used superior firepower to massacre peaceful Cheyenne. Gold — Red Cloud's War (1866–68): miners used Bozeman Trail to reach Montana gold fields; Sioux forced US to close it. Sitting Bull's Vision — Great Sioux War (1876): Sitting Bull saw soldiers falling like grasshoppers before Battle of Little Bighorn."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "v7TMnqbgWj",
                   "guid": "v7TMnqbgWj",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -6968,6 +7202,110 @@
                   "fields": [
                     "What are the main periods and owners of Framlingham Castle in chronological order?",
                     "1101–1216: Bigod family (Roger I, Hugh, Roger II). 1216: King John seizes it after Magna Carta siege. 1483–1547: Howard family (John, Thomas I, Thomas II). 1547: Crown (Edward VI). 1552–58: Mary Tudor. 1558–72: Fourth Howard duke, then Crown again. 1580s–1603: Prison under Elizabeth I. 1635: sold to Robert Hitcham. 1636 onwards: poorhouse under Pembroke College, Cambridge. 1839: poorhouse closes. Now: English Heritage tourist site."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "obA6JMCa2W",
+                  "guid": "obA6JMCa2W",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In {{c1::1177}}, King Henry II ordered the demolition of Framlingham Castle because {{c2::Hugh Bigod}} had rebelled. A group of carpenters and masons led by {{c3::Alnoth the Engineer}} carried out the work. The cost recorded in the Pipe Rolls was {{c4::£7 10s 6d}}. The same Alnoth then built {{c5::Orford Castle}} for Henry II — to keep an eye on the Bigods.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ikpqpo9Gru",
+                  "guid": "ikpqpo9Gru",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What did each Howard individually contribute to Framlingham?",
+                    "John Howard (1st Duke, 1483): made Duke of Norfolk by Richard III; added red brick buildings; died at Battle of Bosworth 1485 fighting for Richard III. Thomas Howard I (2nd Duke): won Battle of Flodden Field 1513 aged 70; died at Framlingham aged 80 in 1524; lavish funeral procession to Thetford Priory attended by 900+ mourners. Thomas Howard II (3rd Duke): promoted nieces Anne Boleyn and Catherine Howard as Henry's wives — both beheaded; imprisoned in Tower of London by Henry VIII; released by Mary I."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "3pW1PeYmCB",
+                  "guid": "3pW1PeYmCB",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Thomas Howard I's funeral (1524): body lay in state in the {{c1::castle chapel}} for {{c2::four weeks}}. A procession of over {{c3::900}} mourners in black went {{c4::30 miles}} to {{c5::Thetford Priory}}. Alms were given to up to {{c6::10,000}} people. This shows Framlingham's {{c7::local}} importance as a centre of noble power.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dqgiHIqIov",
+                  "guid": "dqgiHIqIov",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What barriers did Mary Tudor face when claiming the throne in 1553, and how did Framlingham help?",
+                    "Barriers: Edward VI died aged 15; the Protestant Duke of Northumberland planned to arrest Mary and install Lady Jane Grey (his daughter-in-law). Mary was Catholic and isolated. Northumberland controlled London. Framlingham's role: Mary fled there. She sent letters to noblemen; many gathered at Framlingham for religious or dynastic reasons. On 12 July she 'raised her standard'. Northumberland halted at Cambridge, intimidated by her forces. By 19 July the Privy Council accepted her — she was proclaimed Queen at Framlingham. Lady Jane Grey's reign lasted just nine days."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oe0Dj6WFlb",
+                  "guid": "oe0Dj6WFlb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the Western Tower at Framlingham and what does it reveal?",
+                    "Also called the Prison Tower — used during Elizabeth I's reign when Framlingham housed 40 Roman Catholic priests and recusants. It survives today as physical evidence of how the castle's use changed from a noble residence to a prison as anti-Catholic laws hardened from 1580."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tKuTVvVyZl",
+                  "guid": "tKuTVvVyZl",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How typical is Framlingham compared to Orford Castle?",
+                    "Similarities: both in Suffolk (12 miles apart); both use local flint and septaria stone; both have gatehouses, portcullises, arrow loops, and wells; both built on natural spurs. Key difference: Orford has a single polygonal keep — Framlingham has NO keep (rooms spread around the curtain wall). Orford was built by Henry II specifically to watch the rebellious Bigods. Alnoth the Engineer built Orford immediately after demolishing Framlingham in 1177."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "t7Ldbz143m",
+                  "guid": "t7Ldbz143m",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How typical is Framlingham compared to the Tower of London and Norwich Castle?",
+                    "Tower of London: similar gatehouses, portcullises, arrow loops, wells — but defended by River Thames not a spur; has a single keep (White Tower); built by William the Conqueror to show Norman power. Norwich Castle: originally a motte-and-bailey with a single keep on top of the mound; the Bigod Arch (original entrance) shows decorative stonework; both Norwich and Framlingham were besieged by King John after Magna Carta 1215. Key shared atypicality: Framlingham alone has NO keep."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "s6rzLaFqCH",
+                  "guid": "s6rzLaFqCH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What was the key turning point in Framlingham's history and how do physical features show it?",
+                    "The change from a medieval fortress (Bigod era) to an impressive noble home (Howard era) — driven by the fact that by the 16th century, castles were no longer needed for warfare. Physical evidence: the Bigod curtain wall and towers (defence) versus the Howard decorative chimneys (status). The chimneys — both functional and fake, imitating Hampton Court — reveal the Howards' priority was impressing Henry VIII rather than defending against attack."
                   ],
                   "flags": 0,
                   "tags": [],
