@@ -1,27 +1,31 @@
 #!/usr/bin/env python3
 """
 build.py — converts src/*.txt card files into a CrowdAnki JSON deck.
-Run: python3 build.py
-Output: deck/GCSE Revision.json
+Run:    python build.py
+Output: deck/deck.json
+Import: Anki > CrowdAnki: Import from disk > select the deck/ folder
 """
 
 import json
 import os
 import glob
 import hashlib
-import re
 import sys
 
 SRC_DIR = "src"
 OUT_DIR = "deck"
 DECK_NAME = "GCSE Revision"
-DECK_ID = 1_900_000_001  # stable arbitrary ID
+
+# Stable UUIDs — NEVER change these or Anki will treat everything as new cards
+ROOT_UUID        = "a1b2c3d4-0001-0001-0001-000000000001"
+CONFIG_UUID      = "a1b2c3d4-0001-0001-0001-000000000002"
+BASIC_MODEL_UUID = "a1b2c3d4-0001-0001-0001-000000000003"
+CLOZE_MODEL_UUID = "a1b2c3d4-0001-0001-0001-000000000004"
 
 
 def make_guid(text: str) -> str:
-    """Stable GUID from card content — same card always gets same GUID."""
+    """Stable 10-char GUID from card content — same text always gets same GUID."""
     h = hashlib.md5(text.encode("utf-8")).digest()
-    # CrowdAnki uses base91-like encoding; we use base62 for simplicity
     chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     result = ""
     n = int.from_bytes(h[:8], "big")
@@ -31,9 +35,10 @@ def make_guid(text: str) -> str:
     return result.zfill(10)[:10]
 
 
-def deck_id_from_name(name: str) -> int:
-    """Stable integer deck ID from deck name."""
-    return int(hashlib.md5(name.encode()).hexdigest()[:8], 16)
+def make_child_uuid(path: str) -> str:
+    """Stable UUID4-shaped string for a child deck, derived from its path."""
+    h = hashlib.md5(path.encode("utf-8")).hexdigest()
+    return f"{h[0:8]}-{h[8:12]}-{h[12:16]}-{h[16:20]}-{h[20:32]}"
 
 
 def parse_txt_file(path: str):
@@ -63,87 +68,119 @@ def make_note_models():
     """Return CrowdAnki note model definitions for Basic and Cloze."""
     basic = {
         "__type__": "NoteModel",
-        "crowdanki_uuid": "basic-gcse-v1",
-        "css": ".card { font-family: Arial; font-size: 16px; text-align: left; padding: 10px; } .front { font-weight: bold; }",
-        "flds": [
-            {"name": "Front", "ord": 0, "sticky": False, "rtl": False, "font": "Arial", "size": 20},
-            {"name": "Back",  "ord": 1, "sticky": False, "rtl": False, "font": "Arial", "size": 20},
-        ],
-        "latexPost": "\\end{document}",
-        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "crowdanki_uuid": BASIC_MODEL_UUID,
         "name": "Basic (GCSE)",
-        "req": [[0, "any", [0]]],
+        "type": 0,
         "sortf": 0,
         "tags": [],
+        "css": ".card { font-family: Arial; font-size: 16px; text-align: left; padding: 10px; }",
+        "flds": [
+            {"name": "Front", "ord": 0, "sticky": False, "rtl": False, "font": "Arial", "size": 20, "media": []},
+            {"name": "Back",  "ord": 1, "sticky": False, "rtl": False, "font": "Arial", "size": 20, "media": []},
+        ],
         "tmpls": [{
-            "afmt": "{{FrontSide}}<hr id=answer>{{Back}}",
-            "bafmt": "",
-            "bqfmt": "",
-            "did": None,
             "name": "Card 1",
             "ord": 0,
             "qfmt": "{{Front}}",
+            "afmt": "{{FrontSide}}<hr id=answer>{{Back}}",
+            "bqfmt": "",
+            "bafmt": "",
+            "did": None,
         }],
-        "type": 0,
+        "req": [[0, "any", [0]]],
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexPost": "\\end{document}",
         "vers": [],
     }
 
     cloze = {
         "__type__": "NoteModel",
-        "crowdanki_uuid": "cloze-gcse-v1",
-        "css": ".card { font-family: Arial; font-size: 16px; text-align: left; padding: 10px; } .cloze { font-weight: bold; color: #0070c0; }",
-        "flds": [
-            {"name": "Text",  "ord": 0, "sticky": False, "rtl": False, "font": "Arial", "size": 20},
-            {"name": "Extra", "ord": 1, "sticky": False, "rtl": False, "font": "Arial", "size": 20},
-        ],
-        "latexPost": "\\end{document}",
-        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "crowdanki_uuid": CLOZE_MODEL_UUID,
         "name": "Cloze (GCSE)",
-        "req": [[0, "any", [0]]],
+        "type": 1,
         "sortf": 0,
         "tags": [],
+        "css": ".card { font-family: Arial; font-size: 16px; text-align: left; padding: 10px; } .cloze { font-weight: bold; color: #0070c0; }",
+        "flds": [
+            {"name": "Text",  "ord": 0, "sticky": False, "rtl": False, "font": "Arial", "size": 20, "media": []},
+            {"name": "Extra", "ord": 1, "sticky": False, "rtl": False, "font": "Arial", "size": 20, "media": []},
+        ],
         "tmpls": [{
-            "afmt": "{{cloze:Text}}<br><br>{{Extra}}",
-            "bafmt": "",
-            "bqfmt": "",
-            "did": None,
             "name": "Cloze",
             "ord": 0,
             "qfmt": "{{cloze:Text}}",
+            "afmt": "{{cloze:Text}}<br><br>{{Extra}}",
+            "bqfmt": "",
+            "bafmt": "",
+            "did": None,
         }],
-        "type": 1,
+        "req": [[0, "any", [0]]],
+        "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+        "latexPost": "\\end{document}",
         "vers": [],
     }
     return basic, cloze
 
 
-def build_deck_tree(all_cards):
-    """
-    Build nested deck structure from deck_path strings like
-    'English Lit::Paper 1::Macbeth'
-    Returns root deck dict in CrowdAnki format.
-    """
-    # Root deck
-    root = {
-        "__type__": "Deck",
-        "crowdanki_uuid": "gcse-root-v1",
-        "deck_configurations": [{
-            "__type__": "DeckConfig",
-            "crowdanki_uuid": "gcse-config-v1",
-            "name": "Default",
-            "new_cards_per_day": 20,
-            "reviews_per_day": 200,
-        }],
-        "desc": "GCSE Revision deck — English, Geography, Science. Generated by build.py.",
-        "dyn": 0,
-        "name": DECK_NAME,
-        "crowdanki_uuid": "gcse-root-v1",
-        "children": [],
-        "notes": [],
-        "note_models": list(make_note_models()),
+def make_deck_config():
+    return {
+        "__type__": "DeckConfig",
+        "crowdanki_uuid": CONFIG_UUID,
+        "name": "Default",
+        "autoplay": True,
+        "dyn": False,
+        "replayq": True,
+        "timer": 0,
+        "new": {
+            "delays": [1.0, 10.0],
+            "ints": [1, 4, 7],
+            "initialFactor": 2500,
+            "perDay": 20,
+            "bury": False,
+            "separate": True,
+            "order": 1,
+        },
+        "rev": {
+            "perDay": 200,
+            "ease4": 1.3,
+            "fuzz": 0.05,
+            "ivlFct": 1.0,
+            "maxIvl": 36500,
+            "bury": False,
+        },
+        "lapse": {
+            "delays": [10.0],
+            "leechFails": 8,
+            "minInt": 1,
+            "mult": 0.5,
+        },
+        "maxTaken": 60000,
     }
 
-    # Map deck_path -> deck node
+
+def build_deck_tree(all_cards):
+    """
+    Build nested CrowdAnki deck structure from deck_path strings like
+    'English Lit::Paper 1::Macbeth'. Returns root deck dict.
+    """
+    basic_model, cloze_model = make_note_models()
+
+    root = {
+        "__type__": "Deck",
+        "crowdanki_uuid": ROOT_UUID,
+        "deck_config_uuid": CONFIG_UUID,
+        "deck_configurations": [make_deck_config()],
+        "desc": "GCSE Revision — English, Geography, Science (AQA). Generated by build.py.",
+        "dyn": 0,
+        "extendNew": 10,
+        "extendRev": 50,
+        "name": DECK_NAME,
+        "children": [],
+        "notes": [],
+        "note_models": [basic_model, cloze_model],
+        "media_files": [],
+    }
+
     deck_map = {"": root}
 
     def get_or_create_deck(path: str):
@@ -154,9 +191,12 @@ def build_deck_tree(all_cards):
         parent = get_or_create_deck(parent_path)
         new_deck = {
             "__type__": "Deck",
-            "crowdanki_uuid": f"gcse-{make_guid(path)}",
+            "crowdanki_uuid": make_child_uuid(path),
+            "deck_config_uuid": CONFIG_UUID,
             "desc": "",
             "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
             "name": parts[-1],
             "children": [],
             "notes": [],
@@ -165,32 +205,21 @@ def build_deck_tree(all_cards):
         deck_map[path] = new_deck
         return new_deck
 
-    basic_model, cloze_model = make_note_models()
-
     for card in all_cards:
         deck = get_or_create_deck(card["deck_path"])
         guid = make_guid(card["field1"] + card["deck_path"])
+        model_uuid = BASIC_MODEL_UUID if card["notetype"] == "Basic" else CLOZE_MODEL_UUID
 
-        if card["notetype"] == "Basic":
-            note = {
-                "__type__": "Note",
-                "crowdanki_uuid": guid,
-                "fields": [card["field1"], card["field2"]],
-                "flags": 0,
-                "guid": guid,
-                "note_model_uuid": "basic-gcse-v1",
-                "tags": [],
-            }
-        else:  # Cloze
-            note = {
-                "__type__": "Note",
-                "crowdanki_uuid": guid,
-                "fields": [card["field1"], card["field2"]],
-                "flags": 0,
-                "guid": guid,
-                "note_model_uuid": "cloze-gcse-v1",
-                "tags": [],
-            }
+        note = {
+            "__type__": "Note",
+            "crowdanki_uuid": guid,
+            "guid": guid,
+            "note_model_uuid": model_uuid,
+            "fields": [card["field1"], card["field2"]],
+            "flags": 0,
+            "tags": [],
+            "data": "",
+        }
         deck["notes"].append(note)
 
     return root
@@ -215,12 +244,12 @@ def main():
     deck = build_deck_tree(all_cards)
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    out_path = os.path.join(OUT_DIR, f"{DECK_NAME}.json")
+    out_path = os.path.join(OUT_DIR, "deck.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(deck, f, indent=2, ensure_ascii=False)
 
-    print(f"\nOutput: {out_path}")
-    print("Done! Import via Anki > File > CrowdAnki: Import from disk > select deck/ folder")
+    print(f"\nWrote {out_path}")
+    print("Import: Anki > CrowdAnki: Import from disk > select the deck/ folder")
 
 
 if __name__ == "__main__":
