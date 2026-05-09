@@ -10479,6 +10479,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fIkHtFCqEi",
+                      "guid": "fIkHtFCqEi",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you investigate the effect of light intensity on the rate of photosynthesis (pondweed / Elodea)?",
+                        "<b>Method:</b> place pondweed in sodium hydrogen carbonate solution (provides CO₂). Shine a lamp at different distances. Count bubbles per minute (or measure volume of O₂ collected using a gas syringe) at each distance.<br><b>Light intensity</b> ∝ 1/distance² (inverse square law) — double the distance → quarter the light intensity.<br><b>Control variables:</b> temperature (use water bath), CO₂ concentration (sodium hydrogen carbonate keeps constant), same piece of pondweed.<br><b>Expected result:</b> as light intensity increases, rate increases (up to the point where CO₂ or temperature becomes limiting)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cCQIvPxdDC",
+                      "guid": "cCQIvPxdDC",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Draw and interpret limiting factor graphs for photosynthesis.",
+                        "<b>Light intensity graph:</b> rate increases then levels off — at plateau, light is no longer limiting (CO₂ or temperature now limits).<br><b>CO₂ concentration graph:</b> increases then plateaus — at high CO₂, another factor limits.<br><b>Temperature graph:</b> increases up to ~40°C then sharply decreases — enzymes denature above optimum (not a simple plateau).<br><b>Key exam point:</b> to determine what is limiting at any point on the graph — the factor that makes the plateau rise when increased is the one that was limiting. If light increases but rate doesn't — something else is limiting."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "zZGyJSrGXQ",
+                      "guid": "zZGyJSrGXQ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "The word equation for aerobic respiration: {{c1::glucose}} + {{c2::oxygen}} → {{c3::carbon dioxide}} + {{c4::water}} (+ energy). For anaerobic in mammals: glucose → {{c5::lactic acid}} (+ small amount of energy). In yeast: glucose → {{c6::ethanol}} + {{c7::carbon dioxide}}. Anaerobic produces far {{c8::less}} ATP than aerobic.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -10604,6 +10643,58 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
                         "Factors affecting rate of diffusion: {{c1::concentration gradient}} (steeper = faster), {{c2::surface area}} (larger = faster), {{c3::temperature}} (higher = faster), {{c4::distance}} (shorter = faster).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "e5IX5Phu6i",
+                      "guid": "e5IX5Phu6i",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for osmosis? What results would you expect?",
+                        "<b>Method:</b> cut potato cylinders of equal length/mass. Place in different concentrations of sucrose solution (e.g. 0, 0.25, 0.5, 0.75, 1.0 mol/dm³). Leave 20–30 minutes. Remove, dry, re-weigh (or re-measure length).<br><b>Results:</b> in distilled water (hypotonic) → cylinder gains mass (water enters by osmosis). In concentrated solution (hypertonic) → cylinder loses mass (water leaves). At one concentration the mass doesn't change — this equals the concentration of cell sap (isotonic point).<br><b>Graph:</b> plot % change in mass vs concentration → straight line crossing x-axis."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "k9Tur72ZF2",
+                      "guid": "k9Tur72ZF2",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the surface area to volume ratio (SA:V) and why is it important for organisms?",
+                        "As an organism gets larger, its volume increases faster than its surface area — the SA:V ratio decreases.<br><b>Importance:</b> small organisms (bacteria, single cells) have large SA:V → enough diffusion surface to supply all cells. Large organisms need <b>specialised exchange surfaces</b> (lungs, villi, gills) to increase SA for gas/nutrient exchange.<br><b>Exam example:</b> a 1cm cube: SA = 6cm², V = 1cm³, SA:V = 6:1. A 2cm cube: SA = 24cm², V = 8cm³, SA:V = 3:1. As size doubles, SA:V halves."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bPn8m1RZiD",
+                      "guid": "bPn8m1RZiD",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Describe the adaptations of specialised cells: red blood cell, sperm cell, nerve cell, and root hair cell.",
+                        "<b>Red blood cell:</b> biconcave disc → large SA for O₂ absorption. No nucleus → more space for haemoglobin. Flexible → fits through narrow capillaries.<br><b>Sperm cell:</b> long tail (flagellum) for motility. Many mitochondria for energy. Acrosome contains enzymes to penetrate egg.<br><b>Nerve (neurone):</b> very long → transmits impulses far distances. Myelin sheath → insulates, speeds transmission.<br><b>Root hair cell:</b> long projection into soil → increased SA for water/mineral absorption. Large permanent vacuole → maintains osmotic gradient."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "l2e60zLTuW",
+                      "guid": "l2e60zLTuW",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Mitosis produces {{c1::2}} genetically {{c2::identical}} daughter cells. Before division, DNA {{c3::replicates}}. The stages are: {{c4::Interphase}} (DNA replication), {{c5::Prophase}} (chromosomes condense), {{c6::Metaphase}} (line up at equator), {{c7::Anaphase}} (chromosomes pulled apart), {{c8::Telophase}} (two nuclei form). Used for {{c9::growth}}, {{c10::repair}} and {{c11::asexual reproduction}}.",
                         ""
                       ],
                       "flags": 0,
@@ -10752,6 +10843,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "go1MUDBg8x",
+                      "guid": "go1MUDBg8x",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are monoclonal antibodies and how are they made?",
+                        "<b>Monoclonal antibodies</b> are identical antibodies produced from a single clone of cells, all specific to one antigen.<br><b>Production:</b> inject mouse with antigen → mouse produces B-lymphocytes. Fuse B-lymphocytes with tumour cells → hybridoma cells (can divide indefinitely and produce antibodies). Clone hybridoma cells → all produce the same antibody.<br><b>Uses:</b> pregnancy tests (detect hCG hormone), cancer treatment (carry drugs/radioactive atoms to tumour cells), diagnosis (detect specific antigens/pathogens in blood tests — ELISA)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "mXdctbYZ7T",
+                      "guid": "mXdctbYZ7T",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What plant diseases are included in the AQA spec? How are they identified and treated?",
+                        "<b>Tobacco mosaic virus (TMV):</b> virus. Spread by contact. Causes discoloured mosaic pattern on leaves → reduces photosynthesis → stunted growth. No cure — use resistant varieties.<br><b>Rose black spot:</b> fungal disease. Black/purple spots on leaves → leaves turn yellow and drop. Spread by water/wind. Treated with fungicides or removing infected leaves.<br><b>Identification of disease generally:</b> observe symptoms, use lab tests (testing for pathogen's DNA/proteins), send samples for analysis.<br><b>Plant defences:</b> waxy cuticle (physical barrier), cell wall (physical barrier), chemical defences (antibacterial chemicals, poisons to deter predators)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uACOO7DiRx",
+                      "guid": "uACOO7DiRx",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What was the discovery of penicillin and why is antibiotic resistance such a concern?",
+                        "<b>Discovery:</b> Alexander Fleming (1928) noticed mould (Penicillium) killed bacteria on his petri dish. Florey and Chain later developed it into a usable antibiotic (WWII).<br><b>MRSA:</b> methicillin-resistant Staphylococcus aureus — bacteria resistant to most antibiotics. Evolved through natural selection: random mutations give some bacteria resistance → antibiotics kill non-resistant bacteria → resistant bacteria survive and reproduce.<br><b>Reducing resistance:</b> complete full courses of antibiotics (don't stop when feeling better — leaves partially resistant bacteria), don't use antibiotics for viral infections, restrict use in farming."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -10878,6 +11008,71 @@
                       "fields": [
                         "Plants have: {{c1::meristem tissue}} (growth at root and shoot tips), {{c2::xylem}} (transports water and minerals UP — dead cells, lignin walls), {{c3::phloem}} (transports sugars UP and DOWN — living cells). Transpiration pulls water up through {{c4::stomata}}.",
                         ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qw7bfEAbPb",
+                      "guid": "qw7bfEAbPb",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Blood components: {{c1::red blood cells}} (carry O₂ via haemoglobin, no nucleus), {{c2::white blood cells}} (immune defence — phagocytes and lymphocytes), {{c3::platelets}} (cell fragments, trigger blood clotting), {{c4::plasma}} (liquid component carrying CO₂, hormones, glucose, urea, antibodies, proteins).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dT7zstWjTd",
+                      "guid": "dT7zstWjTd",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the adaptations of the red blood cell and why are they suited to its function?",
+                        "<b>Biconcave disc shape:</b> increased surface area for O₂ absorption and diffusion.<br><b>No nucleus:</b> more space for haemoglobin molecules → can carry more O₂.<br><b>Contains haemoglobin:</b> binds O₂ in lungs (oxyhaemoglobin), releases it in tissues where O₂ concentration is low.<br><b>Small and flexible:</b> can squeeze through narrow capillaries (5–8 μm wide).<br><b>Exam tip:</b> haemoglobin + O₂ ⇌ oxyhaemoglobin (reversible, direction depends on O₂ concentration)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dPG05czUcE",
+                      "guid": "dPG05czUcE",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the factors affecting the rate of transpiration and how would you investigate them?",
+                        "<b>Factors that increase transpiration rate:</b> higher temperature (more evaporation), lower humidity (steeper concentration gradient), higher light intensity (stomata open wider), higher wind speed (removes water vapour — steeper gradient).<br><b>Investigation — potometer:</b> measures water uptake (proxy for transpiration). Bubble moves along capillary tube as water is absorbed. Change one variable at a time (temperature/humidity/wind/light) and measure rate of bubble movement.<br><b>Key point:</b> guard cells open stomata in light (for photosynthesis) → most transpiration occurs during the day."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jlhJ3pcaEb",
+                      "guid": "jlhJ3pcaEb",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do plants transport water and minerals? What is the transpiration stream?",
+                        "<b>Route:</b> water enters by osmosis through root hair cells → moves through root by osmosis → enters xylem vessels → moves up stem by transpiration pull → exits through stomata in leaves as water vapour.<br><b>Xylem:</b> dead, hollow cells with lignified walls forming continuous tubes. Lignin is waterproof — prevents water loss through walls. No end walls — continuous column of water.<br><b>Transpiration pull:</b> evaporation from leaves creates tension → pulls water up from roots. Works because water molecules are cohesive (stick together) — cohesion-tension model.<br><b>Mineral ions</b> dissolved in water travel with it."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cMC5wUE3W6",
+                      "guid": "cMC5wUE3W6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the required practicals for Biology Paper 1? Describe the food tests.",
+                        "<b>Food tests (required practical):</b><br>• <b>Starch:</b> add iodine solution → blue/black colour indicates starch present.<br>• <b>Glucose (reducing sugars):</b> add Benedict's solution + heat → colour changes from blue to brick-red/orange if reducing sugar present.<br>• <b>Protein (Biuret test):</b> add NaOH then CuSO₄ → turns purple/lilac if protein present.<br>• <b>Fat (ethanol emulsion test):</b> dissolve food in ethanol, pour into water → white emulsion/cloudy if fat present.<br><b>Control:</b> test with distilled water to confirm reagents don't give false positive."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11012,6 +11207,58 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fdNJU1HUF0",
+                      "guid": "fdNJU1HUF0",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are quadrats and transects? How are they used to estimate population size?",
+                        "<b>Quadrat:</b> a square frame placed randomly in a habitat. Count individuals of a species inside → calculate mean per m². Scale up to estimate total population: mean density × total area.<br><b>Random sampling:</b> use random number table to choose coordinates — avoids bias.<br><b>Transect:</b> a line across a habitat. Place quadrats at regular intervals along the line. Used to investigate how species distribution changes across a gradient (e.g. shore to inland, light to shade).<br><b>Mark-recapture method</b> (mobile animals): capture → mark → release → recapture. Population = (1st catch × 2nd catch) ÷ number of marked individuals in 2nd catch."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "vkx4EhRVv3",
+                      "guid": "vkx4EhRVv3",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Describe a predator-prey population graph and explain the relationship.",
+                        "<b>Pattern:</b> both populations cycle. Prey population increases → predator population increases (more food). Predator population increases → prey population decreases (more predation). Prey population decreases → predator population decreases (food shortage). Predator decrease → prey population recovers → cycle repeats.<br><b>Key features of graph:</b> predator numbers lag behind prey numbers (takes time for predators to respond). Both oscillate — never reach zero in a stable ecosystem. Lines are out of phase (prey peaks before predator)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "ejOakufLND",
+                      "guid": "ejOakufLND",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the nitrogen cycle?",
+                        "<b>Nitrogen fixation:</b> N₂ gas → nitrates/ammonia — done by bacteria in soil and root nodules of legumes (Rhizobium). Lightning also fixes nitrogen.<br><b>Nitrification:</b> ammonium ions → nitrites → nitrates — done by nitrifying bacteria in soil. Nitrates absorbed by plants.<br><b>Decomposition:</b> dead organisms → ammonium ions — done by decomposers (bacteria/fungi).<br><b>Denitrification:</b> nitrates → N₂ gas — done by denitrifying bacteria in waterlogged/anaerobic soils.<br><b>Assimilation:</b> plants absorb nitrates → make proteins/DNA → eaten by animals."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jyMhUfwWMh",
+                      "guid": "jyMhUfwWMh",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does global warming affect ecosystems?",
+                        "<b>Rising temperatures:</b> species distribution shifts poleward (tracking their climate niche). Timing of seasonal events changes — earlier flowering/breeding may not match food availability → mismatches in food chains.<br><b>Melting ice:</b> loss of habitat for polar species (polar bears, Arctic foxes). Rising sea levels → loss of coastal habitats. Ocean acidification (CO₂ dissolved → carbonic acid) → damages coral reefs and shellfish (can't form shells).<br><b>Biodiversity loss:</b> species unable to adapt fast enough may become extinct. Invasive species spread into newly suitable areas, outcompeting native species."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -11137,6 +11384,58 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
                         "Contraceptive pills contain {{c1::oestrogen and/or progesterone}} which {{c2::inhibit FSH production}}, preventing egg maturation. IVF uses {{c3::FSH}} to stimulate multiple egg production.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "t46LUezNoc",
+                      "guid": "t46LUezNoc",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do the kidneys control water balance (osmoregulation)? What is the role of ADH?",
+                        "<b>Kidneys</b> filter blood under high pressure → produce urine. Useful substances (glucose, water, some ions) are selectively reabsorbed back into the blood.<br><b>ADH (antidiuretic hormone)</b> — released by pituitary gland:<br>• If blood water potential is TOO LOW (dehydrated): ADH released → kidneys reabsorb MORE water → concentrated, small volume urine.<br>• If blood water potential is TOO HIGH (overhydrated): less ADH → kidneys reabsorb LESS water → dilute, large volume urine.<br><b>Negative feedback loop:</b> hypothalamus detects → pituitary releases/stops ADH → kidney responds → blood water potential changes → hypothalamus detects again."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fi30oH1OM6",
+                      "guid": "fi30oH1OM6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does thyroxine illustrate the principle of negative feedback?",
+                        "<b>Thyroxine</b> is produced by the thyroid gland and regulates metabolic rate.<br><b>Negative feedback:</b><br>1. Hypothalamus detects low thyroxine → releases TRH<br>2. Pituitary releases TSH (thyroid stimulating hormone)<br>3. Thyroid gland produces more thyroxine<br>4. High thyroxine level detected by hypothalamus → TRH stops → TSH stops → thyroxine production falls.<br><b>Key principle of negative feedback:</b> the output (thyroxine) feeds back to inhibit the control system → maintains a stable concentration. All hormones in homeostasis use this mechanism."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "miQzcNACOS",
+                      "guid": "miQzcNACOS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the plant hormones and their commercial uses?",
+                        "<b>Auxin (IAA):</b> produced at shoot tip. Causes cell elongation. More in shaded side → shoot bends towards light (phototropism). Commercial uses: rooting powder (cuttings grow roots), selective weedkillers (causes broad-leaf weeds to grow uncontrollably while grass is unaffected).<br><b>Gibberellins:</b> promote stem elongation and seed germination. Commercial use: seedless grapes, malting barley (beer production).<br><b>Ethene:</b> promotes fruit ripening. Commercial use: ripen fruit during transport/storage (expose to ethene gas)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "mOY5D8OXPD",
+                      "guid": "mOY5D8OXPD",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Required practical — reaction time: use a {{c1::ruler drop test}}. Person A holds ruler at 0cm mark; Person B's fingers are at bottom ready to catch. Person A drops — Person B catches. Distance fallen → converted to {{c2::reaction time}} using a table or formula. Test factors affecting reaction time: e.g. {{c3::caffeine}}, {{c4::tiredness}}, {{c5::distractions}}.",
                         ""
                       ],
                       "flags": 0,
@@ -11272,6 +11571,58 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jeczcsiWXI",
+                      "guid": "jeczcsiWXI",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you use a Punnett square? Worked example: both parents are carriers of cystic fibrosis (Ff × Ff).",
+                        "<b>Set up:</b> write parent genotypes above and to the left. Fill in each box by combining alleles.<br>Parents: Ff × Ff<br><table style=\"border-collapse:collapse\"><tr><td style=\"border:1px solid #333;padding:4px\"></td><td style=\"border:1px solid #333;padding:4px\"><b>F</b></td><td style=\"border:1px solid #333;padding:4px\"><b>f</b></td></tr><tr><td style=\"border:1px solid #333;padding:4px\"><b>F</b></td><td style=\"border:1px solid #333;padding:4px\">FF</td><td style=\"border:1px solid #333;padding:4px\">Ff</td></tr><tr><td style=\"border:1px solid #333;padding:4px\"><b>f</b></td><td style=\"border:1px solid #333;padding:4px\">Ff</td><td style=\"border:1px solid #333;padding:4px\">ff</td></tr></table><b>Ratio:</b> 1 FF : 2 Ff : 1 ff. Probability of cystic fibrosis (ff) = <b>1 in 4 = 25%</b>. Probability of carrier (Ff) = 50%. Probability of unaffected (FF or Ff) = 75%."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kSMfMfsonw",
+                      "guid": "kSMfMfsonw",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is sex-linked inheritance? Use red-green colour blindness as an example.",
+                        "The gene for colour blindness is on the <b>X chromosome</b> (sex-linked). Recessive allele (Xᵇ) = colour blind. Dominant allele (Xᴮ) = normal vision.<br><b>Possible genotypes:</b><br>Females: XᴮXᴮ (normal), XᴮXᵇ (carrier — normal vision but can pass on), XᵇXᵇ (colour blind — rare)<br>Males: XᴮY (normal), XᵇY (colour blind — only need ONE recessive allele as Y has no corresponding gene)<br><b>Why more common in males:</b> males have only one X — if they inherit Xᵇ, they are colour blind. Females need TWO copies of Xᵇ (one from each parent)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cWcSdXOfqX",
+                      "guid": "cWcSdXOfqX",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is selective breeding (artificial selection) and what are the risks?",
+                        "<b>Process:</b> choose individuals with desired characteristics → breed them → select offspring with best characteristics → repeat over many generations.<br><b>Examples:</b> cattle bred for high milk yield, dogs bred for temperament, crop plants for disease resistance/yield/taste.<br><b>Risks:</b> reduces genetic diversity (gene pool becomes narrow) → population vulnerable to new diseases. Inbreeding → harmful recessive alleles become more common (e.g. hip dysplasia in dogs, reduced disease resistance in crops). If a new disease emerges → entire population may be wiped out."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "i6zQz7FrUk",
+                      "guid": "i6zQz7FrUk",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Cloning methods: {{c1::tissue culture}} — small group of cells from a plant grown on nutrient agar into identical plants. {{c2::Embryo transplantation}} — split embryo into multiple identical embryos → implant into surrogate mothers. {{c3::Adult cell cloning (somatic cell nuclear transfer)}} — remove nucleus from egg cell, insert nucleus from adult cell, stimulate to divide, implant into surrogate (produced Dolly the sheep).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 }
@@ -11402,6 +11753,58 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bYQboZSWLz",
+                      "guid": "bYQboZSWLz",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Electron configuration: first shell holds up to {{c1::2}} electrons, second shell up to {{c2::8}}, third shell up to {{c3::8}} (for elements 1–20). Sodium (atomic number 11): {{c4::2,8,1}}. Chlorine (atomic number 17): {{c5::2,8,7}}. Calcium (atomic number 20): {{c6::2,8,8,2}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cVkahn45dZ",
+                      "guid": "cVkahn45dZ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the trends down Group 1 (alkali metals) in reactivity, melting point and appearance?",
+                        "<b>Going down Group 1 (Li, Na, K, Rb, Cs):</b><br>• <b>Reactivity increases:</b> outer electron is in a higher shell, further from nucleus, less strongly attracted → easier to lose → more reactive. Shielding from inner electrons also increases.<br>• <b>Melting and boiling points decrease</b> (unusual — softer metals)<br>• <b>Density increases</b><br>• <b>React with water:</b> Li — fizzes gently; Na — fizzes vigorously, may catch fire; K — catches fire immediately with lilac flame.<br><b>All reactions with water:</b> metal + water → metal hydroxide + hydrogen. E.g. 2Na + 2H₂O → 2NaOH + H₂"
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "s966Jgn5PL",
+                      "guid": "s966Jgn5PL",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the trends down Group 7 (halogens) in reactivity and physical state?",
+                        "<b>Going down Group 7 (F, Cl, Br, I):</b><br>• <b>Reactivity decreases:</b> gaining an electron becomes harder as the outer shell is further from the nucleus and there is more shielding. Less electronegativity.<br>• <b>Physical state at room temperature:</b> F₂ = pale yellow gas; Cl₂ = green gas; Br₂ = orange/brown liquid; I₂ = grey solid (purple vapour)<br>• <b>Melting/boiling points increase</b> (stronger intermolecular forces)<br><b>Displacement:</b> Cl₂ + 2KBr → 2KCl + Br₂ (Cl₂ displaces Br⁻ because Cl is more reactive — solution turns orange-brown)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rehiwPKmHF",
+                      "guid": "rehiwPKmHF",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the transition metals and what properties do they share?",
+                        "The transition metals are found in the <b>central block (periods 4–7, groups 3–12)</b> of the periodic table — e.g. iron, copper, nickel, chromium, titanium.<br><b>Properties:</b> high melting and boiling points (except mercury — liquid at room temperature). High density. Good conductors of heat and electricity. Hard and strong (except Hg). Form <b>coloured compounds</b> (e.g. CuSO₄ = blue, FeCl₃ = orange). Can act as <b>catalysts</b> (iron in Haber process, nickel in hydrogenation). Often have multiple <b>oxidation states</b> (e.g. Fe²⁺ and Fe³⁺)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -11515,6 +11918,32 @@
                       "fields": [
                         "What are polymers and how are they formed?",
                         "Long chain molecules made by joining many small monomer units in polymerisation. Monomers must have a double bond (alkenes). Many polymers come from crude oil. Properties depend on the monomer and conditions used. Generally: strong, chemically unreactive, solid at room temperature, don't conduct electricity."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "vl8otwQXCG",
+                      "guid": "vl8otwQXCG",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are nanoparticles and why are they different from bulk materials?",
+                        "Nanoparticles are particles with dimensions between 1 and 100 nanometres (1 nm = 10⁻⁹ m). At this scale, the proportion of surface atoms is very large compared to bulk material.<br><b>Why different:</b> extremely large surface area to volume ratio → greatly enhanced reactivity and different properties. Quantum effects also become significant.<br><b>Uses:</b> silver nanoparticles (antibacterial — socks, wound dressings), titanium oxide (sunscreen), carbon nanotubes (strong lightweight materials, electronics), gold nanoparticles (targeted drug delivery, cancer treatment).<br><b>Concerns:</b> very small size means they can penetrate cell membranes and accumulate in tissues — long-term health effects unknown."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uzLp37WVug",
+                      "guid": "uzLp37WVug",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Comparing structures and conductivity: ionic compounds conduct electricity when {{c1::molten or dissolved}} (ions free to move) but not when {{c2::solid}} (ions fixed). Metals conduct due to {{c3::delocalised electrons}}. Graphite/graphene conduct due to {{c4::delocalised electrons}} between layers. Diamond does {{c5::NOT}} conduct (no free electrons or ions). Simple molecular substances do {{c6::NOT}} conduct (no ions or free electrons).",
+                        ""
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11636,6 +12065,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "gSMH3d0FIf",
+                      "guid": "gSMH3d0FIf",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are half equations and how do you write them for electrolysis?",
+                        "Half equations show what happens at each electrode during electrolysis.<br><b>At cathode (reduction — gain of electrons):</b><br>Cu²⁺ + 2e⁻ → Cu (copper deposited)<br>2H⁺ + 2e⁻ → H₂ (hydrogen gas)<br><b>At anode (oxidation — loss of electrons):</b><br>2Cl⁻ → Cl₂ + 2e⁻ (chlorine gas)<br>4OH⁻ → 2H₂O + O₂ + 4e⁻ (oxygen gas from water)<br><b>Key rule:</b> electrons appear on the right of anode equations and on the left of cathode equations. Balance charges, then atoms."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "otlsHo5VVe",
+                      "guid": "otlsHo5VVe",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What happens during the electrolysis of copper sulfate solution with copper electrodes? Why is this used in electroplating?",
+                        "With copper electrodes: copper dissolves from the anode (Cu → Cu²⁺ + 2e⁻) and is deposited at the cathode (Cu²⁺ + 2e⁻ → Cu). The concentration of CuSO₄ stays constant — pure copper transferred from anode to cathode.<br><b>Purification of copper:</b> impure copper anode dissolves, pure copper deposited on cathode.<br><b>Electroplating:</b> object to plate = cathode. Plating metal = anode. Electrolyte contains ions of the plating metal. Used to: protect against corrosion (chromium-plated car parts), improve appearance (gold-plated jewellery), reduce costs (use cheap metal coated with silver)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "p0PQAvKJNf",
+                      "guid": "p0PQAvKJNf",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you write ionic equations and what are spectator ions?",
+                        "<b>Ionic equations</b> show only the ions/atoms that actually react — spectator ions are not included.<br><b>Spectator ions:</b> ions present in solution that don't change during the reaction.<br><b>Example:</b> HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)<br>Full ionic equation: H⁺(aq) + Cl⁻(aq) + Na⁺(aq) + OH⁻(aq) → Na⁺(aq) + Cl⁻(aq) + H₂O(l)<br>Spectator ions (Na⁺, Cl⁻) cancel out → <b>net ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l)</b><br>This is the ionic equation for ANY neutralisation of strong acid and base."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -11684,6 +12152,110 @@
                       "fields": [
                         "Bond energy calculations: energy is required to {{c1::break}} bonds (endothermic). Energy is released when bonds {{c2::form}} (exothermic). Overall energy change = energy to {{c3::break bonds}} − energy {{c4::released forming bonds}}. If result is negative, reaction is {{c5::exothermic}}.",
                         ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dAV5ry0yXV",
+                      "guid": "dAV5ry0yXV",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: calculate the energy change for H₂ + Cl₂ → 2HCl. Bond energies: H–H = 436 kJ/mol, Cl–Cl = 243 kJ/mol, H–Cl = 432 kJ/mol.",
+                        "Energy to break bonds (in): H–H = 436, Cl–Cl = 243. Total in = 679 kJ/mol.<br>Energy released forming bonds (out): 2 × H–Cl = 2 × 432 = 864 kJ/mol.<br>Overall energy change = 679 − 864 = <b>−185 kJ/mol</b>.<br>Negative = <b>exothermic</b> (energy released to surroundings)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "r4fNrFdVE8",
+                      "guid": "r4fNrFdVE8",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for energy changes? What is measured and why use a polystyrene cup?",
+                        "Mix two solutions (e.g. acid + alkali, or dissolving a salt) in a polystyrene cup. Record temperature of each solution before mixing. Mix and record maximum (or minimum for endothermic) temperature.<br><b>Polystyrene cup:</b> low thermal conductivity = less heat lost to surroundings = more accurate result.<br><b>Variables:</b> volume and concentration of solutions, starting temperature, mass of solid.<br><b>Worked example:</b> neutralisation — temperature rises (exothermic). Dissolving NH₄Cl — temperature falls (endothermic)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oXHXJS6HtK",
+                      "guid": "oXHXJS6HtK",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you calculate the energy transferred in a calorimetry experiment using Q = mcΔT?",
+                        "<b>Q = mcΔT</b><br>Q = energy transferred (J), m = mass of solution (g), c = specific heat capacity of water (4.2 J/g°C), ΔT = temperature change (°C).<br><b>Example:</b> 50 g of solution, temperature rises from 22°C to 35°C.<br>ΔT = 13°C → Q = 50 × 4.2 × 13 = <b>2730 J = 2.73 kJ</b>.<br>To find energy per mole: divide Q by moles of limiting reagent used."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "din1wivwyA",
+                      "guid": "din1wivwyA",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are hydrogen fuel cells and what are their advantages and disadvantages?",
+                        "A fuel cell uses hydrogen and oxygen to produce electricity directly via a chemical reaction: H₂ + ½O₂ → H₂O.<br><b>Advantages:</b> only product is water (no CO₂ during use), more efficient than combustion engines, no moving parts, quiet.<br><b>Disadvantages:</b> hydrogen difficult to store and transport safely (explosive, low density), most hydrogen currently made from fossil fuels (so not truly zero carbon), infrastructure lacking, expensive to produce."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eABaHCuFou",
+                      "guid": "eABaHCuFou",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Activation energy: the {{c1::minimum energy}} required for particles to react when they collide. A {{c2::catalyst}} lowers the activation energy by providing an {{c3::alternative reaction pathway}}. On a reaction profile, a catalyst is shown as a {{c4::lower hump}} — the reactants and products are at the {{c5::same energy levels}} as without catalyst.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "klnmIjspsZ",
+                      "guid": "klnmIjspsZ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the difference between an exothermic and endothermic reaction on an energy profile diagram?",
+                        "<b>Exothermic:</b> products are at a LOWER energy level than reactants. The difference (reactants − products) = energy released. Activation energy hump starts from reactants level.<br><b>Endothermic:</b> products are at a HIGHER energy level than reactants. Energy must be continuously supplied. Both show: reactants on left, activation energy peak, products on right.<br><b>Key mark scheme point:</b> the activation energy is measured from the reactants to the PEAK (top of hump), not from reactants to products."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dO5rH3QHqU",
+                      "guid": "dO5rH3QHqU",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Why is the reaction between zinc and copper sulfate solution described as exothermic, and what would you observe?",
+                        "Zinc displaces copper: Zn + CuSO₄ → ZnSO₄ + Cu.<br>It is exothermic — energy is released as new bonds (Zn–O in ZnSO₄) are stronger than bonds broken (Cu–O in CuSO₄).<br><b>Observations:</b> blue solution turns colourless/pale, orange/pink copper metal appears on zinc surface, temperature of solution increases.<br><b>Exam tip:</b> always state what you would measure (temperature with thermometer) and what change indicates exothermic (temperature rise)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kekSaB2IBv",
+                      "guid": "kekSaB2IBv",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Classify these as exothermic or endothermic: (a) burning methane (b) dissolving ammonium nitrate (c) hand warmers (d) photosynthesis (e) neutralisation of HCl with NaOH.",
+                        "(a) Burning methane — <b>exothermic</b> (combustion always releases energy)<br>(b) Dissolving ammonium nitrate — <b>endothermic</b> (temperature falls, used in cold packs)<br>(c) Hand warmers — <b>exothermic</b> (iron oxidation releases heat)<br>(d) Photosynthesis — <b>endothermic</b> (absorbs light energy to build glucose)<br>(e) Neutralisation HCl + NaOH — <b>exothermic</b> (temperature rises ~6–8°C)"
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11766,6 +12338,136 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eWzlzjHeIS",
+                      "guid": "eWzlzjHeIS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: reacting masses from a balanced equation. What mass of water is produced from 4g of hydrogen? (2H₂ + O₂ → 2H₂O)",
+                        "Step 1: Mr of H₂ = 2, Mr of H₂O = 18.<br>Step 2: From equation, 2 mol H₂ → 2 mol H₂O (1:1 ratio).<br>Step 3: moles of H₂ = 4 ÷ 2 = 2 mol.<br>Step 4: moles of H₂O = 2 mol.<br>Step 5: mass of H₂O = 2 × 18 = <b>36 g</b>.<br><b>Shortcut:</b> mass ratio from equation = 4:36. Scale to given mass: 4g H₂ → 36g H₂O."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bQi65NWxui",
+                      "guid": "bQi65NWxui",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Concentration in mol/dm³ = {{c1::moles of solute}} ÷ {{c2::volume of solution in dm³}}. 1 dm³ = {{c3::1000 cm³}}. To convert cm³ to dm³, {{c4::divide by 1000}}. Example: 0.5 mol NaCl in 2 dm³ → concentration = {{c5::0.25 mol/dm³}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qINbeib4h9",
+                      "guid": "qINbeib4h9",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you calculate concentration in g/dm³ and convert between g/dm³ and mol/dm³?",
+                        "<b>Concentration (g/dm³) = mass of solute (g) ÷ volume of solution (dm³)</b><br>To convert mol/dm³ → g/dm³: multiply by Mr.<br>To convert g/dm³ → mol/dm³: divide by Mr.<br><b>Example:</b> 0.25 mol/dm³ NaCl (Mr = 58.5): concentration in g/dm³ = 0.25 × 58.5 = 14.625 g/dm³."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "s5x6CVMEk3",
+                      "guid": "s5x6CVMEk3",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: calculate the concentration of NaOH, given 25.0 cm³ of NaOH required 23.50 cm³ of 0.100 mol/dm³ HCl for neutralisation. (HCl + NaOH → NaCl + H₂O)",
+                        "Step 1: moles of HCl = 0.100 × (23.50 ÷ 1000) = 0.00235 mol.<br>Step 2: ratio HCl:NaOH = 1:1, so moles NaOH = 0.00235 mol.<br>Step 3: concentration NaOH = 0.00235 ÷ (25.0 ÷ 1000) = <b>0.094 mol/dm³</b>.<br><b>Exam tip:</b> always convert cm³ to dm³ (÷1000) before using in concentration formula."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "mOvJhMvJJS",
+                      "guid": "mOvJhMvJJS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is a limiting reactant? How do you identify it?",
+                        "The limiting reactant is the one that is completely used up first — it limits the amount of product that can form. The other reactant is in excess (some remains at the end).<br><b>Method:</b> calculate moles of each reactant → compare to the equation ratio → the one that runs out first is limiting.<br><b>Example:</b> 2H₂ + O₂ → 2H₂O. 3 mol H₂ and 2 mol O₂: need 1.5 mol O₂ for 3 mol H₂ → O₂ is in excess. H₂ is limiting."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qkwhFKEG7M",
+                      "guid": "qkwhFKEG7M",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: percentage yield. Theoretical yield of NaCl = 5.85g. Actual yield from experiment = 4.68g. What is the percentage yield?",
+                        "% yield = (actual yield ÷ theoretical yield) × 100<br>= (4.68 ÷ 5.85) × 100 = <b>80%</b><br><b>Reasons yield is less than 100%:</b> reaction may be reversible (not complete), product lost during filtering/evaporation/transfer, side reactions producing different products."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "vRMlCFwUJ2",
+                      "guid": "vRMlCFwUJ2",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "(Higher Tier) Molar volume of a gas at room temperature and pressure (RTP): 1 mole of any gas = {{c1::24 dm³}} (24,000 cm³). Volume (dm³) = moles × {{c2::24}}. Moles = volume (dm³) ÷ {{c3::24}}. Example: 2g H₂ (Mr=2) = 1 mol → volume = {{c4::24 dm³}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "svgwtFMfb3",
+                      "guid": "svgwtFMfb3",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "(Higher Tier) Calculate the volume of CO₂ produced when 10g of CaCO₃ reacts with excess HCl. (CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂, Mr CaCO₃ = 100)",
+                        "Step 1: moles CaCO₃ = 10 ÷ 100 = 0.1 mol.<br>Step 2: from equation, 1 mol CaCO₃ → 1 mol CO₂ (1:1 ratio).<br>Step 3: moles CO₂ = 0.1 mol.<br>Step 4: volume CO₂ = 0.1 × 24 = <b>2.4 dm³</b> (or 2400 cm³).<br><b>Remember:</b> only works at room temperature and pressure (RTP)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "q1XTkYbUs4",
+                      "guid": "q1XTkYbUs4",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for Quantitative Chemistry? What is the method for an acid-alkali titration?",
+                        "<b>Method:</b> fill burette with acid. Pipette 25.0 cm³ of alkali into conical flask. Add a few drops of indicator (phenolphthalein — pink in alkali, colourless in acid). Run acid from burette slowly, swirling constantly. Stop when indicator just changes colour (endpoint). Record volume added (titre).<br><b>Repeat</b> to get concordant results (within 0.10 cm³).<br><b>Mean titre</b> = average of concordant results (exclude anomalies).<br><b>Accuracy tip:</b> rinse burette with acid before filling; use white tile to see colour change clearly."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "x7RuhvoxDY",
+                      "guid": "x7RuhvoxDY",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Atom economy = (Mr of {{c1::desired product(s)}} ÷ {{c2::total Mr of all products}}) × 100. High atom economy means less {{c3::waste}} and is more {{c4::sustainable}}. Addition reactions have atom economy of {{c5::100%}} because only one product forms.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 }
@@ -11827,6 +12529,136 @@
                       "fields": [
                         "What is a pure substance and what is a formulation?",
                         "Pure substance: only one type of element or compound — has sharp melting/boiling point. Formulation: deliberately designed mixture with specific proportions for a purpose (e.g. medicines, fuels, paints, fertilisers, foods). Impure substances melt/boil over a range of temperatures."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dncMNpl0zc",
+                      "guid": "dncMNpl0zc",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Flame test colours: Lithium = {{c1::crimson red}}. Sodium = {{c2::yellow/orange}}. Potassium = {{c3::lilac}}. Calcium = {{c4::orange-red}}. Copper = {{c5::green/blue}}. The test is done by placing the sample on a {{c6::nichrome wire loop}} in a {{c7::Bunsen flame}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "f8MPKdnih0",
+                      "guid": "f8MPKdnih0",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you test for carbonate ions (CO₃²⁻)?",
+                        "Add dilute acid (e.g. dilute HCl) to the solid or solution. If carbonate ions are present, <b>fizzing occurs</b> and carbon dioxide gas is released.<br>CO₃²⁻ + 2H⁺ → CO₂ + H₂O<br>Confirm the gas is CO₂ by passing through limewater — turns <b>milky/cloudy</b>."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cZ4x7HF4dp",
+                      "guid": "cZ4x7HF4dp",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Testing for halide ions — add dilute nitric acid then silver nitrate solution (AgNO₃):<br>Cl⁻ gives a {{c1::white}} precipitate (AgCl).<br>Br⁻ gives a {{c2::cream}} precipitate (AgBr).<br>I⁻ gives a {{c3::yellow}} precipitate (AgI).<br>Dilute HNO₃ added first to remove {{c4::carbonate ions}} that would interfere.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rF8bMa9X2d",
+                      "guid": "rF8bMa9X2d",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you test for sulfate ions (SO₄²⁻)?",
+                        "Add dilute hydrochloric acid (to remove interfering ions such as carbonates) then add <b>barium chloride solution (BaCl₂)</b>.<br>If sulfate ions are present: a <b>white precipitate</b> of barium sulfate (BaSO₄) forms — insoluble in acid.<br>Ba²⁺ + SO₄²⁻ → BaSO₄ (white precipitate)<br>The HCl ensures any carbonate precipitate (which is also white) would dissolve, confirming the result is truly from sulfate."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "phJvyQzDN0",
+                      "guid": "phJvyQzDN0",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Testing for metal ions by adding NaOH solution drop by drop — precipitate colour:<br>Cu²⁺: {{c1::blue}} precipitate. Fe²⁺: {{c2::green}} precipitate. Fe³⁺: {{c3::brown/rust}} precipitate. Ca²⁺: {{c4::white}} precipitate. Al³⁺: white precipitate that {{c5::dissolves in excess NaOH}} (amphoteric).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oVNnvKBngr",
+                      "guid": "oVNnvKBngr",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you test for ammonium ions (NH₄⁺)?",
+                        "Add sodium hydroxide solution (NaOH) and <b>gently warm</b>. If ammonium ions are present, <b>ammonia gas (NH₄⁺ + OH⁻ → NH₃ + H₂O)</b> is released — has a distinctive pungent smell.<br>Confirm with <b>damp red litmus paper</b> → turns <b>blue</b> (ammonia is alkaline)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "v8P0NU7PF6",
+                      "guid": "v8P0NU7PF6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for chromatography? What are the key technique points?",
+                        "<b>Method:</b> draw a <b>pencil</b> baseline (not pen — ink dissolves) on chromatography paper. Spot samples onto the line using a capillary tube. Allow spots to dry. Stand paper in solvent <b>below the baseline</b>. Allow solvent to rise. Remove before solvent reaches top. Mark <b>solvent front</b> immediately.<br><b>Calculate Rf</b> = distance moved by spot ÷ distance moved by solvent front.<br><b>Key points:</b> use pencil not pen; keep solvent below baseline; don't move paper while running; cover to prevent evaporation."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cb3pzcVFSS",
+                      "guid": "cb3pzcVFSS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is instrumental analysis and what are its advantages over chemical tests?",
+                        "<b>Flame emission spectroscopy:</b> elements identified by the specific wavelengths of light they emit when heated. Produces a unique line spectrum for each element. Used to identify metal ions in solution.<br><b>Mass spectrometry:</b> identifies substances by their mass-to-charge ratio. Can identify very small amounts of unknown substances.<br><b>Advantages over chemical tests:</b> more sensitive (detect tiny quantities), more accurate, faster results, can identify substances that give similar chemical test results."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kLC1UnPdLR",
+                      "guid": "kLC1UnPdLR",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How would you identify an unknown ionic compound using a systematic sequence of tests?",
+                        "<b>Step 1:</b> Flame test → identifies metal cation (Na = yellow, K = lilac, Ca = orange-red, Cu = green/blue, Li = crimson).<br><b>Step 2:</b> Add NaOH → precipitate colour identifies other metal ions (Cu²⁺ blue, Fe²⁺ green, Fe³⁺ brown, Al³⁺ white dissolves in excess).<br><b>Step 3:</b> Add dilute acid → fizzes = carbonate (CO₃²⁻) present; test gas with limewater.<br><b>Step 4:</b> Add AgNO₃ after HNO₃ → white/cream/yellow ppt = Cl⁻/Br⁻/I⁻.<br><b>Step 5:</b> Add BaCl₂ after HCl → white ppt = sulfate (SO₄²⁻)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "h8pReJWRml",
+                      "guid": "h8pReJWRml",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "An unknown compound gives a yellow flame test. Adding NaOH gives no precipitate. Adding AgNO₃ (after HNO₃) gives a cream precipitate. Identify the compound.",
+                        "<b>Yellow flame</b> → sodium (Na⁺) ion present.<br><b>No precipitate with NaOH</b> → no copper, iron or aluminium ions (confirms Na⁺).<br><b>Cream precipitate with AgNO₃</b> → bromide (Br⁻) ion present (AgBr is cream).<br><b>Compound = sodium bromide (NaBr)</b>.<br><b>Exam tip:</b> always name BOTH the cation AND anion to fully identify an ionic compound."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11909,6 +12741,71 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jiQ6XTnolk",
+                      "guid": "jiQ6XTnolk",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the addition reactions of alkenes?",
+                        "Alkenes react across the C=C double bond with various reagents — one product formed:<br><b>+ H₂ (hydrogenation):</b> alkene + hydrogen → alkane (Ni catalyst, ~150°C). E.g. ethene + H₂ → ethane. Used to make margarine from vegetable oils.<br><b>+ Br₂ (bromination):</b> alkene + bromine → dibromoalkane. Bromine water decolourises (orange → colourless). Test for C=C bond.<br><b>+ H₂O (hydration):</b> alkene + steam → alcohol (H₃PO₄ catalyst, ~300°C). E.g. ethene + H₂O → ethanol. Industrial method for ethanol."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "pXHENOeKSv",
+                      "guid": "pXHENOeKSv",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Alcohols general formula: {{c1::CₙH₂ₙ₊₁OH}}. Ethanol: {{c2::C₂H₅OH}}. Made by <b>fermentation</b>: glucose + yeast → {{c3::ethanol}} + {{c4::CO₂}} (anaerobic, ~30°C, pH 7). OR by <b>hydration</b> of ethene: ethene + steam → ethanol ({{c5::H₃PO₄ catalyst, ~300°C}}). Fermentation = renewable but slow; hydration = non-renewable but faster and continuous.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dj20vFabwE",
+                      "guid": "dj20vFabwE",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Carboxylic acids have the functional group {{c1::–COOH}}. Ethanoic acid = {{c2::CH₃COOH}} (vinegar). They are {{c3::weak}} acids (partially ionise in water). React with alcohols to form {{c4::esters}} + water — called {{c5::esterification}}. E.g. ethanoic acid + ethanol ⇌ ethyl ethanoate + water (catalyst: {{c6::concentrated H₂SO₄}}).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "iskot3NQqr",
+                      "guid": "iskot3NQqr",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is addition polymerisation and how do you represent the polymer from a monomer?",
+                        "Many alkene monomers (with C=C double bonds) join together — the double bond opens and molecules link into a long chain. Only <b>one product</b> forms — atom economy = 100%.<br><b>Example:</b> n(CH₂=CH₂) → [–CH₂–CH₂–]ₙ (polyethene/polythene)<br>n(CH₂=CHCl) → [–CH₂–CHCl–]ₙ (PVC)<br><b>Representing:</b> the monomer shows C=C; the repeat unit in polymer shows single bond. Brackets and subscript n show the repeating unit.<br><b>Environmental problem:</b> most addition polymers are non-biodegradable."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cYwQS1KC5y",
+                      "guid": "cYwQS1KC5y",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are condensation polymers? Give examples of nylon and polyester.",
+                        "Formed by joining monomers together with elimination of a small molecule (usually water or HCl) with each bond formed.<br><b>Requires two functional groups on each monomer</b> (bifunctional).<br><b>Polyester:</b> diol + dicarboxylic acid → polyester + water. E.g. Terylene from ethane-1,2-diol + benzene-1,4-dicarboxylic acid.<br><b>Nylon:</b> diamine + dicarboxylic acid (or diacid chloride) → nylon + water. Used in ropes, clothing, toothbrush bristles.<br><b>Difference from addition polymers:</b> condensation polymers contain heteroatoms (O or N) in the backbone; addition polymers are all carbon chains."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -11987,6 +12884,84 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eueMpi5SVP",
+                      "guid": "eueMpi5SVP",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for rate of reaction? Describe two different methods.",
+                        "<b>Method 1 — Marble chips + HCl (CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂):</b><br>• Measure mass of flask + contents on balance. CO₂ escapes → mass decreases. Record mass every 30 seconds. Plot mass vs time graph.<br>• OR collect CO₂ in gas syringe — plot volume vs time.<br><b>Method 2 — Sodium thiosulfate + HCl (produces sulphur precipitate — turns cloudy):</b><br>• Draw a cross on paper. Place flask over it. Add HCl. Time until cross disappears from above.<br>• 1/time ∝ rate. Vary: temperature, concentration of Na₂S₂O₃.<br><b>Control variables:</b> volume of solutions, concentration of one reactant, temperature."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eKbf6JOyXg",
+                      "guid": "eKbf6JOyXg",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you calculate rate of reaction from a graph?",
+                        "Rate = amount of product formed (or reactant used) ÷ time taken.<br><b>From a graph:</b> rate at any point = <b>gradient of the tangent</b> to the curve at that point.<br><b>Initial rate</b> = gradient at time zero (steepest part of curve — start of reaction).<br><b>Units:</b> g/s (loss of mass method), cm³/s (gas volume method).<br><b>As reaction proceeds:</b> gradient decreases as reactants are used up → rate decreases. Curve levels off when reaction is complete (one reactant fully used)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "epiTqvtl0Q",
+                      "guid": "epiTqvtl0Q",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the Maxwell-Boltzmann distribution and how does temperature affect it?",
+                        "A graph showing the distribution of kinetic energies (speeds) of particles in a gas at a given temperature.<br><b>Key features:</b> x-axis = kinetic energy, y-axis = number of particles. Curve starts at origin, rises to a peak, then tails off. Area under curve = total number of particles (constant).<br><b>Effect of increasing temperature:</b> peak shifts to the right and downwards (same number of particles but spread over wider range). The area to the right of the activation energy (Ea) increases <b>significantly</b> → many more particles have enough energy to react → rate increases dramatically.<br><b>Catalyst:</b> lowers Ea → even more particles exceed this lower threshold."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "sWYkjAwcVM",
+                      "guid": "sWYkjAwcVM",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the Haber process conditions and why are these specific conditions chosen?",
+                        "<b>Reaction:</b> N₂ + 3H₂ ⇌ 2NH₃ (ΔH = −92 kJ/mol — exothermic, fewer gas molecules on right)<br><b>Conditions:</b> temperature ~450°C, pressure ~200 atm, iron catalyst.<br><b>Temperature compromise:</b> lower T → higher yield (Le Chatelier: exothermic, cool favours products) BUT too slow. 450°C balances reasonable yield with acceptable rate.<br><b>Pressure:</b> higher P → higher yield (4 mol gas → 2 mol gas, high pressure favours fewer moles). 200 atm is economic limit — higher would require stronger/more expensive equipment.<br><b>Catalyst:</b> iron catalyst increases rate without affecting equilibrium position — recycled unreacted N₂ and H₂."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dO2e5hf5II",
+                      "guid": "dO2e5hf5II",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does surface area affect rate of reaction? Give an example.",
+                        "Increasing surface area increases rate because there are more particles exposed at the surface — more collisions per second with the other reactant.<br><b>Example:</b> powdered CaCO₃ reacts faster with HCl than marble chips of the same mass — same number of moles, but powder has far greater total surface area.<br><b>Practical evidence:</b> in the marble chips/HCl required practical, using powder instead of chips → steeper gradient on mass vs time graph → faster initial rate, same total mass loss.<br><b>Relevant to explosions:</b> fine dust (flour, coal) has enormous surface area → can explode rapidly when ignited."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "h613lPTJ1Y",
+                      "guid": "h613lPTJ1Y",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the three methods of measuring the rate of a reaction?",
+                        "<b>1. Loss of mass:</b> reaction produces a gas that escapes. Weigh flask on balance at regular intervals. Rate = gradient of mass vs time graph. E.g. CaCO₃ + HCl → CO₂ escapes.<br><b>2. Volume of gas produced:</b> collect gas in a gas syringe or inverted measuring cylinder over water. Plot volume vs time. E.g. H₂O₂ decomposition → O₂ collected.<br><b>3. Colour change / turbidity:</b> measure time for a colour change or cloudiness to develop. E.g. Na₂S₂O₃ + HCl → yellow sulphur precipitate; time until cross disappears. Rate ∝ 1/time."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -12052,6 +13027,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "hfK25L3Nji",
+                      "guid": "hfK25L3Nji",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the enhanced greenhouse effect and what are its consequences?",
+                        "<b>Natural greenhouse effect:</b> greenhouse gases (CO₂, CH₄, H₂O vapour) absorb infrared radiation emitted by Earth's surface and re-radiate it back → keeps Earth ~33°C warmer than without atmosphere.<br><b>Enhanced greenhouse effect:</b> increased burning of fossil fuels + deforestation → higher CO₂ levels + methane from agriculture/landfill → more heat trapped → global warming.<br><b>Consequences:</b> rising sea levels (thermal expansion + ice melt), more extreme weather events, loss of habitats, species extinction, disruption to agriculture/water supplies, ocean acidification."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rMUzzfHrtH",
+                      "guid": "rMUzzfHrtH",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How did the proportion of oxygen in the atmosphere increase over billions of years?",
+                        "<b>Early atmosphere:</b> no oxygen — mainly CO₂, water vapour, small amounts of N₂, methane, ammonia.<br><b>Stage 1 (~3.5 billion years ago):</b> oceans formed as water vapour condensed. CO₂ dissolved in oceans (forming carbonate rocks and limestone over time).<br><b>Stage 2:</b> simple photosynthetic organisms (blue-green algae/cyanobacteria) evolved → produced O₂ by photosynthesis: CO₂ + H₂O → glucose + O₂.<br><b>Stage 3:</b> O₂ accumulated over hundreds of millions of years as organisms spread. O₂ allowed ozone layer to form → shielded from UV → more complex life could colonise land. N₂ built up as unreactive byproduct of processes."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rpAvMy1KgD",
+                      "guid": "rpAvMy1KgD",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Carbon dioxide in the atmosphere: increased by {{c1::burning fossil fuels}}, {{c2::deforestation}} (less photosynthesis, decomposition of trees), {{c3::cement production}} (CaCO₃ → CaO + CO₂). Decreased by {{c4::photosynthesis}}, dissolution in {{c5::oceans}}, formation of {{c6::sedimentary rocks and fossil fuels}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -12113,6 +13127,45 @@
                       "fields": [
                         "Finite resources: {{c1::fossil fuels}}, metal ores — cannot be replaced on a human timescale. Renewable resources: {{c2::wood}}, {{c3::plant-based materials}} — can be replaced. Recycling metals saves {{c4::energy}} and reduces need to mine new ore (reduces habitat destruction).",
                         ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uAwlk4h6cy",
+                      "guid": "uAwlk4h6cy",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the environmental advantages of recycling metals compared to extracting from ores?",
+                        "<b>Advantages of recycling:</b><br>• Much less energy required — e.g. recycling aluminium uses only ~5% of the energy needed for extraction from bauxite by electrolysis.<br>• Reduces mining → less habitat destruction, less toxic waste from mining operations.<br>• Reduces CO₂ emissions (less fossil fuel burned for energy).<br>• Conserves finite ore reserves.<br>• Reduces landfill waste.<br><b>Challenges:</b> sorting different metals is time-consuming and expensive. Some alloys are difficult to separate. Some contamination from other materials."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oCvk9dxEnA",
+                      "guid": "oCvk9dxEnA",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the Haber process for making ammonia and how is it related to using resources sustainably?",
+                        "N₂ + 3H₂ ⇌ 2NH₃ (450°C, 200 atm, iron catalyst)<br><b>Sustainability issues:</b> nitrogen comes from air (unlimited). Hydrogen comes from methane (natural gas) — finite resource that produces CO₂.<br><b>Alternative:</b> electrolysis of water using renewable electricity to produce hydrogen — but currently expensive.<br><b>Ammonia use:</b> mainly for making <b>nitrogen fertilisers</b> (e.g. ammonium nitrate, ammonium sulfate) → increases crop yields → supports global population. However, excess fertiliser → eutrophication of water."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "duN0RNsX9i",
+                      "guid": "duN0RNsX9i",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the difference between a batch process and a continuous process in the chemical industry?",
+                        "<b>Batch process:</b> reactants added, reaction runs, products extracted, vessel cleaned, repeat. Good for small quantities of specialised products (e.g. medicines, pharmaceuticals). More flexible but labour intensive.<br><b>Continuous process:</b> reactants fed in constantly, products extracted continuously. Good for large-scale, high-demand products (e.g. Haber process for ammonia, sulfuric acid). More efficient at scale, runs 24/7, cheaper per unit — but expensive to set up and difficult to change product."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -12204,6 +13257,97 @@
                       "fields": [
                         "What are the uses of nuclear radiation?",
                         "Medical: gamma used in radiotherapy (kills cancer cells), beta used in tracers. Industrial: gamma used to check for cracks in pipes/metal. Carbon-14 dating (archaeological). Nuclear power: fission of uranium-235 releases energy. Nuclear fusion (stars, potential future energy): joins nuclei together, releases enormous energy."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qCPxoyEeOi",
+                      "guid": "qCPxoyEeOi",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is nuclear fission and how does a chain reaction occur?",
+                        "<b>Nuclear fission:</b> a large, unstable nucleus (e.g. uranium-235 or plutonium-239) <b>absorbs a slow-moving neutron</b> → splits into two smaller nuclei + 2–3 neutrons + large amount of energy (kinetic energy of fragments + gamma radiation).<br><b>Chain reaction:</b> the neutrons released go on to cause further fissions → exponentially increasing reactions. In a <b>nuclear reactor</b>, control rods (boron) absorb excess neutrons to control the rate. The <b>moderator</b> (water/graphite) slows neutrons so they can be absorbed by nuclei."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jK3FopkpXf",
+                      "guid": "jK3FopkpXf",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is nuclear fusion and why is it difficult to achieve on Earth?",
+                        "<b>Nuclear fusion:</b> two small nuclei (e.g. hydrogen isotopes — deuterium and tritium) <b>combine</b> under extreme conditions to form a larger nucleus, releasing enormous energy.<br><b>Why difficult:</b> nuclei are positively charged → repel each other → need <b>extremely high temperatures</b> (millions of °C) and high pressure to force nuclei close enough to fuse. Difficult to contain such a plasma. Current fusion reactors (e.g. JET) require more energy input than they produce.<br><b>Advantages if achieved:</b> huge energy release, abundant fuel (hydrogen from seawater), no long-lived radioactive waste, no CO₂."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "q8SXPQNPSC",
+                      "guid": "q8SXPQNPSC",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Background radiation: always-present low-level radiation from natural and artificial sources. Natural sources: {{c1::radon gas}} (from rocks — major source in UK), {{c2::cosmic rays}}, {{c3::food and drink}}, {{c4::rocks and building materials}}. Artificial: {{c5::medical (X-rays/nuclear medicine)}}, nuclear power, nuclear weapons testing. Background radiation must be {{c6::subtracted}} from measurements in experiments.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "tX9rvuX9qy",
+                      "guid": "tX9rvuX9qy",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the difference between contamination and irradiation?",
+                        "<b>Irradiation:</b> the body is exposed to radiation from a <b>source outside</b> the body. The source is not in contact — once removed, exposure stops. Less dangerous than contamination (depending on type).<br><b>Contamination:</b> radioactive material <b>gets onto or inside</b> the body (inhaled, ingested, skin contact). Continues to irradiate from inside — much harder to remove. Alpha emitters are especially dangerous as contaminants (very ionising internally) even though alpha is stopped by skin externally."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "u67v4VHBd6",
+                      "guid": "u67v4VHBd6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: half-life calculation. A sample initially contains 6400 atoms of a radioactive isotope with half-life 3 years. How many atoms remain after 12 years?",
+                        "Number of half-lives = 12 ÷ 3 = <b>4 half-lives</b><br>After 1 half-life (3 yr): 6400 ÷ 2 = 3200<br>After 2 half-lives (6 yr): 3200 ÷ 2 = 1600<br>After 3 half-lives (9 yr): 1600 ÷ 2 = 800<br>After 4 half-lives (12 yr): 800 ÷ 2 = <b>400 atoms</b><br><b>Formula shortcut:</b> N = N₀ × (½)ⁿ where n = number of half-lives. N = 6400 × (½)⁴ = 6400/16 = 400."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "vZkUyitQiy",
+                      "guid": "vZkUyitQiy",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you balance nuclear equations (alpha and beta decay)?",
+                        "<b>Rules:</b> mass numbers (top) must balance. Atomic numbers (bottom) must balance.<br><b>Alpha decay:</b> α particle = ⁴₂He. Mass number −4, atomic number −2.<br>Example: ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He ✓ (238=234+4; 92=90+2)<br><b>Beta decay:</b> β particle = ⁰₋₁e. Mass number unchanged, atomic number +1.<br>Example: ¹⁴₆C → ¹⁴₇N + ⁰₋₁e ✓ (14=14+0; 6=7+(−1))<br><b>Key:</b> gamma (γ) emission — no change to mass or atomic number (just energy released)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dRWntZuLEw",
+                      "guid": "dRWntZuLEw",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the dangers of ionising radiation and how do we protect against them?",
+                        "<b>Dangers:</b> ionising radiation removes electrons from atoms → damages cells → kills cells (high doses) or causes mutations → <b>cancer</b>. Alpha most ionising (most dangerous if contaminating), gamma most penetrating (requires heavy shielding).<br><b>Reducing exposure — ALARA principle (As Low As Reasonably Achievable):</b><br>• <b>Time:</b> minimise time in radiation field<br>• <b>Distance:</b> stay as far away as possible (intensity ∝ 1/d²)<br>• <b>Shielding:</b> paper stops α; aluminium stops β; thick lead/concrete stops γ<br>• Wear dosimeters to monitor accumulated dose. Use tongs, not hands."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -12325,6 +13469,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fZdwh5liaI",
+                      "guid": "fZdwh5liaI",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you calculate resistance in series and parallel circuits?",
+                        "<b>Series:</b> R_total = R₁ + R₂ + R₃... (resistances add up). Current same throughout. Voltage shared proportionally (larger R → larger V across it).<br><b>Parallel:</b> 1/R_total = 1/R₁ + 1/R₂ + 1/R₃... (total resistance less than smallest). Same voltage across each branch. Currents add up (I_total = I₁ + I₂).<br><b>Example:</b> two 6Ω resistors in series: R_total = 12Ω. In parallel: 1/R = 1/6 + 1/6 = 2/6 → R = 3Ω."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cpysS6jWHV",
+                      "guid": "cpysS6jWHV",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for I-V characteristics? What graphs do you draw?",
+                        "<b>Method:</b> set up circuit with ammeter in series, voltmeter in parallel with the component. Use variable resistor (rheostat) to change current. Record current and voltage for range of values. Reverse connections to get negative values.<br><b>Components tested:</b><br>• <b>Resistor:</b> straight line through origin → constant resistance (Ohm's Law).<br>• <b>Filament lamp:</b> S-curve (non-linear) → resistance increases as temperature increases.<br>• <b>Diode:</b> current only flows in one direction. Very high resistance in reverse direction → flat line."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rviLdNkw9V",
+                      "guid": "rviLdNkw9V",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do we stay safe from mains electricity? What is the role of the earth wire and fuse?",
+                        "<b>Earth wire (green/yellow):</b> connects metal casing of appliance to earth (0V). If live wire touches casing → large current flows through earth wire → fuse blows → appliance isolated. Prevents electrocution.<br><b>Fuse:</b> thin wire that melts if too much current flows → breaks the circuit. Chosen to be slightly above normal operating current. E.g. 2A device → 3A fuse (NOT 5A — too slow to protect).<br><b>Circuit breaker:</b> automatically switches off if current exceeds threshold. Can be reset (unlike fuse which must be replaced). RCDs (residual current device) detect very small differences in current → trip in milliseconds."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -12429,6 +13612,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fOgcOgOMkg",
+                      "guid": "fOgcOgOMkg",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is a Sankey diagram and how do you interpret one?",
+                        "A Sankey diagram represents energy transfers. The arrow width is proportional to the amount of energy.<br><b>Reading one:</b> input energy enters from the left (total width). Useful output goes straight ahead. Wasted energy (usually heat) branches off — often downwards.<br><b>Example:</b> a filament bulb with 100J input: 10J useful light (forward arrow), 90J waste heat (downward arrow).<br><b>Efficiency from Sankey:</b> useful output ÷ total input × 100 = 10/100 × 100 = 10% efficient.<br><b>Exam tip:</b> the wasted energy arrow should be wider than the useful arrow for most devices (most real processes are <50% efficient)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "vLzbFDlldS",
+                      "guid": "vLzbFDlldS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you compare different energy resources? What are the advantages of each?",
+                        "<b>Fossil fuels (coal, oil, gas):</b> reliable, high energy density, existing infrastructure. Disadvantages: CO₂ (climate change), SO₂ (acid rain), finite.<br><b>Nuclear:</b> reliable, no CO₂ during generation, huge energy density. Disadvantages: radioactive waste, expensive to build/decommission, risk of accidents.<br><b>Wind:</b> renewable, no CO₂, cheap to run. Disadvantages: intermittent (needs wind), visual impact, noise, birds.<br><b>Solar:</b> renewable, no CO₂. Disadvantages: intermittent (day, weather), expensive panels.<br><b>Hydroelectric:</b> reliable, renewable, can store energy (pump at off-peak). Disadvantages: habitat destruction, flooding of land.<br><b>Biofuel:</b> renewable, carbon-neutral in theory. Disadvantages: land use competes with food."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qSoH4F4Bp7",
+                      "guid": "qSoH4F4Bp7",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Elastic potential energy: stored in stretched or compressed springs. Formula: Ep = {{c1::½ke²}}. k = {{c2::spring constant}} (N/m), e = {{c3::extension}} (m). A spring with k = 50 N/m stretched by 0.2 m: Ep = 0.5 × 50 × 0.04 = {{c4::1 J}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -12490,6 +13712,110 @@
                       "fields": [
                         "What is gas pressure and how does it change with temperature?",
                         "Gas pressure caused by particles colliding with walls of container. Increasing temperature → particles move faster → more frequent and forceful collisions → increased pressure (if volume constant). Increasing volume → fewer collisions per unit area → decreased pressure (if temperature constant)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "b9VShRnQ6E",
+                      "guid": "b9VShRnQ6E",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Density = {{c1::mass}} ÷ {{c2::volume}}. Units: {{c3::kg/m³}} or {{c4::g/cm³}}. A block of mass 500g and volume 250 cm³ has density = {{c5::2 g/cm³}}. Density of water = {{c6::1 g/cm³}} (1000 kg/m³). Objects less dense than water {{c7::float}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "q5aft3BW0A",
+                      "guid": "q5aft3BW0A",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for measuring density? How do you find the volume of irregular objects?",
+                        "<b>Regular objects:</b> measure dimensions with ruler/vernier callipers → calculate volume (e.g. l×w×h for cuboid). Measure mass on digital balance → density = mass/volume.<br><b>Irregular objects (e.g. stone):</b> partially fill a measuring cylinder with water, note the volume. Submerge the object → note new volume. Volume of object = difference in water levels (displacement method).<br>Measure mass on balance → density = mass/volume.<br><b>Units:</b> if mass in g and volume in cm³ → density in g/cm³."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jEvLMCcJxd",
+                      "guid": "jEvLMCcJxd",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: SHC calculation. A 2 kg block of copper (SHC = 385 J/kg°C) is heated and its temperature rises from 20°C to 70°C. How much energy was transferred?",
+                        "Q = mcΔT<br>m = 2 kg, c = 385 J/kg°C, ΔT = 70 − 20 = 50°C<br>Q = 2 × 385 × 50 = <b>38,500 J = 38.5 kJ</b><br><b>Rearranging:</b> c = Q/(mΔT) to find SHC. m = Q/(cΔT) to find mass. ΔT = Q/(mc) to find temperature change."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "ppD17bsB2u",
+                      "guid": "ppD17bsB2u",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for specific heat capacity? What is the method?",
+                        "<b>Equipment:</b> metal block (aluminium or copper) with two holes, immersion heater, thermometer, joulemeter or ammeter+voltmeter+stopwatch, insulating material.<br><b>Method:</b> insert heater and thermometer into block. Record starting temperature. Switch on heater, record temperature every minute and the total energy supplied (from joulemeter: E = IVt).<br><b>Calculate:</b> c = Q ÷ (mΔT) where Q = energy from joulemeter, m = mass of block, ΔT = temperature rise.<br><b>Wrap block in insulating material</b> to reduce energy lost to surroundings → more accurate result."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bXfqMwKuSP",
+                      "guid": "bXfqMwKuSP",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Worked example: specific latent heat. How much energy is needed to melt 0.5 kg of ice? (Latent heat of fusion of water = 334,000 J/kg)",
+                        "Q = mL<br>Q = 0.5 × 334,000 = <b>167,000 J = 167 kJ</b><br><b>Key point:</b> during melting, temperature stays at 0°C — all energy breaks intermolecular bonds, none goes into kinetic energy of particles.<br><b>Latent heat of vaporisation</b> (boiling water → steam) = 2,260,000 J/kg — much larger because bonds between molecules must be completely separated."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dfpxTDHKNR",
+                      "guid": "dfpxTDHKNR",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "(Higher Tier) Boyle's Law: for a fixed mass of gas at constant temperature, pressure × volume = {{c1::constant}}. Formula: {{c2::p₁V₁ = p₂V₂}}. If pressure doubles, volume {{c3::halves}} (inversely proportional). Example: gas at 100 kPa occupies 2 m³. If pressure increases to 200 kPa: new volume = {{c4::1 m³}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "f6e3BVhzrP",
+                      "guid": "f6e3BVhzrP",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "(Higher Tier) What is the pressure-temperature law for gases and how do you use it?",
+                        "At constant volume: p/T = constant, so <b>p₁/T₁ = p₂/T₂</b>.<br><b>Important:</b> temperature MUST be in Kelvin (K). T(K) = T(°C) + 273.<br><b>Example:</b> gas at 100 kPa and 27°C (= 300 K). Heated to 127°C (= 400 K) at constant volume.<br>p₂ = p₁ × T₂/T₁ = 100 × 400/300 = <b>133 kPa</b><br><b>Explanation:</b> higher temperature → faster particles → more frequent/harder collisions with walls → greater pressure."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uNMBurtjVY",
+                      "guid": "uNMBurtjVY",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is Brownian motion and what does it show about particles?",
+                        "<b>Brownian motion:</b> the random, jittery movement of small particles (e.g. smoke or pollen) suspended in a fluid, observed under a microscope.<br><b>Explanation:</b> the particles are constantly being bombarded by much smaller, invisible molecules of the fluid moving randomly. The bombardment is uneven — more molecules hit from one side at any moment → net force → random movement.<br><b>Significance:</b> provides evidence that fluids are made of tiny, constantly moving particles (kinetic theory). First explained by Einstein in 1905."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -12637,6 +13963,58 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "n9Ye8wTcPL",
+                      "guid": "n9Ye8wTcPL",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is Hooke's Law and what is the spring constant?",
+                        "<b>Hooke's Law:</b> extension of a spring is directly proportional to the force applied, up to the limit of proportionality (elastic limit).<br><b>Formula:</b> F = ke (Force = spring constant × extension). k in N/m, e in m.<br><b>Graph:</b> linear section (Hooke's Law applies) then curves upward past the elastic limit (plastic deformation — doesn't return to original shape).<br><b>Worked example:</b> 5N stretches a spring by 0.1m → k = F/e = 5/0.1 = 50 N/m. Predict extension for 7.5N: e = F/k = 7.5/50 = 0.15 m.<br><b>Required practical:</b> measure extension for increasing weights, plot F vs extension."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uLw8foF2BS",
+                      "guid": "uLw8foF2BS",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is pressure and how do you calculate it? What is pressure in a fluid?",
+                        "<b>Pressure = force ÷ area</b> (P = F/A). Units: Pascals (Pa) or N/m².<br><b>Example:</b> 500N on area of 0.25m² → P = 500/0.25 = 2000 Pa.<br><b>Pressure in a fluid</b> increases with depth: P = hρg (h = depth, ρ = density, g = 9.8 N/kg).<br><b>Atmospheric pressure</b> decreases with altitude (less air above → less weight → less pressure).<br><b>Upthrust:</b> pressure in a fluid is greater at the bottom than top of an object → net upward force = upthrust. If upthrust ≥ weight, object floats."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "krUkEiz2r9",
+                      "guid": "krUkEiz2r9",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the difference between elastic and inelastic collisions?",
+                        "<b>Elastic collision:</b> both momentum AND kinetic energy are conserved. Ideal — KE not lost to heat/deformation. Example: billiard balls (approximately elastic).<br><b>Inelastic collision:</b> momentum is conserved but kinetic energy is NOT (some converted to heat, sound, deformation). Most real collisions. Example: car crash — objects crumple (designed — increases collision time → reduces force → safer).<br><b>In all collisions:</b> momentum is always conserved (closed system). Total KE after ≤ total KE before."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "tiZa1ojEPr",
+                      "guid": "tiZa1ojEPr",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are terminal velocity and the forces on falling objects?",
+                        "<b>Falling object:</b> initially, weight > drag → accelerates. As speed increases, drag increases. Eventually drag = weight → resultant force = 0 → constant velocity = terminal velocity.<br><b>Graph (velocity vs time):</b> curve increasing, then horizontal line at terminal velocity.<br><b>Parachute example:</b> when parachute opens → drag suddenly increases greatly → deceleration. New, lower terminal velocity reached. On landing, speed is safe.<br><b>Factors affecting terminal velocity:</b> weight (greater weight → higher terminal velocity), drag (larger area/higher drag coefficient → lower terminal velocity)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 },
@@ -12697,6 +14075,110 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
                         "A transformer uses {{c1::electromagnetic induction}}. Step-up transformer: {{c2::more}} turns on secondary coil → higher voltage. Step-down: {{c3::fewer}} turns → lower voltage. Formula: {{c4::Vs/Vp = Ns/Np}}. Only works with {{c5::AC}} (alternating current).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "mPWtv14rKf",
+                      "guid": "mPWtv14rKf",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Transformer worked example: a step-up transformer has 500 turns on the primary and 5000 turns on the secondary. If the primary voltage is 230V, what is the secondary voltage? If the primary current is 10A, what is the secondary current (assume 100% efficiency)?",
+                        "<b>Voltage:</b> Vs/Vp = Ns/Np → Vs = 230 × (5000/500) = <b>2300 V</b><br><b>Current (using P = IV, assume 100% efficient → power in = power out):</b><br>Ip × Vp = Is × Vs → 10 × 230 = Is × 2300 → Is = <b>1 A</b><br><b>Key principle:</b> step-up voltage = step-down current. Transformers conserve power (assuming no losses)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "h2Tl3hu1d7",
+                      "guid": "h2Tl3hu1d7",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is a solenoid (electromagnet) and what factors affect its strength?",
+                        "A solenoid is a coil of wire that acts as a magnet when current flows through it. The magnetic field inside is uniform and similar to a bar magnet (with N and S poles).<br><b>Factors that increase strength:</b> increase the current, increase the number of turns per unit length, add a soft iron core (greatly amplifies the field).<br><b>Advantage over permanent magnets:</b> can be switched on and off, and strength can be varied.<br><b>Uses:</b> electric bells, circuit breakers, relays, MRI scanners."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "o9hV1yh32m",
+                      "guid": "o9hV1yh32m",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the structure of a DC motor and how does it work?",
+                        "A DC motor converts electrical energy into kinetic (rotational) energy using the motor effect.<br><b>Components:</b> rectangular coil of wire in a magnetic field, <b>commutator</b> (split-ring — reverses current direction every half turn), <b>carbon brushes</b> (conduct current to the commutator).<br><b>How it works:</b> current in coil → force (motor effect) → coil rotates. Commutator ensures current always reverses so the coil continues to rotate in the same direction rather than oscillating.<br><b>Increase speed:</b> more current, stronger magnetic field, more turns on coil."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "peBrFWro3m",
+                      "guid": "peBrFWro3m",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the difference between an AC generator and a DC generator?",
+                        "Both use electromagnetic induction (moving coil in magnetic field generates EMF).<br><b>AC generator (alternator):</b> uses <b>slip rings</b> and brushes → coil connected continuously → output alternates direction as coil rotates → produces AC.<br><b>DC generator:</b> uses a <b>commutator</b> (split-ring) → reverses connection every half turn → output always in same direction → produces DC (pulsed).<br><b>Increase EMF output:</b> spin faster, use stronger magnets, use more turns on the coil."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "hOUU45TW8Z",
+                      "guid": "hOUU45TW8Z",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Why does the National Grid transmit electricity at high voltage? How does this reduce energy loss?",
+                        "Transmitting at high voltage means the current is low (P = IV, power is constant).<br><b>Energy lost in cables = I²R</b> — power loss depends on the square of the current.<br>Halving the current → power loss reduced by a factor of 4.<br><b>Process:</b> power station generates ~25,000V → step-up transformer → 400,000V for transmission (very low current) → step-down transformers reduce to 230V for homes.<br><b>Exam tip:</b> it's the LOW CURRENT that reduces energy loss, not the high voltage directly. High voltage enables low current."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "ekuI3mflEf",
+                      "guid": "ekuI3mflEf",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does a loudspeaker use the motor effect?",
+                        "<b>Structure:</b> coil of wire attached to a paper cone, placed in the magnetic field of a permanent magnet.<br><b>How it works:</b> AC (alternating current) flows through the coil → force on coil alternates direction (motor effect) → coil moves back and forth → cone vibrates → creates compressions and rarefactions in air → produces sound waves.<br><b>Higher frequency AC</b> → coil vibrates faster → higher pitch sound.<br><b>Larger amplitude current</b> → greater force → larger vibration → louder sound."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kRwka7TuW4",
+                      "guid": "kRwka7TuW4",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does a microphone use electromagnetic induction?",
+                        "<b>Structure:</b> diaphragm (thin membrane) attached to a coil of wire in a magnetic field.<br><b>How it works:</b> sound waves → diaphragm vibrates → coil moves relative to magnetic field → <b>EMF induced</b> (generator effect) → alternating current produced that mirrors the sound wave.<br><b>This is the reverse of a loudspeaker</b> — both use a coil in a magnetic field, but the microphone converts sound to electrical signal while the loudspeaker converts electrical signal to sound.<br><b>Exam tip:</b> microphone uses the generator effect; loudspeaker uses the motor effect."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "sLpNcLYNyk",
+                      "guid": "sLpNcLYNyk",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Fleming's Left Hand Rule (motor effect): thuMb = {{c1::Motion/force}} (direction of movement), First finger = {{c2::magnetic Field}}, seCond finger = {{c3::Current}}. Used when a current-carrying conductor is in a magnetic field. Fleming's Right Hand Rule: gives the direction of {{c4::induced current}} in a generator (thumb = motion, first finger = field, second finger = induced current).",
                         ""
                       ],
                       "flags": 0,
@@ -12932,6 +14414,32 @@
                       "fields": [
                         "Amplitude = {{c1::maximum displacement}} from rest position. Frequency = number of {{c2::complete waves per second}} (Hz). Wavelength = distance from one {{c3::crest to the next crest}} (or trough to trough). Period = {{c4::1 ÷ frequency}} (time for one complete wave).",
                         ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uE1sUHCaUW",
+                      "guid": "uE1sUHCaUW",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for waves? How do you measure the speed of waves?",
+                        "<b>Ripple tank (water waves):</b> measure wavelength (distance between wave crests on stroboscope or freeze-frame). Count frequency (oscillations per second). Speed = fλ.<br><b>Sound waves in a solid (slinky):</b> send a wave pulse, measure time for it to travel known distance. Speed = distance/time.<br><b>Measuring speed of sound in air:</b> stand far from a wall. Clap boards together and time the echo (echo = sound travels twice the distance). Speed ≈ 330 m/s. Or use two microphones connected to an oscilloscope — measure time delay for sound to travel between them."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "u9Sv9JHBrV",
+                      "guid": "u9Sv9JHBrV",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is refraction and how does it explain optical fibres and lenses?",
+                        "<b>Refraction:</b> waves change speed when crossing a boundary between two different media — if entering at an angle, direction also changes.<br><b>Light into denser medium (e.g. glass):</b> slows down → bends towards the normal.<br><b>Total internal reflection:</b> if angle of incidence exceeds the critical angle → light reflects back into the denser medium. This is the basis of optical fibres — light signal bounces along inside the fibre with no signal loss through the glass walls.<br><b>Lenses:</b> converging (convex) lens brings parallel rays to a focal point. Diverging (concave) lens spreads rays apart. Used in cameras, microscopes, spectacles."
                       ],
                       "flags": 0,
                       "tags": [],
