@@ -91,7 +91,7 @@ Computer Science::Paper 2::Languages and IDEs
 
 ## How build.py works (CrowdAnki format)
 
-`build.py` outputs `deck/deck.json` in CrowdAnki format. Key things to know if you ever need to modify it:
+`build.py` outputs `gcse-anki-decks.json` in CrowdAnki format. Key things to know if you ever need to modify it:
 
 **Stable UUIDs** — the constants `ROOT_UUID`, `CONFIG_UUID`, `BASIC_MODEL_UUID`, `CLOZE_MODEL_UUID` at the top of `build.py` must never change. They are how Anki identifies the deck and note types across imports. Changing them makes Anki treat everything as new.
 
@@ -106,7 +106,7 @@ Computer Science::Paper 2::Languages and IDEs
 - NoteModel: `__type__`, `crowdanki_uuid`, `name`, `type`, `flds` (each with `media: []`), `tmpls`, `css`, `req`
 - DeckConfig: `__type__`, `crowdanki_uuid`, `name`, `new`, `rev`, `lapse` (as sub-objects, not flat keys)
 
-**Importing into Anki** — select the `deck/` folder (not `deck/deck.json`). CrowdAnki reads `deck.json` automatically from whichever folder you select.
+**Importing into Anki** — select the repo root folder (not `gcse-anki-decks.json` directly). CrowdAnki reads `gcse-anki-decks.json` automatically from whichever folder you select.
 
 ---
 

@@ -1,6 +1,6 @@
 # GCSE Revision — Anki Decks
 
-**734 flashcards** across English Literature, English Language, Geography and Science (AQA).
+**1052 flashcards** across English Literature, English Language, Geography and Science (AQA).
 
 ---
 
@@ -59,11 +59,11 @@ Repeat the same import — CrowdAnki matches cards by GUID, so your review histo
 ## Repo structure
 
 ```
-src/        ← source card files (.txt, tab-separated) — edit these
-deck/       ← built CrowdAnki JSON (deck.json) — import this folder into Anki
-build.py    ← converts src/ → deck/deck.json
+src/                    ← source card files (.txt, tab-separated) — edit these
+gcse-anki-decks.json    ← built CrowdAnki JSON — import the repo root folder into Anki
+build.py                ← converts src/ → gcse-anki-decks.json
 ```
 
-Cards live in `src/` as tab-separated `.txt` files. Run `python build.py` after editing to regenerate `deck/deck.json`. GitHub Actions also runs `build.py` automatically on every push to main.
+Cards live in `src/` as tab-separated `.txt` files. Run `python build.py` after editing to regenerate `gcse-anki-decks.json`. GitHub Actions also runs `build.py` automatically on every push to main.
 
 See `CLAUDE.md` for the card format spec and guidance on adding cards with Claude Code.
