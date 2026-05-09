@@ -3803,11 +3803,11 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "kYIscCvxha",
-                  "guid": "kYIscCvxha",
+                  "crowdanki_uuid": "bYzU2qdofv",
+                  "guid": "bYzU2qdofv",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Sheringham's physical enquiry question: '{{c1::How effective are the groynes at Sheringham?}}' Human enquiry question: '{{c2::To what extent does tourism impact Sheringham?}}'",
+                    "Sheringham's physical enquiry question (learn word for word): '{{c1::How effective are the groynes at Sheringham?}}' Human enquiry question (learn word for word): '{{c2::To what extent does tourism impact Sheringham?}}'",
                     ""
                   ],
                   "flags": 0,
@@ -3926,6 +3926,396 @@
                   "fields": [
                     "How do you answer 'Suggest one reason why risk assessment was important'? [2 marks]",
                     "Name a specific risk. Give magnitude and likelihood. State the control measure. E.g. 'Wet shingle could cause slips (magnitude 3, likelihood 4) so we wore suitable footwear, reducing the risk of injury.'"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "seNvyqZPKC",
+                  "guid": "seNvyqZPKC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sheringham key statistics — learn all: Rock type: {{c1::Wroxham Crag}}. Erosion rate without defences: {{c2::2.5 m/year}}. Number of groynes: {{c3::19}} ({{c4::4}} made of rock, rest wood). Sea wall length: {{c5::1300 m}}. 1995 maintenance cost: {{c6::£3.4 million}}. Current erosion since defences: {{c7::0 m}}. 2013 storm damage cost: {{c8::£804,000}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lYmlszJbzb",
+                  "guid": "lYmlszJbzb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Sheringham key statistics continued: Tourism value to Norfolk coastline: {{c1::£3 billion}}+. Happisburgh retreat 2004–2007: {{c2::20 m}}. Compensation offered to Happisburgh residents: {{c3::40%}} of house value. LSD speed (unprotected beach): {{c4::0.55 m/s}}. LSD speed (protected — between groynes): {{c5::0.17 m/s}}. Simpson's Diversity Index for High Street: {{c6::0.80}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "debZBNLeaG",
+                  "guid": "debZBNLeaG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why was coastal management needed at Sheringham?",
+                    "Sheringham is built on Wroxham Crag — a <b>soft, easily eroded rock</b> that erodes at <b>2.5 m per year</b> if undefended.<br>Sheringham relies heavily on <b>tourism</b> (worth £3bn+ to the Norfolk coastline) — the beach must remain accessible and attractive.<br>Without defences, cliff retreat would threaten the High Street businesses, homes and infrastructure.<br>Happisburgh (further along the coast, with no defences until recently) shows what happens when protection is not provided — retreating <b>20 m in just 3 years (2004–2007)</b>."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jnTZwhipti",
+                  "guid": "jnTZwhipti",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What coastal defences are in place at Sheringham and what does each do?",
+                    "<b>19 groynes</b> (4 rock, rest wood): trap sediment moved by longshore drift → builds up the beach → acts as a buffer absorbing wave energy.<br><b>Sea wall</b> (1300 m long, angled/curved): hard barrier blocking waves. Curved face reflects wave energy. Cost £3.4m to maintain in 1995.<br><b>Rip-rap/rock armour</b>: large boulders in front of sea wall cause waves to break early, reducing energy hitting the wall. Small gaps create crab habitats.<br><b>Gabions</b>: rocks in wire cages on top of sea wall — prevents cliff collapse behind.<br><b>Beach nourishment</b>: pebbles added to widen beach. <b>Beach reprofiling</b> done every few years (LSD piles it against groynes)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iQAmdmmCmx",
+                  "guid": "iQAmdmmCmx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How effective have Sheringham's defences been? What problems remain?",
+                    "<b>Effective:</b> erosion has been reduced to <b>0 m</b> since defences built (compared to 2.5 m/year undefended). Groynes have built a larger beach → more tourism. Investment has protected millions of pounds of property and businesses.<br><b>Problems:</b> In December 2013 a storm surge caused <b>£804,000</b> of damage to the defences. Defences are so expensive that not everywhere can be protected — Happisburgh received nothing for years. Building defences in summer disrupts tourist season. Climate change and rising sea levels mean future storms will be more frequent/severe. Seasonal employment means some businesses only profit in summer."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jrdfCu0jWf",
+                  "guid": "jrdfCu0jWf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is longshore drift and how do groynes affect it?",
+                    "<b>Longshore drift:</b> waves approach the shore at an angle (the angle of prevailing winds). Swash carries sediment up the beach at that angle. Backwash carries it straight back down (gravity). Net movement = sediment transported along the coast.<br><b>Groynes interrupt LSD:</b> they act as barriers perpendicular to the shore, trapping sediment on the updrift side — building the beach. Sediment cannot pass the groyne → less sediment reaches downdrift areas (sediment starvation).<br><b>At Sheringham:</b> LSD travels from <b>west to east</b> (evidenced by sediment piled on the west side of each groyne). Our orange experiment showed LSD velocity was <b>0.17 m/s</b> (protected) vs <b>0.55 m/s</b> (unprotected) — showing groynes do slow it."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qKKOAfg6h8",
+                  "guid": "qKKOAfg6h8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a constructive wave and what is a destructive wave?",
+                    "<b>Constructive waves:</b> 7–10 waves per minute. Long wavelength, low height. Strong swash, weak backwash → deposit sediment, build beach.<br><b>Destructive waves:</b> 10–15 waves per minute. Short wavelength, high height. Weak swash, strong backwash → erode and remove sediment.<br><b>At Sheringham:</b> wave count used to determine type. Counted over 1 minute, repeated 3 times for reliability. Destructive waves are more common at Sheringham — hence the need for groynes to trap sediment the waves would otherwise remove."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kJJcz91Sqc",
+                  "guid": "kJJcz91Sqc",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the human data collection method at Sheringham in full.",
+                    "<b>Retail diversity land use survey:</b><br>Starting at the sea front, walked along the right-hand pavement towards the coach park. For each shop passed: recorded type of shop (in one of predefined categories: food, café, souvenir, charity etc.) and measured distance from sea wall (using footsteps).<br>Crossed road at car park end, repeated back towards the sea (opposite pavement).<br><b>EQS (Environmental Quality Survey):</b> completed at 3 points (sea wall end, middle, car park end). Scored categories (litter, traffic noise, building quality etc.) on a scale to get a total score for each location.<br><b>Sampling type:</b> systematic (every shop recorded) + stratified (chose High Street specifically as most relevant to tourism)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ht5DcIkody",
+                  "guid": "ht5DcIkody",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Describe the physical data collection methods at Sheringham in full.",
+                    "<b>1. Sediment height measurement (groyne survey):</b><br>Place tape measure at top of groyne. Measure distance down to sediment surface every <b>2 m</b> along the groyne. Repeat on <b>both sides</b> (east and west). Short distance = more sediment. Shows which side LSD is depositing on.<br><b>2. Wave count:</b><br>Count waves breaking per minute. Repeat x3 for average. Destructive = 10–15/min, constructive = 7–10/min.<br><b>3. LSD orange experiment:</b><br>Mark 10 m along beach. Throw orange into sea. Time how long for it to travel 10 m (3 readings, averaged). Speed = 10m ÷ time. Done in protected AND unprotected areas for comparison."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g2HBikyfmX",
+                  "guid": "g2HBikyfmX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the actual results of the Sheringham physical enquiry?",
+                    "<b>LSD direction:</b> sediment piled on <b>west side</b> of groynes → LSD moving <b>west to east</b>. (Orange also confirmed east-to-west movement on the day — an anomaly: Sheringham sits at a <b>drift divide</b> where direction changes seasonally.)<br><b>LSD speed:</b> unprotected beach = <b>0.55 m/s</b>; protected (between groynes) = <b>0.17 m/s</b>. Groynes reduced LSD speed by ~69%.<br><b>Wave type:</b> destructive waves (>10 per minute).<br><b>Sediment height:</b> west side of groynes consistently had <b>shorter measurement</b> (more sediment piled up) than east side — confirms west-to-east LSD."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qvk2ndecOm",
+                  "guid": "qvk2ndecOm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What were the actual results of the Sheringham human enquiry?",
+                    "<b>Retail diversity land use (pie chart):</b> showed a variety of shop types, but 'other' was the largest category — suggesting 9 predefined categories were not precise enough.<br><b>Simpson's Diversity Index:</b> D = <b>0.80</b> (scale 0–1; 1 = complete diversity, 0 = all same). 0.80 = fairly diverse — Sheringham not overly reliant on tourism, though tourist-related shops are present.<br><b>Dispersion graph:</b> tourist shops (cafés, souvenirs, arcades) clustered near the sea wall (beach end) and near the car park — targeting tourist footfall at both entry points.<br><b>EQS:</b> environmental quality tended to be better away from the beach — sea wall area showed more litter/wear from tourism."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g5Vt8KzUiI",
+                  "guid": "g5Vt8KzUiI",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What data presentation methods were used for the human enquiry and why?",
+                    "<b>Pie chart:</b> shows proportion of each shop type as % of total → easy to see if tourism dominates. Disadvantage: doesn't show location of shops along High Street.<br><b>Dispersion graph (distance from sea wall on y-axis, shop type on x-axis):</b> shows clustering of types by location → reveals which types are near beach (tourist) vs car park. Better than pie chart for showing spatial patterns.<br><b>Simpson's Diversity Index (D = 0.80):</b> statistical test → mathematically proves how diverse (not just visual impression). Allows objective comparison.<br><b>Radar graph (EQS):</b> shows score for each quality category at each location simultaneously → easy to spot which categories are low at each site. Bar graph of total EQS allows direct comparison between sites."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g0LwjSfp1d",
+                  "guid": "g0LwjSfp1d",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What data presentation methods were used for the physical enquiry and why?",
+                    "<b>Bar graph (LSD rate):</b> simple, clear comparison of LSD speed in protected vs unprotected areas → immediately shows whether groynes slow LSD. Disadvantage: doesn't show spatial location of measurements.<br><b>Located bar graphs (bar graphs overlaid on a map/satellite image):</b> improvement over plain bar graphs — shows each groyne's position relative to town. Explains anomalies: groynes closer to town may have been affected by beach reprofiling or greater human disturbance. Missing bars (where water covered sediment) are explained by location.<br><b>Why located bar graphs are better:</b> distance from Sheringham town centre explains the trends — less management = more extreme natural patterns further out."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "m4zb9YWOsy",
+                  "guid": "m4zb9YWOsy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the limitations of the human data collection methods at Sheringham?",
+                    "<b>Footsteps for distance:</b> inaccurate — step length varies between people and over time → data imprecise, limits reliability of dispersion graph.<br><b>Only 9 predefined shop categories:</b> 'other' was the largest category → data not precise enough → reliability of SDI questioned → conclusions may not be valid.<br><b>Only surveyed the High Street:</b> biased — tourist shops most likely concentrated on High Street (route from car park to beach). Local shops on other streets missed → results may not represent all of Sheringham → limits validity.<br><b>One day in summer:</b> temporal limitation — shops may change (open/close) in winter. EQS subjective — different people score differently → reduces reliability."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dUT14kPKdg",
+                  "guid": "dUT14kPKdg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the limitations of the physical data collection methods at Sheringham?",
+                    "<b>Tape measure on groyne:</b> may not be held perfectly straight → distance to sediment recorded as longer than actual → inaccurate data → limits reliability.<br><b>Orange experiment:</b> if not thrown straight into sea, distance travelled ≠ 10m → speed calculation inaccurate. Only 2 locations measured on one day → limited reliability.<br><b>Temporal limitation:</b> LSD rate and direction changes with seasons, tidal conditions, prevailing winds → one day's data is a snapshot, not representative.<br><b>Beach reprofiling:</b> human management of sediment distribution means observed sediment heights may not reflect purely natural LSD patterns → limits validity of conclusions.<br><b>Drift divide anomaly:</b> Sheringham sits at a drift divide — LSD direction reverses seasonally, making it hard to draw clear conclusions about groyne effectiveness."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mi0MiFDOnv",
+                  "guid": "mi0MiFDOnv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2-mark model] Explain why it was a suitable topic for a geographical enquiry. (Physical: groynes)",
+                    "\"Groynes are used to protect coastal towns against erosion. Without defences, cliff retreat will occur due to hydraulic action and abrasion — Sheringham's Wroxham Crag erodes at 2.5 m/year. It is important that Sheringham is effectively protected, especially as climate change will increase storm frequency.\"<br><b>Structure:</b> State the geographical theory (LSD + coastal erosion) → link to why it matters (erosion threat, Wroxham Crag, businesses, tourism)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "prFVdo3z4J",
+                  "guid": "prFVdo3z4J",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2-mark model] Explain why it was a suitable topic for a geographical enquiry. (Human: tourism)",
+                    "\"Businesses along the Norfolk coast are worth £3 billion from tourism. Sheringham therefore has to cater for both locals and tourists — it is important to understand its reliance on tourism because the businesses and employment will be heavily affected by seasonality (peak vs low season).\"<br><b>Structure:</b> State the geographical theory (tourism economy, multiplier effect) → link to why it matters (seasonal employment, reliance, economic vulnerability)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vsnTP0iB5P",
+                  "guid": "vsnTP0iB5P",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2-mark model] Explain why the chosen location was suitable for data collection.",
+                    "\"Sheringham was close to school, meaning we had time to collect more land use data on the High Street. This made the results more reliable as we had a larger data set.\"<br><b>OR (physical):</b> \"Sheringham was close and accessible meaning we had more time to collect sediment height data at multiple groynes, making our results more reliable.\"<br><b>Formula:</b> Name the location → explain HOW it enabled better data collection → link to a quality word (reliable/accurate/valid/precise)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vo5OiMAoCF",
+                  "guid": "vo5OiMAoCF",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2-mark model] Suggest one reason why risk assessment was important when planning your enquiry.",
+                    "\"One risk was slipping on wet shingle when walking across the beach. Without a risk assessment this risk could have been overlooked. By identifying it, we required everyone to wear trainers with ankle support, reducing the likelihood of injury.\"<br><b>Formula:</b> Name specific risk → consequence if not addressed → control measure taken."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "i55xjt6Nbe",
+                  "guid": "i55xjt6Nbe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[3-mark model] Justify one primary data collection method used in your physical geography enquiry.",
+                    "\"We measured the distance from the top of the groyne down to the sediment surface every 2m using a tape measure. We collected data in this way because we wanted to see how longshore drift was depositing sediment differently on each side of the groyne, telling us whether the groynes were trapping sediment effectively. Measuring every 2m (systematic sampling) gave us a reliable dataset representing the full length of the groyne without being too time-consuming.\"<br><b>Formula:</b> Describe the method → state WHY it was collected → link to enquiry question → mention sampling strategy → link to quality word."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qrSB6EReMw",
+                  "guid": "qrSB6EReMw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[3-mark model] Justify one primary data collection method used in your human geography enquiry.",
+                    "\"We collected a tally of different shop types (9 categories) and recorded their distance from the sea wall using footsteps. We collected data in this way because we wanted to see how important tourism was to the local economy in Sheringham. By counting each category we could calculate Simpson's Diversity Index (D = 0.80), showing mathematically how diverse the High Street was. Systematic sampling (every shop) gave us a reliable and complete dataset.\"<br><b>Formula:</b> Describe the method → state WHY → link to question → mention statistical analysis → link to quality word."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "F4Yomo31GR",
+                  "guid": "F4Yomo31GR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[6-mark model] Explain how one data presentation technique helped you interpret your data. (Human)",
+                    "\"We used dispersion graphs to display the diversity of shops along Sheringham High Street. <b>First way it helped:</b> it made it easy to identify clustering — tourist shops (cafés, arcades, souvenirs) were clustered near the sea wall end, targeting tourists walking to the beach. This helped us conclude that tourism significantly shapes the character of the High Street nearest the sea. <b>Second way it helped:</b> the dispersion graph also made it easy to identify anomalies (shops that didn't fit the pattern) which we could investigate further. This meant our interpretation of the data was more nuanced. <b>However,</b> the dispersion graph was difficult to read with 12 categories — colour-coding would have improved it.\"<br><b>Structure:</b> 2 ways it helped (each with evidence from results) + 1 limitation."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "raWU4hmlqm",
+                  "guid": "raWU4hmlqm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[6-mark model] Assess the effectiveness of your data collection method in your physical enquiry.",
+                    "\"<b>One way the method was effective:</b> measuring sediment height every 2m along multiple groynes gave us a large dataset. This meant we could compare patterns across 3 groynes and identify whether trends were consistent, making our results more reliable. <b>Another way it was effective:</b> measuring both sides of each groyne meant we could directly compare east vs west, clearly showing the direction of longshore drift from the sediment height differences. <b>However, one limitation:</b> the tape measure may not have been held perfectly straight. A 'wonky' tape would record a larger distance to the sediment than was actually there, making the data inaccurate and potentially distorting our conclusions about which side had more sediment.\"<br><b>Structure:</b> 2 ways effective + 1 limitation with impact on conclusions."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uVYUcpGcPC",
+                  "guid": "uVYUcpGcPC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[9-mark structure] How do you structure a 9-mark fieldwork question?",
+                    "<b>AQA pattern for 9-mark Sheringham questions:</b> All variants ask about <i>reliability of conclusions, extent results met aims, or improvements</i>.<br><b>Paragraph 1 — Methods limitation:</b> what was wrong with data collection → how it affected the data → impact on conclusions.<br><b>Paragraph 2 — Results limitation:</b> what the data showed → what the conclusion was → why the conclusion may not be valid (temporal/spatial limitation).<br><b>Paragraph 3 — Overall extent + improvement:</b> 'To some/great/limited extent' → specific improvement → how it would improve validity/reliability → back to enquiry question.<br><b>Key connectives:</b> \"This means that...\" / \"As a result...\" / \"This is significant because...\" / \"However, this conclusion may not be valid because...\" / \"To improve this, we could...\""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "puE17DCU5q",
+                  "guid": "puE17DCU5q",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[9-mark model] To what extent did the results meet the original aims of the physical enquiry?",
+                    "<b>The original aim</b> was to investigate how effective groynes are at Sheringham.<br><b>Results that DID meet the aim:</b> LSD speed was 0.17 m/s between groynes vs 0.55 m/s on unprotected beach — showing groynes do slow LSD. Sediment height was consistently higher on the west (updrift) side of groynes — confirming they trap sediment.<br><b>Limitation 1:</b> data collected on one day only → seasonal variation in wave energy/LSD direction not captured → conclusions are a snapshot, not reliable long-term evidence.<br><b>Limitation 2:</b> Sheringham sits at a drift divide — LSD direction reversed on the day — making it harder to conclude whether this is typical groyne effectiveness or anomalous.<br><b>Conclusion:</b> \"To some extent, our results met the aim — we evidenced that groynes reduce LSD speed and trap sediment. However, the temporal limitation means we cannot fully assess long-term effectiveness without repeated measurements over different seasons.\""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bkQwv579gn",
+                  "guid": "bkQwv579gn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is Simpson's Diversity Index and how do you interpret the Sheringham result?",
+                    "<b>Formula:</b> D = 1 − (Σn(n-1)) ÷ (N(N-1)). D ranges from 0 to 1. D = 0 means all shops are the same type (no diversity). D = 1 means complete diversity (all different).<br><b>Sheringham result: D = 0.80</b><br><b>Interpretation:</b> fairly diverse — Sheringham is not overly reliant on tourism. There are tourist-related businesses (cafés, souvenirs, arcades) but also shops for locals (supermarkets, hairdressers, solicitors). The economy provides some year-round employment.<br><b>Limitation:</b> the 9 predefined categories were too broad — 'other' was the largest category, meaning many shops couldn't be accurately classified → reduces precision and therefore reliability of the D value."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hcFlEOEd3f",
+                  "guid": "hcFlEOEd3f",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is primary and secondary data? Give examples from Sheringham fieldwork.",
+                    "<b>Primary data:</b> collected directly by you during the investigation.<br>Sheringham examples: shop tally (land use survey), EQS scores, footstep distances, sediment height measurements, wave count, LSD orange experiment timings.<br><b>Secondary data:</b> collected or published by someone else before your investigation.<br>Sheringham examples: Wroxham Crag erosion rate (2.5 m/year) from published geological records, Google Street View for pre-visit risk assessment, government statistics on tourism (£3bn for Norfolk), historical records of Happisburgh erosion."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "q1CM96f30g",
+                  "guid": "q1CM96f30g",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between systematic, random and stratified sampling? Link each to Sheringham.",
+                    "<b>Systematic:</b> data collected at regular, fixed intervals. Sheringham examples: every shop on High Street recorded; sediment height every 2m down the groyne; LSD measurements every 2m. <i>Why used:</i> gives good coverage, easy to replicate, reliable.<br><b>Random:</b> no bias — any location/individual equally likely. Sheringham: not extensively used. Could apply to selecting which groynes to measure randomly.<br><b>Stratified:</b> population divided into groups, sample taken from each. Sheringham: chose the High Street specifically as the representative area for tourism (stratified by relevance); chose 3 groynes from the available 19. <i>Why used:</i> ensures the most relevant sub-groups are included → improves validity."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tvjLK2oQh3",
+                  "guid": "tvjLK2oQh3",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the exam structure for AQA Paper 3 Section C (fieldwork)?",
+                    "<b>Every past exam has had:</b> 1 × 2-mark question + 1 × 3-mark question + 1 × 6-mark question + 1 × 9-mark question (from model answers booklet).<br><b>Common 2-mark questions:</b> Why suitable topic? Why suitable location? Why was risk assessment important?<br><b>Common 3-mark questions:</b> Justify use of maps/field sketches. Justify one data collection method.<br><b>Common 6-mark questions:</b> Explain how a presentation technique helped interpret data. Assess effectiveness of data collection method(s).<br><b>Common 9-mark questions:</b> To what extent did results meet aims? How could the enquiry be improved? To what extent were conclusions reliable?<br><b>AO1 (knowledge) + AO2 (application) + AO3 (evaluation)</b> all tested. 9-mark questions require all three."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "AWqPReJdON",
+                  "guid": "AWqPReJdON",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What improvements could be made to the Sheringham fieldwork?",
+                    "<b>Methods improvements:</b> Use a trundle wheel (not footsteps) for shop distance → more accurate/precise. Use a spirit level with the groyne tape measure → prevents 'wonky' measurements. Use callipers to measure pebble volume (Eureka can method) rather than longest axis — accounts for shape.<br><b>Results improvements:</b> Measure in multiple seasons → captures seasonal LSD variation → more reliable conclusions. Measure along more than 2 locations for orange test → more representative of whole beach.<br><b>Conclusion improvements:</b> Interview customers to verify if tourist shops used by locals or tourists (rather than assuming). Survey more streets (not just High Street) → more valid picture of Sheringham's retail diversity as a whole."
                   ],
                   "flags": 0,
                   "tags": [],
