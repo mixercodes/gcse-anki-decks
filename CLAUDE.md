@@ -1,6 +1,14 @@
 # GCSE Anki Decks — Claude Code Instructions
 
-This repo stores GCSE revision flashcards for AQA English, Geography and Combined Science.
+This repo stores GCSE revision flashcards for five subjects:
+
+| Subject | Exam Board | Spec Code |
+|---|---|---|
+| English Literature | AQA | 8702 |
+| English Language | AQA | 8700 |
+| Geography | AQA | 8035 |
+| Science (Biology, Chemistry, Physics) | AQA Combined Science Trilogy | 8464 |
+| Computer Science | OCR | J277 |
 
 ## Repo structure
 

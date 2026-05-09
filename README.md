@@ -1,6 +1,6 @@
 # GCSE Revision — Anki Decks
 
-**1052 flashcards** across English Literature, English Language, Geography and Science (AQA).
+**1124 flashcards** across five subjects.
 
 ---
 
@@ -28,31 +28,37 @@ Repeat the same import — CrowdAnki matches cards by GUID, so your review histo
 
 ## Contents
 
-### English Literature
+### English Literature — AQA (8702)
 | Topic | Cards |
 |---|---|
 | Macbeth | 93 |
 | Jekyll and Hyde | 37 |
 | Lord of the Flies | 74 |
-| Power and Conflict Poetry (all 15 poems) | 146 |
+| Power and Conflict Poetry (all 15 poems) | 154 |
 
-### English Language
+### English Language — AQA (8700)
 | Topic | Cards |
 |---|---|
 | Poetry Terms | 31 |
-| Analysis Terms | 40 |
+| Analysis Terms | 42 |
 | Paper 1 — Reading and Writing | 21 |
-| Paper 2 — Non-fiction and Viewpoint | 18 |
+| Paper 2 — Non-fiction and Viewpoint | 22 |
 
-### Geography (AQA 8035)
+### Geography — AQA (8035)
 | Topic | Cards |
 |---|---|
-| Paper 1 | 50 |
-| Paper 2 | 31 |
-| Paper 3 | 27 |
+| Paper 1 — Physical Geography | 77 |
+| Paper 2 — Human Geography | 59 |
+| Paper 3 — Geographical Applications | 57 |
 
-### Science (AQA Combined Science Trilogy 8464)
+### Science — AQA Combined Science Trilogy (8464)
 24 files covering all topics across Biology, Chemistry and Physics Papers 1 and 2.
+
+### Computer Science — OCR (J277)
+| Topic | Cards |
+|---|---|
+| Paper 1 — Computer Systems | 94 |
+| Paper 2 — Computational Thinking, Algorithms and Programming | 81 |
 
 ---
 
