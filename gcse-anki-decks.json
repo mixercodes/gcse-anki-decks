@@ -8249,6 +8249,19 @@
               "flags": 0,
               "tags": [],
               "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "iEWVN52xgR",
+              "guid": "iEWVN52xgR",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+              "fields": [
+                "What is the general exam timing rule and how does it apply to Language Paper 1?",
+                "A mark a minute is typically a good guide. Paper 1: Q1 (4 marks ≈ 4–5 min), Q2 (8 marks ≈ 8–10 min), Q3 (8 marks ≈ 8–10 min), Q4 (20 marks ≈ 20 min). Q5 Writing gets more time because planning and checking are built in — 45 min for 24 marks. Use the rule to check you are not overrunning on any single question."
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
             }
           ]
         },
@@ -8544,6 +8557,19 @@
               "fields": [
                 "Paper 2 Q3 is worth {{c1::16}} marks — spend {{c2::~30}} minutes comparing both writers' {{c3::perspectives and methods}}. Q4 Writing is worth {{c4::24}} marks (content) + {{c5::16}} marks (accuracy) — spend {{c6::45}} minutes total ({{c7::5}} planning, {{c8::35}} writing, {{c9::5}} checking).",
                 ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "KR1aGOPI2P",
+              "guid": "KR1aGOPI2P",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+              "fields": [
+                "What is the general exam timing rule and how does it apply to Language Paper 2?",
+                "A mark a minute is typically a good guide. Paper 2: Q1 (8 marks ≈ 8 min), Q2 (12 marks ≈ 12 min), Q3 (16 marks ≈ 16–30 min). Q4 Writing gets more time than marks suggest — 45 min for 24 marks — because planning and checking are essential. If you are spending significantly more than a minute per mark on any reading question, you are overrunning."
               ],
               "flags": 0,
               "tags": [],
@@ -9555,6 +9581,19 @@
                   "fields": [
                     "Paper 1 Section B (Jekyll and Hyde): {{c1::30}} marks total. Spend {{c2::50–55}} minutes including {{c3::10}} minutes reading and planning. You must write about both the {{c4::extract}} and the {{c5::text as a whole}}. Paper 1 total = Section A ({{c6::34}} marks) + Section B ({{c7::30}} marks) = {{c8::64}} marks.",
                     ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hAmg39QIUZ",
+                  "guid": "hAmg39QIUZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the mark-a-minute rule apply to the Jekyll and Hyde question?",
+                    "A mark a minute is typically a good guide. Section B is 30 marks — aim for roughly 30 minutes of writing, leaving 10 minutes for reading and planning (total: ~40 minutes, fitting within the 50–55 minute window). Section B comes after Macbeth — if you overran on Section A, use this buffer. Never sacrifice Jekyll entirely: even a partial response scores more than a blank page."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -10911,6 +10950,19 @@
                   "flags": 0,
                   "tags": [],
                   "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "udcRK8iwuZ",
+                  "guid": "udcRK8iwuZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the mark-a-minute rule apply to the Macbeth question?",
+                    "A mark a minute is typically a good guide. Section A is 34 marks — so aim for roughly 34 minutes of writing, leaving 10 minutes for reading and planning (total: ~44 minutes, fitting within the 50–55 minute window). If you are still writing after 55 minutes, move on to Jekyll regardless — an incomplete Jekyll answer loses more marks than a slightly shorter Macbeth one."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
                 }
               ]
             }
@@ -11869,6 +11921,19 @@
                   "fields": [
                     "Paper 2 Section A (Lord of the Flies): {{c1::34}} marks total. Spend {{c2::45}} minutes. Choose from {{c3::two}} questions — whole text essay, {{c4::no extract}}. AO1 = {{c5::12}} marks, AO2 = {{c6::12}} marks, AO3 = {{c7::6}} marks. Begin planning immediately — there is no reading time for an {{c8::extract}}.",
                     ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "swyTpR9Vak",
+                  "guid": "swyTpR9Vak",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the mark-a-minute rule apply to the Lord of the Flies question?",
+                    "A mark a minute is typically a good guide. Section A is 34 marks — aim for roughly 34 minutes of writing, leaving about 5–8 minutes for planning (total: ~40–42 minutes, fitting within the 45 minute window). There is no extract to read, so planning time is shorter than Paper 1. Use the remaining minutes to check your argument is consistent."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -13949,6 +14014,19 @@
                   "fields": [
                     "Paper 2 Section B (Poetry Anthology): {{c1::30}} marks. Spend {{c2::45}} minutes. Compare {{c3::one named poem}} with {{c4::one other you choose}}. Section C Unseen Part 1: {{c5::12}} marks — spend {{c6::30}} minutes ({{c7::5}} reading + {{c8::25}} writing). Section C Unseen Part 2: {{c9::8}} marks — spend {{c10::15}} minutes ({{c11::5}} reading + {{c12::10}} writing).",
                     ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vQ5lAGigEQ",
+                  "guid": "vQ5lAGigEQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the mark-a-minute rule apply to Paper 2 poetry sections?",
+                    "A mark a minute is typically a good guide. Section B (30 marks): aim for 30 minutes writing + ~10 minutes annotation and planning = ~40 minutes, within the 45 minute window. Section C Unseen Part 1 (12 marks): 25 minutes writing is slightly above a mark a minute — you need reading time. Section C Unseen Part 2 (8 marks): 10 minutes writing is tight — be concise and comparative from the first sentence."
                   ],
                   "flags": 0,
                   "tags": [],
