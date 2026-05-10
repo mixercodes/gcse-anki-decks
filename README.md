@@ -1,6 +1,6 @@
 # GCSE Revision — Anki Decks
 
-**1264 flashcards** across six subjects.
+**1288 flashcards** across six subjects.
 
 ---
 
@@ -31,18 +31,18 @@ Repeat the same import — CrowdAnki matches cards by GUID, so your review histo
 ### English Literature — AQA (8702)
 | Topic | Cards |
 |---|---|
-| Macbeth | 93 |
-| Jekyll and Hyde | 37 |
-| Lord of the Flies | 74 |
-| Power and Conflict Poetry (all 15 poems) | 154 |
+| Macbeth | 103 |
+| Jekyll and Hyde | 39 |
+| Lord of the Flies | 76 |
+| Power and Conflict Poetry (all 15 poems) | 156 |
 
 ### English Language — AQA (8700)
 | Topic | Cards |
 |---|---|
 | Poetry Terms | 31 |
 | Analysis Terms | 42 |
-| Paper 1 — Reading and Writing | 21 |
-| Paper 2 — Non-fiction and Viewpoint | 22 |
+| Paper 1 — Reading and Writing | 25 |
+| Paper 2 — Non-fiction and Viewpoint | 26 |
 
 ### Geography — AQA (8035)
 | Topic | Cards |

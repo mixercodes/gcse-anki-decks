@@ -8197,6 +8197,58 @@
               "flags": 0,
               "tags": [],
               "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "jyEx1cyqeZ",
+              "guid": "jyEx1cyqeZ",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+              "fields": [
+                "What are the question-by-question timings for English Language Paper 1?",
+                "Start with 15 minutes reading and planning the whole paper. Q1 (4 marks): 5 min — identify 4 pieces of information from the extract. Q2 (8 marks): 10 min — analyse the writer's use of language. Q3 (8 marks): 10 min — analyse how the text is structured. Q4 (20 marks): 20 min — evaluate a statement about the text. Q5 Writing (24 marks content + 16 marks accuracy): 45 min total — 5 min planning, 35 min writing, 5 min checking."
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "lnGYewRT6i",
+              "guid": "lnGYewRT6i",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 1 timings: start with {{c1::15}} minutes reading and planning. Q1 = {{c2::4}} marks, {{c3::5}} minutes. Q2 = {{c4::8}} marks, {{c5::10}} minutes. Q3 = {{c6::8}} marks, {{c7::10}} minutes. Q4 = {{c8::20}} marks, {{c9::20}} minutes. Q5 Writing = {{c10::24}} marks content, {{c11::45}} minutes total.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "noUOQVyCF7",
+              "guid": "noUOQVyCF7",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 1 Q5 Writing: spend {{c1::45}} minutes in total — {{c2::5}} minutes planning, {{c3::35}} minutes writing, {{c4::5}} minutes checking. Worth {{c5::24}} marks for content and {{c6::16}} marks for technical accuracy.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "bPwC7L8j7J",
+              "guid": "bPwC7L8j7J",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 1 Q4 is worth {{c1::20}} marks and you should spend {{c2::20}} minutes on it. It asks you to {{c3::evaluate}} a statement about the text, using your own judgement and evidence. The key word in the question is always {{c4::'evaluate'}} or {{c5::'critically'}}.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
             }
           ]
         },
@@ -8440,6 +8492,58 @@
               "fields": [
                 "How do you analyse structure in an unseen poem?",
                 "Consider: number of stanzas and whether they're equal (regularity = control). Line length — long lines = flowing/overwhelming, short = fragmented/urgent. Rhyme scheme — strict = controlled/trapped, irregular = freedom/disorder. Enjambment across stanzas — ideas overflow, can't be contained. Where the volta falls — what changes? What is the first and last word/image — what does the poet foreground and end on?"
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "v6XgX6V95H",
+              "guid": "v6XgX6V95H",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+              "fields": [
+                "What are the question-by-question timings for English Language Paper 2?",
+                "Start with 15 minutes reading and planning the whole paper. Q1 (8 marks): 8 min — identify 4 true statements from a list of 8. Q2 (12 marks): 12 min — write a summary using information from two texts. Q3 (16 marks): ~30 min — compare two writers' perspectives and methods. Q4 Writing (24 marks content + 16 marks accuracy): 45 min total — 5 min planning, 35 min writing, 5 min checking."
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "n5UHePoDEi",
+              "guid": "n5UHePoDEi",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 2 timings: start with {{c1::15}} minutes reading and planning. Q1 = {{c2::8}} marks, {{c3::8}} minutes (true/false). Q2 = {{c4::12}} marks, {{c5::12}} minutes (summary). Q3 = {{c6::16}} marks, {{c7::~30}} minutes (compare perspectives). Q4 Writing = {{c8::24}} marks content, {{c9::45}} minutes total.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "nQRLSquZBU",
+              "guid": "nQRLSquZBU",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 2 Q1: identify {{c1::4}} true statements from a list of {{c2::8}}. Worth {{c3::8}} marks — spend {{c4::8}} minutes. Paper 2 Q2: write a {{c5::summary}} using information from {{c6::two texts}}. Worth {{c7::12}} marks — spend {{c8::12}} minutes.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "ge83OQ3eGk",
+              "guid": "ge83OQ3eGk",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "Paper 2 Q3 is worth {{c1::16}} marks — spend {{c2::~30}} minutes comparing both writers' {{c3::perspectives and methods}}. Q4 Writing is worth {{c4::24}} marks (content) + {{c5::16}} marks (accuracy) — spend {{c6::45}} minutes total ({{c7::5}} planning, {{c8::35}} writing, {{c9::5}} checking).",
+                ""
               ],
               "flags": 0,
               "tags": [],
@@ -9425,6 +9529,32 @@
                   "fields": [
                     "What is the significance of Hyde's murder of Sir Danvers Carew?",
                     "The murder is described as coming 'all of a sudden' in a 'flame of anger' — the flame metaphor contains connotations of hell. Hyde's 'ape-like fury' again invokes Darwinian regression. He 'clubbed him to earth' — the noun 'earth' in terminal position evokes the funeral reading 'earth to earth, ashes to ashes'. Stevenson reminds us we are all mortal. The murder is the novel's climax — Jekyll/Hyde crosses a line that cannot be uncrossed."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "biQUHq1t15",
+                  "guid": "biQUHq1t15",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the timing and mark breakdown for Paper 1 Section B (Jekyll and Hyde)?",
+                    "30 marks total. One extended essay responding to both the given extract and the text as a whole. Suggested timing: 50–55 minutes including 10 minutes reading and planning. Follows directly after the Macbeth question — manage your time carefully across both sections."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "p8lOnGFL7P",
+                  "guid": "p8lOnGFL7P",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Paper 1 Section B (Jekyll and Hyde): {{c1::30}} marks total. Spend {{c2::50–55}} minutes including {{c3::10}} minutes reading and planning. You must write about both the {{c4::extract}} and the {{c5::text as a whole}}. Paper 1 total = Section A ({{c6::34}} marks) + Section B ({{c7::30}} marks) = {{c8::64}} marks.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -10651,6 +10781,136 @@
                   "flags": 0,
                   "tags": [],
                   "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "evkIKTZkoO",
+                  "guid": "evkIKTZkoO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Lady Macbeth — middle: '{{c1::Was the hope drunk / Wherein you dressed yourself?}} Hath it slept since? / And wakes it now to look so {{c2::green and pale}}?' — she uses the metaphor of drunkenness to mock his {{c3::cowardice}}; 'green and pale' has connotations of {{c4::illness and weakness}}, reducing the celebrated warrior to a {{c5::sickly, timid child}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cMmzQAM6y5",
+                  "guid": "cMmzQAM6y5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Lady Macbeth — middle: '{{c1::When you durst do it, then you were a man}}; / And, to be more than what you were, you would / Be so much more the man.' — she weaponises {{c2::masculinity}} against Macbeth, equating courage with manhood. Shakespeare later has Macbeth use this exact technique on the hired murderers, showing how her manipulation has {{c3::infected his language and methods}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hfEQKmkvR6",
+                  "guid": "hfEQKmkvR6",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Lady Macbeth — middle: '{{c1::A little water clears us of this deed}} / How easy is it then!' — her confidence that guilt can be washed away is completely undone by her sleepwalking. By the end she cries '{{c2::all the perfumes of Arabia will not sweeten this little hand}}'. Shakespeare uses this structural reversal to argue that {{c3::guilt is inescapable}} — the certainty that made her strong becomes the thing that {{c4::destroys her}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tEXbkBoAgi",
+                  "guid": "tEXbkBoAgi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Lady Macbeth — at the end (blood motif): '{{c1::Who would have thought the old man to have had so much blood in him?}}' — 'old man' is deliberately {{c2::dehumanising}}: she cannot name Duncan because naming him forces her to acknowledge his {{c3::humanity}}. The image has consumed her unconscious so completely that it replays involuntarily in {{c4::sleep}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cGlwRHBtQy",
+                  "guid": "cGlwRHBtQy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Malcolm lists the '{{c1::king-becoming graces}}' — justice, verity, temperance, stableness, bounty, perseverance, mercy, lowliness, devotion, patience, courage, fortitude. This speech appeals directly to {{c2::James I}}, who believed kingship was a moral duty. Duncan embodied {{c3::all}} of these graces; Macbeth has {{c4::none}} by the end. Malcolm's speech is not just description — it is a promise of the king he will {{c5::become}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "e1SFpVU4bO",
+                  "guid": "e1SFpVU4bO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Malcolm tests Macduff's loyalty — end: Malcolm falsely claims to be '{{c1::voluptuous, avaricious}}' and deceitful to see if Macduff will still support him. When Macduff refuses — '{{c2::fit to govern? No, not to live}}' — Malcolm reveals the test. This echoes James I's advice that a king must be {{c3::cunning, not naively trusting}} like Duncan, who '{{c4::built an absolute trust}}' in both men who ultimately betrayed him.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "isGGhCXTBX",
+                  "guid": "isGGhCXTBX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Duncan is simultaneously Macbeth's {{c1::cousin}}, {{c2::king}}, and {{c3::guest}}. Shakespeare makes his murder a triple violation: guest-murder broke the sacred laws of {{c4::hospitality}}; regicide violated the {{c5::Divine Right of Kings}}; killing kin broke bonds of {{c6::blood}}. Even Macbeth acknowledges this — 'his virtues / Plead like {{c7::angels, trumpet-tongued}}, against the deep damnation of his taking-off.'",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "liBijiFpu7",
+                  "guid": "liBijiFpu7",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Donalbain — middle: '{{c1::There's daggers in men's smiles: the near in blood, the nearer bloody}}' — 'near in blood' means {{c2::close relatives}}; he suspects those closest to the throne are most dangerous. He flees to {{c3::Ireland}} while Malcolm goes to {{c4::England}}. Their flight creates suspicion that they killed Duncan, which Macbeth exploits to claim the throne — they become collateral victims of {{c5::regicide}} despite being entirely innocent.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dp7eZl4Mcu",
+                  "guid": "dp7eZl4Mcu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the timing and mark breakdown for Paper 1 Section A (Macbeth)?",
+                    "34 marks total: AO1 (12 marks), AO2 (12 marks), AO3 (6 marks), plus 4 marks for close reading of the extract. One extended essay responding to both the given extract and the text as a whole. Suggested timing: 50–55 minutes including 10 minutes reading and planning."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kP19M2wp9N",
+                  "guid": "kP19M2wp9N",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Paper 1 Section A (Macbeth): {{c1::34}} marks total. Spend {{c2::50–55}} minutes including {{c3::10}} minutes reading and planning. AO1 = {{c4::12}} marks (ideas/argument), AO2 = {{c5::12}} marks (language/structure/form), AO3 = {{c6::6}} marks (context). You must write about both the {{c7::extract}} and the {{c8::text as a whole}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
                 }
               ]
             }
@@ -11583,6 +11843,32 @@
                   "fields": [
                     "How do Piggy's glasses develop as a motif using your teacher's analysis?",
                     "Initially: 'thick spectacles' — strong sight AND strong material; Piggy processes the environment 'safely'. The preposition 'up' recalls value — Piggy should be high in the hierarchy. Later: 'wiping his glasses' — becoming sullied literally and metaphorically; 'wiping' shows resistance to corruption. 'A deep pink V' on his nose — the weight of intellect has physically marked him; constant responsibility causes harm. After Simon's murder: Piggy 'removed his glasses and shifted the one lens to the other eye' — he refuses to see clearly, choosing falsehood to avoid guilt. Glasses destroyed with Piggy = death of rational thought."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fwb6wBh5NJ",
+                  "guid": "fwb6wBh5NJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the timing and mark breakdown for Paper 2 Section A (Lord of the Flies)?",
+                    "34 marks total. Extended essay from a choice of two questions — whole text only, no extract given. Suggested timing: 45 minutes. There is no reading time for an extract, so begin planning and writing immediately."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rvN7yxpp2t",
+                  "guid": "rvN7yxpp2t",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Paper 2 Section A (Lord of the Flies): {{c1::34}} marks total. Spend {{c2::45}} minutes. Choose from {{c3::two}} questions — whole text essay, {{c4::no extract}}. AO1 = {{c5::12}} marks, AO2 = {{c6::12}} marks, AO3 = {{c7::6}} marks. Begin planning immediately — there is no reading time for an {{c8::extract}}.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -13636,6 +13922,32 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
                     "The Emigree: 'That {{c1::child's vocabulary I carried here}} / like a {{c2::hollow doll}}' — the simile '{{c3::hollow doll}}' suggests the speaker's childhood language is a vessel with nothing inside: the culture it described is {{c4::gone}}. Yet she still {{c5::carries}} it — language is both burden and possession. Rumens explores how language preserves {{c6::identity}} even when the homeland is lost or destroyed.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bMR3xs7WSh",
+                  "guid": "bMR3xs7WSh",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the timings for Paper 2 Sections B and C (Poetry)?",
+                    "Section B — Poetry Anthology: 30 marks. Extended comparative essay (one named poem + one other you choose). Suggested timing: 45 minutes. Section C — Unseen Poetry: two questions. Part 1 (12 marks): 30 minutes total (5 min reading + 25 min writing). Part 2 (8 marks): 15 minutes total (5 min reading + 10 min writing)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ey2Luuwb6T",
+                  "guid": "ey2Luuwb6T",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Paper 2 Section B (Poetry Anthology): {{c1::30}} marks. Spend {{c2::45}} minutes. Compare {{c3::one named poem}} with {{c4::one other you choose}}. Section C Unseen Part 1: {{c5::12}} marks — spend {{c6::30}} minutes ({{c7::5}} reading + {{c8::25}} writing). Section C Unseen Part 2: {{c9::8}} marks — spend {{c10::15}} minutes ({{c11::5}} reading + {{c12::10}} writing).",
                     ""
                   ],
                   "flags": 0,
