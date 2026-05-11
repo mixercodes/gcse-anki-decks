@@ -14590,6 +14590,19 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "iXU5bO9oGM",
+                      "guid": "iXU5bO9oGM",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Rate of photosynthesis = {{c1::volume of oxygen produced}} ÷ {{c2::time}}. Units: {{c3::cm³/s}} or {{c4::cm³/min}}. A higher rate means {{c5::more oxygen produced in the same time}} (or the same volume produced faster).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "fIkHtFCqEi",
                       "guid": "fIkHtFCqEi",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
