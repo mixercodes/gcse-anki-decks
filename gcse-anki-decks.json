@@ -14837,11 +14837,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "l2e60zLTuW",
-                      "guid": "l2e60zLTuW",
+                      "crowdanki_uuid": "vzVYFiBlwb",
+                      "guid": "vzVYFiBlwb",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Mitosis produces {{c1::2}} genetically {{c2::identical}} daughter cells. Before division, DNA {{c3::replicates}}. The stages are: {{c4::Interphase}} (DNA replication), {{c5::Prophase}} (chromosomes condense), {{c6::Metaphase}} (line up at equator), {{c7::Anaphase}} (chromosomes pulled apart), {{c8::Telophase}} (two nuclei form). Used for {{c9::growth}}, {{c10::repair}} and {{c11::asexual reproduction}}.",
+                        "Mitosis produces {{c1::2}} genetically {{c2::identical}} daughter cells. Stage 1: DNA {{c3::replicates}} (chromosomes duplicate). Stage 2: chromosomes are pulled to {{c4::opposite ends}} of the cell / {{c5::two nuclei}} form. Stage 3: {{c6::cytoplasm divides}} → two identical cells formed. Used for {{c7::growth}}, {{c8::repair}} and {{c9::asexual reproduction}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15856,7 +15856,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What is the difference between meiosis and mitosis?",
-                        "Mitosis: produces 2 identical diploid cells — for growth/repair. Meiosis: produces 4 non-identical haploid gametes (sex cells) — for sexual reproduction. Meiosis produces genetic variation through crossing over and random assortment of chromosomes."
+                        "Mitosis: produces 2 identical diploid cells — for growth/repair. Meiosis: produces 4 non-identical haploid gametes (sex cells) — for sexual reproduction. Meiosis produces genetic variation (cells are not identical to each other or to the parent cell)."
                       ],
                       "flags": 0,
                       "tags": [],
