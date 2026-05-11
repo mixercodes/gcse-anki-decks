@@ -124,6 +124,38 @@ History::Paper 3::Framlingham Castle
 
 ---
 
+## Spec boundaries — what to include and exclude
+
+When adding or auditing cards for any non-English subject, content must be scoped strictly to the specification listed. Do not include content from higher-tier qualifications (A-level, Separate Sciences) unless confirmed by the user.
+
+### Science — AQA Combined Science Trilogy (8464)
+Do not include content from AQA Separate Sciences (8461) or A-level. Known removals already made:
+- Mitosis stage names (PMAT) — Combined Science only requires 3 unlabelled stages
+- EPOC (excess post-exercise oxygen consumption) — not in Trilogy spec
+- Autosomes — not required; sex chromosomes (XX/XY) are sufficient
+- Crossing over and random assortment in meiosis — Separate Biology only
+- Antiretroviral drug terminology — plain language sufficient for Trilogy
+- Maxwell-Boltzmann distribution — Chemistry only, not Biology
+
+### Geography — AQA (8035)
+- Paper 1: Physical Geography (coasts, tectonic hazards, glacial landscapes, weather/climate)
+- Paper 2: Human Geography (urban issues, economic world, resource management)
+- Paper 3: Geographical Skills and Fieldwork (two fieldwork enquiries — one physical, one human)
+- Sheringham is the coastal fieldwork case study and appears in BOTH Paper 1 (coastal processes content) and Paper 3 (fieldwork enquiry method/analysis). This is correct — do not move it.
+
+### History — OCR J411 (History B — Schools History Project)
+- Paper 1: Medicine Through Time (People's Health) + Norman Conquest
+- Paper 2: Life in Nazi Germany + Making of America
+- Paper 3: Historic Environment — Framlingham Castle
+- Do not include content from other SHP units not listed above.
+
+### Computer Science — OCR J277
+- Paper 1: Computer Systems
+- Paper 2: Computational Thinking, Algorithms and Programming
+- Do not include A-level computing content (e.g. advanced data structures, compilers beyond the spec).
+
+---
+
 ## English Literature rules
 
 ### NEVER include:
