@@ -124,6 +124,19 @@ History::Paper 3::Framlingham Castle
 
 ---
 
+## Spec PDFs
+
+Official specification PDFs are stored in `specs/`. Read these to verify content before adding or auditing cards.
+
+| File | Subject |
+|---|---|
+| `specs/science-aqa-8464.pdf` | AQA Combined Science Trilogy |
+| `specs/geography-aqa-8035.pdf` | AQA Geography |
+| `specs/computer-science-ocr-j277.pdf` | OCR Computer Science J277 |
+| `specs/history-ocr-j411.pdf` | OCR History B (Schools History Project) |
+
+---
+
 ## Spec boundaries — what to include and exclude
 
 When adding or auditing cards for any non-English subject, content must be scoped strictly to the specification listed. Do not include content from higher-tier qualifications (A-level, Separate Sciences) unless confirmed by the user.
