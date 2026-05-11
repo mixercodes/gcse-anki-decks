@@ -14902,11 +14902,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "gsJdNg0DNr",
-                      "guid": "gsJdNg0DNr",
+                      "crowdanki_uuid": "j9vMwBeR89",
+                      "guid": "j9vMwBeR89",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Malaria: caused by a {{c1::protist}}, spread by {{c2::mosquitoes}} (vectors). Symptoms: {{c3::fever, shaking, recurring illness}}. Prevented by mosquito nets and antimalarial drugs. Cannot be vaccinated against easily as the protist {{c4::changes its surface proteins}}.",
+                        "Malaria: caused by a {{c1::protist}}, spread by {{c2::mosquitoes}} (vectors). Symptoms: {{c3::fever, shaking, recurring illness}}. Prevented by mosquito nets and antimalarial drugs. Cannot be vaccinated against easily as the protist {{c4::changes its surface proteins/antigens}}.",
                         ""
                       ],
                       "flags": 0,
