@@ -15838,11 +15838,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "jafKk8Krkr",
-                      "guid": "jafKk8Krkr",
+                      "crowdanki_uuid": "dBgmj5872e",
+                      "guid": "dBgmj5872e",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "A gene is a {{c1::section of DNA}} that codes for a specific {{c2::protein}}. Humans have {{c3::46}} chromosomes in each cell, organised into {{c4::23 pairs}}. 22 pairs are {{c5::autosomes}} (non-sex chromosomes); the 23rd pair are the {{c6::sex chromosomes}}. Sex chromosomes: {{c7::XX}} = female, {{c8::XY}} = male.",
+                        "A gene is a {{c1::section of DNA}} that codes for a specific {{c2::protein}}. Humans have {{c3::46}} chromosomes in each cell, organised into {{c4::23 pairs}}. Sex chromosomes: {{c5::XX}} = female, {{c6::XY}} = male.",
                         ""
                       ],
                       "flags": 0,
