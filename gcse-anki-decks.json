@@ -14174,19 +14174,6 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "il7suBCSKv",
-                      "guid": "il7suBCSKv",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the response of plants to stimuli (tropisms)?",
-                        "Phototropism: shoots grow towards light (positive), roots away (negative). Gravitropism: roots grow towards gravity (positive), shoots away (negative). Controlled by auxin — redistributes to shaded/lower side causing unequal growth. Gibberellins promote seed germination and stem growth. Ethene controls ripening."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
                       "crowdanki_uuid": "fIkHtFCqEi",
                       "guid": "fIkHtFCqEi",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
