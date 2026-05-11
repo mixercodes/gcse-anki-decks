@@ -943,19 +943,6 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "kalCGRFjJY",
-                  "guid": "kalCGRFjJY",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is the difference between symmetric and asymmetric encryption?",
-                    "<b>Symmetric encryption:</b> the same key is used to encrypt and decrypt data. Fast, but the key must be shared securely — if intercepted, data is compromised. Used for bulk data encryption.<br><b>Asymmetric encryption:</b> uses a mathematically linked key pair — a <b>public key</b> (anyone can encrypt with it) and a <b>private key</b> (only the owner can decrypt). Slower but solves the key exchange problem. HTTPS uses asymmetric encryption to securely exchange a symmetric session key."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
                   "crowdanki_uuid": "ekk8otlk2V",
                   "guid": "ekk8otlk2V",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -1034,12 +1021,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "eVh4iliwgI",
-                  "guid": "eVh4iliwgI",
+                  "crowdanki_uuid": "qmSYeEIYvJ",
+                  "guid": "qmSYeEIYvJ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What encryption does HTTPS use and how does it work?",
-                    "HTTPS uses <b>TLS (Transport Layer Security)</b>. The process (TLS handshake):<br>1. Server sends its <b>public key</b> and SSL certificate (verified by a trusted Certificate Authority).<br>2. Browser verifies the certificate.<br>3. Browser uses the server's public key to encrypt a symmetric session key and send it.<br>4. Server decrypts it with its private key.<br>5. Both sides now share the same symmetric session key and use it for fast encrypted communication.<br>Padlock icon = HTTPS in use."
+                    "What is HTTPS and how does it differ from HTTP?",
+                    "HTTPS (HyperText Transfer Protocol Secure) is the secure version of HTTP. Data sent between the browser and server is <b>encrypted</b>, preventing it from being intercepted and read by third parties. Indicated by a padlock icon in the browser. Used for login pages, online banking, and any site handling sensitive data. HTTP sends data in plaintext — anyone intercepting the traffic can read it."
                   ],
                   "flags": 0,
                   "tags": [],
