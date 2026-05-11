@@ -9185,11 +9185,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "hWT57ChTXV",
-                  "guid": "hWT57ChTXV",
+                  "crowdanki_uuid": "rkwBrjhi74",
+                  "guid": "rkwBrjhi74",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Hyde's violence: 'It wasn't like a man; it was like some damned {{c1::Juggernaut}}' — the word 'Juggernaut' presents Hyde as an unstoppable, crushing force that destroys everything in its path.",
+                    "Hyde's violence: 'It wasn't like a man; it was like some damned {{c1::Juggernaut}}' — the noun presents Hyde as an unstoppable, crushing force that destroys everything in its path.",
                     ""
                   ],
                   "flags": 0,
@@ -9419,11 +9419,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "bCpyUx3gTG",
-                  "guid": "bCpyUx3gTG",
+                  "crowdanki_uuid": "eiGXJ6QBPI",
+                  "guid": "eiGXJ6QBPI",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Jekyll: 'I had learned to dwell with pleasure, as a beloved daydream, on the thought of the {{c1::separation of these elements}}' — the word '{{c2::daydream}}' shows his repression had been building for years before the {{c3::experiment}}.",
+                    "Jekyll: 'I had learned to dwell with pleasure, as a beloved {{c2::daydream}}, on the thought of the {{c1::separation of these elements}}' — this shows his repression had been building for years before the {{c3::experiment}}.",
                     ""
                   ],
                   "flags": 0,
@@ -9536,11 +9536,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "uxdVCeobUN",
-                  "guid": "uxdVCeobUN",
+                  "crowdanki_uuid": "nOTSZEnGMe",
+                  "guid": "nOTSZEnGMe",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Jekyll describes Hyde: 'when I {{c1::laid aside restraint}} and plunged in shame' — the verb '{{c2::laid}}' suggests hard, deliberate work to maintain goodness; Hyde '{{c3::plunged}}' — active, immediate, effortless. Evil requires {{c4::no effort}}; virtue requires {{c5::constant labour}}.",
+                    "Jekyll describes Hyde: 'when I {{c1::laid aside restraint}} and {{c3::plunged}} in shame' — the verb '{{c2::laid}}' suggests hard, deliberate work to maintain goodness; Hyde '{{c3::plunged}}' — active, immediate, effortless. Evil requires {{c4::no effort}}; virtue requires {{c5::constant labour}}.",
                     ""
                   ],
                   "flags": 0,
@@ -9757,11 +9757,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "bpdVui2pJW",
-                  "guid": "bpdVui2pJW",
+                  "crowdanki_uuid": "jRiCfc0dmt",
+                  "guid": "jRiCfc0dmt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "After killing Duncan: 'Will all great {{c1::Neptune's ocean}} wash this blood / Clean from my hand? No, this my hand will rather / The {{c2::multitudinous seas incarnadine}} / Making the green one red.' — 'incarnadine' uses the Latin root 'carn' ({{c3::flesh}}), showing guilt cannot be washed away.",
+                    "After killing Duncan: 'Will all great {{c1::Neptune's ocean}} wash this blood / Clean from my hand? No, this my hand will rather / The {{c2::multitudinous seas incarnadine}} / Making the green one red.' — the Latinate verb uses the root 'carn' ({{c3::flesh}}), showing guilt cannot be washed away.",
                     ""
                   ],
                   "flags": 0,
@@ -10199,11 +10199,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "77Qpd4DDvg",
-                  "guid": "77Qpd4DDvg",
+                  "crowdanki_uuid": "njZctlU3o1",
+                  "guid": "njZctlU3o1",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Macbeth describes Duncan after killing him: 'His silver skin {{c1::laced with his golden blood}} / and his gashed stabs looked like a {{c2::breach in nature}}' — the precious metals ('silver', 'golden') show Duncan's {{c3::regal sanctity}}; 'breach in nature' confirms regicide is a {{c4::cosmic violation}}, not just a political crime.",
+                    "Macbeth describes Duncan after killing him: 'His silver skin {{c1::laced with his golden blood}} / and his gashed stabs looked like a {{c2::breach in nature}}' — the precious metals ('silver', 'golden') show Duncan's {{c3::regal sanctity}}; the phrase confirms regicide is a {{c4::cosmic violation}}, not just a political crime.",
                     ""
                   ],
                   "flags": 0,
@@ -10264,11 +10264,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "ejeRVE2RGT",
-                  "guid": "ejeRVE2RGT",
+                  "crowdanki_uuid": "eoUyOoqKh0",
+                  "guid": "eoUyOoqKh0",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "At the end, Macbeth realises: '{{c1::juggling fiends}} / That palter with us in a double sense' — 'juggling' means {{c2::deceiving}}; 'palter' means equivocating. Macbeth finally understands the witches' {{c3::equivocation}} — they told half-truths to engineer his {{c4::downfall}}.",
+                    "At the end, Macbeth realises: '{{c1::juggling fiends}} / That palter with us in a double sense' — the word means {{c2::deceiving}}; 'palter' means equivocating. Macbeth finally understands the witches' {{c3::equivocation}} — they told half-truths to engineer his {{c4::downfall}}.",
                     ""
                   ],
                   "flags": 0,
@@ -10407,11 +10407,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "ubCT2ewynI",
-                  "guid": "ubCT2ewynI",
+                  "crowdanki_uuid": "jkAqhn5WA6",
+                  "guid": "jkAqhn5WA6",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Lady Macbeth — at the end: '{{c1::What is done cannot be undone}}' and '{{c2::Hell is murky}}' — resignation and terror. The confident planner who said 'a little water' now fears {{c3::hell}}. The monosyllabic simplicity of 'Hell is murky' creates a sense of {{c4::childlike terror}} — she is broken.",
+                    "Lady Macbeth — at the end: '{{c1::What is done cannot be undone}}' and '{{c2::Hell is murky}}' — resignation and dread. The confident planner who said 'a little water' now fears {{c3::hell}}. The monosyllabic simplicity creates a sense of {{c4::childlike terror}} — she is broken.",
                     ""
                   ],
                   "flags": 0,
@@ -10784,11 +10784,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "nqFQRYWMaK",
-                  "guid": "nqFQRYWMaK",
+                  "crowdanki_uuid": "lmvozHveee",
+                  "guid": "lmvozHveee",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "The owl killing the falcon — middle of the play: a {{c1::falcon}} (day creature, royal companion, at top of food chain) is killed by a '{{c2::mousing owl}}' (night creature, lower in hierarchy). This disruption of the {{c3::ecological pyramid}} mirrors the disruption to the {{c4::Great Chain of Being}}. There is also a biblical parallel — like the death of {{c5::Christ}}, it disrupts the natural order catastrophically.",
+                    "An unnatural killing — middle of the play: a {{c1::falcon}} (day creature, royal companion, at top of food chain) is killed by a '{{c2::mousing owl}}' (night creature, lower in hierarchy). This disruption of the {{c3::ecological pyramid}} mirrors the disruption to the {{c4::Great Chain of Being}}. There is also a biblical parallel — like the death of {{c5::Christ}}, it disrupts the natural order catastrophically.",
                     ""
                   ],
                   "flags": 0,
@@ -10823,11 +10823,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "evkIKTZkoO",
-                  "guid": "evkIKTZkoO",
+                  "crowdanki_uuid": "swcMXaSSAs",
+                  "guid": "swcMXaSSAs",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Lady Macbeth — middle: '{{c1::Was the hope drunk / Wherein you dressed yourself?}} Hath it slept since? / And wakes it now to look so {{c2::green and pale}}?' — she uses the metaphor of drunkenness to mock his {{c3::cowardice}}; 'green and pale' has connotations of {{c4::illness and weakness}}, reducing the celebrated warrior to a {{c5::sickly, timid child}}.",
+                    "Lady Macbeth — middle: '{{c1::Was the hope drunk / Wherein you dressed yourself?}} Hath it slept since? / And wakes it now to look so {{c2::green and pale}}?' — she uses the metaphor of drunkenness to mock his {{c3::cowardice}}; the phrase has connotations of {{c4::illness and weakness}}, reducing the celebrated warrior to a {{c5::sickly, timid child}}.",
                     ""
                   ],
                   "flags": 0,
@@ -10875,11 +10875,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "cGlwRHBtQy",
-                  "guid": "cGlwRHBtQy",
+                  "crowdanki_uuid": "vfjZnHTH7x",
+                  "guid": "vfjZnHTH7x",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Malcolm lists the '{{c1::king-becoming graces}}' — justice, verity, temperance, stableness, bounty, perseverance, mercy, lowliness, devotion, patience, courage, fortitude. This speech appeals directly to {{c2::James I}}, who believed kingship was a moral duty. Duncan embodied {{c3::all}} of these graces; Macbeth has {{c4::none}} by the end. Malcolm's speech is not just description — it is a promise of the king he will {{c5::become}}.",
+                    "Malcolm lists the '{{c1::king-becoming graces}}' — justice, verity, temperance, stableness, bounty, perseverance, mercy, lowliness, devotion, patience, courage, fortitude. This speech appeals directly to {{c2::James I}}, who believed kingship was a moral duty. Duncan embodied {{c3::all}} of these qualities; Macbeth has {{c4::none}} by the end. Malcolm's speech is not just description — it is a promise of the king he will {{c5::become}}.",
                     ""
                   ],
                   "flags": 0,
@@ -10901,11 +10901,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "isGGhCXTBX",
-                  "guid": "isGGhCXTBX",
+                  "crowdanki_uuid": "vmc6Q6Q20D",
+                  "guid": "vmc6Q6Q20D",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Duncan is simultaneously Macbeth's {{c1::cousin}}, {{c2::king}}, and {{c3::guest}}. Shakespeare makes his murder a triple violation: guest-murder broke the sacred laws of {{c4::hospitality}}; regicide violated the {{c5::Divine Right of Kings}}; killing kin broke bonds of {{c6::blood}}. Even Macbeth acknowledges this — 'his virtues / Plead like {{c7::angels, trumpet-tongued}}, against the deep damnation of his taking-off.'",
+                    "Duncan is simultaneously Macbeth's {{c1::cousin}}, {{c2::king}}, and {{c3::guest}}. Shakespeare makes his murder a triple violation: killing his host broke the sacred laws of {{c4::hospitality}}; regicide violated the {{c5::Divine Right of Kings}}; killing kin broke bonds of {{c6::blood}}. Even Macbeth acknowledges this — 'his virtues / Plead like {{c7::angels, trumpet-tongued}}, against the deep damnation of his taking-off.'",
                     ""
                   ],
                   "flags": 0,
@@ -12461,11 +12461,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "uc9mUOMpCP",
-                  "guid": "uc9mUOMpCP",
+                  "crowdanki_uuid": "unwzrPDoK9",
+                  "guid": "unwzrPDoK9",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Kamikaze key quote: 'full of {{c1::powerful incantations}}' — the word 'incantations' (a magical spell) shows that {{c2::propaganda}} and patriotic conditioning is almost {{c3::supernatural}} in its control over the pilot's mind.",
+                    "Kamikaze key quote: 'full of {{c1::powerful incantations}}' — the noun (a magical spell) shows that {{c2::propaganda}} and patriotic conditioning is almost {{c3::supernatural}} in its control over the pilot's mind.",
                     ""
                   ],
                   "flags": 0,
@@ -13917,11 +13917,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "bln2ixgCBb",
-                  "guid": "bln2ixgCBb",
+                  "crowdanki_uuid": "eDiLFj0B02",
+                  "guid": "eDiLFj0B02",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Exposure: '{{c1::Worried by silence}}, sentries whisper, {{c2::curious, nervous}}' — the {{c3::oxymoron}} 'worried by silence' shows soldiers are unsettled by absence of sound, not its presence. The {{c4::asyndetic list}} 'curious, nervous' enacts their anxious alertness. The refrain '{{c5::But nothing happens}}' immediately deflates all tension: the real enemy is not the Germans but {{c6::waiting itself}}.",
+                    "Exposure: '{{c1::Worried by silence}}, sentries whisper, {{c2::curious, nervous}}' — the {{c3::oxymoron}} shows soldiers are unsettled by absence of sound, not its presence. The {{c4::asyndetic list}} enacts their anxious alertness. The refrain '{{c5::But nothing happens}}' immediately deflates all tension: the real enemy is not the Germans but {{c6::waiting itself}}.",
                     ""
                   ],
                   "flags": 0,
@@ -13930,11 +13930,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dnGsXIvYyg",
-                  "guid": "dnGsXIvYyg",
+                  "crowdanki_uuid": "cISVjlO8An",
+                  "guid": "cISVjlO8An",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Poppies: '{{c1::Sellotape}} bandaged around my hand' — 'Sellotape' is a modern, {{c2::domestic}} material entirely out of place in a war context. The verb '{{c3::bandaged}}' belongs to a {{c4::semantic field of injury}}, revealing the mother already preparing for loss. Weir suggests that maternal preparation for military deployment echoes {{c5::tending wounds}}: war enters the home before the soldier has left.",
+                    "Poppies: '{{c1::Sellotape}} {{c3::bandaged}} around my hand' — the noun is a modern, {{c2::domestic}} material entirely out of place in a war context. The verb belongs to a {{c4::semantic field of injury}}, revealing the mother already preparing for loss. Weir suggests that maternal preparation for military deployment echoes {{c5::tending wounds}}: war enters the home before the soldier has left.",
                     ""
                   ],
                   "flags": 0,
