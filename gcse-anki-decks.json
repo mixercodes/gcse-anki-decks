@@ -9237,6 +9237,45 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "nqsYyRa2qb",
+                  "guid": "nqsYyRa2qb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Early on, Hyde's hands are described as '{{c1::ape-like}}', hairy and small — Darwinian {{c2::regression}} made visible. They are the physical mark of the {{c3::primitive self}} beneath the civilised exterior; unlike the deformity of his face (felt but not named), his hands are {{c4::concretely, visibly animal}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lfZ1TPf3Sm",
+                  "guid": "lfZ1TPf3Sm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the end, in Jekyll's full statement, he wakes to find he has transformed involuntarily: 'the hand that lay on my knee was {{c1::lean, corded, knuckly}}, of a {{c2::dusky pallour}} and thickly shaded with a {{c3::swart growth of hair}}' — Jekyll's hands were well-formed and respectable; these are Hyde's. The hands are the {{c4::first sign}} that Jekyll is losing control of which identity he inhabits.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vEtp2ZANxa",
+                  "guid": "vEtp2ZANxa",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the end, in Jekyll's full statement, the hands become the definitive marker of identity: '{{c1::I had only to see my hands to know}}' that he must flee. Stevenson uses the hands to show that the body {{c2::cannot lie}} — Hyde's nature is written into the flesh even when Jekyll's {{c3::conscious mind}} is in control.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "tNsuiYgw6A",
                   "guid": "tNsuiYgw6A",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -11843,6 +11882,71 @@
                   "fields": [
                     "How does Simon function as a Christ figure in LOTF?",
                     "Simon retreats alone into the forest (Christ in the wilderness). He has a vision/revelation about the true nature of the beast — the Lord of the Flies tells him 'Fancy thinking the Beast was something you could hunt and kill!' He rushes back to share the truth with the others. He is killed before he can do so, by those he sought to save, at night, in a frenzy — mistaken for the monster he was coming to disprove. His body is carried to the sea (heaven) with a brightness around it. He is the novel's moral martyr."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "khWQd8cWO5",
+                  "guid": "khWQd8cWO5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the beast develop as a motif in Lord of the Flies?",
+                    "At the start: a littlun reports 'a beastie, a snake-thing' — Ralph dismisses it; the beast is merely a child's nightmare. Middle: fear multiplies — the beast from the water, then the dead parachutist (mistaken for a living monster by Sam and Eric), giving the beast a tangible physical form. Jack exploits this fear to seize control, making hunting the beast the justification for his tribe's savagery. Simon alone understands: 'maybe it's only us'. In the middle, the Lord of the Flies confirms it: 'Fancy thinking the Beast was something you could hunt and kill! You knew, didn't you? I'm part of you?' Simon is killed before he can share the truth — the boys destroy the very knowledge that would have saved them. At the end: Ralph weeps for 'the darkness of man's heart' — acknowledging the beast is real, internal, and universal. Golding's argument: the beast cannot be hunted because it lives inside every human."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "of6FDPqbRH",
+                  "guid": "of6FDPqbRH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the start, a littlun reports: 'He says there's a {{c1::beastie, a snake-thing}}, ever so big' — Ralph {{c2::dismisses}} it. The beast begins as a {{c3::child's nightmare}}; Golding uses its growth to track the boys' {{c4::regression from reason to fear}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iWHehKsE0X",
+                  "guid": "iWHehKsE0X",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In the middle, Simon is the only boy to question the beast's nature: '{{c1::What I mean is… maybe it's only us}}' — the pronoun '{{c2::us}}' is the novel's central revelation. The boys {{c3::cannot hear}} him; he is {{c4::laughed at and ignored}}, just as rational voices are in Golding's post-war world.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "k7E3zju2g6",
+                  "guid": "k7E3zju2g6",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In the middle, the dead parachutist gives the beast a {{c1::physical form}} — Sam and Eric report something '{{c2::big and horrid}}' sitting on the mountain. Jack uses this to {{c3::seize power}}: the beast becomes a tool of {{c4::political control}}, not genuine fear. This is Golding's comment on how {{c5::leaders manufacture terror}} to manipulate the masses.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bow2d9v3xO",
+                  "guid": "bow2d9v3xO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In the middle, the Lord of the Flies speaks to Simon: '{{c1::Fancy thinking the Beast was something you could hunt and kill! You knew, didn't you? I'm part of you?}}' — the beast {{c2::cannot be destroyed}} because it is {{c3::inside every boy}}. Simon is killed before he can share this truth — the boys destroy {{c4::the one voice of reason}}.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
