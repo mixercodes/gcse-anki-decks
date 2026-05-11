@@ -15916,6 +15916,32 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "sxgtMvB5Gx",
+                      "guid": "sxgtMvB5Gx",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How are fossils formed?",
+                        "Fossils are the remains of organisms from millions of years ago preserved in rock. They form in three main ways: 1) Hard parts (bones, shells, teeth) that do not decay are slowly replaced by minerals. 2) Traces left behind — footprints, burrows, or rootlets preserved in rock. 3) Whole organisms preserved where decay is prevented — in ice, amber (tree resin), or very dry/acidic conditions."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qzTjFSxRZp",
+                      "guid": "qzTjFSxRZp",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Why is the fossil record incomplete? What does it still tell us?",
+                        "The fossil record is incomplete because: most organisms have soft bodies that decay before fossilisation can occur; many fossils that did form have not yet been found or have been destroyed by geological activity. Despite this, the fossil record provides evidence that life on Earth has changed over time (evolution) — fossils show simple organisms in older rock layers and more complex organisms in more recent layers."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "jTTKr7YraI",
                       "guid": "jTTKr7YraI",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
