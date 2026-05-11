@@ -14889,11 +14889,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "tfzvwSjqbE",
-                      "guid": "tfzvwSjqbE",
+                      "crowdanki_uuid": "b0eMkEbKrF",
+                      "guid": "b0eMkEbKrF",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "HIV: caused by a {{c1::virus}}, spread by {{c2::sexual contact or exchange of bodily fluids}}. Attacks {{c3::white blood cells}}, leading to {{c4::AIDS}} when the immune system can no longer fight infections. Medicines can {{c5::control the virus and prevent it progressing to AIDS}} — there is no cure.",
+                        "HIV: caused by a {{c1::virus}}, spread by {{c2::sexual contact or exchange of bodily fluids}}. Attacks {{c3::white blood cells}}, leading to {{c4::AIDS}} when the immune system can no longer fight infections. Controlled with {{c5::antiretroviral drugs}} — there is no cure.",
                         ""
                       ],
                       "flags": 0,
@@ -14902,11 +14902,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "j9vMwBeR89",
-                      "guid": "j9vMwBeR89",
+                      "crowdanki_uuid": "c0Fv5Fyt3f",
+                      "guid": "c0Fv5Fyt3f",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Malaria: caused by a {{c1::protist}}, spread by {{c2::mosquitoes}} (vectors). Symptoms: {{c3::fever, shaking, recurring illness}}. Prevented by mosquito nets and antimalarial drugs. Cannot be vaccinated against easily as the protist {{c4::changes its surface proteins/antigens}}.",
+                        "Malaria: caused by a {{c1::protist}}, spread by {{c2::mosquitoes}} (vectors). Symptoms: {{c3::fever, shaking, recurring illness}}. Spread is controlled by preventing mosquitoes from {{c4::breeding}} and using {{c5::mosquito nets}}.",
                         ""
                       ],
                       "flags": 0,
@@ -14986,19 +14986,6 @@
                       "fields": [
                         "What are the stages of drug development and testing?",
                         "Preclinical testing: tested on cells/tissues/live animals for safety and efficacy. Clinical trials: Phase 1 — small group of healthy volunteers (safety/dosage). Phase 2 — small group of patients (effectiveness). Phase 3 — large randomised double-blind placebo-controlled trial. Peer reviewed before approval."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "go1MUDBg8x",
-                      "guid": "go1MUDBg8x",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What are monoclonal antibodies and how are they made?",
-                        "<b>Monoclonal antibodies</b> are identical antibodies produced from a single clone of cells, all specific to one antigen.<br><b>Production:</b> inject mouse with antigen → mouse produces B-lymphocytes. Fuse B-lymphocytes with tumour cells → hybridoma cells (can divide indefinitely and produce antibodies). Clone hybridoma cells → all produce the same antibody.<br><b>Uses:</b> pregnancy tests (detect hCG hormone), cancer treatment (carry drugs/radioactive atoms to tumour cells), diagnosis (detect specific antigens/pathogens in blood tests — ELISA)."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15214,11 +15201,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "AdEdPA9QWE",
-                      "guid": "AdEdPA9QWE",
+                      "crowdanki_uuid": "iLTVJ3Eq8M",
+                      "guid": "iLTVJ3Eq8M",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Heart valves: {{c1::atrioventricular (AV) valves}} sit between the atria and ventricles; {{c2::semilunar valves}} sit at the exit of each ventricle into the arteries. Both types prevent {{c3::backflow}} of blood. Faulty valves may become {{c4::leaky}} (blood flows backwards) or {{c5::stiff}} (restrict forward flow) — both reduce cardiac efficiency.",
+                        "Heart valves sit between the atria and ventricles, and at the exit of each ventricle into the arteries. They prevent {{c1::backflow}} of blood. Faulty valves may become {{c2::leaky}} (blood flows backwards) or {{c3::stiff}} (restrict forward flow) — both reduce cardiac output. Faulty valves can be replaced using {{c4::biological or mechanical valves}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15240,11 +15227,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "pCiEwGPEct",
-                      "guid": "pCiEwGPEct",
+                      "crowdanki_uuid": "j6Rt5gC6oK",
+                      "guid": "j6Rt5gC6oK",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "The heart's natural pacemaker is the {{c1::sino-atrial node (SAN)}} located in the wall of the {{c2::right atrium}}. It sends electrical impulses that control the {{c3::rate and rhythm}} of the heartbeat. If this fails, an {{c4::artificial pacemaker}} (small electronic device implanted under the skin) can regulate the heart rate. Cardiac output = {{c5::heart rate}} × {{c6::stroke volume}}.",
+                        "The heart's natural pacemaker is a {{c1::group of cells}} located in the wall of the {{c2::right atrium}}. It sends electrical impulses that control the {{c3::rate and rhythm}} of the heartbeat. If this fails, an {{c4::artificial pacemaker}} (small electronic device implanted under the skin) can regulate the heart rate. Cardiac output = {{c5::heart rate}} × {{c6::stroke volume}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15903,11 +15890,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "mjyQzxvPIW",
-                      "guid": "mjyQzxvPIW",
+                      "crowdanki_uuid": "pLdQlElBuK",
+                      "guid": "pLdQlElBuK",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Evidence for evolution: {{c1::fossil record}} (gradual changes over time), {{c2::antibiotic resistance}} (observable evolution), {{c3::DNA analysis}} (similar sequences in related species), {{c4::comparative anatomy}} (homologous structures in different species).",
+                        "Evidence for evolution: {{c1::fossil record}} (gradual changes over time, shown in rock layers) and {{c2::antibiotic resistance}} in bacteria (observable evolution happening today). The theory is now widely accepted as genes explain how {{c3::characteristics are passed to offspring}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15981,19 +15968,6 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "kSMfMfsonw",
-                      "guid": "kSMfMfsonw",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is sex-linked inheritance? Use red-green colour blindness as an example.",
-                        "The gene for colour blindness is on the <b>X chromosome</b> (sex-linked). Recessive allele (Xᵇ) = colour blind. Dominant allele (Xᴮ) = normal vision.<br><b>Possible genotypes:</b><br>Females: XᴮXᴮ (normal), XᴮXᵇ (carrier — normal vision but can pass on), XᵇXᵇ (colour blind — rare)<br>Males: XᴮY (normal), XᵇY (colour blind — only need ONE recessive allele as Y has no corresponding gene)<br><b>Why more common in males:</b> males have only one X — if they inherit Xᵇ, they are colour blind. Females need TWO copies of Xᵇ (one from each parent)."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
                       "crowdanki_uuid": "cWcSdXOfqX",
                       "guid": "cWcSdXOfqX",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -16020,11 +15994,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "gFHNXC58m6",
-                      "guid": "gFHNXC58m6",
+                      "crowdanki_uuid": "lRxdKIUkU5",
+                      "guid": "lRxdKIUkU5",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Variation in a species can be caused by {{c1::genetic}} factors (different alleles from mutations and sexual reproduction), {{c2::environmental}} factors (diet, climate, disease), or {{c3::a combination of both}}. Example: height is influenced by {{c4::genes}} (determining maximum potential) and {{c5::nutrition}} (determining whether that potential is reached). Continuous variation (e.g. height) shows a {{c6::normal distribution}}; discontinuous variation (e.g. blood group) falls into {{c7::distinct categories}}.",
+                        "Variation in a species can be caused by {{c1::genetic}} factors (different alleles from mutations and sexual reproduction), {{c2::environmental}} factors (diet, climate, disease), or {{c3::a combination of both}}. Example: height is influenced by {{c4::genes}} (determining maximum potential) and {{c5::nutrition}} (determining whether that potential is reached).",
                         ""
                       ],
                       "flags": 0,
@@ -16052,19 +16026,6 @@
                       "fields": [
                         "What is speciation and how does it occur?",
                         "Speciation is the formation of a new species. Occurs when a population is split by a geographical barrier (e.g. mountain, sea). The two groups are isolated — no interbreeding. Each group faces different selection pressures → different mutations become advantageous → allele frequencies change differently in each population → over many generations, the two populations become so genetically different they can no longer interbreed successfully — two distinct species exist. Example: Darwin's finches on different Galapagos islands evolved different beak shapes to suit different food sources."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "i6zQz7FrUk",
-                      "guid": "i6zQz7FrUk",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                      "fields": [
-                        "Cloning methods: {{c1::tissue culture}} — small group of cells from a plant grown on nutrient agar into identical plants. {{c2::Embryo transplantation}} — split embryo into multiple identical embryos → implant into surrogate mothers. {{c3::Adult cell cloning (somatic cell nuclear transfer)}} — remove nucleus from egg cell, insert nucleus from adult cell, stimulate to divide, implant into surrogate (produced Dolly the sheep).",
-                        ""
                       ],
                       "flags": 0,
                       "tags": [],
