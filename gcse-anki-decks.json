@@ -7771,6 +7771,32 @@
             },
             {
               "__type__": "Note",
+              "crowdanki_uuid": "bfNR6nptkR",
+              "guid": "bfNR6nptkR",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+              "fields": [
+                "What does PETAETAL stand for and how do you use it?",
+                "A paragraph structure that forces two pieces of evidence per point. P — Point (state your argument). E — Evidence (first quote). T — Technique (name the literary/language technique). A — Analysis (explore language, connotations, effect). E — Evidence (second quote). T — Technique. A — Analysis. L — Link (back to the question, theme, or wider text). The double ETA cycle means every paragraph has two quotations, each fully analysed — prevents single-quote paragraphs and pushes into AO2 depth."
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
+              "crowdanki_uuid": "iEy6VDwKy2",
+              "guid": "iEy6VDwKy2",
+              "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+              "fields": [
+                "PETAETAL: {{c1::Point}} → {{c2::Evidence}} → {{c3::Technique}} → {{c4::Analysis}} → {{c5::Evidence}} → {{c6::Technique}} → {{c7::Analysis}} → {{c8::Link}}. The double {{c9::ETA}} cycle forces {{c10::two quotes}} per paragraph, each fully analysed.",
+                ""
+              ],
+              "flags": 0,
+              "tags": [],
+              "data": ""
+            },
+            {
+              "__type__": "Note",
               "crowdanki_uuid": "jXZbhviAfz",
               "guid": "jXZbhviAfz",
               "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
