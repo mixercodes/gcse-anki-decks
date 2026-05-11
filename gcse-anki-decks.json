@@ -14681,11 +14681,128 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "oW1G6QqVdy",
-                      "guid": "oW1G6QqVdy",
+                      "crowdanki_uuid": "iwO9vGFXtN",
+                      "guid": "iwO9vGFXtN",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the double circulatory system and why is it an advantage?",
+                        "The heart has two separate circuits. Right side → pulmonary circuit: pumps deoxygenated blood to the lungs to pick up oxygen, returns oxygenated blood via the pulmonary vein. Left side → systemic circuit: pumps oxygenated blood to the rest of the body, returns deoxygenated blood via the vena cava. Advantage: blood returns to the heart between the two circuits, so pressure is boosted before delivery to the body — allowing faster, more efficient oxygen delivery."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "q1BTNhIDfX",
+                      "guid": "q1BTNhIDfX",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Coronary heart disease: {{c1::fatty deposits}} build up in the coronary arteries, restricting blood flow to the heart muscle. Treated by: {{c2::statins}} (reduce cholesterol), {{c3::stents}} (keep arteries open), {{c4::bypass surgery}} (new vessel grafted around blockage).",
+                        "Double circulatory system: the {{c1::right}} side pumps blood to the {{c2::lungs}} (pulmonary circuit); the {{c3::left}} side pumps blood to the {{c4::body}} (systemic circuit). Blood enters the right atrium via the {{c5::vena cava}}; oxygenated blood enters the left atrium via the {{c6::pulmonary vein}}; blood leaves the left ventricle via the {{c7::aorta}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fue2V2FbQ0",
+                      "guid": "fue2V2FbQ0",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Name the four chambers and four major blood vessels of the heart and what each does.",
+                        "Chambers: right atrium (receives deoxygenated blood from body), right ventricle (pumps to lungs), left atrium (receives oxygenated blood from lungs), left ventricle (pumps to body — thickest walls). Vessels in: vena cava (deoxygenated, from body → right atrium), pulmonary vein (oxygenated, from lungs → left atrium). Vessels out: pulmonary artery (deoxygenated, right ventricle → lungs), aorta (oxygenated, left ventricle → body)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dZp4Vud3Xc",
+                      "guid": "dZp4Vud3Xc",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "The {{c1::left ventricle}} has thicker muscular walls than the right ventricle because it must pump blood {{c2::all the way round the body}} at higher pressure. The right ventricle only pumps to the {{c3::nearby lungs}}. Both ventricles pump the {{c4::same volume}} of blood per beat.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "AdEdPA9QWE",
+                      "guid": "AdEdPA9QWE",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Heart valves: {{c1::atrioventricular (AV) valves}} sit between the atria and ventricles; {{c2::semilunar valves}} sit at the exit of each ventricle into the arteries. Both types prevent {{c3::backflow}} of blood. Faulty valves may become {{c4::leaky}} (blood flows backwards) or {{c5::stiff}} (restrict forward flow) — both reduce cardiac efficiency.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rHQR1jyytv",
+                      "guid": "rHQR1jyytv",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are coronary arteries and what happens if they are blocked?",
+                        "Coronary arteries branch off the aorta and supply the heart muscle itself with oxygenated blood and glucose. If fatty deposits (atheroma) build up inside the coronary arteries, blood flow to the heart muscle is restricted. The heart muscle is deprived of oxygen and begins to die — this is a heart attack (myocardial infarction). This condition is called coronary heart disease (CHD)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "pCiEwGPEct",
+                      "guid": "pCiEwGPEct",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "The heart's natural pacemaker is the {{c1::sino-atrial node (SAN)}} located in the wall of the {{c2::right atrium}}. It sends electrical impulses that control the {{c3::rate and rhythm}} of the heartbeat. If this fails, an {{c4::artificial pacemaker}} (small electronic device implanted under the skin) can regulate the heart rate. Cardiac output = {{c5::heart rate}} × {{c6::stroke volume}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oBDuQRgvDN",
+                      "guid": "oBDuQRgvDN",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Coronary heart disease: {{c1::fatty deposits (atheroma)}} build up inside the coronary arteries, narrowing the lumen and restricting blood flow to the {{c2::heart muscle}}. Treatments: {{c3::statins}} (reduce blood cholesterol, slow fatty deposit build-up), {{c4::stents}} (wire mesh tube inserted to hold artery open), {{c5::bypass surgery}} (healthy vessel grafted around blockage), {{c6::donated heart transplant}}, {{c7::artificial heart}} (used to keep patient alive while waiting for a donor).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "qv86whdAEm",
+                      "guid": "qv86whdAEm",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Compare the structure and function of arteries, veins and capillaries.",
+                        "Arteries: carry blood away from the heart at high pressure. Thick walls with elastic and muscle tissue to withstand and maintain pressure. Narrow lumen. Usually carry oxygenated blood (except pulmonary artery). Veins: carry blood towards the heart at low pressure. Thinner walls, wider lumen. Have valves to prevent backflow. Usually carry deoxygenated blood (except pulmonary vein). Capillaries: tiny vessels forming networks in tissues. Walls one cell thick — short diffusion distance for exchange of oxygen, glucose, CO₂, urea between blood and cells."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "gJzpmxScLc",
+                      "guid": "gJzpmxScLc",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Arteries have {{c1::thick}} walls with {{c2::elastic and muscle tissue}} to withstand {{c3::high pressure}}; they carry blood {{c4::away}} from the heart. Veins have {{c5::thinner}} walls, a {{c6::wider lumen}}, and {{c7::valves}} to prevent backflow; they carry blood {{c8::to}} the heart. Capillaries have walls {{c9::one cell thick}} for rapid {{c10::diffusion}} of substances between blood and tissues.",
                         ""
                       ],
                       "flags": 0,
