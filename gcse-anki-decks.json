@@ -16462,6 +16462,58 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "vXHE3OjW7n",
+                      "guid": "vXHE3OjW7n",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What happens during electrolysis of a molten ionic compound?",
+                        "When an ionic compound is molten, ions are free to move. Only two ions present — both discharge. Example: molten lead bromide (PbBr₂). Cathode (−): Pb²⁺ + 2e⁻ → Pb (lead metal deposited). Anode (+): 2Br⁻ → Br₂ + 2e⁻ (bromine gas released). Molten compounds are simpler than aqueous — no water, no competition between ions. Another example: molten aluminium oxide in Hall-Héroult process — Al³⁺ discharged at cathode (aluminium metal), O²⁻ discharged at anode (oxygen gas)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rDVF79Zjyy",
+                      "guid": "rDVF79Zjyy",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Electrolysis of molten lead bromide: at the cathode, {{c1::Pb²⁺}} ions gain {{c2::2 electrons}} → {{c3::lead metal}} deposited. At the anode, {{c4::2Br⁻}} ions lose {{c5::2 electrons}} → {{c6::bromine gas}} released. Molten compounds only contain {{c7::two types of ion}} — no water means no {{c8::competition}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "esgPD7z3Fo",
+                      "guid": "esgPD7z3Fo",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the rules for predicting products of electrolysis of aqueous solutions?",
+                        "In aqueous solution, water provides competing H⁺ and OH⁻ ions. CATHODE (reduction): if the metal is BELOW hydrogen in the reactivity series → metal deposited. If the metal is ABOVE hydrogen → hydrogen gas produced instead (H⁺ discharged). ANODE (oxidation): if halide ions (Cl⁻, Br⁻, I⁻) are present in HIGH concentration → halogen gas produced. Otherwise → oxygen gas produced from OH⁻ ions (from water). Examples: CuSO₄(aq) — cathode: Cu (copper below H); anode: O₂ (no halide). NaCl(aq) — cathode: H₂ (sodium above H); anode: Cl₂ (high Cl⁻ concentration)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "hgqi7O1OmZ",
+                      "guid": "hgqi7O1OmZ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Electrolysis of aqueous solutions — cathode rule: if the metal is {{c1::below hydrogen}} in the reactivity series, {{c2::metal}} is deposited. If the metal is {{c3::above hydrogen}}, {{c4::hydrogen gas}} is produced. Anode rule: if {{c5::halide ions}} (Cl⁻, Br⁻, I⁻) are present in high concentration, {{c6::halogen gas}} is produced. Otherwise {{c7::oxygen}} is produced from {{c8::OH⁻}} ions in water.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "uWjb2kkFCB",
                       "guid": "uWjb2kkFCB",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
