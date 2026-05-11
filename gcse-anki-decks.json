@@ -22,13 +22,13 @@
           7
         ],
         "initialFactor": 2500,
-        "perDay": 9999,
+        "perDay": 100,
         "bury": false,
         "separate": true,
         "order": 1
       },
       "rev": {
-        "perDay": 9999,
+        "perDay": 100,
         "ease4": 1.3,
         "fuzz": 0.05,
         "ivlFct": 1.0,
