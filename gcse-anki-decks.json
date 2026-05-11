@@ -9801,7 +9801,20 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "How does the bird motif develop across Macbeth?",
-                    "At the start: the raven (Lady Macbeth — death omen anticipating Duncan's arrival); the martlet (Duncan praising Inverness — dramatic irony, innocence walking into its death-chamber). During the murder: 'the owl that shriek'd, the fatal bellman' — nature's own witness to the crime. Just after: the owl kills the falcon — unnatural inversion mirroring regicide and the disruption of the Great Chain of Being. At the end: Macduff's 'hell-kite / pretty chickens / one fell swoop' — birds shift from predicting death to describing slaughtered innocents. The bird motif tracks the entire arc from anticipation to aftermath."
+                    "At the very start: Macbeth is implicitly the eagle — Duncan asks if Macbeth was dismayed and the Captain replies 'Yes, as sparrows eagles' (the rebels feared Macbeth as sparrows fear eagles). He begins as the apex predator of the natural hierarchy. Then: the raven (Lady Macbeth — death omen); the martlet (Duncan's fatal naivety entering his death-chamber). During the murder: 'the owl that shriek'd, the fatal bellman' — nature's witness. Just after: the owl kills the falcon — unnatural inversion mirroring regicide. At the end: Macduff calls Macbeth a 'hell-kite' — the eagle has become a base, monstrous predator. The arc from eagle to hell-kite is Macbeth's entire moral trajectory told through birds."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "XwUhTuJRdu",
+                  "guid": "XwUhTuJRdu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the very start, Duncan asks if Macbeth was dismayed in battle; the Captain replies: 'Yes, as {{c1::sparrows eagles}}, or the hare the lion' — Macbeth is implicitly the {{c2::eagle}}, the apex predator of the natural hierarchy. By the end Macduff calls him a '{{c3::hell-kite}}' — the {{c4::eagle has become a monster}}. Shakespeare traces Macbeth's entire moral fall through {{c5::bird imagery}}.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
