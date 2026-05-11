@@ -9796,6 +9796,58 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "kUZCF0Whk4",
+                  "guid": "kUZCF0Whk4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How does the bird motif develop across Macbeth?",
+                    "At the start: the raven (Lady Macbeth — death omen anticipating Duncan's arrival); the martlet (Duncan praising Inverness — dramatic irony, innocence walking into its death-chamber). During the murder: 'the owl that shriek'd, the fatal bellman' — nature's own witness to the crime. Just after: the owl kills the falcon — unnatural inversion mirroring regicide and the disruption of the Great Chain of Being. At the end: Macduff's 'hell-kite / pretty chickens / one fell swoop' — birds shift from predicting death to describing slaughtered innocents. The bird motif tracks the entire arc from anticipation to aftermath."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mFsMYaC0rU",
+                  "guid": "mFsMYaC0rU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the start, on hearing Duncan is coming, Lady Macbeth: 'The {{c1::raven}} himself is hoarse / That croaks the {{c2::fatal entrance}} of Duncan / Under {{c3::my}} battlements' — the raven is a bird of {{c4::death and ill omen}}; the possessive pronoun '{{c3::my}}' shows Lady Macbeth has already claimed ownership of {{c5::Duncan's murder}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tib5r3X9Ot",
+                  "guid": "tib5r3X9Ot",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "At the start, Duncan praises Inverness: 'the {{c1::temple-haunting martlet}}...approve / By his loved mansionry that the heavens' breath / Smells wooingly here' — the martlet nests only in {{c2::safe, peaceful places}}, marking Duncan's {{c3::fatal naivety}}. Shakespeare uses {{c4::dramatic irony}}: the most innocent bird nests here; {{c5::murder}} waits inside.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jC4xb2uUbY",
+                  "guid": "jC4xb2uUbY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "During the murder, Lady Macbeth hears '{{c1::the owl that shriek'd, the fatal bellman / Which gives the stern'st good-night}}' — the owl functions as nature's own {{c2::witness}} to the crime. A bellman rang a bell at {{c3::executions}} — the owl announces the moment of {{c4::Duncan's death}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "eJ5FP43zCl",
                   "guid": "eJ5FP43zCl",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
@@ -11894,7 +11946,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "How do Piggy's glasses develop as a motif using your teacher's analysis?",
-                    "Initially: 'thick spectacles' — strong sight AND strong material; Piggy processes the environment 'safely'. The preposition 'up' recalls value — Piggy should be high in the hierarchy. Later: 'wiping his glasses' — becoming sullied literally and metaphorically; 'wiping' shows resistance to corruption. 'A deep pink V' on his nose — the weight of intellect has physically marked him; constant responsibility causes harm. After Simon's murder: Piggy 'removed his glasses and shifted the one lens to the other eye' — he refuses to see clearly, choosing falsehood to avoid guilt. Glasses destroyed with Piggy = death of rational thought."
+                    "Initially: 'thick spectacles' — strong sight AND strong material; Piggy processes the environment 'safely'. Later: 'wiping his glasses' — becoming sullied literally and metaphorically; 'wiping' shows resistance to corruption. 'A deep pink V' on his nose — the weight of intellect has physically marked him. In the middle: Jack strikes Piggy and one lens shatters — the fragmentation of rational sight mirrors the fragmentation of civilisation; Piggy is already half-blind. After Simon's murder: Piggy 'removed his glasses and shifted the one lens to the other eye' — he refuses to see clearly, choosing falsehood to avoid guilt. Near the end: Jack's tribe steals the glasses at night ('The Shell and the Glasses'); they are used to start Jack's fire at Castle Rock — intellect is seized and weaponised by savagery; Piggy must beg for the return of his own ability to see. Glasses destroyed with Piggy = death of rational thought."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -11946,6 +11998,32 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
                     "Piggy's glasses: 'thick spectacles' ({{c1::strong sight and strong material}}). Later 'wiping his glasses' — {{c2::resistance to corruption}}. 'A deep {{c3::pink V}}' on his nose — weight of intellect, constant responsibility has {{c4::physically harmed}} him. After Simon's murder: Piggy '{{c5::removed his glasses and shifted the one lens to the other eye}}' — refusing to {{c6::see clearly}}, choosing falsehood over guilt.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "r7fm7dwrKC",
+                  "guid": "r7fm7dwrKC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In the middle, Jack strikes Piggy and '{{c1::one side of his glasses was missing}}' — rational sight is already {{c2::half-destroyed}} before the end; the progressive destruction of the glasses mirrors the progressive {{c3::collapse of civilisation}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ud84cYFKa0",
+                  "guid": "ud84cYFKa0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Near the end, Jack's tribe raids the camp at night and steals Piggy's glasses — the chapter is titled '{{c1::The Shell and the Glasses}}', linking the theft directly to the {{c2::conch}}: both instruments of civilisation are seized. At Castle Rock, the glasses are used to start {{c3::Jack's fire}} — {{c4::intellect, torn from its owner, is weaponised by savagery}}. Piggy must beg Jack for the return of his own {{c5::ability to see}}.",
                     ""
                   ],
                   "flags": 0,
