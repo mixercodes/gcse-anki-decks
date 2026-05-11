@@ -22,13 +22,13 @@
           7
         ],
         "initialFactor": 2500,
-        "perDay": 20,
+        "perDay": 9999,
         "bury": false,
         "separate": true,
         "order": 1
       },
       "rev": {
-        "perDay": 200,
+        "perDay": 9999,
         "ease4": 1.3,
         "fuzz": 0.05,
         "ivlFct": 1.0,
@@ -14343,6 +14343,19 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "rrxF1tYIvW",
+                      "guid": "rrxF1tYIvW",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "{{c1::Metabolism}} is the sum of all {{c2::chemical reactions}} in a cell or the body. It includes {{c3::respiration}} (breaking down glucose to transfer energy), {{c4::protein synthesis}} (from amino acids), and {{c5::photosynthesis}} (plants building glucose). The energy transferred by respiration is used to {{c6::build larger molecules}}, {{c7::contract muscles}}, {{c8::maintain body temperature}} and transmit nerve impulses.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "bhmNv9YgBZ",
                       "guid": "bhmNv9YgBZ",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -14837,6 +14850,32 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "rNkarfm4tK",
+                      "guid": "rNkarfm4tK",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Gonorrhoea: caused by {{c1::bacteria}}, spread by {{c2::unprotected sexual contact}}. Symptoms: {{c3::thick yellow or green discharge}} from penis or vagina, {{c4::pain when urinating}}. Treated with {{c5::antibiotics}}, but {{c6::antibiotic resistance}} is increasing — some strains now untreatable. Prevented by {{c7::condoms}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oFoyAonTOz",
+                      "guid": "oFoyAonTOz",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is the required practical for culturing microorganisms? What is aseptic technique?",
+                        "<b>Method:</b> sterilise agar (autoclaved). Pour into Petri dish — allow to set with lid on. Use sterile inoculating loop (flamed red-hot) to transfer bacteria onto agar. Seal with tape (not all the way round — allows some O₂ in, prevents contamination from outside). Incubate at <b>25°C in school</b> (not 37°C — prevents growth of human pathogens).<br><b>Measuring antibiotic effectiveness:</b> place antibiotic-soaked paper discs on the inoculated plate. Incubate. Measure the <b>inhibition zone</b> (clear area around disc where bacteria are killed). Larger zone = more effective antibiotic. No zone = bacteria are resistant."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "uACOO7DiRx",
                       "guid": "uACOO7DiRx",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -15162,6 +15201,32 @@
                     },
                     {
                       "__type__": "Note",
+                      "crowdanki_uuid": "biZbfzHnPD",
+                      "guid": "biZbfzHnPD",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are enzymes and how do they work?",
+                        "Enzymes are biological catalysts — they speed up metabolic reactions without being used up. They are proteins with a specific active site shape complementary to their substrate (lock and key model). When the substrate fits the active site, an enzyme-substrate complex forms, the reaction occurs, and products are released. Optimum temperature (~37°C for human enzymes) and pH — outside this range, the enzyme denatures (active site permanently changes shape, can't bind substrate). High temperature = molecules vibrate too fast → bonds break → denature. Wrong pH = charges in active site disrupted → denature."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "uYEd8N4tu3",
+                      "guid": "uYEd8N4tu3",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Enzymes are biological {{c1::catalysts}}. They have an {{c2::active site}} complementary in shape to their {{c3::substrate}} — called the {{c4::lock and key}} model. Increasing temperature above the optimum causes {{c5::denaturation}} — the active site {{c6::changes shape permanently}}. Each enzyme has an optimum {{c7::temperature}} and {{c8::pH}}. Digestive enzymes: {{c9::amylase}} (starch → sugars), {{c10::protease}} (proteins → amino acids), {{c11::lipase}} (lipids → fatty acids + glycerol).",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
                       "crowdanki_uuid": "cMC5wUE3W6",
                       "guid": "cMC5wUE3W6",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -15474,11 +15539,37 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "gcZ6JzJnlV",
-                      "guid": "gcZ6JzJnlV",
+                      "crowdanki_uuid": "ruNFqMgNk7",
+                      "guid": "ruNFqMgNk7",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Contraceptive pills contain {{c1::oestrogen and/or progesterone}} which {{c2::inhibit FSH production}}, preventing egg maturation. IVF uses {{c3::FSH}} to stimulate multiple egg production.",
+                        "Menstrual cycle hormones: {{c1::FSH}} (from pituitary) — stimulates egg maturation and {{c2::oestrogen}} production. {{c3::Oestrogen}} — thickens uterus lining, inhibits FSH, stimulates {{c4::LH}}. {{c5::LH}} (from pituitary) — triggers {{c6::ovulation}} (~day 14). {{c7::Progesterone}} — maintains uterus lining after ovulation; falls if no fertilisation → {{c8::menstruation}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "o2CUvqhqSk",
+                      "guid": "o2CUvqhqSk",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the methods of contraception and how do they work?",
+                        "<b>Hormonal methods</b> (all prevent egg maturation by inhibiting FSH/LH):<br>• Combined pill (oestrogen + progesterone) — very effective, taken daily<br>• Progesterone-only pill (mini pill) — thickens cervical mucus, inhibits ovulation<br>• Injection/implant/patch/hormonal IUD (Mirena) — slow release of progesterone, long-acting<br><b>Non-hormonal methods:</b><br>• Condom (male/female) — barrier method, also protects against STIs<br>• Diaphragm — barrier, used with spermicide<br>• Copper IUD — toxic to sperm, also prevents implantation; non-hormonal, long-lasting<br>• Abstinence — no sexual intercourse<br>• Sterilisation (vasectomy/tubal ligation) — surgical, permanent<br><b>Key exam point:</b> hormonal methods prevent egg maturation; barrier methods prevent sperm reaching egg; IUD prevents implantation or fertilisation."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "chBuaWYRsI",
+                      "guid": "chBuaWYRsI",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Contraceptive pills contain {{c1::oestrogen and/or progesterone}} which {{c2::inhibit FSH production}}, preventing egg maturation. IVF uses {{c3::FSH}} to stimulate multiple egg production. The {{c4::copper IUD}} is non-hormonal and works by being {{c5::toxic to sperm}}. {{c6::Condoms}} are the only contraceptive that also protect against {{c7::STIs}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15506,6 +15597,19 @@
                       "fields": [
                         "How does thyroxine illustrate the principle of negative feedback?",
                         "<b>Thyroxine</b> is produced by the thyroid gland and regulates metabolic rate.<br><b>Negative feedback:</b><br>1. Hypothalamus detects low thyroxine → releases TRH<br>2. Pituitary releases TSH (thyroid stimulating hormone)<br>3. Thyroid gland produces more thyroxine<br>4. High thyroxine level detected by hypothalamus → TRH stops → TSH stops → thyroxine production falls.<br><b>Key principle of negative feedback:</b> the output (thyroxine) feeds back to inhibit the control system → maintains a stable concentration. All hormones in homeostasis use this mechanism."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "dkLpHRVAWj",
+                      "guid": "dkLpHRVAWj",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is adrenaline and what are its effects?",
+                        "Adrenaline is a hormone produced by the adrenal glands (above the kidneys) in response to stress, danger, or excitement. It prepares the body for 'fight or flight': increases heart rate (more O₂ to muscles), increases blood glucose (glycogen converted to glucose), dilates pupils, diverts blood from digestive system to muscles. Unlike most hormones, adrenaline acts very quickly — released directly into the blood and triggers rapid physiological changes."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15701,6 +15805,58 @@
                       "fields": [
                         "What is selective breeding (artificial selection) and what are the risks?",
                         "<b>Process:</b> choose individuals with desired characteristics → breed them → select offspring with best characteristics → repeat over many generations.<br><b>Examples:</b> cattle bred for high milk yield, dogs bred for temperament, crop plants for disease resistance/yield/taste.<br><b>Risks:</b> reduces genetic diversity (gene pool becomes narrow) → population vulnerable to new diseases. Inbreeding → harmful recessive alleles become more common (e.g. hip dysplasia in dogs, reduced disease resistance in crops). If a new disease emerges → entire population may be wiped out."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "mYlMDU6pXM",
+                      "guid": "mYlMDU6pXM",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Who were Darwin and Wallace and what did they contribute?",
+                        "Charles Darwin published 'On the Origin of Species' (1859) proposing natural selection as the mechanism for evolution. Alfred Russel Wallace independently developed the same theory and corresponded with Darwin — both presented their ideas simultaneously. Key idea: individuals vary → those with advantageous traits survive and reproduce → advantageous alleles passed on → species change over generations. Initially controversial because it challenged religion and because Darwin couldn't explain how traits were inherited (Mendel's genetics was not yet known). Eventually accepted as fossil evidence, DNA analysis and observable evolution (e.g. antibiotic resistance) accumulated."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "gFHNXC58m6",
+                      "guid": "gFHNXC58m6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Variation in a species can be caused by {{c1::genetic}} factors (different alleles from mutations and sexual reproduction), {{c2::environmental}} factors (diet, climate, disease), or {{c3::a combination of both}}. Example: height is influenced by {{c4::genes}} (determining maximum potential) and {{c5::nutrition}} (determining whether that potential is reached). Continuous variation (e.g. height) shows a {{c6::normal distribution}}; discontinuous variation (e.g. blood group) falls into {{c7::distinct categories}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "k8CGXpV2go",
+                      "guid": "k8CGXpV2go",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "A {{c1::mutation}} is a random change to the {{c2::sequence of bases in DNA}}. Most mutations are {{c3::neutral}} (no effect on protein/phenotype). Some are {{c4::harmful}} (e.g. cancer-causing). Rarely, a mutation may be {{c5::beneficial}} — giving a survival advantage, and being selected for via {{c6::natural selection}}. Mutations are the source of all {{c7::new alleles}} and are the basis of all genetic variation.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oKRg8FNYJl",
+                      "guid": "oKRg8FNYJl",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is speciation and how does it occur?",
+                        "Speciation is the formation of a new species. Occurs when a population is split by a geographical barrier (e.g. mountain, sea). The two groups are isolated — no interbreeding. Each group faces different selection pressures → different mutations become advantageous → allele frequencies change differently in each population → over many generations, the two populations become so genetically different they can no longer interbreed successfully — two distinct species exist. Example: Darwin's finches on different Galapagos islands evolved different beak shapes to suit different food sources."
                       ],
                       "flags": 0,
                       "tags": [],

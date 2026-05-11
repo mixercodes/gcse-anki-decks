@@ -3,6 +3,7 @@
 #notetype column:1
 #deck column:4
 Cloze	Photosynthesis equation: {{c1::6CO₂}} + {{c2::6H₂O}} → {{c3::C₆H₁₂O₆}} + {{c4::6O₂}}. It is an {{c5::endothermic}} reaction (absorbs energy from light).		Science::Biology::Paper 1::Bioenergetics
+Cloze	{{c1::Metabolism}} is the sum of all {{c2::chemical reactions}} in a cell or the body. It includes {{c3::respiration}} (breaking down glucose to transfer energy), {{c4::protein synthesis}} (from amino acids), and {{c5::photosynthesis}} (plants building glucose). The energy transferred by respiration is used to {{c6::build larger molecules}}, {{c7::contract muscles}}, {{c8::maintain body temperature}} and transmit nerve impulses.		Science::Biology::Paper 1::Bioenergetics
 Basic	What are the factors that limit the rate of photosynthesis?	Light intensity, CO₂ concentration, temperature, and chlorophyll concentration. Increasing any one of these increases the rate until another factor becomes limiting. At high temperatures the enzymes controlling photosynthesis denature.	Science::Biology::Paper 1::Bioenergetics
 Basic	How do plants use glucose?	Respiration (energy for growth). Made into starch for storage. Made into cellulose for cell walls. Made into lipids (oils/fats) for storage. Combined with nitrates to make amino acids and proteins.	Science::Biology::Paper 1::Bioenergetics
 Cloze	Aerobic respiration equation: {{c1::C₆H₁₂O₆}} + {{c2::6O₂}} → {{c3::6CO₂}} + {{c4::6H₂O}} (+ energy). Occurs in the {{c5::mitochondria}}. Releases {{c6::more}} energy than anaerobic respiration.		Science::Biology::Paper 1::Bioenergetics
