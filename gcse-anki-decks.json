@@ -9120,11 +9120,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "naPtVa43Of",
-                  "guid": "naPtVa43Of",
+                  "crowdanki_uuid": "j96rpeVd1C",
+                  "guid": "j96rpeVd1C",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Utterson observes Hyde: '{{c1::God bless me, the man seems hardly human! Something troglodytic}}' — the word 'troglodytic' links Hyde to {{c2::Darwinian}} regression, a primitive ancestor beneath the civilised surface.",
+                    "Utterson observes Hyde: '{{c1::God bless me, the man seems hardly human! Something troglodytic}}' — the adjective links Hyde to {{c2::Darwinian}} regression, suggesting a primitive ancestor lurking beneath the civilised surface.",
                     ""
                   ],
                   "flags": 0,
