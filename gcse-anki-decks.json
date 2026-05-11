@@ -14889,11 +14889,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "Aha6uEHe61",
-                      "guid": "Aha6uEHe61",
+                      "crowdanki_uuid": "tfzvwSjqbE",
+                      "guid": "tfzvwSjqbE",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "HIV: caused by a {{c1::virus}}, spread by {{c2::sexual contact or exchange of bodily fluids}}. Attacks {{c3::white blood cells}}, leading to {{c4::AIDS}} when the immune system can no longer fight infections. Treated with {{c5::antiretroviral drugs}} — not cured.",
+                        "HIV: caused by a {{c1::virus}}, spread by {{c2::sexual contact or exchange of bodily fluids}}. Attacks {{c3::white blood cells}}, leading to {{c4::AIDS}} when the immune system can no longer fight infections. Medicines can {{c5::control the virus and prevent it progressing to AIDS}} — there is no cure.",
                         ""
                       ],
                       "flags": 0,
