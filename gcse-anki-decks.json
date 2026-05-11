@@ -14824,12 +14824,12 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "bPn8m1RZiD",
-                      "guid": "bPn8m1RZiD",
+                      "crowdanki_uuid": "oqSKWoER3I",
+                      "guid": "oqSKWoER3I",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Describe the adaptations of specialised cells: red blood cell, sperm cell, nerve cell, and root hair cell.",
-                        "<b>Red blood cell:</b> biconcave disc → large SA for O₂ absorption. No nucleus → more space for haemoglobin. Flexible → fits through narrow capillaries.<br><b>Sperm cell:</b> long tail (flagellum) for motility. Many mitochondria for energy. Acrosome contains enzymes to penetrate egg.<br><b>Nerve (neurone):</b> very long → transmits impulses far distances. Myelin sheath → insulates, speeds transmission.<br><b>Root hair cell:</b> long projection into soil → increased SA for water/mineral absorption. Large permanent vacuole → maintains osmotic gradient."
+                        "Describe the adaptations of specialised cells: red blood cell, sperm cell, nerve cell, root hair cell, and muscle cell.",
+                        "<b>Red blood cell:</b> biconcave disc → large SA for O₂ absorption. No nucleus → more space for haemoglobin. Flexible → fits through narrow capillaries.<br><b>Sperm cell:</b> long tail (flagellum) for motility. Many mitochondria for energy. Acrosome contains enzymes to penetrate egg.<br><b>Nerve (neurone):</b> very long → transmits impulses far distances. Myelin sheath → insulates, speeds transmission.<br><b>Root hair cell:</b> long projection into soil → increased SA for water/mineral absorption. Large permanent vacuole → maintains osmotic gradient.<br><b>Muscle cell:</b> contains many mitochondria to supply ATP for contraction. Contains proteins that allow the cell to shorten and generate force for movement."
                       ],
                       "flags": 0,
                       "tags": [],
