@@ -2828,12 +2828,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "mptZ26qqJI",
-                  "guid": "mptZ26qqJI",
+                  "crowdanki_uuid": "py7EYUoJZB",
+                  "guid": "py7EYUoJZB",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What are the four layers of a tropical rainforest?",
-                    "Emergent layer (tallest trees, 40-60m, isolated crowns — receive most light). Canopy (dense layer of branches, 25-40m — blocks 80% of light). Understorey (shrubs and small trees, 10-25m, shade-adapted). Forest floor (dark, little vegetation, rapid decomposition)."
+                    "What is the emergent layer of a tropical rainforest?",
+                    "The tallest trees (40–60m) with isolated, umbrella-shaped crowns. Receive the most sunlight but face the most wind and temperature variation."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2841,12 +2841,90 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "lAN3Iw7w8k",
-                  "guid": "lAN3Iw7w8k",
+                  "crowdanki_uuid": "m2VA3Dxtsp",
+                  "guid": "m2VA3Dxtsp",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "How do plants adapt to the tropical rainforest?",
-                    "Buttress roots (support tall trees in shallow soils). Drip tips on leaves (shed rainfall quickly, preventing mould). Waxy leaf surfaces (resist waterlogging). Epiphytes (orchids, bromeliads grow on trees to reach light without reaching the ground). Shallow root systems (capture surface nutrients quickly before they leach)."
+                    "What is the canopy layer of a tropical rainforest?",
+                    "A dense continuous layer of overlapping tree crowns (25–40m). Blocks up to 80% of sunlight reaching lower layers. Contains the greatest biodiversity of animal life."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vCnbxucCWW",
+                  "guid": "vCnbxucCWW",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the understorey layer of a tropical rainforest?",
+                    "Shrubs and small trees (10–25m) adapted to shade. Plants have large, dark leaves to capture limited light. Includes young trees waiting for a gap in the canopy above."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ks6M34o8bx",
+                  "guid": "ks6M34o8bx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the forest floor layer of a tropical rainforest?",
+                    "Very dark — little light penetrates here. Sparse vegetation. Dead matter decomposes rapidly in the heat and humidity, returning nutrients to the soil almost immediately."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "d73yAX0QBA",
+                  "guid": "d73yAX0QBA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are buttress roots and why do tropical rainforest trees have them?",
+                    "Large triangular root extensions that spread from the base of tall trees. They provide structural support in shallow, nutrient-poor soils where deep roots cannot anchor the tree."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dvRH7ZwoOt",
+                  "guid": "dvRH7ZwoOt",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why do tropical rainforest plant leaves have drip tips?",
+                    "Drip tips (pointed leaf ends) allow excess rainfall to run off quickly, preventing algae and moss from growing on the leaf surface and blocking sunlight."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nPZxjDx8f0",
+                  "guid": "nPZxjDx8f0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an epiphyte and why do they exist in the tropical rainforest?",
+                    "A plant that grows on another plant (e.g. a tree) to reach the light in the canopy, without rooting in the soil. Examples: orchids, bromeliads. They are not parasitic."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hSp7xy4IE1",
+                  "guid": "hSp7xy4IE1",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why do tropical rainforest trees have shallow, wide root systems?",
+                    "Nutrients exist only in the top few centimetres of soil. Shallow roots spread widely to capture nutrients before heavy rainfall leaches them out of reach."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -3062,12 +3140,51 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "t5IpVBlJei",
-                  "guid": "t5IpVBlJei",
+                  "crowdanki_uuid": "gLs5zGkELw",
+                  "guid": "gLs5zGkELw",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What are the four processes of coastal erosion?",
-                    "Hydraulic action (force of water compressing air in cracks). Abrasion (rocks thrown against cliff). Attrition (rocks collide and break smaller). Solution (chemical weathering by acidic seawater)."
+                    "What is hydraulic action (coastal erosion) and how does it erode cliffs?",
+                    "The force of waves compresses air into cracks in the cliff face. The pressure expands the crack until rock breaks off."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "s3iqY01pYT",
+                  "guid": "s3iqY01pYT",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is abrasion (coastal erosion) and how does it erode cliffs?",
+                    "Rocks and sediment picked up by waves are hurled against the cliff face, wearing it away. Also called corrasion."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ib8iOJo2WO",
+                  "guid": "ib8iOJo2WO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is attrition (coastal erosion) and what does it produce?",
+                    "Rocks and pebbles in the water collide with each other, breaking into smaller, rounder, smoother pieces. Produces sand and shingle."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "b5alnC0QGR",
+                  "guid": "b5alnC0QGR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is solution (coastal erosion) and which rock types does it affect?",
+                    "Acidic seawater chemically dissolves soluble rock such as chalk and limestone. Also called corrosion."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -3387,12 +3504,77 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "rBRJUKl98C",
-                  "guid": "rBRJUKl98C",
+                  "crowdanki_uuid": "cki3oxKGzW",
+                  "guid": "cki3oxKGzW",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What glacial landforms result from erosion?",
-                    "U-shaped valleys. Corries/cirques (armchair hollows). Arêtes (knife-edge ridges between corries). Pyramidal peaks (3+ corries). Hanging valleys. Ribbon lakes (overdeepened rock basins)."
+                    "What is a U-shaped valley (glacial landform) and how does it form?",
+                    "A glacier erodes a V-shaped river valley downward and outward — widening and deepening it into a U-shape. Leaves steep sides and a flat floor after ice melts."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oLFDxS5dD0",
+                  "guid": "oLFDxS5dD0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a corrie (cirque) and how does it form?",
+                    "A circular hollow in a mountainside. Snow collects and compresses into ice, eroding the hollow by plucking and abrasion. A rock lip forms at the front; a tarn may form when the ice melts."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oTyOp1JlpP",
+                  "guid": "oTyOp1JlpP",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is an arête and how does it form?",
+                    "A knife-edge ridge formed when two corries erode back-to-back on either side of a mountain, leaving a narrow wall of rock between them."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "u3niCNiwNK",
+                  "guid": "u3niCNiwNK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a pyramidal peak and how does it form?",
+                    "A sharp mountain summit formed when three or more corries erode into the same mountain from different directions. Example: the Matterhorn."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rsiogcIBnW",
+                  "guid": "rsiogcIBnW",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a hanging valley and what does it create?",
+                    "A tributary valley left high above the main glacier valley floor after the main glacier erodes much deeper. Often has a waterfall at its junction with the main valley."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pPfjhAvK9n",
+                  "guid": "pPfjhAvK9n",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a ribbon lake and how does it form?",
+                    "A long narrow lake in a U-shaped valley, formed in an overdeepened rock basin eroded by a glacier where rock was softer. Often dammed by glacial deposits at the valley end."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -5974,19 +6156,6 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "tDinFwbbQS",
-                  "guid": "tDinFwbbQS",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What key improvements to public health were made in the industrial period (1750–1900)?",
-                    "1842: Chadwick's report on poverty and disease. 1848: first (voluntary) Public Health Act. 1854: John Snow identifies cholera waterborne source. 1858: Great Stink → Bazalgette's sewers. 1861: Pasteur's germ theory. 1867: working class men get the vote. 1875: second (compulsory) Public Health Act. 1860: Pure Food Act."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
                   "crowdanki_uuid": "dARkbrVFFG",
                   "guid": "dARkbrVFFG",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
@@ -6026,12 +6195,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "vpyw7gjvwm",
-                  "guid": "vpyw7gjvwm",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "crowdanki_uuid": "meJxDLpLT0",
+                  "guid": "meJxDLpLT0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "What were the five phases of society's response to AIDS in Britain?",
-                    "1. Growing awareness (1970s–1983): deaths reported, Terrence Higgins Trust set up. 2. Growing alarm (1984–85): fear, firemen stopped giving mouth-to-mouth, schools withdrew pupils. 3. Growing understanding (1986–87): clean needle programmes, Princess Diana shook hands with AIDS patients. 4. Growing acceptance (1988–95): Freddie Mercury concert raised £20 million. 5. Growing complacency (1996+): anti-retrovirals led people to believe AIDS was curable."
+                    "Five phases of UK response to AIDS: 1. Growing {{c1::awareness}} (1970s–1983): first deaths reported, Terrence Higgins Trust set up. 2. Growing {{c2::alarm}} (1984–85): widespread fear and stigma. 3. Growing {{c3::understanding}} (1986–87): clean needle programmes, Princess Diana shook hands with AIDS patients. 4. Growing {{c4::acceptance}} (1988–95): Freddie Mercury concert raised £20 million for research. 5. Growing {{c5::complacency}} (1996+): anti-retroviral drugs led many to believe AIDS was curable.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -9746,7 +9915,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How does Shakespeare present ambition in Macbeth?",
-                        "Ambition is presented as destructive when unchecked. Macbeth's 'vaulting ambition which o'erleaps itself' drives every murder. Yet Shakespeare doesn't let them enjoy power — both are consumed with paranoia and guilt. By Act 5 his men serve him 'nothing in love', only in fear. Ambition has destroyed everything."
+                        "Ambition is presented as destructive when unchecked. Macbeth's 'vaulting ambition which o'erleaps itself' drives every murder. Yet Shakespeare doesn't let them enjoy power — both are consumed with paranoia and guilt. By the end, his men serve him 'nothing in love', only in fear. Ambition has destroyed everything."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -9780,11 +9949,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "pUoQM7Mx4y",
-                      "guid": "pUoQM7Mx4y",
+                      "crowdanki_uuid": "lA30yRqz3a",
+                      "guid": "lA30yRqz3a",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are the three apparitions' prophecies in Act 4 Scene 1?",
+                        "What are the three apparitions' prophecies in Macbeth?",
                         "In the middle of the play, the witches show Macbeth three apparitions. 1. Beware Macduff. 2. 'None of woman born shall harm Macbeth'. 3. Macbeth shall never be vanquished 'until Great Birnam Wood to high Dunsinane Hill shall come'. All three prove equivocal — Macduff was born by caesarean; soldiers carry branches from Birnam Wood."
                       ],
                       "flags": 0,
@@ -10942,7 +11111,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How does the motif of clothing work in Macbeth?",
-                        "Titles and power are described as garments — 'Why do you dress me in borrowed robes?' (Act 1). By Act 5: 'Now how he feels his title / Hang loose upon him, like a giant's robe / Upon a dwarfish thief' — Macbeth cannot fill the role of King. Power he has stolen will never truly fit him."
+                        "Titles and power are described as garments — 'Why do you dress me in borrowed robes?'. By the end: 'Now how he feels his title / Hang loose upon him, like a giant's robe / Upon a dwarfish thief' — Macbeth cannot fill the role of King. Power he has stolen will never truly fit him."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11021,19 +11190,6 @@
                       "fields": [
                         "How does the illness motif function in Macbeth?",
                         "Scotland is described as diseased under Macbeth's rule: 'It weeps, it bleeds; and each new day a gash is added to her wounds'. Lady Macbeth's doctor says 'More need she the divine than the physician' — her illness is spiritual not physical. Malcolm as the 'antidote' restores health to Scotland at the end."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "dpcp3FJkie",
-                      "guid": "dpcp3FJkie",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "How does the plant motif develop through Macbeth?",
-                        "Start: Duncan 'plants' Macbeth ('I have begun to plant thee') — natural, nurturing growth. Banquo speaks of 'seeds of time' — questioning which grain will grow. Lady Macbeth uses 'innocent flower / serpent under't' — corrupting the plant imagery. Middle: Macbeth has a 'fruitless crown / barren sceptre' — his rule cannot grow naturally. End: Macbeth is a 'yellow leaf' — past his time, decaying. Malcolm will 'dew the sovereign flower and drown the weeds' — cyclical restoration of natural order."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11189,20 +11345,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How is Simon presented in Lord of the Flies?",
-                        "Simon is a Christ-figure — he retreats alone into nature, has a visionary encounter with evil (the LOTF), and is killed before he can share the truth. He alone understands 'the beast' is within the boys themselves. His death in Chapter 9 is the moral turning point of the novel — the boys have killed true goodness. His body is carried out to sea 'with a brightness' around it — a halo image."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "ggFHi35SbU",
-                      "guid": "ggFHi35SbU",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What are the key events and their chapter names in Lord of the Flies?",
-                        "Ch1: The Sound of the Shell (arrival, Ralph as chief). Ch4: Painted Faces (Jack paints face, ship missed). Ch8: Gift for the Darkness (Jack leaves, LOTF created). Ch9: A View to a Death (Simon killed). Ch10: The Shell and the Glasses (Piggy's glasses stolen). Ch11: Castle Rock (Piggy killed, conch destroyed). Ch12: Cry of the Hunters (Ralph hunted, naval officer arrives)."
+                        "Simon is a Christ-figure — he retreats alone into nature, has a visionary encounter with evil (the LOTF), and is killed before he can share the truth. He alone understands 'the beast' is within the boys themselves. His death near the middle of the novel is the moral turning point of the novel — the boys have killed true goodness. His body is carried out to sea 'with a brightness' around it — a halo image."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -11463,19 +11606,6 @@
                       "fields": [
                         "How does Simon function as a Christ figure in LOTF?",
                         "Simon retreats alone into the forest (Christ in the wilderness). He has a vision/revelation about the true nature of the beast — the Lord of the Flies tells him 'Fancy thinking the Beast was something you could hunt and kill!' He rushes back to share the truth with the others. He is killed before he can do so, by those he sought to save, at night, in a frenzy — mistaken for the monster he was coming to disprove. His body is carried to the sea (heaven) with a brightness around it. He is the novel's moral martyr."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "nQdNobA2Hy",
-                      "guid": "nQdNobA2Hy",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What does each key symbol represent in LOTF according to your teacher?",
-                        "Ralph = order and democracy (civilising impact). Piggy = pragmatic intellect and logic. Jack = savagery, authoritarian/totalitarian rule. Simon = sensitivity, spirituality, wisdom. Roger = cruelty, sadism (antithesis of Simon). Conch = civilisation and democracy. Piggy's glasses = science and technology. Fire = hope of salvation. The Beast = human nature (desire to be savage). The scar = mankind's destructive influence on paradise. Lord of the Flies (pig's head) = physical manifestation of the beast. Adults = civilisation and social order."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -14772,12 +14902,64 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "oqSKWoER3I",
-                      "guid": "oqSKWoER3I",
+                      "crowdanki_uuid": "nrJACIT9Fl",
+                      "guid": "nrJACIT9Fl",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Describe the adaptations of specialised cells: red blood cell, sperm cell, nerve cell, root hair cell, and muscle cell.",
-                        "<b>Red blood cell:</b> biconcave disc → large SA for O₂ absorption. No nucleus → more space for haemoglobin. Flexible → fits through narrow capillaries.<br><b>Sperm cell:</b> long tail (flagellum) for motility. Many mitochondria for energy. Acrosome contains enzymes to penetrate egg.<br><b>Nerve (neurone):</b> very long → transmits impulses far distances. Myelin sheath → insulates, speeds transmission.<br><b>Root hair cell:</b> long projection into soil → increased SA for water/mineral absorption. Large permanent vacuole → maintains osmotic gradient.<br><b>Muscle cell:</b> contains many mitochondria to supply ATP for contraction. Contains proteins that allow the cell to shorten and generate force for movement."
+                        "What are the adaptations of the red blood cell and how do they relate to its function?",
+                        "<b>Function:</b> carry oxygen around the body.<br><b>Adaptations:</b> biconcave disc shape → large surface area for O₂ absorption. No nucleus → more space for haemoglobin. Flexible membrane → can squeeze through narrow capillaries."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "nVw3Exn8Ag",
+                      "guid": "nVw3Exn8Ag",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the adaptations of the sperm cell and how do they relate to its function?",
+                        "<b>Function:</b> reach and fertilise an egg cell.<br><b>Adaptations:</b> long flagellum (tail) for motility. Many mitochondria → supply ATP for swimming. Acrosome at the head contains enzymes to digest through the egg membrane."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "s0Lg1IyqVc",
+                      "guid": "s0Lg1IyqVc",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the adaptations of the nerve cell (neurone) and how do they relate to its function?",
+                        "<b>Function:</b> transmit electrical impulses rapidly over long distances.<br><b>Adaptations:</b> very long → signals travel far without a relay. Myelin sheath insulates the axon and speeds up transmission. Many synaptic terminals connect to other neurones."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "illw0X6T3x",
+                      "guid": "illw0X6T3x",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the adaptations of the root hair cell and how do they relate to its function?",
+                        "<b>Function:</b> absorb water and mineral ions from the soil.<br><b>Adaptations:</b> long hair-like projection → greatly increased surface area for absorption. Large permanent vacuole → maintains osmotic gradient to draw in water."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "rf4St6Qr6N",
+                      "guid": "rf4St6Qr6N",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the adaptations of the muscle cell and how do they relate to its function?",
+                        "<b>Function:</b> contract to generate movement.<br><b>Adaptations:</b> many mitochondria → supply ATP for contraction. Contains the proteins actin and myosin, which slide past each other to shorten the cell."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -14850,12 +15032,12 @@
                   "notes": [
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "sTfMvVzCtE",
-                      "guid": "sTfMvVzCtE",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "crowdanki_uuid": "qWAFHHleq8",
+                      "guid": "qWAFHHleq8",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "What are the four types of pathogen?",
-                        "Bacteria (e.g. Salmonella, gonorrhoea), Viruses (e.g. measles, HIV, tobacco mosaic virus), Fungi (e.g. rose black spot), Protists (e.g. malaria — spread by mosquito vector). Bacteria produce toxins that damage tissues. Viruses replicate inside host cells, bursting them."
+                        "The four types of pathogen: {{c1::bacteria}} (e.g. Salmonella, gonorrhoea — produce toxins), {{c2::viruses}} (e.g. measles, HIV, TMV — replicate inside cells), {{c3::fungi}} (e.g. rose black spot), {{c4::protists}} (e.g. malaria — spread by mosquito vector).",
+                        ""
                       ],
                       "flags": 0,
                       "tags": [],
@@ -14915,12 +15097,38 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "pPuXyuNzvM",
-                      "guid": "pPuXyuNzvM",
+                      "crowdanki_uuid": "iRk5RCR0gf",
+                      "guid": "iRk5RCR0gf",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are the non-specific defences of the human body?",
-                        "Skin: physical barrier, produces antimicrobial secretions. Nose: hairs and mucus trap pathogens. Trachea and bronchi: ciliated cells and mucus trap and sweep out pathogens. Stomach: hydrochloric acid (pH 2) kills pathogens in food/drink."
+                        "How does the skin act as a non-specific defence against infection?",
+                        "The skin forms a continuous physical barrier that prevents pathogens from entering the body. It also produces antimicrobial secretions (including sebum from sebaceous glands) that kill microorganisms on the surface."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oEkXF2gUJ0",
+                      "guid": "oEkXF2gUJ0",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does the respiratory tract defend against pathogens?",
+                        "The nose contains hairs and mucus that trap pathogens in inhaled air. The trachea and bronchi are lined with ciliated epithelial cells — cilia sweep mucus (and trapped pathogens) upward to the throat, where it is swallowed and destroyed by stomach acid."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "orWU6U8gI6",
+                      "guid": "orWU6U8gI6",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does the stomach defend against pathogens?",
+                        "The stomach produces hydrochloric acid (pH 2), which kills most pathogens that are swallowed in food, drink, or mucus swept from the respiratory tract."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15617,12 +15825,51 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "jHAX2GZmNM",
-                      "guid": "jHAX2GZmNM",
+                      "crowdanki_uuid": "pF8xY9U0C7",
+                      "guid": "pF8xY9U0C7",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are the effects of human activities on ecosystems?",
-                        "Deforestation (reduces CO₂ absorption, destroys habitats). Pollution (water: fertilisers/sewage causing eutrophication; air: acid rain, greenhouse gases). Peat bog destruction (releases stored CO₂). Overfishing. Intensive farming reduces biodiversity."
+                        "How does deforestation affect ecosystems?",
+                        "Trees are the main store of carbon on land. Cutting them down releases stored CO₂ (contributing to climate change) and removes the CO₂ sink. It also destroys habitats, reduces biodiversity, and disrupts the water cycle — less water is transpired, changing local rainfall patterns."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bYNzcdfn2E",
+                      "guid": "bYNzcdfn2E",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does water pollution from fertilisers cause eutrophication?",
+                        "Fertiliser runoff adds excess nitrates and phosphates to water. This causes algal bloom — algae block light → plants below die → decomposers break down dead plants → decomposers use up oxygen → aquatic life (fish etc.) suffocates and dies."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "hpVWahwzIg",
+                      "guid": "hpVWahwzIg",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does peat bog destruction contribute to climate change?",
+                        "Peat bogs store huge amounts of carbon as partially decomposed organic matter. Draining or burning peat for fuel or compost releases this stored CO₂ into the atmosphere, accelerating climate change."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "lnGyiz3nFF",
+                      "guid": "lnGyiz3nFF",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do overfishing and intensive farming reduce biodiversity?",
+                        "<b>Overfishing:</b> removes fish faster than populations can recover — can collapse entire food chains. <b>Intensive farming:</b> monocultures remove habitat variety. Pesticides kill non-target insects (including pollinators). Hedgerow removal destroys corridors between habitats."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15643,12 +15890,51 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "lJszpU0qo5",
-                      "guid": "lJszpU0qo5",
+                      "crowdanki_uuid": "yy1f7nbzMM",
+                      "guid": "yy1f7nbzMM",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What methods are used to protect biodiversity?",
-                        "Breeding programmes for endangered species. Seed banks. Conservation of habitats (nature reserves, marine protected areas). Reforestation. Reducing pollution. Sustainable fishing (quotas, mesh size). International agreements (e.g. CITES on endangered species trade)."
+                        "What are breeding programmes and how do they protect biodiversity?",
+                        "Captive breeding programmes in zoos breed endangered species in controlled conditions, maintaining genetic diversity. Animals may be reintroduced to the wild once habitats are restored or threats are reduced. Example: giant panda, Arabian oryx."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "oUEFf3wwmx",
+                      "guid": "oUEFf3wwmx",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What is a seed bank and why is it important for biodiversity?",
+                        "A facility that stores seeds of plant species at very low temperatures to preserve genetic diversity. If a species becomes extinct in the wild, its seeds can be used to reintroduce it. The Svalbard Global Seed Vault is a key example."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eYcw7LP8HY",
+                      "guid": "eYcw7LP8HY",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do nature reserves and marine protected areas conserve biodiversity?",
+                        "They protect habitats from development, pollution and human disturbance. Species can live and breed without disruption. Buffer zones reduce edge effects. Marine protected areas ban or limit fishing in critical habitats such as coral reefs and spawning grounds."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "tcqslsEitr",
+                      "guid": "tcqslsEitr",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do international agreements protect biodiversity?",
+                        "CITES (Convention on International Trade in Endangered Species) bans or controls trade in threatened species and their products. The Rio Convention and other agreements commit countries to protecting habitats and reducing pollution. Effectiveness depends on national enforcement."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15825,12 +16111,38 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "o2CUvqhqSk",
-                      "guid": "o2CUvqhqSk",
+                      "crowdanki_uuid": "tkbnCQTaoE",
+                      "guid": "tkbnCQTaoE",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are the methods of contraception and how do they work?",
-                        "<b>Hormonal methods</b> (all prevent egg maturation by inhibiting FSH/LH):<br>• Combined pill (oestrogen + progesterone) — very effective, taken daily<br>• Progesterone-only pill (mini pill) — thickens cervical mucus, inhibits ovulation<br>• Injection/implant/patch/hormonal IUD (Mirena) — slow release of progesterone, long-acting<br><b>Non-hormonal methods:</b><br>• Condom (male/female) — barrier method, also protects against STIs<br>• Diaphragm — barrier, used with spermicide<br>• Copper IUD — toxic to sperm, also prevents implantation; non-hormonal, long-lasting<br>• Abstinence — no sexual intercourse<br>• Sterilisation (vasectomy/tubal ligation) — surgical, permanent<br><b>Key exam point:</b> hormonal methods prevent egg maturation; barrier methods prevent sperm reaching egg; IUD prevents implantation or fertilisation."
+                        "How do hormonal contraceptives prevent pregnancy and what are the examples?",
+                        "All hormonal methods work by inhibiting FSH and LH production — preventing egg maturation (ovulation).<br><b>Examples:</b> combined pill (oestrogen + progesterone, daily); progesterone-only pill (mini pill — also thickens cervical mucus); injection/implant/patch/hormonal IUD (Mirena) — all slow-release progesterone, long-acting."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kGnob2xP3l",
+                      "guid": "kGnob2xP3l",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do barrier contraceptives work and what are the examples?",
+                        "Barrier methods physically prevent sperm from reaching the egg.<br><b>Male condom:</b> rolled over the penis. <b>Female condom:</b> inserted into the vagina. <b>Diaphragm:</b> dome-shaped cap covering the cervix, used with spermicide.<br><b>Key advantage of condoms:</b> the only contraceptive that also protects against STIs."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cjuA3J68si",
+                      "guid": "cjuA3J68si",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does the copper IUD work as a non-hormonal contraceptive?",
+                        "The copper IUD is inserted into the uterus by a clinician. Copper is toxic to sperm — reduces their motility and ability to fertilise an egg. It may also prevent implantation of a fertilised egg. Non-hormonal, long-lasting (up to 10 years), and immediately reversible."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -17333,12 +17645,51 @@
                   "notes": [
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "Hng0SDIoyX",
-                      "guid": "Hng0SDIoyX",
+                      "crowdanki_uuid": "tZwCxl0nSi",
+                      "guid": "tZwCxl0nSi",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What four factors affect the rate of reaction and why?",
-                        "Concentration (more particles per unit volume → more frequent collisions). Temperature (particles move faster → more frequent AND more energetic collisions → more exceed activation energy). Surface area (more area exposed → more collisions). Catalyst (lowers activation energy → more particles have enough energy to react)."
+                        "How does concentration affect the rate of a chemical reaction?",
+                        "Higher concentration means more particles per unit volume — more frequent collisions between reactant particles — more successful collisions per second — faster rate of reaction."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "fo5m35vVd9",
+                      "guid": "fo5m35vVd9",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does temperature affect the rate of a chemical reaction?",
+                        "Higher temperature gives particles more kinetic energy — they move faster — more frequent AND more energetic collisions. A greater proportion of collisions have energy equal to or greater than the activation energy — rate increases significantly. A 10°C rise roughly doubles the rate."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "ivuHtc35wM",
+                      "guid": "ivuHtc35wM",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does surface area affect the rate of a chemical reaction?",
+                        "Increasing surface area exposes more particles of the solid reactant — more collisions per second with the other reactant — faster rate. Example: powdered marble reacts faster with HCl than marble chips of the same mass."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "cAU4Ez1YmB",
+                      "guid": "cAU4Ez1YmB",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How does a catalyst affect the rate of a chemical reaction?",
+                        "A catalyst provides an alternative reaction pathway with a lower activation energy — a greater proportion of collisions now have enough energy to react — faster rate. The catalyst is not used up and does not change the products or the overall energy change."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -17450,12 +17801,38 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "h613lPTJ1Y",
-                      "guid": "h613lPTJ1Y",
+                      "crowdanki_uuid": "nsd0umnQBh",
+                      "guid": "nsd0umnQBh",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are the three methods of measuring the rate of a reaction?",
-                        "<b>1. Loss of mass:</b> reaction produces a gas that escapes. Weigh flask on balance at regular intervals. Rate = gradient of mass vs time graph. E.g. CaCO₃ + HCl → CO₂ escapes.<br><b>2. Volume of gas produced:</b> collect gas in a gas syringe or inverted measuring cylinder over water. Plot volume vs time. E.g. H₂O₂ decomposition → O₂ collected.<br><b>3. Colour change / turbidity:</b> measure time for a colour change or cloudiness to develop. E.g. Na₂S₂O₃ + HCl → yellow sulphur precipitate; time until cross disappears. Rate ∝ 1/time."
+                        "How do you measure rate of reaction using the loss of mass method?",
+                        "Place the flask on a balance. As a gas product escapes, record mass at regular intervals. Plot mass vs time — gradient = rate. The curve levels off when one reactant is used up. Works when the reaction produces a gas (e.g. CaCO₃ + HCl → CO₂ escapes)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "jEyqHHNCyJ",
+                      "guid": "jEyqHHNCyJ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you measure rate of reaction using the gas volume method?",
+                        "Connect the flask to a gas syringe or inverted measuring cylinder over water. Record the volume of gas produced at regular intervals. Plot volume vs time — gradient = rate. Example: H₂O₂ decomposition → O₂ collected. More precise than loss of mass for small volumes."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "sfio4tJDIk",
+                      "guid": "sfio4tJDIk",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "How do you measure rate of reaction using the colour change / turbidity method?",
+                        "Draw a cross on paper and place the flask over it. Add reactants and time how long until the cross disappears (obscured by a precipitate forming in the flask). Rate ∝ 1/time. Used for Na₂S₂O₃ + HCl → yellow sulphur precipitate."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18009,12 +18386,25 @@
                   "notes": [
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "qQMgNt6PDo",
-                      "guid": "qQMgNt6PDo",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "crowdanki_uuid": "vMGqQNys5K",
+                      "guid": "vMGqQNys5K",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "What are the main energy stores and transfers?",
-                        "Stores: kinetic, gravitational potential, elastic potential, chemical, thermal, magnetic, electrostatic, nuclear. Transfers: mechanically (forces), electrically (current), by heating (temperature difference), by radiation (light/sound). Energy is conserved — total energy before = total energy after."
+                        "The eight energy stores: {{c1::kinetic}}, {{c2::gravitational potential}}, {{c3::elastic potential}}, {{c4::chemical}}, {{c5::thermal}}, {{c6::magnetic}}, {{c7::electrostatic}}, {{c8::nuclear}}. Energy is conserved — it is {{c9::transferred}} between stores, never created or destroyed.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "m4vQgBFaHv",
+                      "guid": "m4vQgBFaHv",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Energy is transferred by four pathways: {{c1::mechanically}} (by forces doing work), {{c2::electrically}} (by electric current), {{c3::by heating}} (from hot to cold), {{c4::by radiation}} (e.g. light, infrared, sound waves).",
+                        ""
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18113,12 +18503,77 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "vLzbFDlldS",
-                      "guid": "vLzbFDlldS",
+                      "crowdanki_uuid": "dIgsFCV4tW",
+                      "guid": "dIgsFCV4tW",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "How do you compare different energy resources? What are the advantages of each?",
-                        "<b>Fossil fuels (coal, oil, gas):</b> reliable, high energy density, existing infrastructure. Disadvantages: CO₂ (climate change), SO₂ (acid rain), finite.<br><b>Nuclear:</b> reliable, no CO₂ during generation, huge energy density. Disadvantages: radioactive waste, expensive to build/decommission, risk of accidents.<br><b>Wind:</b> renewable, no CO₂, cheap to run. Disadvantages: intermittent (needs wind), visual impact, noise, birds.<br><b>Solar:</b> renewable, no CO₂. Disadvantages: intermittent (day, weather), expensive panels.<br><b>Hydroelectric:</b> reliable, renewable, can store energy (pump at off-peak). Disadvantages: habitat destruction, flooding of land.<br><b>Biofuel:</b> renewable, carbon-neutral in theory. Disadvantages: land use competes with food."
+                        "What are the advantages and disadvantages of fossil fuels as an energy resource?",
+                        "<b>Advantages:</b> reliable baseload power, high energy density, existing infrastructure worldwide.<br><b>Disadvantages:</b> finite (non-renewable), burning releases CO₂ (climate change) and SO₂ (acid rain), coal mining damages landscapes."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "ldT5y6SVHp",
+                      "guid": "ldT5y6SVHp",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the advantages and disadvantages of nuclear power?",
+                        "<b>Advantages:</b> very reliable, no CO₂ during generation, very high energy density (small fuel needed).<br><b>Disadvantages:</b> radioactive waste (difficult to dispose of safely), very expensive to build and decommission, risk of accidents (Chernobyl, Fukushima)."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "nrYFHCQzXZ",
+                      "guid": "nrYFHCQzXZ",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the advantages and disadvantages of wind energy?",
+                        "<b>Advantages:</b> renewable, no CO₂ during operation, cheap to run once built.<br><b>Disadvantages:</b> intermittent (only works when wind blows), visual and noise impact, potential harm to birds. Offshore is more reliable but more expensive."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "eXusZrfmbY",
+                      "guid": "eXusZrfmbY",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the advantages and disadvantages of solar energy?",
+                        "<b>Advantages:</b> renewable, no CO₂ or pollution during operation, no moving parts (low maintenance).<br><b>Disadvantages:</b> intermittent (only works in daylight/clear weather), large land area required for solar farms, manufacturing panels has environmental cost."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bGNi4gW3d2",
+                      "guid": "bGNi4gW3d2",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the advantages and disadvantages of hydroelectric power?",
+                        "<b>Advantages:</b> reliable and renewable, no CO₂ during operation, can store energy (pump water up at off-peak times).<br><b>Disadvantages:</b> requires flooding valleys — destroys habitats and displaces communities. Limited to suitable geography."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "kLZPJ61Nnw",
+                      "guid": "kLZPJ61Nnw",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "What are the advantages and disadvantages of biofuels?",
+                        "<b>Advantages:</b> renewable, theoretically carbon-neutral (CO₂ released equals CO₂ absorbed while growing).<br><b>Disadvantages:</b> land used for fuel crops competes with food production. Growing and processing biofuels still has significant carbon footprint in practice."
                       ],
                       "flags": 0,
                       "tags": [],
