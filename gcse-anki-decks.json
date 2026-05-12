@@ -800,19 +800,6 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "i6XmXXM9fo",
-                  "guid": "i6XmXXM9fo",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "How does Run-Length Encoding (RLE) work? Give an example.",
-                    "RLE is a lossless compression technique. It replaces runs of consecutive identical values with a <b>count + value</b> pair.<br><b>Example:</b> BBBBBWWWWWWRRR → 5B6W3R (from 13 values to 6 values — smaller!)<br><b>Best for:</b> simple images with large blocks of identical colour (computer graphics, pixel art, fax documents).<br><b>Worst for:</b> photographic images with lots of colour variation — could make the file larger."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
                   "crowdanki_uuid": "c2GqRdkjVx",
                   "guid": "c2GqRdkjVx",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
