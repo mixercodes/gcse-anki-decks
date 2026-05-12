@@ -787,6 +787,19 @@
                 },
                 {
                   "__type__": "Note",
+                  "crowdanki_uuid": "claogPW8ij",
+                  "guid": "claogPW8ij",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Text file size (in bits) = {{c1::number of characters}} × {{c2::bits per character}}. ASCII uses {{c3::8}} bits per character; Unicode (UTF-16) uses {{c4::16}} bits per character. Example: a 500-character ASCII file = 500 × 8 = {{c5::4,000 bits}} = {{c6::500 bytes}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
                   "crowdanki_uuid": "c2GqRdkjVx",
                   "guid": "c2GqRdkjVx",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -2022,38 +2035,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "nWBO4pblmb",
-                  "guid": "nWBO4pblmb",
+                  "crowdanki_uuid": "k55IWuaAwO",
+                  "guid": "k55IWuaAwO",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "IDE features: {{c1::Code editor}} (syntax highlighting, line numbers), {{c2::Error diagnostics}} (underlines errors, shows error messages), {{c3::Breakpoints}} (pauses execution at a specific line for inspection), {{c4::Run-time environment}} (compiles/runs the program), {{c5::Variable watch window}} (shows current values of variables during execution), {{c6::Auto-complete/IntelliSense}} (suggests completions as you type).",
+                    "The four tools/facilities required by OCR in an IDE: {{c1::Editor}} (write and edit code with syntax highlighting), {{c2::Error diagnostics}} (identifies and reports errors in code), {{c3::Run-time environment}} (compiles or interprets and executes the program), {{c4::Translator}} (converts source code to machine code — compiler or interpreter).",
                     ""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "j3aBsj8YYX",
-                  "guid": "j3aBsj8YYX",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a breakpoint and how is it used for debugging?",
-                    "A breakpoint is a marker placed on a specific line of code in an IDE. When the program runs, it <b>pauses execution</b> at that line — allowing the developer to:<br>• Inspect the current values of all variables<br>• Check that the program has reached that point<br>• Step through subsequent lines one at a time<br>• Identify exactly where the logic diverges from expectation<br>Breakpoints are used to debug logic errors — code that runs but gives wrong results."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "hONZkVkGNG",
-                  "guid": "hONZkVkGNG",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Explain: step-over, step-into, and step-out in IDE debugging.",
-                    "<b>Step-over:</b> executes the current line and pauses at the next line — if the line is a function call, the whole function runs without entering it.<br><b>Step-into:</b> if the current line calls a function, execution enters the function body line by line — useful for debugging subroutines.<br><b>Step-out:</b> finishes executing the current function and pauses at the line after the call — used when you've seen enough of a subroutine."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2080,19 +2067,6 @@
                   "fields": [
                     "What is the difference between a compiler and an interpreter? Which is used in IDEs?",
                     "<b>Compiler:</b> translates entire source code to machine code at once → creates an executable. Errors reported after full translation. Fast execution. Used for production software (C, C++).<br><b>Interpreter:</b> translates and executes one line at a time. Stops at first error. No separate executable. Slower. Used for development/scripting (Python, JavaScript).<br><b>IDEs</b> typically support both — Python IDEs use interpreters; C++ IDEs use compilers."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "rMCpIi0btE",
-                  "guid": "rMCpIi0btE",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is auto-complete (IntelliSense) in an IDE?",
-                    "Auto-complete suggests completions for partially typed code — variable names, function names, method parameters, module contents. <br><b>Benefits:</b> reduces typing errors (typos in identifiers), speeds up coding, helps discover available functions/methods without consulting documentation, reminds programmer of required parameters/argument types."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2204,12 +2178,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "YJIziG03d0",
-                  "guid": "YJIziG03d0",
+                  "crowdanki_uuid": "l7OA1Dvbnh",
+                  "guid": "l7OA1Dvbnh",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is authentication in a program and how is it implemented securely?",
-                    "Authentication verifies the identity of a user attempting to access a system.<br><b>Implementation:</b><br>• Username/password checked against stored credentials<br>• <b>Passwords hashed</b> (never stored as plain text) — use SHA-256 or bcrypt<br>• <b>Limit failed login attempts</b> (lock after 3 failures) — prevents brute force<br>• <b>CAPTCHA</b> — prevents automated attacks<br>• <b>Two-factor authentication</b> — adds a second verification layer<br>• <b>Salt</b> added to passwords before hashing — prevents rainbow table attacks"
+                    "What is authentication and why is it used in programs?",
+                    "Authentication confirms the identity of a user before granting access to a system or program.<br><b>Simple implementation:</b> the user enters a username and password; the program checks these against stored credentials and only allows access if they match.<br><b>Purpose:</b> prevents unauthorised access to data or functionality.<br><b>Good practice:</b> limit failed login attempts to slow down brute force attacks; use strong password requirements."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2223,19 +2197,6 @@
                   "fields": [
                     "What makes a program 'robust'?",
                     "A robust program handles all inputs and situations gracefully without crashing:<br>• <b>Input validation</b> — rejects invalid data before processing<br>• <b>Error handling</b> — gracefully manages runtime errors (try/except/catch blocks)<br>• <b>Authentication</b> — controls who can access the program<br>• <b>Testing</b> with normal, boundary and erroneous test data<br>• <b>Meaningful error messages</b> — tells the user what went wrong and how to fix it"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "sR7bvpJUK5",
-                  "guid": "sR7bvpJUK5",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is the difference between white box and black box testing?",
-                    "<b>White box testing:</b> the tester has full knowledge of the internal code/logic. Tests designed based on the structure and paths through the code. Used by developers.<br><b>Black box testing:</b> the tester has no knowledge of internal code — only tests inputs and outputs (what the program should do, not how). Tests based on the specification. Can be done by end users who are not programmers."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2457,6 +2418,58 @@
                   "fields": [
                     "What are the advantages of using subroutines (functions and procedures)?",
                     "<b>1. Code reuse:</b> write once, call many times — avoids duplicating code.<br><b>2. Easier to test:</b> each subroutine can be tested independently (unit testing).<br><b>3. Easier to maintain:</b> fix a bug in one place rather than many.<br><b>4. Shorter code:</b> the main program is cleaner and more readable.<br><b>5. Modular design:</b> large problems broken into manageable, logical units.<br><b>6. Team collaboration:</b> different programmers can write different subroutines simultaneously."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oAJOd5KbRR",
+                  "guid": "oAJOd5KbRR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a record and how does it differ from an array?",
+                    "A <b>record</b> stores a collection of related data items that can be of <b>different data types</b> under one name — like a row in a database table.<br><b>Example:</b> a student record might store name (string), age (integer), and grade (character).<br>An <b>array</b> stores multiple items of the <b>same data type</b>.<br>Records are used when each item has multiple related fields of different types (e.g. storing details about a person, product, or booking)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jfhTbqMCtf",
+                  "guid": "jfhTbqMCtf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Write OCR pseudocode to query data using SQL. What three commands must you know?",
+                    "The three required SQL commands are <b>SELECT</b>, <b>FROM</b>, and <b>WHERE</b>.<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">SELECT name, age<br>FROM students<br>WHERE age &gt; 16</pre><b>SELECT</b> — chooses which fields (columns) to return<br><b>FROM</b> — specifies which table to query<br><b>WHERE</b> — filters rows based on a condition<br>To return all fields use <code>SELECT *</code>."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jrNKZsiZ6b",
+                  "guid": "jrNKZsiZ6b",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "SQL query structure: {{c1::SELECT}} chooses which fields to return (use {{c2::*}} for all fields). {{c3::FROM}} specifies the table. {{c4::WHERE}} filters rows by a condition. Example: <code>SELECT name FROM students WHERE grade = \"A\"</code> returns the {{c5::name}} field from the {{c6::students}} table where {{c7::grade equals \"A\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rLIMRmMf1U",
+                  "guid": "rLIMRmMf1U",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do you generate a random number in OCR pseudocode?",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">// Random integer between 1 and 6 (inclusive)<br>num = random(1, 6)<br>print(num)</pre><b>random(a, b)</b> returns a random integer between a and b inclusive.<br><b>Uses:</b> simulating dice rolls, shuffling, generating test data, games."
                   ],
                   "flags": 0,
                   "tags": [],
