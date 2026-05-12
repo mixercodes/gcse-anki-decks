@@ -15536,6 +15536,45 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "g7x9eoihXW",
+                      "guid": "g7x9eoihXW",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "In a leaf cross-section: the {{c1::palisade mesophyll}} layer is nearest the top surface and contains the most {{c2::chloroplasts}} — it is the main site of {{c3::photosynthesis}}. The {{c4::spongy mesophyll}} has large {{c5::air spaces}} that allow {{c6::CO₂, O₂ and water vapour}} to diffuse through the leaf. The {{c7::epidermis}} is covered by a waxy {{c8::cuticle}} which reduces {{c9::water loss}}. {{c10::Guard cells}} control the opening and closing of {{c11::stomata}}, regulating both {{c12::gas exchange}} and {{c13::transpiration}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "bK3Hc1DTpw",
+                      "guid": "bK3Hc1DTpw",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                      "fields": [
+                        "Why are palisade cells positioned near the top of the leaf? What features make them suited for photosynthesis?",
+                        "Palisade cells are close to the upper surface to receive the maximum light intensity — light is the main limiting factor for photosynthesis. Their features: tall, column-shaped cells packed tightly together (maximises the number of cells per unit area); large numbers of chloroplasts per cell (maximises light absorption); thin cell walls and large vacuole push chloroplasts to the edges (closer to light and CO₂). The spongy mesophyll below has fewer chloroplasts because less light reaches that depth."
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
+                    },
+                    {
+                      "__type__": "Note",
+                      "crowdanki_uuid": "gOOwPlRBkl",
+                      "guid": "gOOwPlRBkl",
+                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                      "fields": [
+                        "Stomata are tiny {{c1::pores}} in the leaf epidermis, found mainly on the {{c2::lower}} surface. They are opened and closed by pairs of {{c3::guard cells}}. Guard cells become {{c4::turgid}} (absorb water by osmosis) to {{c5::open}} the stoma. They become {{c6::flaccid}} (lose water) to {{c7::close}} it. Stomata open in {{c8::light}} to allow CO₂ in for photosynthesis. They close when the plant is short of {{c9::water}}, reducing water loss by {{c10::transpiration}}.",
+                        ""
+                      ],
+                      "flags": 0,
+                      "tags": [],
+                      "data": ""
                     }
                   ]
                 }
