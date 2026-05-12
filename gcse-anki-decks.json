@@ -303,6 +303,32 @@
                   "flags": 0,
                   "tags": [],
                   "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iuReuHKoOq",
+                  "guid": "iuReuHKoOq",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What factors affect network performance?",
+                    "<b>Bandwidth:</b> the maximum amount of data that can be transmitted per second (measured in Mbps/Gbps). Higher bandwidth = faster data transfer.<br><b>Latency:</b> the delay between data being sent and received (measured in milliseconds). High latency causes lag — especially noticeable in video calls and gaming. Caused by distance, congestion, and processing at routers.<br><b>Number of connected devices:</b> more devices sharing the same network reduces the bandwidth available to each — performance degrades under heavy use.<br><b>Transmission medium:</b> wired connections (fibre optic &gt; copper Ethernet) are faster and more reliable than wireless (Wi-Fi). Fibre optic uses light pulses; copper uses electrical signals; wireless uses radio waves.<br><b>Interference and signal loss:</b> wireless signals degrade with distance and physical obstacles (walls). Copper cables are susceptible to electromagnetic interference; fibre optic is immune."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "szEC6D8Ohy",
+                  "guid": "szEC6D8Ohy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Network performance factors: {{c1::bandwidth}} is the maximum data per second (Mbps/Gbps) — higher is faster. {{c2::Latency}} is the delay in milliseconds — caused by distance, congestion, and router processing. More {{c3::connected devices}} share bandwidth, slowing the network. {{c4::Fibre optic}} is faster than {{c5::copper}} Ethernet, which is faster than {{c6::wireless (Wi-Fi)}}. Wireless suffers from {{c7::interference}} and {{c8::signal loss}} with distance; fibre optic is immune to {{c9::electromagnetic interference}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
                 }
               ]
             },
