@@ -111,11 +111,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "txAMR83q3S",
-                  "guid": "txAMR83q3S",
+                  "crowdanki_uuid": "jl03CqML79",
+                  "guid": "jl03CqML79",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Network topologies: {{c1::star}} — all devices connect to a central switch; fast, easy fault isolation, but expensive (more cable) and switch failure brings down the whole network. {{c2::Bus}} — all devices share one backbone cable; cheap but collisions occur and backbone failure crashes everything. {{c3::Mesh}} — devices connect to multiple others; highly resilient but very expensive and complex to cable.",
+                    "Network topologies: {{c1::star}} — all devices connect to a central switch; fast, easy fault isolation, but expensive (more cable) and switch failure brings down the whole network. {{c2::Mesh}} — devices connect to multiple others; highly resilient but very expensive and complex to cable.",
                     ""
                   ],
                   "flags": 0,
@@ -241,12 +241,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "b6BAISMSMp",
-                  "guid": "b6BAISMSMp",
+                  "crowdanki_uuid": "vvfhU0aRyv",
+                  "guid": "vvfhU0aRyv",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Compare star and bus network topologies in detail.",
-                    "<b>Star topology:</b> each device has its own cable to a central switch. Fast data transfer, easy to diagnose faults (one cable failure only affects one device), easy to add devices. Disadvantage: switch failure = whole network down; more cable needed = more expensive.<br><b>Bus topology:</b> all devices share one backbone cable with terminators at each end. Cheap, easy to install. Disadvantages: data collisions (only one device transmits at a time), backbone cable failure crashes entire network, performance degrades with more devices."
+                    "Compare star and mesh network topologies in detail.",
+                    "<b>Star topology:</b> each device has its own dedicated cable to a central switch. Fast data transfer, easy to diagnose faults (one cable failure only affects one device), easy to add new devices. Disadvantage: switch failure = whole network down; more cable needed than mesh for small networks.<br><b>Mesh topology:</b> devices connect directly to multiple other devices. <b>Full mesh</b> — every device connected to every other; maximum resilience but extremely expensive and complex to cable. <b>Partial mesh</b> — only some devices have multiple connections; cheaper compromise. No single point of failure (unlike star). Used where reliability is critical (e.g. the Internet backbone)."
                   ],
                   "flags": 0,
                   "tags": [],
