@@ -277,6 +277,58 @@
                   "flags": 0,
                   "tags": [],
                   "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nNeNKtChor",
+                  "guid": "nNeNKtChor",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the Cloud? What are the advantages and disadvantages?",
+                    "The <b>Cloud</b> refers to remote servers accessed over the internet to store data, run software, or provide processing power — rather than using local hardware.<br><b>Advantages:</b> access from any device/location; automatic backups; easily scalable; no need to manage hardware; collaborative access.<br><b>Disadvantages:</b> requires an internet connection; ongoing subscription costs; data held on third-party servers (privacy and security concerns); dependent on provider uptime."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "j1ZeSeCCjL",
+                  "guid": "j1ZeSeCCjL",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is Bluetooth and how does it differ from Wi-Fi?",
+                    "<b>Bluetooth</b> is a short-range wireless communication standard using radio waves (2.4 GHz band). Designed for connecting peripheral devices (keyboards, mice, headphones, phones) over short distances (typically up to 10 metres).<br><b>Differences from Wi-Fi:</b> Bluetooth has a much shorter range, lower data transfer speed, and lower power consumption. Wi-Fi is designed for network access and internet connectivity; Bluetooth is designed for device-to-device communication without a router."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "17wVARP5xs",
+                  "guid": "17wVARP5xs",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is a network standard and why are standards needed?",
+                    "A <b>network standard</b> is an agreed set of technical rules or specifications that hardware and software must conform to.<br><b>Why needed:</b> standards ensure that devices and software from different manufacturers can communicate and work together. Without standards, a router from one manufacturer might not communicate with a NIC from another. Examples: Wi-Fi (IEEE 802.11), Ethernet (IEEE 802.3)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uKyhZVUp7c",
+                  "guid": "uKyhZVUp7c",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the concept of layers in network protocols? Why are they used?",
+                    "Protocols are organised into <b>layers</b>, where each layer handles a specific part of communication. The 4-layer TCP/IP model is the key teaching example: Application, Transport, Internet, and Network Access layers.<br><b>Why layers are used:</b> each layer only interacts with the layers directly above and below it. This means individual layers can be updated or replaced without affecting the rest of the stack, and hardware/software from different manufacturers can interoperate as long as each layer follows its agreed standard."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
                 }
               ]
             },
@@ -416,6 +468,19 @@
                   "fields": [
                     "What is meant by ethical vs legal issues in computing?",
                     "<b>Legal issues</b> concern what is actually permitted or prohibited by law (Computer Misuse Act, DPA, Copyright Act). Breaking the law carries legal penalties.<br><b>Ethical issues</b> concern what society considers right or wrong — even if something is legal, it may be considered unethical. Example: a company legally collecting and selling users' data may be considered ethically wrong even though it is permitted."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "usNE55Qz2z",
+                  "guid": "usNE55Qz2z",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are privacy issues in digital technology?",
+                    "Privacy issues arise when personal data is collected, stored, or used in ways an individual did not consent to or is unaware of.<br><b>Examples:</b> websites tracking browsing without explicit consent; apps collecting location data unnecessarily; companies selling user data to third parties; government surveillance; facial recognition in public spaces.<br><b>Relevant law:</b> the Data Protection Act 2018 gives individuals the right to know what data is held about them, have it corrected or deleted, and object to its processing."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -992,6 +1057,58 @@
                   "flags": 0,
                   "tags": [],
                   "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qbNVFCVPda",
+                  "guid": "qbNVFCVPda",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is data interception and theft?",
+                    "<b>Data interception</b> (packet sniffing / man-in-the-middle attack) is the unauthorised capturing of data while it is being transmitted across a network. An attacker uses software to intercept unencrypted packets — commonly on unsecured public Wi-Fi.<br><b>Data theft</b> is the stealing of stored data (credentials, personal information, financial records).<br><b>Prevention:</b> encryption (HTTPS/TLS) makes intercepted data unreadable; VPNs encrypt traffic on public networks; avoiding unsecured Wi-Fi; strong access controls on stored data."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "igun1iFlUZ",
+                  "guid": "igun1iFlUZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is physical security and how does it protect computer systems?",
+                    "<b>Physical security</b> protects hardware and data from physical threats: theft, damage, or unauthorised physical access to devices.<br><b>Methods:</b> locked server rooms with key/card or biometric access; CCTV; cable locks on devices; security guards; secure disposal of old storage media (degaussing, shredding HDDs).<br><b>Why it matters:</b> software security is irrelevant if an attacker can physically remove a hard drive or plug in a USB device to copy data directly."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vHSdNQO6Ou",
+                  "guid": "vHSdNQO6Ou",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How do strong passwords reduce security risk and what are best practices?",
+                    "A strong password is long and uses a mix of uppercase, lowercase, digits, and symbols — making it resistant to brute force and dictionary attacks.<br><b>Best practices:</b> unique password per account; never share passwords; change regularly; use a password manager; avoid obvious personal information (name, date of birth).<br><b>Limitation:</b> passwords can still be stolen via phishing or keyloggers, which is why they should be combined with 2FA."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pIszl0Zfax",
+                  "guid": "pIszl0Zfax",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are user access levels and how do they improve security?",
+                    "<b>User access levels</b> (permissions/access control) restrict what each user can see, read, write, or execute on a system.<br><b>Principle of least privilege:</b> users are only given the minimum access required for their role. A student can read files but not install software; a teacher can access grades but not payroll data; an administrator has full access.<br><b>Security benefit:</b> if a low-privilege account is compromised, the attacker cannot access confidential data or system files outside that account's permission level."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
                 }
               ]
             },
@@ -1216,38 +1333,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "oI2XWpNhym",
-                  "guid": "oI2XWpNhym",
+                  "crowdanki_uuid": "frW0NCizyl",
+                  "guid": "frW0NCizyl",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is the difference between a compiler and an interpreter?",
-                    "<b>Compiler:</b> translates the entire source code into machine code <i>all at once</i>, producing a standalone executable file (.exe). Errors only reported after full translation. Fast to run after compilation. Code distributed as executable (source hidden).<br><b>Interpreter:</b> translates and executes source code <i>one line at a time</i>. Stops at the first error — easier to debug. No executable produced. Slower to run. Source code must be present on the machine."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uB6YOehXzb",
-                  "guid": "uB6YOehXzb",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                  "fields": [
-                    "A compiler translates {{c1::all}} source code at once into {{c2::machine code}}, creating a standalone {{c3::executable}} file. An interpreter translates and executes {{c4::one line at a time}}. Compilation is {{c5::faster}} to run; interpretation is {{c6::easier to debug}}. Compilers report all errors after {{c7::full translation}}; interpreters stop at the {{c8::first error}}.",
-                    ""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "fr91qUmmUR",
-                  "guid": "fr91qUmmUR",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                  "fields": [
-                    "Programming language levels: {{c1::Machine code}} (binary — directly executed by CPU, completely hardware-specific, fastest). {{c2::Assembly language}} (uses mnemonics like ADD, MOV — translated by an assembler, low-level). {{c3::High-level language}} (Python, Java, C# — human-readable, portable, translated by compiler or interpreter).",
-                    ""
+                    "What are the OS functions for user management and file management?",
+                    "<b>User management:</b> the OS allocates user accounts, sets access rights/permissions (what each user can read, write, or execute), enforces security policies (password rules, login attempts), and manages user authentication.<br><b>File management:</b> the OS organises files into a directory (folder) hierarchy, handles naming conventions, controls read/write access to individual files, and manages saving, loading, moving, and deleting files — maintaining the file system so data can be reliably stored and retrieved."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2002,6 +2093,19 @@
                   "fields": [
                     "What does syntax highlighting do and why is it helpful?",
                     "Syntax highlighting colours different parts of code (keywords, strings, numbers, comments) using different colours automatically.<br><b>Benefits:</b> makes code easier to read at a glance; helps spot typos (a misspelled keyword won't be highlighted); distinguishes comments from executable code; reduces cognitive load when reading complex code."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jsfVNEibaa",
+                  "guid": "jsfVNEibaa",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A compiler translates {{c1::all}} source code at once into {{c2::machine code}}, creating a standalone {{c3::executable}} file. An interpreter translates and executes {{c4::one line at a time}}. Compilation is {{c5::faster}} to run; interpretation is {{c6::easier to debug}}. Compilers report all errors after {{c7::full translation}}; interpreters stop at the {{c8::first error}}.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
