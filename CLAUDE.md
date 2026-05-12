@@ -169,6 +169,72 @@ Do not include content from AQA Separate Sciences (8461) or A-level. Known remov
 
 ---
 
+## Flashcard design principles
+
+Based on cognitive science research (Wozniak's minimum information principle, Roediger's retrieval practice, Bjork's desirable difficulties).
+
+### The atomic rule — one card, one thing
+
+Every card tests exactly one retrievable fact. If the back has two independent facts, split it into two cards. If a student can score "half marks" on the back, the card is too broad.
+
+- **Good:** "What does the pancreas produce when blood glucose is too high?" → "Insulin"
+- **Bad:** "What does the pancreas produce in response to blood glucose changes?" → combines two separate facts (insulin + glucagon)
+
+### Avoid list cards
+
+Never create a card asking "Name all X" or "List the Y types of Z." Lists promote shallow pattern-matching, not recall.
+
+- Instead: create one card per item in the list, each asking for that item in isolation
+- Exception: short fixed sequences (e.g. colour-coded wires, order of the electromagnetic spectrum) where the list itself is the testable fact — use a Cloze with one gap per item
+
+### Cloze vs Basic — when to use each
+
+**Use Cloze for:**
+- Equations and formulas (gap the formula itself or a variable)
+- Definitions where the term-to-definition direction matters
+- Sequences and processes where context helps recall
+- Facts that sit naturally inside a sentence
+
+**Use Basic for:**
+- Explanations that require reasoning ("Why does…", "How does…", "What is the difference between…")
+- Comparisons and multi-part structures (arteries vs veins vs capillaries)
+- Worked examples and calculation walkthroughs
+- Anything where a sentence answer is more meaningful than fill-in-the-blank
+
+Avoid Cloze cards where the gaps are obvious from context — if the surrounding text makes the answer guessable without recalling it, the card isn't testing memory.
+
+### Front must be unambiguous and standalone
+
+The front of every card must be answerable without any context from the deck. Ask yourself: if this card appeared randomly six months from now, would the question make sense?
+
+- Include the subject or concept in the question if needed: "In photosynthesis, what is the role of chlorophyll?" not just "What does chlorophyll do?"
+- Avoid vague fronts: "What is the formula?" — formula for what?
+- Avoid yes/no fronts: these don't generate active recall
+
+### Science-specific rules
+
+- **Equations:** create two cards — one with the formula as Cloze ("F = {{c1::BIL}}"), one as a worked example that requires substituting values. Knowing a formula and knowing how to apply it are different memories.
+- **Processes and mechanisms:** use Basic cards with "Explain how…" or "Describe the sequence of…" — don't try to capture multi-step mechanisms in a single Cloze
+- **Definitions:** the term → definition direction is usually more useful than definition → term. Test what students will need in the exam.
+- **Higher Tier content:** always prefix with "[HT only]" on the front so it's visible before flipping
+
+### Diagrams
+
+SVG diagrams with numbered labels are strongly encouraged for Biology (cell structure, heart, gas exchange), Physics (circuits, forces), and Geography (landforms). A "label the diagram" card tests spatial recall that text cards cannot. Keep the question SVG and answer SVG identical except the answer adds the label text.
+
+### When a card is too hard — rewrite it
+
+If a card would consistently need "Hard" or "Again" ratings in Anki, the card design is wrong — not the student's memory. Signs a card needs rewriting:
+
+- The back requires memorising more than ~15 words as a single chunk
+- There are multiple unrelated facts on the back
+- The front is ambiguous enough to have several valid answers
+- The gap in a Cloze card is guessable from context
+
+Rewrite by splitting, adding a qualifier to the front, or converting a Cloze to a more targeted Basic.
+
+---
+
 ## English Literature rules
 
 ### NEVER include:
