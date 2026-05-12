@@ -1078,7 +1078,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "What are the three stages of the Fetch-Decode-Execute (FDE) cycle?",
-                    "<b>1. FETCH:</b> The instruction at the address held in the Program Counter (PC) is retrieved from RAM into the CPU. The PC then increments to point to the next instruction.<br><b>2. DECODE:</b> The Control Unit decodes the instruction held in the Current Instruction Register (CIR) — determines what operation is required and what data or addresses are involved.<br><b>3. EXECUTE:</b> The ALU or other components carry out the decoded instruction (arithmetic, logic, data movement, I/O). Results may be stored in the Accumulator (ACC)."
+                    "<b>1. FETCH:</b> The CPU retrieves the next instruction from main memory (RAM). The Program Counter (PC) is incremented to point to the next instruction.<br><br><b>2. DECODE:</b> The Control Unit decodes the instruction held in the Current Instruction Register (CIR), determining what operation is required.<br><br><b>3. EXECUTE:</b> The instruction is carried out by the ALU or other hardware. Results may be stored in the Accumulator (ACC)."
                   ],
                   "flags": 0,
                   "tags": [],
