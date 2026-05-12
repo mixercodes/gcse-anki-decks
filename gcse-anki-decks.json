@@ -14855,7 +14855,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "<div style=\"text-align:center;font-family:Arial,sans-serif\"><p style=\"font-weight:bold;font-size:15px\">Label the stages of mitosis — what is happening at each numbered stage?</p><svg viewBox=\"0 0 300 590\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:320px;width:100%\"><circle cx=\"170\" cy=\"50\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"32\" x2=\"162\" y2=\"68\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"32\" x2=\"178\" y2=\"68\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"50\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"55\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">1</text><line x1=\"31\" y1=\"50\" x2=\"128\" y2=\"50\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"92\" x2=\"170\" y2=\"108\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,112 165,104 175,104\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"152\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"158\" y1=\"138\" x2=\"166\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"138\" x2=\"158\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"174\" y1=\"138\" x2=\"182\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"182\" y1=\"138\" x2=\"174\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"152\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"157\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">2</text><line x1=\"31\" y1=\"152\" x2=\"128\" y2=\"152\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"194\" x2=\"170\" y2=\"210\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,214 165,206 175,206\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"254\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"254\" x2=\"210\" y2=\"254\" stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"154\" y1=\"242\" x2=\"162\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"242\" x2=\"154\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"242\" x2=\"186\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"186\" y1=\"242\" x2=\"178\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"254\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"259\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">3</text><line x1=\"31\" y1=\"254\" x2=\"128\" y2=\"254\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"296\" x2=\"170\" y2=\"316\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,320 165,312 175,312\" fill=\"#2E7D32\"/><ellipse cx=\"170\" cy=\"390\" rx=\"42\" ry=\"68\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"330\" x2=\"162\" y2=\"355\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"330\" x2=\"178\" y2=\"355\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"425\" x2=\"162\" y2=\"450\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"425\" x2=\"178\" y2=\"450\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"390\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"395\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">4</text><line x1=\"31\" y1=\"390\" x2=\"128\" y2=\"390\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"458\" x2=\"170\" y2=\"478\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"110\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"255\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"110,507 105,499 115,499\" fill=\"#2E7D32\"/><polygon points=\"255,507 250,499 260,499\" fill=\"#2E7D32\"/><circle cx=\"110\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"102\" y1=\"528\" x2=\"102\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"528\" x2=\"116\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"247\" y1=\"528\" x2=\"247\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"261\" y1=\"528\" x2=\"261\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"545\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"550\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">5</text><line x1=\"31\" y1=\"545\" x2=\"72\" y2=\"545\" stroke=\"#555\" stroke-width=\"1.5\"/></svg></div>",
-                        "<div style=\"text-align:center;font-family:Arial,sans-serif\"><svg viewBox=\"0 0 300 590\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:320px;width:100%\"><circle cx=\"170\" cy=\"50\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"32\" x2=\"162\" y2=\"68\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"32\" x2=\"178\" y2=\"68\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"50\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"55\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">1</text><line x1=\"31\" y1=\"50\" x2=\"128\" y2=\"50\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"92\" x2=\"170\" y2=\"108\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,112 165,104 175,104\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"152\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"158\" y1=\"138\" x2=\"166\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"138\" x2=\"158\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"174\" y1=\"138\" x2=\"182\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"182\" y1=\"138\" x2=\"174\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"152\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"157\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">2</text><line x1=\"31\" y1=\"152\" x2=\"128\" y2=\"152\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"194\" x2=\"170\" y2=\"210\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,214 165,206 175,206\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"254\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"254\" x2=\"210\" y2=\"254\" stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"154\" y1=\"242\" x2=\"162\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"242\" x2=\"154\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"242\" x2=\"186\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"186\" y1=\"242\" x2=\"178\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"254\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"259\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">3</text><line x1=\"31\" y1=\"254\" x2=\"128\" y2=\"254\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"296\" x2=\"170\" y2=\"316\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,320 165,312 175,312\" fill=\"#2E7D32\"/><ellipse cx=\"170\" cy=\"390\" rx=\"42\" ry=\"68\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"330\" x2=\"162\" y2=\"355\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"330\" x2=\"178\" y2=\"355\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"425\" x2=\"162\" y2=\"450\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"425\" x2=\"178\" y2=\"450\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"390\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"395\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">4</text><line x1=\"31\" y1=\"390\" x2=\"128\" y2=\"390\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"458\" x2=\"170\" y2=\"478\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"110\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"255\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"110,507 105,499 115,499\" fill=\"#2E7D32\"/><polygon points=\"255,507 250,499 260,499\" fill=\"#2E7D32\"/><circle cx=\"110\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"102\" y1=\"528\" x2=\"102\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"528\" x2=\"116\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"247\" y1=\"528\" x2=\"247\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"261\" y1=\"528\" x2=\"261\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"545\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"550\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">5</text><line x1=\"31\" y1=\"545\" x2=\"72\" y2=\"545\" stroke=\"#555\" stroke-width=\"1.5\"/></svg><table style=\"margin:8px auto;font-size:13px;border-collapse:collapse;text-align:left\"><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">① Interphase</td><td style=\"padding:4px 10px;color:#555\">Cell grows; DNA replicates — chromosomes are copied ready for division</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">② Replicated chromosomes</td><td style=\"padding:4px 10px;color:#555\">Each chromosome now consists of two identical sister chromatids joined together (X-shape)</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">③ Metaphase</td><td style=\"padding:4px 10px;color:#555\">Chromosomes line up at the equator (cell centre), attached to spindle fibres</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">④ Anaphase</td><td style=\"padding:4px 10px;color:#555\">Sister chromatids pulled to opposite poles; cell elongates</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">⑤ Two daughter cells</td><td style=\"padding:4px 10px;color:#555\">Cytoplasm divides (cytokinesis) → 2 genetically <b>identical</b> diploid cells. Used for: growth, repair, asexual reproduction.</td></tr></table></div>"
+                        "<div style=\"text-align:center;font-family:Arial,sans-serif\"><svg viewBox=\"0 0 300 590\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:320px;width:100%\"><circle cx=\"170\" cy=\"50\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"32\" x2=\"162\" y2=\"68\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"32\" x2=\"178\" y2=\"68\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"50\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"55\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">1</text><line x1=\"31\" y1=\"50\" x2=\"128\" y2=\"50\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"92\" x2=\"170\" y2=\"108\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,112 165,104 175,104\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"152\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"158\" y1=\"138\" x2=\"166\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"166\" y1=\"138\" x2=\"158\" y2=\"166\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"174\" y1=\"138\" x2=\"182\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"182\" y1=\"138\" x2=\"174\" y2=\"166\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"152\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"157\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">2</text><line x1=\"31\" y1=\"152\" x2=\"128\" y2=\"152\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"194\" x2=\"170\" y2=\"210\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,214 165,206 175,206\" fill=\"#2E7D32\"/><circle cx=\"170\" cy=\"254\" r=\"42\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"254\" x2=\"210\" y2=\"254\" stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"154\" y1=\"242\" x2=\"162\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"242\" x2=\"154\" y2=\"266\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"242\" x2=\"186\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"186\" y1=\"242\" x2=\"178\" y2=\"266\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"254\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"259\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">3</text><line x1=\"31\" y1=\"254\" x2=\"128\" y2=\"254\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"296\" x2=\"170\" y2=\"316\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"170,320 165,312 175,312\" fill=\"#2E7D32\"/><ellipse cx=\"170\" cy=\"390\" rx=\"42\" ry=\"68\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"162\" y1=\"330\" x2=\"162\" y2=\"355\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"330\" x2=\"178\" y2=\"355\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"162\" y1=\"425\" x2=\"162\" y2=\"450\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"178\" y1=\"425\" x2=\"178\" y2=\"450\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"390\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"395\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">4</text><line x1=\"31\" y1=\"390\" x2=\"128\" y2=\"390\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"458\" x2=\"170\" y2=\"478\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"110\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"170\" y1=\"478\" x2=\"255\" y2=\"500\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"110,507 105,499 115,499\" fill=\"#2E7D32\"/><polygon points=\"255,507 250,499 260,499\" fill=\"#2E7D32\"/><circle cx=\"110\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"102\" y1=\"528\" x2=\"102\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"528\" x2=\"116\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"255\" cy=\"545\" r=\"38\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"247\" y1=\"528\" x2=\"247\" y2=\"562\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"261\" y1=\"528\" x2=\"261\" y2=\"562\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"18\" cy=\"545\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"18\" y=\"550\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">5</text><line x1=\"31\" y1=\"545\" x2=\"72\" y2=\"545\" stroke=\"#555\" stroke-width=\"1.5\"/></svg><table style=\"margin:8px auto;font-size:13px;border-collapse:collapse;text-align:left\"><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">① Interphase</td><td style=\"padding:4px 10px;color:#555\">Cell grows; DNA replicates — chromosomes are copied ready for division</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">② Replicated chromosomes</td><td style=\"padding:4px 10px;color:#555\">Each chromosome now consists of two identical sister chromatids joined together (X-shape)</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">③ Chromosomes align</td><td style=\"padding:4px 10px;color:#555\">Chromosomes line up at the centre of the cell, attached to spindle fibres</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">④ Chromosomes pulled apart</td><td style=\"padding:4px 10px;color:#555\">Sister chromatids pulled to opposite ends of the cell; cell elongates</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">⑤ Two daughter cells</td><td style=\"padding:4px 10px;color:#555\">Cytoplasm divides (cytokinesis) → 2 genetically <b>identical</b> diploid cells. Used for: growth, repair, asexual reproduction.</td></tr></table></div>"
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15734,19 +15734,6 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "ejOakufLND",
-                      "guid": "ejOakufLND",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the nitrogen cycle?",
-                        "<b>Nitrogen fixation:</b> N₂ gas → nitrates/ammonia — done by bacteria in soil and root nodules of legumes (Rhizobium). Lightning also fixes nitrogen.<br><b>Nitrification:</b> ammonium ions → nitrites → nitrates — done by nitrifying bacteria in soil. Nitrates absorbed by plants.<br><b>Decomposition:</b> dead organisms → ammonium ions — done by decomposers (bacteria/fungi).<br><b>Denitrification:</b> nitrates → N₂ gas — done by denitrifying bacteria in waterlogged/anaerobic soils.<br><b>Assimilation:</b> plants absorb nitrates → make proteins/DNA → eaten by animals."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
                       "crowdanki_uuid": "jyMhUfwWMh",
                       "guid": "jyMhUfwWMh",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -15830,7 +15817,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How does the body control blood glucose levels?",
-                        "Monitored by the pancreas. If too high: pancreas releases insulin → glucose taken up by cells and liver (converted to glycogen) → blood glucose falls. If too low: pancreas releases glucagon → glycogen converted back to glucose → blood glucose rises. Type 1 diabetes: pancreas produces no insulin. Type 2: cells stop responding to insulin."
+                        "Monitored by the pancreas. If too high: pancreas releases insulin → glucose taken up by cells and liver (converted to glycogen) → blood glucose falls. Type 1 diabetes: pancreas produces no insulin. Type 2: cells stop responding to insulin. <b>(HT only:</b> if too low, glucagon released → glycogen converted back to glucose → blood glucose rises.<b>)</b>"
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15869,7 +15856,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What is the role of hormones in the menstrual cycle?",
-                        "FSH (from pituitary): stimulates egg maturation and oestrogen production. Oestrogen: thickens uterus lining, inhibits FSH, stimulates LH. LH (from pituitary): triggers ovulation (day 14). Progesterone: maintains uterus lining. Falls if no fertilisation → lining shed (menstruation)."
+                        "FSH (from pituitary): stimulates egg maturation and oestrogen production. Oestrogen: thickens uterus lining. LH (from pituitary): triggers ovulation (~day 14). Progesterone: maintains uterus lining after ovulation; falls if no fertilisation → menstruation. <b>(HT only:</b> oestrogen inhibits FSH and stimulates LH release.<b>)</b>"
                       ],
                       "flags": 0,
                       "tags": [],
@@ -15877,11 +15864,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "ruNFqMgNk7",
-                      "guid": "ruNFqMgNk7",
+                      "crowdanki_uuid": "h8XcdE37Uk",
+                      "guid": "h8XcdE37Uk",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Menstrual cycle hormones: {{c1::FSH}} (from pituitary) — stimulates egg maturation and {{c2::oestrogen}} production. {{c3::Oestrogen}} — thickens uterus lining, inhibits FSH, stimulates {{c4::LH}}. {{c5::LH}} (from pituitary) — triggers {{c6::ovulation}} (~day 14). {{c7::Progesterone}} — maintains uterus lining after ovulation; falls if no fertilisation → {{c8::menstruation}}.",
+                        "Menstrual cycle hormones: {{c1::FSH}} (from pituitary) — stimulates egg maturation and {{c2::oestrogen}} production. {{c3::Oestrogen}} — thickens uterus lining (HT only: inhibits FSH, stimulates LH). {{c4::LH}} (from pituitary) — triggers {{c5::ovulation}} (~day 14). {{c6::Progesterone}} — maintains uterus lining after ovulation; falls if no fertilisation → {{c7::menstruation}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15903,11 +15890,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "chBuaWYRsI",
-                      "guid": "chBuaWYRsI",
+                      "crowdanki_uuid": "eGU5NiRYI8",
+                      "guid": "eGU5NiRYI8",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Contraceptive pills contain {{c1::oestrogen and/or progesterone}} which {{c2::inhibit FSH production}}, preventing egg maturation. IVF uses {{c3::FSH}} to stimulate multiple egg production. The {{c4::copper IUD}} is non-hormonal and works by being {{c5::toxic to sperm}}. {{c6::Condoms}} are the only contraceptive that also protect against {{c7::STIs}}.",
+                        "Contraceptive pills contain {{c1::oestrogen and/or progesterone}} which {{c2::inhibit FSH production}}, preventing egg maturation. The {{c3::copper IUD}} is non-hormonal and works by being {{c4::toxic to sperm}}. {{c5::Condoms}} are the only contraceptive that also protect against {{c6::STIs}}.",
                         ""
                       ],
                       "flags": 0,
@@ -15929,11 +15916,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "fi30oH1OM6",
-                      "guid": "fi30oH1OM6",
+                      "crowdanki_uuid": "l0KCHAgvcH",
+                      "guid": "l0KCHAgvcH",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "How does thyroxine illustrate the principle of negative feedback?",
+                        "[HT only] How does thyroxine illustrate the principle of negative feedback?",
                         "<b>Thyroxine</b> is produced by the thyroid gland and regulates metabolic rate.<br><b>Negative feedback:</b><br>1. Hypothalamus detects low thyroxine → releases TRH<br>2. Pituitary releases TSH (thyroid stimulating hormone)<br>3. Thyroid gland produces more thyroxine<br>4. High thyroxine level detected by hypothalamus → TRH stops → TSH stops → thyroxine production falls.<br><b>Key principle of negative feedback:</b> the output (thyroxine) feeds back to inhibit the control system → maintains a stable concentration. All hormones in homeostasis use this mechanism."
                       ],
                       "flags": 0,
@@ -15942,11 +15929,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "dkLpHRVAWj",
-                      "guid": "dkLpHRVAWj",
+                      "crowdanki_uuid": "n7fJF9QsGE",
+                      "guid": "n7fJF9QsGE",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What is adrenaline and what are its effects?",
+                        "[HT only] What is adrenaline and what are its effects?",
                         "Adrenaline is a hormone produced by the adrenal glands (above the kidneys) in response to stress, danger, or excitement. It prepares the body for 'fight or flight': increases heart rate (more O₂ to muscles), increases blood glucose (glycogen converted to glucose), dilates pupils, diverts blood from digestive system to muscles. Unlike most hormones, adrenaline acts very quickly — released directly into the blood and triggers rapid physiological changes."
                       ],
                       "flags": 0,
@@ -16212,19 +16199,6 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "uj7szR0I97",
-                      "guid": "uj7szR0I97",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "<div style=\"text-align:center;font-family:Arial,sans-serif\"><p style=\"font-weight:bold;font-size:15px\">Label the stages of meiosis — what is happening at each numbered stage?</p><svg viewBox=\"0 0 420 490\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:440px;width:100%\"><circle cx=\"230\" cy=\"50\" r=\"40\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"222\" y1=\"33\" x2=\"222\" y2=\"67\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"238\" y1=\"33\" x2=\"238\" y2=\"67\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"50\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"55\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">1</text><line x1=\"28\" y1=\"50\" x2=\"190\" y2=\"50\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"230\" y2=\"110\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"230,114 225,106 235,106\" fill=\"#2E7D32\"/><circle cx=\"230\" cy=\"155\" r=\"40\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"218\" y1=\"141\" x2=\"226\" y2=\"169\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"226\" y1=\"141\" x2=\"218\" y2=\"169\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"234\" y1=\"141\" x2=\"242\" y2=\"169\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"242\" y1=\"141\" x2=\"234\" y2=\"169\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"155\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"160\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">2</text><line x1=\"28\" y1=\"155\" x2=\"190\" y2=\"155\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"215\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"230\" y1=\"215\" x2=\"120\" y2=\"253\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"230\" y1=\"215\" x2=\"340\" y2=\"253\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"120,257 115,249 125,249\" fill=\"#2E7D32\"/><polygon points=\"340,257 335,249 345,249\" fill=\"#2E7D32\"/><circle cx=\"120\" cy=\"290\" r=\"33\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"108\" y1=\"278\" x2=\"116\" y2=\"302\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"278\" x2=\"108\" y2=\"302\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"340\" cy=\"290\" r=\"33\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"328\" y1=\"278\" x2=\"336\" y2=\"302\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"336\" y1=\"278\" x2=\"328\" y2=\"302\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"290\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"295\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">3</text><line x1=\"28\" y1=\"290\" x2=\"87\" y2=\"290\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"323\" x2=\"120\" y2=\"343\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"120\" y1=\"343\" x2=\"75\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"120\" y1=\"343\" x2=\"175\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"75,395 70,387 80,387\" fill=\"#2E7D32\"/><polygon points=\"175,395 170,387 180,387\" fill=\"#2E7D32\"/><line x1=\"340\" y1=\"323\" x2=\"340\" y2=\"343\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"340\" y1=\"343\" x2=\"285\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"340\" y1=\"343\" x2=\"385\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"285,395 280,387 290,387\" fill=\"#2E7D32\"/><polygon points=\"385,395 380,387 390,387\" fill=\"#2E7D32\"/><circle cx=\"75\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"68\" y1=\"407\" x2=\"68\" y2=\"433\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"175\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"168\" y1=\"407\" x2=\"168\" y2=\"433\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"285\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"278\" y1=\"407\" x2=\"278\" y2=\"433\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"385\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"378\" y1=\"407\" x2=\"378\" y2=\"433\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"420\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"425\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">4</text><line x1=\"28\" y1=\"420\" x2=\"50\" y2=\"420\" stroke=\"#555\" stroke-width=\"1.5\"/></svg></div>",
-                        "<div style=\"text-align:center;font-family:Arial,sans-serif\"><svg viewBox=\"0 0 420 490\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:440px;width:100%\"><circle cx=\"230\" cy=\"50\" r=\"40\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"222\" y1=\"33\" x2=\"222\" y2=\"67\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"238\" y1=\"33\" x2=\"238\" y2=\"67\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"50\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"55\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">1</text><line x1=\"28\" y1=\"50\" x2=\"190\" y2=\"50\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"90\" x2=\"230\" y2=\"110\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"230,114 225,106 235,106\" fill=\"#2E7D32\"/><circle cx=\"230\" cy=\"155\" r=\"40\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"218\" y1=\"141\" x2=\"226\" y2=\"169\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"226\" y1=\"141\" x2=\"218\" y2=\"169\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"234\" y1=\"141\" x2=\"242\" y2=\"169\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"242\" y1=\"141\" x2=\"234\" y2=\"169\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"155\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"160\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">2</text><line x1=\"28\" y1=\"155\" x2=\"190\" y2=\"155\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"215\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"230\" y1=\"215\" x2=\"120\" y2=\"253\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"230\" y1=\"215\" x2=\"340\" y2=\"253\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"120,257 115,249 125,249\" fill=\"#2E7D32\"/><polygon points=\"340,257 335,249 345,249\" fill=\"#2E7D32\"/><circle cx=\"120\" cy=\"290\" r=\"33\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"108\" y1=\"278\" x2=\"116\" y2=\"302\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"278\" x2=\"108\" y2=\"302\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"340\" cy=\"290\" r=\"33\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"328\" y1=\"278\" x2=\"336\" y2=\"302\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"336\" y1=\"278\" x2=\"328\" y2=\"302\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"290\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"295\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">3</text><line x1=\"28\" y1=\"290\" x2=\"87\" y2=\"290\" stroke=\"#555\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"323\" x2=\"120\" y2=\"343\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"120\" y1=\"343\" x2=\"75\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"120\" y1=\"343\" x2=\"175\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"75,395 70,387 80,387\" fill=\"#2E7D32\"/><polygon points=\"175,395 170,387 180,387\" fill=\"#2E7D32\"/><line x1=\"340\" y1=\"323\" x2=\"340\" y2=\"343\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"340\" y1=\"343\" x2=\"285\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><line x1=\"340\" y1=\"343\" x2=\"385\" y2=\"382\" stroke=\"#2E7D32\" stroke-width=\"2\"/><polygon points=\"285,395 280,387 290,387\" fill=\"#2E7D32\"/><polygon points=\"385,395 380,387 390,387\" fill=\"#2E7D32\"/><circle cx=\"75\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"68\" y1=\"407\" x2=\"68\" y2=\"433\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"175\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"168\" y1=\"407\" x2=\"168\" y2=\"433\" stroke=\"#E53935\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"285\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"278\" y1=\"407\" x2=\"278\" y2=\"433\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"385\" cy=\"420\" r=\"25\" fill=\"#FFF9C4\" stroke=\"#F57F17\" stroke-width=\"2.5\"/><line x1=\"378\" y1=\"407\" x2=\"378\" y2=\"433\" stroke=\"#1565C0\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"15\" cy=\"420\" r=\"13\" fill=\"#6A1B9A\"/><text x=\"15\" y=\"425\" text-anchor=\"middle\" fill=\"white\" font-weight=\"bold\" font-size=\"13\">4</text><line x1=\"28\" y1=\"420\" x2=\"50\" y2=\"420\" stroke=\"#555\" stroke-width=\"1.5\"/></svg><table style=\"margin:8px auto;font-size:13px;border-collapse:collapse;text-align:left\"><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">① Diploid parent cell (2n)</td><td style=\"padding:4px 10px;color:#555\">Contains a full set of chromosomes in homologous pairs. DNA replicates before division begins.</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">② Replicated chromosomes</td><td style=\"padding:4px 10px;color:#555\">Each chromosome is now two sister chromatids joined together (X-shape). Ready for first division.</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">③ After meiosis I</td><td style=\"padding:4px 10px;color:#555\">Homologous pairs separated → 2 haploid cells (n), each still with replicated (X-shaped) chromosomes. Genetic variation is introduced here.</td></tr><tr><td style=\"padding:4px 10px;font-weight:bold;color:#6A1B9A\">④ After meiosis II</td><td style=\"padding:4px 10px;color:#555\">Sister chromatids separated → 4 haploid gametes (n), each with a single copy of each chromosome. Cells are <b>non-identical</b> — enables genetic variation in sexual reproduction.</td></tr></table></div>"
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
                     }
                   ]
                 }
@@ -16345,11 +16319,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "cyqbywqfS4",
-                      "guid": "cyqbywqfS4",
+                      "crowdanki_uuid": "tdsh1KQOpk",
+                      "guid": "tdsh1KQOpk",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Early atomic models: Thomson's 'plum pudding' — {{c1::positive sphere with embedded electrons}}. Rutherford's gold foil experiment discovered the {{c2::nucleus}} — most of an atom is {{c3::empty space}}. Bohr's model: electrons in {{c4::fixed shells}}. Modern model: electrons in {{c5::probability clouds/orbitals}}.",
+                        "Early atomic models: Thomson's 'plum pudding' — {{c1::positive sphere with embedded electrons}}. Rutherford's gold foil experiment discovered the {{c2::nucleus}} — most of an atom is {{c3::empty space}}. Bohr's model: electrons in {{c4::fixed shells (orbits)}} around the nucleus.",
                         ""
                       ],
                       "flags": 0,
@@ -16389,7 +16363,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What are the trends down Group 7 (halogens) in reactivity and physical state?",
-                        "<b>Going down Group 7 (F, Cl, Br, I):</b><br>• <b>Reactivity decreases:</b> gaining an electron becomes harder as the outer shell is further from the nucleus and there is more shielding. Less electronegativity.<br>• <b>Physical state at room temperature:</b> F₂ = pale yellow gas; Cl₂ = green gas; Br₂ = orange/brown liquid; I₂ = grey solid (purple vapour)<br>• <b>Melting/boiling points increase</b> (stronger intermolecular forces)<br><b>Displacement:</b> Cl₂ + 2KBr → 2KCl + Br₂ (Cl₂ displaces Br⁻ because Cl is more reactive — solution turns orange-brown)."
+                        "<b>Going down Group 7 (F, Cl, Br, I):</b><br>• <b>Reactivity decreases:</b> gaining an electron becomes harder as the outer shell is further from the nucleus, with more inner electron shells providing greater shielding.<br>• <b>Physical state at room temperature:</b> F₂ = pale yellow gas; Cl₂ = green gas; Br₂ = orange/brown liquid; I₂ = grey solid (purple vapour)<br>• <b>Melting/boiling points increase</b> (stronger intermolecular forces)<br><b>Displacement:</b> Cl₂ + 2KBr → 2KCl + Br₂ (Cl₂ displaces Br⁻ because Cl is more reactive — solution turns orange-brown)."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -16722,11 +16696,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "gSMH3d0FIf",
-                      "guid": "gSMH3d0FIf",
+                      "crowdanki_uuid": "g88h31eDtR",
+                      "guid": "g88h31eDtR",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What are half equations and how do you write them for electrolysis?",
+                        "[HT only] What are half equations and how do you write them for electrolysis?",
                         "Half equations show what happens at each electrode during electrolysis.<br><b>At cathode (reduction — gain of electrons):</b><br>Cu²⁺ + 2e⁻ → Cu (copper deposited)<br>2H⁺ + 2e⁻ → H₂ (hydrogen gas)<br><b>At anode (oxidation — loss of electrons):</b><br>2Cl⁻ → Cl₂ + 2e⁻ (chlorine gas)<br>4OH⁻ → 2H₂O + O₂ + 4e⁻ (oxygen gas from water)<br><b>Key rule:</b> electrons appear on the right of anode equations and on the left of cathode equations. Balance charges, then atoms."
                       ],
                       "flags": 0,
@@ -16748,11 +16722,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "p0PQAvKJNf",
-                      "guid": "p0PQAvKJNf",
+                      "crowdanki_uuid": "lWc0gKdMXC",
+                      "guid": "lWc0gKdMXC",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "How do you write ionic equations and what are spectator ions?",
+                        "[HT only] How do you write ionic equations and what are spectator ions?",
                         "<b>Ionic equations</b> show only the ions/atoms that actually react — spectator ions are not included.<br><b>Spectator ions:</b> ions present in solution that don't change during the reaction.<br><b>Example:</b> HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)<br>Full ionic equation: H⁺(aq) + Cl⁻(aq) + Na⁺(aq) + OH⁻(aq) → Na⁺(aq) + Cl⁻(aq) + H₂O(l)<br>Spectator ions (Na⁺, Cl⁻) cancel out → <b>net ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l)</b><br>This is the ionic equation for ANY neutralisation of strong acid and base."
                       ],
                       "flags": 0,
@@ -16800,11 +16774,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "l0mRWMwrkF",
-                      "guid": "l0mRWMwrkF",
+                      "crowdanki_uuid": "zgO6VX6B3Y",
+                      "guid": "zgO6VX6B3Y",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Bond energy calculations: energy is required to {{c1::break}} bonds (endothermic). Energy is released when bonds {{c2::form}} (exothermic). Overall energy change = energy to {{c3::break bonds}} − energy {{c4::released forming bonds}}. If result is negative, reaction is {{c5::exothermic}}.",
+                        "[HT only] Bond energy calculations: energy is required to {{c1::break}} bonds (endothermic). Energy is released when bonds {{c2::form}} (exothermic). Overall energy change = energy to {{c3::break bonds}} − energy {{c4::released forming bonds}}. If result is negative, reaction is {{c5::exothermic}}.",
                         ""
                       ],
                       "flags": 0,
@@ -16813,11 +16787,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "dAV5ry0yXV",
-                      "guid": "dAV5ry0yXV",
+                      "crowdanki_uuid": "kPNHfm0JJr",
+                      "guid": "kPNHfm0JJr",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Worked example: calculate the energy change for H₂ + Cl₂ → 2HCl. Bond energies: H–H = 436 kJ/mol, Cl–Cl = 243 kJ/mol, H–Cl = 432 kJ/mol.",
+                        "[HT only] Worked example: calculate the energy change for H₂ + Cl₂ → 2HCl. Bond energies: H–H = 436 kJ/mol, Cl–Cl = 243 kJ/mol, H–Cl = 432 kJ/mol.",
                         "Energy to break bonds (in): H–H = 436, Cl–Cl = 243. Total in = 679 kJ/mol.<br>Energy released forming bonds (out): 2 × H–Cl = 2 × 432 = 864 kJ/mol.<br>Overall energy change = 679 − 864 = <b>−185 kJ/mol</b>.<br>Negative = <b>exothermic</b> (energy released to surroundings)."
                       ],
                       "flags": 0,
@@ -16832,19 +16806,6 @@
                       "fields": [
                         "What is the required practical for energy changes? What is measured and why use a polystyrene cup?",
                         "Mix two solutions (e.g. acid + alkali, or dissolving a salt) in a polystyrene cup. Record temperature of each solution before mixing. Mix and record maximum (or minimum for endothermic) temperature.<br><b>Polystyrene cup:</b> low thermal conductivity = less heat lost to surroundings = more accurate result.<br><b>Variables:</b> volume and concentration of solutions, starting temperature, mass of solid.<br><b>Worked example:</b> neutralisation — temperature rises (exothermic). Dissolving NH₄Cl — temperature falls (endothermic)."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "oXHXJS6HtK",
-                      "guid": "oXHXJS6HtK",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "How do you calculate the energy transferred in a calorimetry experiment using Q = mcΔT?",
-                        "<b>Q = mcΔT</b><br>Q = energy transferred (J), m = mass of solution (g), c = specific heat capacity of water (4.2 J/g°C), ΔT = temperature change (°C).<br><b>Example:</b> 50 g of solution, temperature rises from 22°C to 35°C.<br>ΔT = 13°C → Q = 50 × 4.2 × 13 = <b>2730 J = 2.73 kJ</b>.<br>To find energy per mole: divide Q by moles of limiting reagent used."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -17034,11 +16995,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "s5x6CVMEk3",
-                      "guid": "s5x6CVMEk3",
+                      "crowdanki_uuid": "g4vLOA17uf",
+                      "guid": "g4vLOA17uf",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Worked example: calculate the concentration of NaOH, given 25.0 cm³ of NaOH required 23.50 cm³ of 0.100 mol/dm³ HCl for neutralisation. (HCl + NaOH → NaCl + H₂O)",
+                        "[HT only] Worked example: calculate the concentration of NaOH, given 25.0 cm³ of NaOH required 23.50 cm³ of 0.100 mol/dm³ HCl for neutralisation. (HCl + NaOH → NaCl + H₂O)",
                         "Step 1: moles of HCl = 0.100 × (23.50 ÷ 1000) = 0.00235 mol.<br>Step 2: ratio HCl:NaOH = 1:1, so moles NaOH = 0.00235 mol.<br>Step 3: concentration NaOH = 0.00235 ÷ (25.0 ÷ 1000) = <b>0.094 mol/dm³</b>.<br><b>Exam tip:</b> always convert cm³ to dm³ (÷1000) before using in concentration formula."
                       ],
                       "flags": 0,
@@ -17047,11 +17008,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "mOvJhMvJJS",
-                      "guid": "mOvJhMvJJS",
+                      "crowdanki_uuid": "kpaRE6iKJH",
+                      "guid": "kpaRE6iKJH",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What is a limiting reactant? How do you identify it?",
+                        "[HT only] What is a limiting reactant? How do you identify it?",
                         "The limiting reactant is the one that is completely used up first — it limits the amount of product that can form. The other reactant is in excess (some remains at the end).<br><b>Method:</b> calculate moles of each reactant → compare to the equation ratio → the one that runs out first is limiting.<br><b>Example:</b> 2H₂ + O₂ → 2H₂O. 3 mol H₂ and 2 mol O₂: need 1.5 mol O₂ for 3 mol H₂ → O₂ is in excess. H₂ is limiting."
                       ],
                       "flags": 0,
@@ -17398,64 +17359,12 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "jiQ6XTnolk",
-                      "guid": "jiQ6XTnolk",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What are the addition reactions of alkenes?",
-                        "Alkenes react across the C=C double bond with various reagents — one product formed:<br><b>+ H₂ (hydrogenation):</b> alkene + hydrogen → alkane (Ni catalyst, ~150°C). E.g. ethene + H₂ → ethane. Used to make margarine from vegetable oils.<br><b>+ Br₂ (bromination):</b> alkene + bromine → dibromoalkane. Bromine water decolourises (orange → colourless). Test for C=C bond.<br><b>+ H₂O (hydration):</b> alkene + steam → alcohol (H₃PO₄ catalyst, ~300°C). E.g. ethene + H₂O → ethanol. Industrial method for ethanol."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "pXHENOeKSv",
-                      "guid": "pXHENOeKSv",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                      "fields": [
-                        "Alcohols general formula: {{c1::CₙH₂ₙ₊₁OH}}. Ethanol: {{c2::C₂H₅OH}}. Made by <b>fermentation</b>: glucose + yeast → {{c3::ethanol}} + {{c4::CO₂}} (anaerobic, ~30°C, pH 7). OR by <b>hydration</b> of ethene: ethene + steam → ethanol ({{c5::H₃PO₄ catalyst, ~300°C}}). Fermentation = renewable but slow; hydration = non-renewable but faster and continuous.",
-                        ""
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "dj20vFabwE",
-                      "guid": "dj20vFabwE",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                      "fields": [
-                        "Carboxylic acids have the functional group {{c1::–COOH}}. Ethanoic acid = {{c2::CH₃COOH}} (vinegar). They are {{c3::weak}} acids (partially ionise in water). React with alcohols to form {{c4::esters}} + water — called {{c5::esterification}}. E.g. ethanoic acid + ethanol ⇌ ethyl ethanoate + water (catalyst: {{c6::concentrated H₂SO₄}}).",
-                        ""
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
                       "crowdanki_uuid": "iskot3NQqr",
                       "guid": "iskot3NQqr",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What is addition polymerisation and how do you represent the polymer from a monomer?",
                         "Many alkene monomers (with C=C double bonds) join together — the double bond opens and molecules link into a long chain. Only <b>one product</b> forms — atom economy = 100%.<br><b>Example:</b> n(CH₂=CH₂) → [–CH₂–CH₂–]ₙ (polyethene/polythene)<br>n(CH₂=CHCl) → [–CH₂–CHCl–]ₙ (PVC)<br><b>Representing:</b> the monomer shows C=C; the repeat unit in polymer shows single bond. Brackets and subscript n show the repeating unit.<br><b>Environmental problem:</b> most addition polymers are non-biodegradable."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "cYwQS1KC5y",
-                      "guid": "cYwQS1KC5y",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What are condensation polymers? Give examples of nylon and polyester.",
-                        "Formed by joining monomers together with elimination of a small molecule (usually water or HCl) with each bond formed.<br><b>Requires two functional groups on each monomer</b> (bifunctional).<br><b>Polyester:</b> diol + dicarboxylic acid → polyester + water. E.g. Terylene from ethane-1,2-diol + benzene-1,4-dicarboxylic acid.<br><b>Nylon:</b> diamine + dicarboxylic acid (or diacid chloride) → nylon + water. Used in ropes, clothing, toothbrush bristles.<br><b>Difference from addition polymers:</b> condensation polymers contain heteroatoms (O or N) in the backbone; addition polymers are all carbon chains."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -17520,7 +17429,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What is a reversible reaction and what is dynamic equilibrium?",
-                        "A reversible reaction can proceed in both directions (⇌). Dynamic equilibrium: in a closed system, the forward and reverse reactions occur at the same rate — concentrations remain constant. Le Chatelier's principle: if conditions change, the equilibrium shifts to oppose the change."
+                        "A reversible reaction can proceed in both directions (⇌). Dynamic equilibrium: in a closed system, the forward and reverse reactions occur at the same rate — concentrations remain constant. <b>(HT only:</b> Le Chatelier's principle — if conditions change, the equilibrium shifts to oppose the change.<b>)</b>"
                       ],
                       "flags": 0,
                       "tags": [],
@@ -17528,11 +17437,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "b1J24WDMnU",
-                      "guid": "b1J24WDMnU",
+                      "crowdanki_uuid": "t6gKVVZl8E",
+                      "guid": "t6gKVVZl8E",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Le Chatelier's principle — temperature: increasing temperature shifts equilibrium in the {{c1::endothermic}} direction. Pressure: increasing pressure shifts equilibrium towards fewer {{c2::gas molecules}}. Concentration: increasing reactant concentration shifts equilibrium towards the {{c3::products}}.",
+                        "[HT only] Le Chatelier's principle — temperature: increasing temperature shifts equilibrium in the {{c1::endothermic}} direction. Pressure: increasing pressure shifts equilibrium towards fewer {{c2::gas molecules}}. Concentration: increasing reactant concentration shifts equilibrium towards the {{c3::products}}.",
                         ""
                       ],
                       "flags": 0,
@@ -17567,24 +17476,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "epiTqvtl0Q",
-                      "guid": "epiTqvtl0Q",
+                      "crowdanki_uuid": "u8kvVGb5lS",
+                      "guid": "u8kvVGb5lS",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What is the Maxwell-Boltzmann distribution and how does temperature affect it?",
-                        "A graph showing the distribution of kinetic energies (speeds) of particles in a gas at a given temperature.<br><b>Key features:</b> x-axis = kinetic energy, y-axis = number of particles. Curve starts at origin, rises to a peak, then tails off. Area under curve = total number of particles (constant).<br><b>Effect of increasing temperature:</b> peak shifts to the right and downwards (same number of particles but spread over wider range). The area to the right of the activation energy (Ea) increases <b>significantly</b> → many more particles have enough energy to react → rate increases dramatically.<br><b>Catalyst:</b> lowers Ea → even more particles exceed this lower threshold."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "sWYkjAwcVM",
-                      "guid": "sWYkjAwcVM",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What are the Haber process conditions and why are these specific conditions chosen?",
+                        "[HT only] What are the Haber process conditions and why are these specific conditions chosen?",
                         "<b>Reaction:</b> N₂ + 3H₂ ⇌ 2NH₃ (ΔH = −92 kJ/mol — exothermic, fewer gas molecules on right)<br><b>Conditions:</b> temperature ~450°C, pressure ~200 atm, iron catalyst.<br><b>Temperature compromise:</b> lower T → higher yield (Le Chatelier: exothermic, cool favours products) BUT too slow. 450°C balances reasonable yield with acceptable rate.<br><b>Pressure:</b> higher P → higher yield (4 mol gas → 2 mol gas, high pressure favours fewer moles). 200 atm is economic limit — higher would require stronger/more expensive equipment.<br><b>Catalyst:</b> iron catalyst increases rate without affecting equilibrium position — recycled unreacted N₂ and H₂."
                       ],
                       "flags": 0,
@@ -17811,19 +17707,6 @@
                       "flags": 0,
                       "tags": [],
                       "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "duN0RNsX9i",
-                      "guid": "duN0RNsX9i",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the difference between a batch process and a continuous process in the chemical industry?",
-                        "<b>Batch process:</b> reactants added, reaction runs, products extracted, vessel cleaned, repeat. Good for small quantities of specialised products (e.g. medicines, pharmaceuticals). More flexible but labour intensive.<br><b>Continuous process:</b> reactants fed in constantly, products extracted continuously. Good for large-scale, high-demand products (e.g. Haber process for ammonia, sulfuric acid). More efficient at scale, runs 24/7, cheaper per unit — but expensive to set up and difficult to change product."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
                     }
                   ]
                 }
@@ -18001,7 +17884,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What are the dangers of ionising radiation and how do we protect against them?",
-                        "<b>Dangers:</b> ionising radiation removes electrons from atoms → damages cells → kills cells (high doses) or causes mutations → <b>cancer</b>. Alpha most ionising (most dangerous if contaminating), gamma most penetrating (requires heavy shielding).<br><b>Reducing exposure — ALARA principle (As Low As Reasonably Achievable):</b><br>• <b>Time:</b> minimise time in radiation field<br>• <b>Distance:</b> stay as far away as possible (intensity ∝ 1/d²)<br>• <b>Shielding:</b> paper stops α; aluminium stops β; thick lead/concrete stops γ<br>• Wear dosimeters to monitor accumulated dose. Use tongs, not hands."
+                        "<b>Dangers:</b> ionising radiation removes electrons from atoms → damages cells → kills cells (high doses) or causes mutations → <b>cancer</b>. Alpha most ionising (most dangerous if contaminating), gamma most penetrating (requires heavy shielding).<br><b>Reducing exposure — ALARA principle (As Low As Reasonably Achievable):</b><br>• <b>Time:</b> minimise time in radiation field<br>• <b>Distance:</b> stay as far away as possible<br>• <b>Shielding:</b> paper stops α; aluminium stops β; thick lead/concrete stops γ<br>• Wear dosimeters to monitor accumulated dose. Use tongs, not hands."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18126,12 +18009,12 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "fZdwh5liaI",
-                      "guid": "fZdwh5liaI",
+                      "crowdanki_uuid": "lm3iRKktTR",
+                      "guid": "lm3iRKktTR",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "How do you calculate resistance in series and parallel circuits?",
-                        "<b>Series:</b> R_total = R₁ + R₂ + R₃... (resistances add up). Current same throughout. Voltage shared proportionally (larger R → larger V across it).<br><b>Parallel:</b> 1/R_total = 1/R₁ + 1/R₂ + 1/R₃... (total resistance less than smallest). Same voltage across each branch. Currents add up (I_total = I₁ + I₂).<br><b>Example:</b> two 6Ω resistors in series: R_total = 12Ω. In parallel: 1/R = 1/6 + 1/6 = 2/6 → R = 3Ω."
+                        "How do you calculate resistance in a series circuit?",
+                        "<b>Series:</b> R_total = R₁ + R₂ + R₃... (resistances add up). Current same throughout. Voltage shared proportionally (larger R → larger V across it).<br><b>Example:</b> two 6Ω resistors in series: R_total = 12Ω.<br><b>Parallel (qualitative):</b> total resistance is less than the smallest individual resistor. Same voltage across each branch. Currents add up (I_total = I₁ + I₂). Note: calculating total resistance in parallel is not required."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18516,11 +18399,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "nF3v3eyIvj",
-                      "guid": "nF3v3eyIvj",
+                      "crowdanki_uuid": "OTEHCCLAAg",
+                      "guid": "OTEHCCLAAg",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Speed = {{c1::distance}} ÷ {{c2::time}}. Velocity = {{c3::displacement}} ÷ time. Acceleration = {{c4::change in velocity}} ÷ {{c5::time}}. Units: speed/velocity = {{c6::m/s}}, acceleration = {{c7::m/s²}}.",
+                        "Speed = {{c1::distance}} Ã· {{c2::time}}. Velocity = {{c3::displacement}} Ã· time. Acceleration = {{c4::change in velocity}} Ã· {{c5::time}}. Units: speed/velocity = {{c6::m/s}}, acceleration = {{c7::m/sÂ²}}.",
                         ""
                       ],
                       "flags": 0,
@@ -18542,11 +18425,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "eJfKer76Kj",
-                      "guid": "eJfKer76Kj",
+                      "crowdanki_uuid": "qQzezYhum0",
+                      "guid": "qQzezYhum0",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Newton's Second Law: {{c1::F = ma}}. Force in {{c2::Newtons (N)}}, mass in {{c3::kg}}, acceleration in {{c4::m/s²}}. A 1000kg car accelerating at 2m/s²: F = {{c5::2000N}}.",
+                        "Newton's Second Law: {{c1::F = ma}}. Force in {{c2::Newtons (N)}}, mass in {{c3::kg}}, acceleration in {{c4::m/sÂ²}}. A 1000kg car accelerating at 2m/sÂ²: F = {{c5::2000N}}.",
                         ""
                       ],
                       "flags": 0,
@@ -18560,7 +18443,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What are the three laws of motion?",
-                        "1st: An object remains at rest or moves with constant velocity unless acted on by a resultant force. 2nd: F = ma (resultant force = mass × acceleration). 3rd: Every action has an equal and opposite reaction — forces act on different objects."
+                        "1st: An object remains at rest or moves with constant velocity unless acted on by a resultant force. 2nd: F = ma (resultant force = mass Ã— acceleration). 3rd: Every action has an equal and opposite reaction â€” forces act on different objects."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18581,11 +18464,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "dird2cMyy7",
-                      "guid": "dird2cMyy7",
+                      "crowdanki_uuid": "mPTDoMgLeW",
+                      "guid": "mPTDoMgLeW",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Weight = {{c1::mass}} × {{c2::gravitational field strength (g)}}. On Earth, g = {{c3::9.8 N/kg}}. A 50kg person: weight = {{c4::490 N}}. Weight is a {{c5::vector}} (has direction — downwards). Mass is a {{c6::scalar}}.",
+                        "Weight = {{c1::mass}} Ã— {{c2::gravitational field strength (g)}}. On Earth, g = {{c3::9.8 N/kg}}. A 50kg person: weight = {{c4::490 N}}. Weight is a {{c5::vector}} (has direction â€” downwards). Mass is a {{c6::scalar}}.",
                         ""
                       ],
                       "flags": 0,
@@ -18594,24 +18477,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "v29JY5uMwi",
-                      "guid": "v29JY5uMwi",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the principle of moments?",
-                        "For a system in equilibrium (not rotating): sum of clockwise moments = sum of anticlockwise moments. Moment = force × perpendicular distance from pivot. Units: Newton-metres (Nm)."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "vDRXyh0Aly",
-                      "guid": "vDRXyh0Aly",
+                      "crowdanki_uuid": "pWO0mKnwn4",
+                      "guid": "pWO0mKnwn4",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Momentum = {{c1::mass}} × {{c2::velocity}}. Units: {{c3::kg m/s}}. Law of conservation of momentum: total momentum before = total momentum after in a {{c4::closed system}} (no external forces). Force = {{c5::change in momentum}} ÷ time.",
+                        "[HT only] Momentum = {{c1::mass}} Ã— {{c2::velocity}}. Units: {{c3::kg m/s}}. Law of conservation of momentum: total momentum before = total momentum after in a {{c4::closed system}} (no external forces). Force = {{c5::change in momentum}} Ã· time.",
                         ""
                       ],
                       "flags": 0,
@@ -18625,33 +18495,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What is Hooke's Law and what is the spring constant?",
-                        "<b>Hooke's Law:</b> extension of a spring is directly proportional to the force applied, up to the limit of proportionality (elastic limit).<br><b>Formula:</b> F = ke (Force = spring constant × extension). k in N/m, e in m.<br><b>Graph:</b> linear section (Hooke's Law applies) then curves upward past the elastic limit (plastic deformation — doesn't return to original shape).<br><b>Worked example:</b> 5N stretches a spring by 0.1m → k = F/e = 5/0.1 = 50 N/m. Predict extension for 7.5N: e = F/k = 7.5/50 = 0.15 m.<br><b>Required practical:</b> measure extension for increasing weights, plot F vs extension."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "uLw8foF2BS",
-                      "guid": "uLw8foF2BS",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is pressure and how do you calculate it? What is pressure in a fluid?",
-                        "<b>Pressure = force ÷ area</b> (P = F/A). Units: Pascals (Pa) or N/m².<br><b>Example:</b> 500N on area of 0.25m² → P = 500/0.25 = 2000 Pa.<br><b>Pressure in a fluid</b> increases with depth: P = hρg (h = depth, ρ = density, g = 9.8 N/kg).<br><b>Atmospheric pressure</b> decreases with altitude (less air above → less weight → less pressure).<br><b>Upthrust:</b> pressure in a fluid is greater at the bottom than top of an object → net upward force = upthrust. If upthrust ≥ weight, object floats."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "krUkEiz2r9",
-                      "guid": "krUkEiz2r9",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the difference between elastic and inelastic collisions?",
-                        "<b>Elastic collision:</b> both momentum AND kinetic energy are conserved. Ideal — KE not lost to heat/deformation. Example: billiard balls (approximately elastic).<br><b>Inelastic collision:</b> momentum is conserved but kinetic energy is NOT (some converted to heat, sound, deformation). Most real collisions. Example: car crash — objects crumple (designed — increases collision time → reduces force → safer).<br><b>In all collisions:</b> momentum is always conserved (closed system). Total KE after ≤ total KE before."
+                        "<b>Hooke's Law:</b> extension of a spring is directly proportional to the force applied, up to the limit of proportionality (elastic limit).<br><b>Formula:</b> F = ke (Force = spring constant Ã— extension). k in N/m, e in m.<br><b>Graph:</b> linear section (Hooke's Law applies) then curves upward past the elastic limit (plastic deformation â€” doesn't return to original shape).<br><b>Worked example:</b> 5N stretches a spring by 0.1m â†’ k = F/e = 5/0.1 = 50 N/m. Predict extension for 7.5N: e = F/k = 7.5/50 = 0.15 m.<br><b>Required practical:</b> measure extension for increasing weights, plot F vs extension."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18664,7 +18508,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "What are terminal velocity and the forces on falling objects?",
-                        "<b>Falling object:</b> initially, weight > drag → accelerates. As speed increases, drag increases. Eventually drag = weight → resultant force = 0 → constant velocity = terminal velocity.<br><b>Graph (velocity vs time):</b> curve increasing, then horizontal line at terminal velocity.<br><b>Parachute example:</b> when parachute opens → drag suddenly increases greatly → deceleration. New, lower terminal velocity reached. On landing, speed is safe.<br><b>Factors affecting terminal velocity:</b> weight (greater weight → higher terminal velocity), drag (larger area/higher drag coefficient → lower terminal velocity)."
+                        "<b>Falling object:</b> initially, weight > drag â†’ accelerates. As speed increases, drag increases. Eventually drag = weight â†’ resultant force = 0 â†’ constant velocity = terminal velocity.<br><b>Graph (velocity vs time):</b> curve increasing, then horizontal line at terminal velocity.<br><b>Parachute example:</b> when parachute opens â†’ drag suddenly increases greatly â†’ deceleration. New, lower terminal velocity reached. On landing, speed is safe.<br><b>Factors affecting terminal velocity:</b> weight (greater weight â†’ higher terminal velocity), drag (larger area/higher drag coefficient â†’ lower terminal velocity)."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18698,11 +18542,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "o9NPzXBIUF",
-                      "guid": "o9NPzXBIUF",
+                      "crowdanki_uuid": "opCb6lTzAc",
+                      "guid": "opCb6lTzAc",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What is the motor effect and what factors affect the force?",
+                        "[HT only] What is the motor effect and what factors affect the force?",
                         "A current-carrying conductor in a magnetic field experiences a force (the motor effect). F = BIL (force = magnetic flux density × current × length). Direction given by Fleming's Left Hand Rule: thuMb = Motion, First finger = Field, seCond finger = Current."
                       ],
                       "flags": 0,
@@ -18737,11 +18581,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "mPWtv14rKf",
-                      "guid": "mPWtv14rKf",
+                      "crowdanki_uuid": "gc5xiwCdMT",
+                      "guid": "gc5xiwCdMT",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Transformer worked example: a step-up transformer has 500 turns on the primary and 5000 turns on the secondary. If the primary voltage is 230V, what is the secondary voltage? If the primary current is 10A, what is the secondary current (assume 100% efficiency)?",
+                        "[HT only] Transformer worked example: a step-up transformer has 500 turns on the primary and 5000 turns on the secondary. If the primary voltage is 230V, what is the secondary voltage? If the primary current is 10A, what is the secondary current (assume 100% efficiency)?",
                         "<b>Voltage:</b> Vs/Vp = Ns/Np → Vs = 230 × (5000/500) = <b>2300 V</b><br><b>Current (using P = IV, assume 100% efficient → power in = power out):</b><br>Ip × Vp = Is × Vs → 10 × 230 = Is × 2300 → Is = <b>1 A</b><br><b>Key principle:</b> step-up voltage = step-down current. Transformers conserve power (assuming no losses)."
                       ],
                       "flags": 0,
@@ -18763,25 +18607,12 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "o9hV1yh32m",
-                      "guid": "o9hV1yh32m",
+                      "crowdanki_uuid": "nnOLP3jbAy",
+                      "guid": "nnOLP3jbAy",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "What is the structure of a DC motor and how does it work?",
+                        "[HT only] What is the structure of a DC motor and how does it work?",
                         "A DC motor converts electrical energy into kinetic (rotational) energy using the motor effect.<br><b>Components:</b> rectangular coil of wire in a magnetic field, <b>commutator</b> (split-ring — reverses current direction every half turn), <b>carbon brushes</b> (conduct current to the commutator).<br><b>How it works:</b> current in coil → force (motor effect) → coil rotates. Commutator ensures current always reverses so the coil continues to rotate in the same direction rather than oscillating.<br><b>Increase speed:</b> more current, stronger magnetic field, more turns on coil."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "peBrFWro3m",
-                      "guid": "peBrFWro3m",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is the difference between an AC generator and a DC generator?",
-                        "Both use electromagnetic induction (moving coil in magnetic field generates EMF).<br><b>AC generator (alternator):</b> uses <b>slip rings</b> and brushes → coil connected continuously → output alternates direction as coil rotates → produces AC.<br><b>DC generator:</b> uses a <b>commutator</b> (split-ring) → reverses connection every half turn → output always in same direction → produces DC (pulsed).<br><b>Increase EMF output:</b> spin faster, use stronger magnets, use more turns on the coil."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -18802,37 +18633,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "ekuI3mflEf",
-                      "guid": "ekuI3mflEf",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "How does a loudspeaker use the motor effect?",
-                        "<b>Structure:</b> coil of wire attached to a paper cone, placed in the magnetic field of a permanent magnet.<br><b>How it works:</b> AC (alternating current) flows through the coil → force on coil alternates direction (motor effect) → coil moves back and forth → cone vibrates → creates compressions and rarefactions in air → produces sound waves.<br><b>Higher frequency AC</b> → coil vibrates faster → higher pitch sound.<br><b>Larger amplitude current</b> → greater force → larger vibration → louder sound."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "kRwka7TuW4",
-                      "guid": "kRwka7TuW4",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "How does a microphone use electromagnetic induction?",
-                        "<b>Structure:</b> diaphragm (thin membrane) attached to a coil of wire in a magnetic field.<br><b>How it works:</b> sound waves → diaphragm vibrates → coil moves relative to magnetic field → <b>EMF induced</b> (generator effect) → alternating current produced that mirrors the sound wave.<br><b>This is the reverse of a loudspeaker</b> — both use a coil in a magnetic field, but the microphone converts sound to electrical signal while the loudspeaker converts electrical signal to sound.<br><b>Exam tip:</b> microphone uses the generator effect; loudspeaker uses the motor effect."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "sLpNcLYNyk",
-                      "guid": "sLpNcLYNyk",
+                      "crowdanki_uuid": "bJqh1UybVR",
+                      "guid": "bJqh1UybVR",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                       "fields": [
-                        "Fleming's Left Hand Rule (motor effect): thuMb = {{c1::Motion/force}} (direction of movement), First finger = {{c2::magnetic Field}}, seCond finger = {{c3::Current}}. Used when a current-carrying conductor is in a magnetic field. Fleming's Right Hand Rule: gives the direction of {{c4::induced current}} in a generator (thumb = motion, first finger = field, second finger = induced current).",
+                        "[HT only] Fleming's Left Hand Rule (motor effect): thuMb = {{c1::Motion/force}} (direction of movement), First finger = {{c2::magnetic Field}}, seCond finger = {{c3::Current}}. Used when a current-carrying conductor is in a magnetic field.",
                         ""
                       ],
                       "flags": 0,
@@ -19081,19 +18886,6 @@
                       "fields": [
                         "What is the required practical for waves? How do you measure the speed of waves?",
                         "<b>Ripple tank (water waves):</b> measure wavelength (distance between wave crests on stroboscope or freeze-frame). Count frequency (oscillations per second). Speed = fλ.<br><b>Sound waves in a solid (slinky):</b> send a wave pulse, measure time for it to travel known distance. Speed = distance/time.<br><b>Measuring speed of sound in air:</b> stand far from a wall. Clap boards together and time the echo (echo = sound travels twice the distance). Speed ≈ 330 m/s. Or use two microphones connected to an oscilloscope — measure time delay for sound to travel between them."
-                      ],
-                      "flags": 0,
-                      "tags": [],
-                      "data": ""
-                    },
-                    {
-                      "__type__": "Note",
-                      "crowdanki_uuid": "u9Sv9JHBrV",
-                      "guid": "u9Sv9JHBrV",
-                      "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                      "fields": [
-                        "What is refraction and how does it explain optical fibres and lenses?",
-                        "<b>Refraction:</b> waves change speed when crossing a boundary between two different media — if entering at an angle, direction also changes.<br><b>Light into denser medium (e.g. glass):</b> slows down → bends towards the normal.<br><b>Total internal reflection:</b> if angle of incidence exceeds the critical angle → light reflects back into the denser medium. This is the basis of optical fibres — light signal bounces along inside the fibre with no signal loss through the glass walls.<br><b>Lenses:</b> converging (convex) lens brings parallel rays to a focal point. Diverging (concave) lens spreads rays apart. Used in cameras, microscopes, spectacles."
                       ],
                       "flags": 0,
                       "tags": [],
