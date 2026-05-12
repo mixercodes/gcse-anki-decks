@@ -14543,7 +14543,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How do you investigate the effect of light intensity on the rate of photosynthesis (pondweed / Elodea)?",
-                        "<b>Method:</b> place pondweed in sodium hydrogen carbonate solution (provides CO₂). Shine a lamp at different distances. Count bubbles per minute (or measure volume of O₂ collected using a gas syringe) at each distance.<br><b>Light intensity</b> ∝ 1/distance² (inverse square law) — double the distance → quarter the light intensity.<br><b>Control variables:</b> temperature (use water bath), CO₂ concentration (sodium hydrogen carbonate keeps constant), same piece of pondweed.<br><b>Expected result:</b> as light intensity increases, rate increases (up to the point where CO₂ or temperature becomes limiting)."
+                        "<b>Method:</b> place pondweed in sodium hydrogen carbonate solution (provides CO₂). Shine a lamp at different distances. Count bubbles per minute (or measure volume of O₂ collected using a gas syringe) at each distance.<br><b>Control variables:</b> temperature (use water bath), CO₂ concentration (sodium hydrogen carbonate keeps constant), same piece of pondweed.<br><b>Expected result:</b> as light intensity increases, rate increases (up to the point where CO₂ or temperature becomes limiting)."
                       ],
                       "flags": 0,
                       "tags": [],
@@ -14551,11 +14551,11 @@
                     },
                     {
                       "__type__": "Note",
-                      "crowdanki_uuid": "cCQIvPxdDC",
-                      "guid": "cCQIvPxdDC",
+                      "crowdanki_uuid": "mDCgvDJS8A",
+                      "guid": "mDCgvDJS8A",
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
-                        "Draw and interpret limiting factor graphs for photosynthesis.",
+                        "[HT only] Draw and interpret limiting factor graphs for photosynthesis.",
                         "<b>Light intensity graph:</b> rate increases then levels off — at plateau, light is no longer limiting (CO₂ or temperature now limits).<br><b>CO₂ concentration graph:</b> increases then plateaus — at high CO₂, another factor limits.<br><b>Temperature graph:</b> increases up to ~40°C then sharply decreases — enzymes denature above optimum (not a simple plateau).<br><b>Key exam point:</b> to determine what is limiting at any point on the graph — the factor that makes the plateau rise when increased is the one that was limiting. If light increases but rate doesn't — something else is limiting."
                       ],
                       "flags": 0,
@@ -15141,7 +15141,7 @@
                       "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                       "fields": [
                         "How is the small intestine adapted for absorption?",
-                        "Villi increase surface area. Microvilli (on villi) further increase surface area. Rich blood supply maintains concentration gradient. Thin walls (one cell thick) = short diffusion distance. Lacteals absorb fatty acids and glycerol into the lymphatic system."
+                        "Villi increase surface area. Microvilli (on villi) further increase surface area. Rich blood supply maintains concentration gradient. Thin walls (one cell thick) = short diffusion distance."
                       ],
                       "flags": 0,
                       "tags": [],
