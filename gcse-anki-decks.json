@@ -202,19 +202,6 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "tTZHzeaDs5",
-                  "guid": "tTZHzeaDs5",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                  "fields": [
-                    "The TCP/IP model has 4 layers: {{c1::Application}} layer (HTTP, FTP, SMTP, DNS), {{c2::Transport}} layer (TCP — breaks data into packets, ensures reliable delivery, error checking), {{c3::Internet/Network}} layer (IP — addressing and routing of packets), {{c4::Link/Network Access}} layer (physical transmission — Ethernet, Wi-Fi).",
-                    ""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
                   "crowdanki_uuid": "bCTPTzSU9J",
                   "guid": "bCTPTzSU9J",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
@@ -1091,7 +1078,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "What are the three stages of the Fetch-Decode-Execute (FDE) cycle?",
-                    "<b>1. FETCH:</b> The CU copies the address in the Program Counter (PC) to the MAR. The instruction is fetched from RAM into the MDR, then copied to the Current Instruction Register. The PC increments by 1 to point to the next instruction.<br><b>2. DECODE:</b> The CU decodes the instruction — determines what operation is required and what operands are needed.<br><b>3. EXECUTE:</b> The ALU or other components carry out the instruction (arithmetic, data movement, branching, I/O)."
+                    "<b>1. FETCH:</b> The current instruction is retrieved from RAM into the CPU. The Program Counter increments to point to the next instruction.<br><b>2. DECODE:</b> The Control Unit decodes the instruction — determines what operation is required and what data or addresses are involved.<br><b>3. EXECUTE:</b> The ALU or other components carry out the decoded instruction (arithmetic, data movement, branching, I/O)."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1104,19 +1091,6 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
                     "Key CPU registers: {{c1::Program Counter (PC)}} holds the address of the <i>next</i> instruction. {{c2::Accumulator (ACC)}} stores results of ALU operations. {{c3::Memory Address Register (MAR)}} holds the address being read from or written to. {{c4::Memory Data Register (MDR)}} holds data being transferred to/from memory. {{c5::Current Instruction Register (CIR)}} holds the instruction currently being decoded/executed.",
-                    ""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "taPuUakJfR",
-                  "guid": "taPuUakJfR",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                  "fields": [
-                    "The fetch stage step-by-step: address in {{c1::PC}} → copied to {{c2::MAR}} → instruction fetched from {{c3::RAM}} into {{c4::MDR}} → copied to {{c5::CIR}} → PC {{c6::incremented}} by 1 ready for the next instruction.",
                     ""
                   ],
                   "flags": 0,
@@ -1300,19 +1274,6 @@
                   "fields": [
                     "Programming language levels: {{c1::Machine code}} (binary — directly executed by CPU, completely hardware-specific, fastest). {{c2::Assembly language}} (uses mnemonics like ADD, MOV — translated by an assembler, low-level). {{c3::High-level language}} (Python, Java, C# — human-readable, portable, translated by compiler or interpreter).",
                     ""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "iVMWX4Zku0",
-                  "guid": "iVMWX4Zku0",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is an assembler? How does it differ from a compiler?",
-                    "An assembler translates <b>assembly language</b> (low-level mnemonics: ADD, MOV, LDA, STA) into <b>machine code</b> (binary). Each assembly instruction typically translates to <b>one</b> machine code instruction (unlike a compiler where one high-level statement may produce many machine code instructions). Assembly language is processor-specific — different CPU architectures have different instruction sets."
                   ],
                   "flags": 0,
                   "tags": [],
