@@ -150,19 +150,6 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "rBNV1kqgn1",
-                  "guid": "rBNV1kqgn1",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is packet switching? What does a packet contain?",
-                    "Packet switching breaks data into small chunks called <b>packets</b>. Each packet is sent independently across the network (possibly via different routes) and reassembled at the destination.<br><b>Each packet contains:</b> source IP address, destination IP address, packet sequence number, payload (data), error-checking data (checksum/CRC).<br><b>Benefits:</b> network resources shared efficiently; if one route fails, packets find another."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
                   "crowdanki_uuid": "p5uRP6r0x6",
                   "guid": "p5uRP6r0x6",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
@@ -234,32 +221,6 @@
                   "fields": [
                     "Compare star and mesh network topologies in detail.",
                     "<b>Star topology:</b> each device has its own dedicated cable to a central switch. Fast data transfer, easy to diagnose faults (one cable failure only affects one device), easy to add new devices. Disadvantage: switch failure = whole network down; more cable needed than mesh for small networks.<br><b>Mesh topology:</b> devices connect directly to multiple other devices. <b>Full mesh</b> — every device connected to every other; maximum resilience but extremely expensive and complex to cable. <b>Partial mesh</b> — only some devices have multiple connections; cheaper compromise. No single point of failure (unlike star). Used where reliability is critical (e.g. the Internet backbone)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "l45fEm1SmU",
-                  "guid": "l45fEm1SmU",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is the difference between the Internet and an intranet?",
-                    "<b>Internet:</b> global public network accessible to anyone with an internet connection.<br><b>Intranet:</b> a private internal network using the same Internet technologies (HTTP, TCP/IP) but restricted to an organisation's own employees/authorised devices. Not publicly accessible — requires authentication. Used for: internal documents, staff portals, HR systems.<br><b>Extranet:</b> extends the intranet to allow controlled external access (e.g. for suppliers or partners)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "iKuzZ5iuUG",
-                  "guid": "iKuzZ5iuUG",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a VPN (Virtual Private Network)?",
-                    "A VPN creates an <b>encrypted tunnel</b> over the public Internet between a device and a private network. All data sent through the tunnel is encrypted so it cannot be read if intercepted.<br><b>Uses:</b> remote workers securely accessing an organisation's internal network from home, bypassing geographical content restrictions, increasing privacy on public Wi-Fi.<br>The remote user appears to be physically inside the private network."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -377,19 +338,6 @@
                   "fields": [
                     "What is the difference between open source and proprietary software?",
                     "<b>Open source:</b> source code is publicly available; free to use, modify, and distribute; community-developed and supported; examples: Linux, Firefox, LibreOffice, Python. Advantages: free, customisable, transparent (auditable for security).<br><b>Proprietary (closed source):</b> source code is kept secret; requires purchasing a licence; commercially developed; examples: Windows, Microsoft Office, Adobe Photoshop. Advantages: dedicated support, polished UX, accountability."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "fKRsWzAC5c",
-                  "guid": "fKRsWzAC5c",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
-                  "fields": [
-                    "Creative Commons is a type of {{c1::licence}} that lets creators specify how their work may be used by others — a middle ground between full {{c2::copyright}} and the {{c3::public domain}}. Options include: allowing {{c4::commercial}} use, requiring {{c5::attribution}}, allowing {{c6::modification (derivatives)}}.",
-                    ""
                   ],
                   "flags": 0,
                   "tags": [],
