@@ -1078,7 +1078,20 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "What are the three stages of the Fetch-Decode-Execute (FDE) cycle?",
-                    "<b>1. FETCH:</b> The current instruction is retrieved from RAM into the CPU. The Program Counter increments to point to the next instruction.<br><b>2. DECODE:</b> The Control Unit decodes the instruction — determines what operation is required and what data or addresses are involved.<br><b>3. EXECUTE:</b> The ALU or other components carry out the decoded instruction (arithmetic, data movement, branching, I/O)."
+                    "<b>1. FETCH:</b> The instruction at the address held in the Program Counter (PC) is retrieved from RAM into the CPU. The PC then increments to point to the next instruction.<br><b>2. DECODE:</b> The Control Unit decodes the instruction held in the Current Instruction Register (CIR) — determines what operation is required and what data or addresses are involved.<br><b>3. EXECUTE:</b> The ALU or other components carry out the decoded instruction (arithmetic, logic, data movement, I/O). Results may be stored in the Accumulator (ACC)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pGjckFPdVJ",
+                  "guid": "pGjckFPdVJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does OCR J277 NOT require you to know about the fetch-execute cycle?",
+                    "The exact step-by-step movement of data between registers during each stage — e.g. the sequence PC → MAR → MDR → CIR is <b>not required</b>.<br><br>What <b>IS</b> required: the purpose and role of each register (what it stores — data or address), the three stage names (Fetch, Decode, Execute), and the general action at each stage."
                   ],
                   "flags": 0,
                   "tags": [],
