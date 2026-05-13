@@ -1424,12 +1424,12 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "hISdm027pN",
-                  "guid": "hISdm027pN",
+                  "crowdanki_uuid": "vyfRA5Ay7e",
+                  "guid": "vyfRA5Ay7e",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What are the three key features of computational thinking?",
-                    "<b>1. Decomposition:</b> breaking a large, complex problem into smaller, more manageable sub-problems that are easier to understand and solve individually.<br><b>2. Abstraction:</b> removing unnecessary detail and focusing only on the information relevant to solving the problem.<br><b>3. Algorithmic thinking:</b> designing a precise, step-by-step solution (an algorithm) that can be followed to solve the problem or sub-problem."
+                    "[Q2a — 5 marks] Complete the pseudocode to find the largest of two numbers. Five parts are missing — what are they?",
+                    "The five missing parts (1 mark each):<br>1. <code>num1 = input(\"enter first number\")</code><br>2. The keyword <code>if</code><br>3. The variable <code>num2</code> (after the &gt; in the condition)<br>4. <code>print(num1)</code><br>5. <code>print(num2)</code><br><br>Full correct pseudocode:<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">num1 = input(\"enter first number\")<br>num2 = input(\"enter second number\")<br>if num1 &gt; num2 then<br>    print(num1)<br>else<br>    print(num2)<br>endif</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1437,37 +1437,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "v3RsMSs7vk",
-                  "guid": "v3RsMSs7vk",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is abstraction? Give a real-world example.",
-                    "Abstraction means ignoring irrelevant details and representing only what matters for the task at hand.<br><b>Example 1:</b> A London Underground map shows stations and connections — it ignores actual scale, curves, depths underground, and above-ground geography. This makes it useful for navigation.<br><b>Example 2:</b> A programmer using <code>print()</code> doesn't need to know how the OS and hardware output text to screen — that complexity is hidden (abstracted away)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "joJ66g3wZh",
-                  "guid": "joJ66g3wZh",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Name the five standard flowchart symbols, their shapes, and purposes.",
-                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Symbol</th><th>Shape</th><th>Purpose</th></tr><tr><td><b>Terminal</b></td><td><svg width=\"110\" height=\"38\"><ellipse cx=\"55\" cy=\"19\" rx=\"50\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Start / End</text></svg></td><td>Marks the beginning or end of the algorithm</td></tr><tr><td><b>Process</b></td><td><svg width=\"110\" height=\"38\"><rect x=\"4\" y=\"4\" width=\"102\" height=\"30\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">x = x + 1</text></svg></td><td>A processing step / instruction / action</td></tr><tr><td><b>Decision</b></td><td><svg width=\"110\" height=\"52\"><polygon points=\"55,4 106,26 55,48 4,26\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"55\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#222\">x &gt; 10?</text></svg></td><td>A condition — two exits (Yes/No or True/False)</td></tr><tr><td><b>Input/Output</b></td><td><svg width=\"120\" height=\"38\"><polygon points=\"14,4 116,4 102,34 0,34\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"58\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Input / Output</text></svg></td><td>User input or program output (print/read)</td></tr><tr><td><b>Subroutine</b></td><td><svg width=\"120\" height=\"38\"><rect x=\"4\" y=\"4\" width=\"112\" height=\"30\" fill=\"#e1bee7\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"18\" y1=\"4\" x2=\"18\" y2=\"34\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"102\" y1=\"4\" x2=\"102\" y2=\"34\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"60\" y=\"24\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#222\">Subroutine</text></svg></td><td>A call to a predefined subroutine/function</td></tr></table>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "yUHby5hY8H",
-                  "guid": "yUHby5hY8H",
+                  "crowdanki_uuid": "oxdmDIJGI1",
+                  "guid": "oxdmDIJGI1",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "In a flowchart: a {{c1::diamond}} represents a {{c2::decision}} with {{c3::two}} exits labelled {{c4::Yes/No}} (or True/False). A {{c5::parallelogram}} represents {{c6::input or output}}. A {{c7::rounded rectangle (oval)}} represents {{c8::Start or End}}. A {{c9::rectangle with double vertical lines}} represents a {{c10::subroutine}} call.",
+                    "In the pseudocode to find the largest of two numbers: the condition is <code>if num1 &gt; {{c1::num2}} then</code>. If true, {{c2::print(num1)}} is called; otherwise {{c3::print(num2)}} is called. The first line is {{c4::num1 = input(\"enter first number\")}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1476,12 +1450,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "gWp5somTcK",
-                  "guid": "gWp5somTcK",
+                  "crowdanki_uuid": "nSc2TJ6eMI",
+                  "guid": "nSc2TJ6eMI",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is pseudocode and why is it used in OCR exams?",
-                    "Pseudocode is a text-based, structured representation of an algorithm using English-like keywords and indentation. It is not a real programming language — it cannot be run on a computer.<br><b>OCR Exam Reference Language</b> is used in J277 exams for: writing algorithms, expressing program logic, asking students to trace/interpret code.<br><b>Purpose:</b> planning algorithms before coding, communicating logic clearly, language-independent specification."
+                    "[Q2b — 5 marks] Write an algorithm that inputs a number, doubles it and outputs the result, repeating until the number entered is less than 0.",
+                    "5 mark points:<br>1. Use of a condition-controlled loop (while or do/until)<br>2. Checking condition: number &gt;= 0<br>3. Input a number from the user within the loop<br>4. Multiply the number by 2<br>5. Output the doubled value<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">while number &gt;= 0<br>    number = input()<br>    output(number * 2)<br>endwhile</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1489,76 +1463,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "kLPd5j464n",
-                  "guid": "kLPd5j464n",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a count-controlled FOR loop that prints 1 to 5.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">for i = 1 to 5<br>    print(i)<br>next i</pre>The loop executes a <b>fixed number of times</b>. The variable i takes values 1, 2, 3, 4, 5 in turn."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "bi47Yt5WE9",
-                  "guid": "bi47Yt5WE9",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a WHILE loop that keeps asking for input until valid.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">num = int(input(\"Enter a number 1-10: \"))<br>while num &lt; 1 OR num &gt; 10<br>    print(\"Invalid. Try again.\")<br>    num = int(input(\"Enter a number 1-10: \"))<br>endwhile</pre>Condition checked at the <b>start</b> — the body may not execute at all if condition is false initially."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "yX9FFpjwNI",
-                  "guid": "yX9FFpjwNI",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a DO UNTIL loop. How does it differ from WHILE?",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">do<br>    num = int(input(\"Enter a positive number: \"))<br>until num &gt; 0</pre>Condition checked at the <b>end</b> — the loop body <b>always executes at least once</b>. WHILE checks at the start (may execute zero times). DO UNTIL is good when you always need one pass (e.g. first input attempt)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "h5e9hRaIYj",
-                  "guid": "h5e9hRaIYj",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for an IF-ELSEIF-ELSE structure with three branches.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">score = int(input(\"Enter score: \"))<br>if score &gt;= 90 then<br>    print(\"Grade A\")<br>elseif score &gt;= 70 then<br>    print(\"Grade B\")<br>elseif score &gt;= 50 then<br>    print(\"Grade C\")<br>else<br>    print(\"Fail\")<br>endif</pre>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "qBvZkG3Asn",
-                  "guid": "qBvZkG3Asn",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a SWITCH/CASE statement.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">day = input(\"Enter day: \")<br>switch day:<br>    case \"Mon\":<br>        print(\"Monday\")<br>    case \"Tue\":<br>        print(\"Tuesday\")<br>    case \"Wed\":<br>        print(\"Wednesday\")<br>    default:<br>        print(\"Unknown day\")<br>endswitch</pre>Use switch instead of many if/elseif when comparing the <b>same variable</b> against multiple fixed values."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "mj5Bo5d1vK",
-                  "guid": "mj5Bo5d1vK",
+                  "crowdanki_uuid": "qCBErUsQCZ",
+                  "guid": "qCBErUsQCZ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "OCR comparison operators: == ({{c1::equal to}}), != ({{c2::not equal to}}), &lt; ({{c3::less than}}), &gt; ({{c4::greater than}}), &lt;= ({{c5::less than or equal to}}), &gt;= ({{c6::greater than or equal to}}). Assignment uses a single {{c7::=}}.",
+                    "The algorithm that doubles a number until a negative is entered uses a {{c1::condition-controlled}} loop. The loop condition checks that number {{c2::>= 0}}. Inside the loop: {{c3::input}} a number, then {{c4::output(number * 2)}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1567,11 +1476,63 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "cmaGFPahZC",
-                  "guid": "cmaGFPahZC",
+                  "crowdanki_uuid": "vGSWhi7ZLH",
+                  "guid": "vGSWhi7ZLH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q4a — 1 mark] Using the username algorithm from the flowchart, what username is generated for student Rebecca Ellis?",
+                    "The username for Rebecca Ellis is <b>RebEl</b>.<br>Rule for students: first 3 letters of firstname + first 2 letters of surname.<br>Rebecca → Reb, Ellis → El → <b>RebEl</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dByfMvfYQR",
+                  "guid": "dByfMvfYQR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q4b(i) — 1 mark] Using the username algorithm, what username is generated for teacher Fred Biscuit?",
+                    "The username for teacher Fred Biscuit is <b>uitFr</b>.<br>Rule for teachers: last 3 letters of surname + first 2 letters of firstname.<br>Biscuit → last 3 = \"uit\", Fred → first 2 = \"Fr\" → <b>uitFr</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jthyoBobdl",
+                  "guid": "jthyoBobdl",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q4b(ii) — 6 marks] Write an algorithm to generate a username given firstname, surname and role (teacher or student). What are the 6 mark points?",
+                    "6 mark points:<br>1. Taking firstname, surname and teacher/student as input<br>2. Checking IF role is teacher or student (using selection)<br>3. For teacher: generating last 3 letters of surname using string manipulation<br>4. Generating first 2 letters of firstname and concatenating to previous<br>5. For student: first 3 of firstname + first 2 of surname<br>6. Correct concatenation and output of the username"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vUCtT6pAAw",
+                  "guid": "vUCtT6pAAw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q6a — 4 marks] Show the stages of a bubble sort for: crime bait fright victory nibble loose",
+                    "Start: crime bait fright victory nibble loose<br>After pass 1: bait crime fright victory nibble loose<br>After pass 2: bait crime fright nibble victory loose<br>After pass 3: bait crime fright nibble loose victory<br>After pass 4: bait crime fright loose nibble victory<br>(Sorted alphabetically after pass 4)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dUI91AgzNt",
+                  "guid": "dUI91AgzNt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "OCR arithmetic operators: + {{c1::addition}}, - {{c2::subtraction}}, * {{c3::multiplication}}, / {{c4::division}}, ^ {{c5::exponentiation (power)}}, MOD {{c6::remainder after division}}, DIV {{c7::integer division (quotient, no remainder)}}. Example: 17 MOD 5 = {{c8::2}}; 17 DIV 5 = {{c9::3}}.",
+                    "Bubble sort on [crime bait fright victory nibble loose]: After pass 1: {{c1::bait crime fright victory nibble loose}}. After pass 2: {{c2::bait crime fright nibble victory loose}}. After pass 3: {{c3::bait crime fright nibble loose victory}}. After pass 4 (sorted): {{c4::bait crime fright loose nibble victory}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1580,12 +1541,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "r8Pb2VZWK1",
-                  "guid": "r8Pb2VZWK1",
+                  "crowdanki_uuid": "pqa3dZNZD4",
+                  "guid": "pqa3dZNZD4",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is a trace table? When is it used?",
-                    "A trace table manually tracks the value of each variable at each step of an algorithm to verify it produces correct output or to find logic errors (dry run).<br><b>Format:</b> columns = variables + output; rows = each step/iteration.<br><b>Used for:</b> manually testing an algorithm before coding, finding bugs in exam questions asking you to trace code, understanding how a loop iterates."
+                    "[Q6b — 4 marks] Perform a binary search for \"zebra\" in: amber house kick moose orange range tent wind zebra. Show each step.",
+                    "List: [amber house kick moose orange range tent wind zebra]<br>Step 1: Middle element = <b>orange</b> (index 4). zebra &gt; orange → take right half: [range tent wind zebra]<br>Step 2: Middle element = <b>wind</b>. zebra &gt; wind → take right half: [zebra]<br>Step 3: Middle element = <b>zebra</b>. Match found!<br>Binary search requires the list to be sorted first."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1593,50 +1554,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "qbFdYdRa2H",
-                  "guid": "qbFdYdRa2H",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Trace table example: trace this code for i = 1 to 3, total = 0; total = total + i.<br>What is total after each iteration?",
-                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>i</th><th>total</th></tr><tr><td>—</td><td>0</td></tr><tr><td>1</td><td>1</td></tr><tr><td>2</td><td>3</td></tr><tr><td>3</td><td>6</td></tr></table>Final answer: total = 6 (1+2+3)"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "jH0uZjpa0B",
-                  "guid": "jH0uZjpa0B",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What type of error does a trace table reveal, and how do you use one to find a bug?",
-                    "A trace table reveals <b>logic errors</b> — the program runs without crashing but produces wrong output. (Syntax errors are caught by the interpreter/compiler before running.)<br><b>Method:</b> execute each line in order; only update a variable's column when that line changes its value; only record output when a print/output statement runs. The row where your expected value diverges from the program's actual output is where the bug is."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "j2r1rQZdlX",
-                  "guid": "j2r1rQZdlX",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Trace this algorithm (OCR J277 style). What is the full output and the final value of <code>start</code>?<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01  start = 3<br>02  do<br>03      print(start)<br>04      start = start - 1<br>05  until start == -1<br>06  print(\"Finished\")</pre>",
-                    "The loop body runs first, condition checked at the end — so it always executes at least once. Loop runs 4 times (start: 3→2→1→0→−1). When start reaches −1 the condition is True and the loop exits.<br><b>Full output:</b> 3 &nbsp; 2 &nbsp; 1 &nbsp; 0 &nbsp; Finished<br><b>Final value of start:</b> −1<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;margin-top:6px;\"><tr><th>Line</th><th>start</th><th>Output</th></tr><tr><td>01</td><td>3</td><td></td></tr><tr><td>03</td><td></td><td>3</td></tr><tr><td>04</td><td>2</td><td></td></tr><tr><td>03</td><td></td><td>2</td></tr><tr><td>04</td><td>1</td><td></td></tr><tr><td>03</td><td></td><td>1</td></tr><tr><td>04</td><td>0</td><td></td></tr><tr><td>03</td><td></td><td>0</td></tr><tr><td>04</td><td>-1</td><td></td></tr><tr><td>06</td><td></td><td>Finished</td></tr></table>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "jQOCNP8lQm",
-                  "guid": "jQOCNP8lQm",
+                  "crowdanki_uuid": "i7Cd9PAAAZ",
+                  "guid": "i7Cd9PAAAZ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Tracing a do...until loop: the condition is checked at the {{c1::end}}, so the body always executes {{c2::at least once}}. For <code>start = 3; do: print(start); start = start − 1; until start == −1</code> — the loop runs {{c3::4}} times, the final value of start is {{c4::−1}}, and the last line outputs {{c5::Finished}}.",
+                    "Binary search for \"zebra\" in [amber house kick moose orange range tent wind zebra]: Compare to {{c1::orange}} (middle) — zebra is greater, take right half. Compare to {{c2::wind}} — zebra is greater, take right. Compare to {{c3::zebra}} — found in {{c4::3}} comparisons.",
                     ""
                   ],
                   "flags": 0,
@@ -1645,12 +1567,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "qrV9imYZnt",
-                  "guid": "qrV9imYZnt",
+                  "crowdanki_uuid": "vOXZrAz2mt",
+                  "guid": "vOXZrAz2mt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Describe the linear search algorithm. When is it appropriate?",
-                    "<b>Linear search</b> checks each element in the list one by one from the start until the target is found or the list is exhausted.<br><b>Steps:</b> start at index 0; compare current element to target; if match → found; if not → move to next; if end reached → not found.<br><b>Time complexity:</b> O(n) — worst case checks every element.<br><b>Appropriate when:</b> data is unsorted, list is small, or only one search is needed."
+                    "[Q8d — 4 marks] Rewrite the following repetitive code using a loop. The code adds minsPlayed[2,0] through minsPlayed[2,4] to total and prints it.",
+                    "4 mark points: initialise total=0 AND print at end; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1658,12 +1580,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "ewHhq2CLYu",
-                  "guid": "ewHhq2CLYu",
+                  "crowdanki_uuid": "eNZskppBxR",
+                  "guid": "eNZskppBxR",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Describe the binary search algorithm. What is its requirement?",
-                    "<b>Requirement: data MUST be sorted.</b><br><b>Steps:</b><br>1. Find the middle element.<br>2. If middle = target → found.<br>3. If target &lt; middle → discard right half, repeat on left half.<br>4. If target &gt; middle → discard left half, repeat on right half.<br>5. Repeat until found or list empty → not found.<br><b>Time complexity:</b> O(log n) — each step halves the search space. For 1,024 elements: max 10 comparisons (log₂1024 = 10)."
+                    "[Q8e — 4 marks] Complete the trace table for this code: x=15, y=0; while x&gt;0: y=y+1; x=x-y; endwhile; print(y)",
+                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>x</th><th>y</th></tr><tr><td>15</td><td>0</td></tr><tr><td>14</td><td>1</td></tr><tr><td>12</td><td>2</td></tr><tr><td>9</td><td>3</td></tr><tr><td>5</td><td>4</td></tr><tr><td>0</td><td>5</td></tr></table>Output: <b>5</b>. The loop ends when x=0 (not &gt; 0)."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1671,24 +1593,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "g1LZyl3s6W",
-                  "guid": "g1LZyl3s6W",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Binary search worked example: find 34 in [5, 12, 23, 34, 45, 56, 78].",
-                    "List (indices 0–6): [5, 12, 23, <b>34</b>, 45, 56, 78]<br><b>Step 1:</b> Middle index = 3, value = 34. Target = 34.<br><b>Match found at index 3.</b><br><br>Harder example: find 23 in same list.<br><b>Step 1:</b> Middle = index 3 = 34. 23 &lt; 34 → search left half [5, 12, 23].<br><b>Step 2:</b> Middle = index 1 = 12. 23 &gt; 12 → search right half [23].<br><b>Step 3:</b> Middle = 23. Match found."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "izOOtEjhsr",
-                  "guid": "izOOtEjhsr",
+                  "crowdanki_uuid": "kR3jOUh3cx",
+                  "guid": "kR3jOUh3cx",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Binary search requires data to be {{c1::sorted}}. Linear search works on {{c2::unsorted}} data. Binary search has O({{c3::log n}}) complexity; linear has O({{c4::n}}). For 1,000 items, binary needs at most {{c5::10}} comparisons; linear needs up to {{c6::1,000}}.",
+                    "Trace of [x=15,y=0; while x&gt;0: y=y+1; x=x-y]: After iteration 1: x={{c1::14}}, y={{c2::1}}. After iteration 2: x={{c3::12}}, y={{c4::2}}. After iteration 3: x={{c5::9}}, y={{c6::3}}. After iteration 4: x={{c7::5}}, y={{c8::4}}. After iteration 5: x={{c9::0}}, y={{c10::5}}. Final output: {{c11::5}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1697,12 +1606,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "tlrr3wSiXh",
-                  "guid": "tlrr3wSiXh",
+                  "crowdanki_uuid": "uWZbeQEwby",
+                  "guid": "uWZbeQEwby",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Describe the bubble sort algorithm with a worked example.",
-                    "<b>Algorithm:</b> repeatedly pass through the list; compare adjacent pairs; swap if in wrong order; repeat until a full pass with no swaps occurs.<br><b>Example:</b> sort [5, 3, 8, 1]<br>Pass 1: [3,5,8,1]→[3,5,8,1]→[3,5,1,8] (8 and 1 swapped)<br>Pass 2: [3,5,1,8]→[3,1,5,8]→[3,1,5,8]<br>Pass 3: [1,3,5,8]→[1,3,5,8] (no swaps — sorted!)<br><b>Complexity:</b> O(n²) worst case; O(n) best case (already sorted)."
+                    "[Q8g(i) — 2 marks] Identify the input(s) and output(s) of the hours+minutes to total minutes algorithm.",
+                    "<b>Input:</b> number of hours AND number of minutes<br><b>Output:</b> number of minutes (total)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1710,12 +1619,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "NcGaeYaU7V",
-                  "guid": "NcGaeYaU7V",
+                  "crowdanki_uuid": "e1VAT0xu6O",
+                  "guid": "e1VAT0xu6O",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Describe the merge sort algorithm.",
-                    "<b>Merge sort uses divide and conquer:</b><br>1. <b>Divide:</b> repeatedly split the list in half until every sublist contains only one element.<br>2. <b>Conquer:</b> merge pairs of sublists back together in sorted order by comparing elements one by one.<br>3. Continue merging until the full list is reconstructed in sorted order.<br><b>Example:</b> [5,3,8,1] → [5,3] [8,1] → [5][3][8][1] → [3,5][1,8] → [1,3,5,8]<br><b>Complexity:</b> O(n log n) — much faster than bubble for large datasets but uses more memory."
+                    "[Q8g(iii) — 4 marks] Rewrite this flowchart as pseudocode: input minutes; if minutes &gt; 120, print \"You played games for too long!\"; else print \"You are under your time limit!\"",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = input(\"Enter minutes played\")<br>if minutes &gt; 120 then<br>    print(\"You played games for too long!\")<br>else<br>    print(\"You are under your time limit!\")<br>endif</pre>4 mark points: input; if/then; correct condition (&gt;120); both print statements; endif."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1723,12 +1632,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "vZ8muKQnIQ",
-                  "guid": "vZ8muKQnIQ",
+                  "crowdanki_uuid": "f3jHjYgAuY",
+                  "guid": "f3jHjYgAuY",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Describe the insertion sort algorithm.",
-                    "<b>Insertion sort</b> builds a sorted portion of the list one element at a time:<br>1. Start with the second element; compare it to the sorted portion.<br>2. Shift larger elements right to make space.<br>3. Insert the element in the correct position.<br>4. Repeat for each remaining element.<br><b>Example:</b> [5,3,8,1] → [3,5,8,1] → [3,5,8,1] → [1,3,5,8]<br><b>Complexity:</b> O(n) best case (nearly sorted); O(n²) worst case. Efficient for small or nearly-sorted lists."
+                    "[2024 Q2 — 5 marks] Draw a flowchart to show an algorithm that inputs a number and outputs whether it is odd or even. What are the key flowchart elements?",
+                    "Key elements (1 mark each):<br>1. An <b>input</b> parallelogram for the number<br>2. A <b>decision diamond</b> with the condition <code>num MOD 2 == 0</code><br>3. On the <b>Yes</b> branch: output parallelogram with \"Even\"<br>4. On the <b>No</b> branch: output parallelogram with \"Odd\"<br>5. Correct use of <b>start/end terminals</b> and directed arrows"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1736,11 +1645,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "bm5BnUMoZO",
-                  "guid": "bm5BnUMoZO",
+                  "crowdanki_uuid": "hKwzt17hZ9",
+                  "guid": "hKwzt17hZ9",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Sorting algorithm comparison: Bubble sort — simple, O({{c1::n²}}) worst case, in-place. Merge sort — O({{c2::n log n}}), requires extra {{c3::memory}} for merging. Insertion sort — efficient for nearly-{{c4::sorted}} data, O({{c5::n}}) best case, O(n²) worst case. For large datasets, {{c6::merge sort}} is most efficient.",
+                    "In a flowchart for odd/even: the decision diamond tests {{c1::num MOD 2 == 0}}. The Yes branch outputs {{c2::\"Even\"}}; the No branch outputs {{c3::\"Odd\"}}. Decision boxes are drawn as {{c4::diamonds}}; inputs/outputs as {{c5::parallelograms}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1749,12 +1658,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "p8ua9HciTV",
-                  "guid": "p8ua9HciTV",
+                  "crowdanki_uuid": "oPDdiMfdKD",
+                  "guid": "oPDdiMfdKD",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Draw the flowchart for this sequence algorithm: input a number, calculate double the number, output the result. What symbol is used for each step?",
-                    "<svg width=\"220\" height=\"222\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"sq1\" markerWidth=\"7\" markerHeight=\"6\" refX=\"6\" refY=\"3\" orient=\"auto\"><polygon points=\"0,0 7,3 0,6\" fill=\"#444\"/></marker></defs><ellipse cx=\"110\" cy=\"22\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"110\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">Start</text><line x1=\"110\" y1=\"37\" x2=\"110\" y2=\"53\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#sq1)\"/><polygon points=\"28,55 192,55 180,81 16,81\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">INPUT num</text><line x1=\"104\" y1=\"81\" x2=\"104\" y2=\"97\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#sq1)\"/><rect x=\"28\" y=\"99\" width=\"162\" height=\"28\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"109\" y=\"117\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">result = num × 2</text><line x1=\"109\" y1=\"127\" x2=\"109\" y2=\"143\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#sq1)\"/><polygon points=\"28,145 192,145 180,171 16,171\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"162\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT result</text><line x1=\"104\" y1=\"171\" x2=\"104\" y2=\"189\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#sq1)\"/><ellipse cx=\"104\" cy=\"205\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">End</text></svg><br><small>🟢 oval = Start/End &nbsp;|&nbsp; 🟣 parallelogram = Input/Output &nbsp;|&nbsp; 🔵 rectangle = Process</small>"
+                    "[2024 Q3c(i) — 3 marks] Perform a binary search for 10 in the sorted list: 1 2 5 6 7 10 20. Show each step.",
+                    "List: [1 2 5 6 7 10 20] (7 elements, indices 0–6)<br>Step 1: Middle index = 3 → value = <b>6</b>. 10 &gt; 6, search right half: [7 10 20]<br>Step 2: Middle of [7 10 20] → value = <b>10</b>. Match found!<br>Found in <b>2</b> comparisons. Binary search requires the list to be <b>sorted</b>."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1762,12 +1671,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "bV3U6CkLKD",
-                  "guid": "bV3U6CkLKD",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "crowdanki_uuid": "j6dyklOWvN",
+                  "guid": "j6dyklOWvN",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Draw a flowchart for this IF/ELSE pseudocode:<br><pre style=\"background:#f0f0f0;padding:6px;border-radius:4px;font-size:12px;\">score = int(input(\"Enter score: \"))<br>if score &gt;= 50 then<br>    print(\"Pass\")<br>else<br>    print(\"Fail\")<br>endif</pre>",
-                    "<svg width=\"300\" height=\"308\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ie1\" markerWidth=\"7\" markerHeight=\"6\" refX=\"6\" refY=\"3\" orient=\"auto\"><polygon points=\"0,0 7,3 0,6\" fill=\"#444\"/></marker></defs><ellipse cx=\"110\" cy=\"22\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"110\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">Start</text><line x1=\"110\" y1=\"37\" x2=\"110\" y2=\"53\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie1)\"/><polygon points=\"28,55 192,55 180,81 16,81\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">INPUT score</text><line x1=\"104\" y1=\"81\" x2=\"104\" y2=\"101\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie1)\"/><polygon points=\"110,103 205,130 110,157 15,130\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"110\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">score ≥ 50?</text><text x=\"88\" y=\"173\" font-family=\"Arial\" font-size=\"11\" fill=\"#2e7d32\">Yes</text><line x1=\"110\" y1=\"157\" x2=\"110\" y2=\"181\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie1)\"/><text x=\"210\" y=\"126\" font-family=\"Arial\" font-size=\"11\" fill=\"#c62828\">No</text><line x1=\"205\" y1=\"130\" x2=\"263\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"263\" y1=\"130\" x2=\"263\" y2=\"181\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie1)\"/><polygon points=\"28,183 192,183 180,209 16,209\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT \"Pass\"</text><polygon points=\"218,183 298,183 288,209 208,209\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"253\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT \"Fail\"</text><line x1=\"104\" y1=\"209\" x2=\"104\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"253\" y1=\"209\" x2=\"253\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"104\" y1=\"248\" x2=\"253\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"178\" y1=\"248\" x2=\"178\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie1)\"/><ellipse cx=\"178\" cy=\"284\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"178\" y=\"289\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">End</text></svg>"
+                    "Binary search for 10 in [1 2 5 6 7 10 20]: First middle element is {{c1::6}} (index 3). 10 &gt; 6 so search {{c2::right half}}. New middle is {{c3::10}} — found. The list must be {{c4::sorted}} for binary search to work.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1775,12 +1684,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "kPH4oe4S8V",
-                  "guid": "kPH4oe4S8V",
+                  "crowdanki_uuid": "lg0YmVNQLq",
+                  "guid": "lg0YmVNQLq",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Draw a flowchart for this WHILE loop pseudocode:<br><pre style=\"background:#f0f0f0;padding:6px;border-radius:4px;font-size:12px;\">count = 1<br>while count &lt;= 5<br>    print(count)<br>    count = count + 1<br>endwhile</pre>",
-                    "<svg width=\"290\" height=\"265\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"wh1\" markerWidth=\"7\" markerHeight=\"6\" refX=\"6\" refY=\"3\" orient=\"auto\"><polygon points=\"0,0 7,3 0,6\" fill=\"#444\"/></marker></defs><ellipse cx=\"120\" cy=\"22\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">Start</text><line x1=\"120\" y1=\"37\" x2=\"120\" y2=\"53\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/><rect x=\"44\" y=\"55\" width=\"152\" height=\"28\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count = 1</text><line x1=\"120\" y1=\"83\" x2=\"120\" y2=\"103\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/><polygon points=\"120,105 210,130 120,155 30,130\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count ≤ 5?</text><text x=\"125\" y=\"170\" font-family=\"Arial\" font-size=\"11\" fill=\"#2e7d32\">Yes</text><line x1=\"120\" y1=\"155\" x2=\"120\" y2=\"175\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/><text x=\"214\" y=\"126\" font-family=\"Arial\" font-size=\"11\" fill=\"#c62828\">No</text><line x1=\"210\" y1=\"130\" x2=\"252\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/><ellipse cx=\"270\" cy=\"130\" rx=\"16\" ry=\"13\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"270\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"10\" fill=\"#333\">End</text><polygon points=\"34,177 206,177 194,203 22,203\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"114\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT count</text><line x1=\"114\" y1=\"203\" x2=\"114\" y2=\"221\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/><rect x=\"34\" y=\"223\" width=\"172\" height=\"28\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"241\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count = count + 1</text><line x1=\"34\" y1=\"237\" x2=\"12\" y2=\"237\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"237\" x2=\"12\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"130\" x2=\"30\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh1)\"/></svg>"
+                    "[2024 Q3c(iii) — 1 mark] Which sorting algorithm should be used before running a binary search, if efficiency is required?",
+                    "<b>Merge sort</b> — it is an efficient sorting algorithm suitable for large datasets. (Bubble sort is less efficient; insertion sort is acceptable for small datasets.)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1788,12 +1697,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dLgBZjL7vd",
-                  "guid": "dLgBZjL7vd",
+                  "crowdanki_uuid": "krUsxNjrkg",
+                  "guid": "krUsxNjrkg",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "<svg width=\"300\" height=\"308\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"ie2\" markerWidth=\"7\" markerHeight=\"6\" refX=\"6\" refY=\"3\" orient=\"auto\"><polygon points=\"0,0 7,3 0,6\" fill=\"#444\"/></marker></defs><ellipse cx=\"110\" cy=\"22\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"110\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">Start</text><line x1=\"110\" y1=\"37\" x2=\"110\" y2=\"53\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie2)\"/><polygon points=\"28,55 192,55 180,81 16,81\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"72\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">INPUT score</text><line x1=\"104\" y1=\"81\" x2=\"104\" y2=\"101\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie2)\"/><polygon points=\"110,103 205,130 110,157 15,130\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"110\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">score ≥ 50?</text><text x=\"88\" y=\"173\" font-family=\"Arial\" font-size=\"11\" fill=\"#2e7d32\">Yes</text><line x1=\"110\" y1=\"157\" x2=\"110\" y2=\"181\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie2)\"/><text x=\"210\" y=\"126\" font-family=\"Arial\" font-size=\"11\" fill=\"#c62828\">No</text><line x1=\"205\" y1=\"130\" x2=\"263\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"263\" y1=\"130\" x2=\"263\" y2=\"181\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie2)\"/><polygon points=\"28,183 192,183 180,209 16,209\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"104\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT \"Pass\"</text><polygon points=\"218,183 298,183 288,209 208,209\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"253\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT \"Fail\"</text><line x1=\"104\" y1=\"209\" x2=\"104\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"253\" y1=\"209\" x2=\"253\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"104\" y1=\"248\" x2=\"253\" y2=\"248\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"178\" y1=\"248\" x2=\"178\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#ie2)\"/><ellipse cx=\"178\" cy=\"284\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"178\" y=\"289\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">End</text></svg><br>Write the pseudocode this flowchart represents.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">score = int(input(\"Enter score: \"))<br>if score &gt;= 50 then<br>    print(\"Pass\")<br>else<br>    print(\"Fail\")<br>endif</pre>"
+                    "[2023 Q1d — 3 marks] Complete the trace table for: start=3; do: print(start); start=start-1; until start==-1. What values does start take and what is output?",
+                    "The do…until loop runs BEFORE checking the condition (post-condition loop).<br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>start (before print)</th><th>Output</th></tr><tr><td>3</td><td>3</td></tr><tr><td>2</td><td>2</td></tr><tr><td>1</td><td>1</td></tr><tr><td>0</td><td>0</td></tr></table>Then start becomes -1 → condition true → exit loop. Final output: <b>\"Finished\"</b>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1801,12 +1710,220 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "l4lgb7rQKv",
-                  "guid": "l4lgb7rQKv",
+                  "crowdanki_uuid": "s1EtXNlpgZ",
+                  "guid": "s1EtXNlpgZ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Trace of [start=3; do: print(start); start=start-1; until start==-1]: outputs {{c1::3, 2, 1, 0}} then prints {{c2::\"Finished\"}}. The loop runs {{c3::4}} times. A do/until loop checks the condition {{c4::after}} executing the body.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iLDp0d8uwm",
+                  "guid": "iLDp0d8uwm",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "<svg width=\"290\" height=\"265\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"wh2\" markerWidth=\"7\" markerHeight=\"6\" refX=\"6\" refY=\"3\" orient=\"auto\"><polygon points=\"0,0 7,3 0,6\" fill=\"#444\"/></marker></defs><ellipse cx=\"120\" cy=\"22\" rx=\"52\" ry=\"15\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"27\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\" fill=\"#333\">Start</text><line x1=\"120\" y1=\"37\" x2=\"120\" y2=\"53\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/><rect x=\"44\" y=\"55\" width=\"152\" height=\"28\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count = 1</text><line x1=\"120\" y1=\"83\" x2=\"120\" y2=\"103\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/><polygon points=\"120,105 210,130 120,155 30,130\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count ≤ 5?</text><text x=\"125\" y=\"170\" font-family=\"Arial\" font-size=\"11\" fill=\"#2e7d32\">Yes</text><line x1=\"120\" y1=\"155\" x2=\"120\" y2=\"175\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/><text x=\"214\" y=\"126\" font-family=\"Arial\" font-size=\"11\" fill=\"#c62828\">No</text><line x1=\"210\" y1=\"130\" x2=\"252\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/><ellipse cx=\"270\" cy=\"130\" rx=\"16\" ry=\"13\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"270\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"10\" fill=\"#333\">End</text><polygon points=\"34,177 206,177 194,203 22,203\" fill=\"#f8bbd0\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"114\" y=\"194\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OUTPUT count</text><line x1=\"114\" y1=\"203\" x2=\"114\" y2=\"221\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/><rect x=\"34\" y=\"223\" width=\"172\" height=\"28\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"120\" y=\"241\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">count = count + 1</text><line x1=\"34\" y1=\"237\" x2=\"12\" y2=\"237\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"237\" x2=\"12\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"12\" y1=\"130\" x2=\"30\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#wh2)\"/></svg><br>Write the pseudocode this WHILE loop flowchart represents.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">count = 1<br>while count &lt;= 5<br>    print(count)<br>    count = count + 1<br>endwhile</pre>"
+                    "[2023 Q2b — 4 marks] Identify two logic errors in this array total algorithm: Line 02: for scoreCount=1 to scores.length-1; Line 03: scores[scoreCount] = total + total. Write the corrected lines.",
+                    "<b>Error 1 — Line 02:</b> loop starts at 1, missing index 0.<br>Corrected: <code>for scoreCount = 0 to scores.length – 1</code><br><b>Error 2 — Line 03:</b> assigns to the array instead of updating total, and uses total+total instead of total+scores[scoreCount].<br>Corrected: <code>total = total + scores[scoreCount]</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "llSW5dbWnu",
+                  "guid": "llSW5dbWnu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Logic errors in the scores array total: Line 02 should start at {{c1::0}} not 1. Line 03 should be <code>total = total + {{c2::scores[scoreCount]}}</code> not <code>scores[scoreCount] = total + total</code>.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vPVPe8OskX",
+                  "guid": "vPVPe8OskX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q3a — 2 marks] In the insertion sort algorithm, what is the purpose of the variable temp?",
+                    "<code>temp</code> is used as a <b>temporary storage location</b> to hold the value of <code>names[pos]</code> while the swap takes place.<br>This prevents the value being overwritten/lost when <code>names[pos]</code> is replaced by <code>names[pos–1]</code>. Without temp the original value would be permanently lost."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cZpCipdJxb",
+                  "guid": "cZpCipdJxb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "In insertion sort, <code>temp</code> temporarily stores {{c1::names[pos]}} so its value is not {{c2::lost/overwritten}} during the swap. The swap sets <code>names[pos] = names[pos–1]</code> then <code>names[pos–1] = {{c3::temp}}</code>.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "u1mA9JmD8v",
+                  "guid": "u1mA9JmD8v",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q3b — 2 marks] In the insertion sort, why does the inner loop need to be a condition-controlled loop rather than a count-controlled loop?",
+                    "Because the number of iterations of the inner loop is <b>not known in advance</b> — it depends on the data (how far back the current element needs to be inserted).<br>The loop stops when <code>pos == 0</code> (reached the start) OR <code>names[pos] &gt;= names[pos–1]</code> (element is in the correct position). A count-controlled loop iterates a fixed number of times, which would be wrong here."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vome7MpEIb",
+                  "guid": "vome7MpEIb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q3c(i) — 2 marks] Describe one difference between an insertion sort and a bubble sort.",
+                    "<b>Bubble sort</b> compares adjacent pairs and swaps them so the largest values \"bubble\" to the end each pass.<br><b>Insertion sort</b> takes each element and inserts it into its correct position in the already-sorted portion, building the sorted list from left to right."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bHBdgcEGRg",
+                  "guid": "bHBdgcEGRg",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q3c(ii) — 2 marks] Describe two similarities between an insertion sort and a bubble sort.",
+                    "1. Both are <b>comparison-based</b> sorting algorithms — they compare elements to determine their order.<br>2. Both use a <b>nested loop</b> (a loop within a loop)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pE0BByZ3Sp",
+                  "guid": "pE0BByZ3Sp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q3a — 3 marks] Perform a merge sort on: 45 12 –99 100 –13 0 17 –27. Show the merge steps.",
+                    "Split into singles: [45] [12] [–99] [100] [–13] [0] [17] [–27]<br>Merge pairs: [12 45] [–99 100] [–13 0] [–27 17]<br>Merge fours: [–99 12 45 100] [–27 –13 0 17]<br>Final merge: [–99 –27 –13 0 12 17 45 100]"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jYlRaAMocP",
+                  "guid": "jYlRaAMocP",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Merge sort on [45 12 –99 100 –13 0 17 –27]: Merged pairs: {{c1::[12 45] [–99 100] [–13 0] [–27 17]}}. Merged fours: {{c2::[–99 12 45 100] [–27 –13 0 17]}}. Final sorted: {{c3::[–99 –27 –13 0 12 17 45 100]}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oxYfkfHl2A",
+                  "guid": "oxYfkfHl2A",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q3b — 4 marks] Describe how a binary search works on a sorted list.",
+                    "1. Find the <b>middle element</b>.<br>2. If equal to target — <b>found</b>, stop.<br>3. If target is <b>less</b> than middle, search the <b>left half</b>.<br>4. If target is <b>greater</b> than middle, search the <b>right half</b>.<br>5. Repeat until found or the list is empty (not found)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mvmQMGZGvQ",
+                  "guid": "mvmQMGZGvQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Binary search: find the {{c1::middle}} element. If equal — {{c2::found}}. If target is less, search {{c3::left}} half. If target is greater, search {{c4::right}} half. Repeat until {{c5::found or list is empty}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bBuYT57Zfq",
+                  "guid": "bBuYT57Zfq",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q3c — 2 marks] Describe how a linear search works when searching for a number NOT in the list.",
+                    "1. Start at the <b>first element</b>.<br>2. Compare each element in turn with the target.<br>3. If no match found and the <b>end of the list is reached</b>, the item is not present.<br>Every element is checked before concluding the item is not in the list."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tKYKCAKYS4",
+                  "guid": "tKYKCAKYS4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q2d(ii) — 4 marks] Trace the staffID algorithm with surname=\"Kofi\" and year=2021. What is output?",
+                    "surname=\"Kofi\", year=2021<br>Line 03: staffID = \"Kofi\" + str(2021) = <b>\"Kofi2021\"</b> (length 8, need 10)<br>While loop iteration 1: staffID = \"Kofi2021x\" (length 9)<br>While loop iteration 2: staffID = \"Kofi2021xx\" (length 10) → loop ends<br>Line 07 output: <b>\"ID Kofi2021xx\"</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nDv5hQQ8BY",
+                  "guid": "nDv5hQQ8BY",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Trace of staffID (Kofi, 2021): Line 03 → staffID = {{c1::\"Kofi2021\"}} (length {{c2::8}}). After 2 loop iterations → staffID = {{c3::\"Kofi2021xx\"}}. Output: {{c4::\"ID Kofi2021xx\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "XvpRiC0xL4",
+                  "guid": "XvpRiC0xL4",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q5d — 2 marks] The hotel room counter has two logic errors: for count=1 to 8; total=0 inside loop; total=total+room[count]. Describe how to fix both.",
+                    "<b>Error 1:</b> <code>total = 0</code> is inside the loop, resetting it every iteration. Fix: move <code>total = 0</code> to <b>before</b> the for loop.<br><b>Error 2:</b> loop starts at 1, missing room[0]. Fix: change to <code>for count = 0 to 8</code>."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mfVBU9entp",
+                  "guid": "mfVBU9entp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Hotel room counter errors: <code>total = 0</code> must be {{c1::before the loop}} (not inside it). Loop must start at {{c2::0}} not 1 to include {{c3::room[0]}}.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1827,12 +1944,12 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "oZyuHFaa28",
-                  "guid": "oZyuHFaa28",
+                  "crowdanki_uuid": "dp0rqZsneS",
+                  "guid": "dp0rqZsneS",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What are the three basic logic gates used in OCR GCSE? Describe each.",
-                    "<b>AND gate:</b> output is 1 (True) <i>only</i> when <b>ALL</b> inputs are 1. Like \"both A AND B must be true.\"<br><b>OR gate:</b> output is 1 when <b>at least one</b> input is 1. Like \"A OR B (or both) must be true.\"<br><b>NOT gate</b> (inverter): has <b>one</b> input; output is the <b>opposite</b> of the input. NOT 1 = 0; NOT 0 = 1."
+                    "[Q1a — 2 marks] Complete the truth table for P = NOT(A AND B). Fill in the missing values for A=0,B=1 and A=1,B=0.",
+                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>0</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></table>The two missing values are both <b>1</b>. NOT(0) = 1 in both cases."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1840,37 +1957,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "mSjkEYPpEN",
-                  "guid": "mSjkEYPpEN",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Complete the full truth table for AND, OR and NOT gates.",
-                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>A OR B</th><th>NOT A</th><th>NOT B</th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td></tr></table>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "lJG5JXDIaQ",
-                  "guid": "lJG5JXDIaQ",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Draw and describe the three logic gate symbols.",
-                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Gate</th><th>Symbol</th><th>Key rule</th></tr><tr><td><b>AND</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"15\" x2=\"26\" y2=\"15\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"0\" y1=\"35\" x2=\"26\" y2=\"35\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M26,5 L26,45 Q78,45 78,25 Q78,5 26,5 Z\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"78\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"44\" y=\"29\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">AND</text></svg></td><td>Output 1 only when ALL inputs = 1</td></tr><tr><td><b>OR</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"15\" x2=\"20\" y2=\"15\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"0\" y1=\"35\" x2=\"20\" y2=\"35\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M16,5 Q28,5 68,25 Q28,45 16,45 Q30,25 16,5 Z\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"68\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"32\" y=\"29\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OR</text></svg></td><td>Output 1 when AT LEAST ONE input = 1</td></tr><tr><td><b>NOT</b></td><td><svg width=\"100\" height=\"50\"><line x1=\"0\" y1=\"25\" x2=\"18\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><polygon points=\"18,5 62,25 18,45\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"2\"/><circle cx=\"67\" cy=\"25\" r=\"5\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"72\" y1=\"25\" x2=\"100\" y2=\"25\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"28\" y=\"42\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">NOT</text></svg></td><td>Output is the INVERSE of the input</td></tr></table>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "bgdRRZrSv9",
-                  "guid": "bgdRRZrSv9",
+                  "crowdanki_uuid": "sTU128I5kS",
+                  "guid": "sTU128I5kS",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "A truth table for a circuit with {{c1::2}} inputs has {{c2::4}} rows (2²). With {{c3::3}} inputs it has {{c4::8}} rows (2³). The general formula is {{c5::2<sup>n</sup>}} rows, where n = number of {{c6::inputs}}. Always list inputs in binary counting order: 00, 01, 10, 11.",
+                    "For P = NOT(A AND B): when A=0 and B=1, P = {{c1::1}} because A AND B = 0, and NOT 0 = 1. When A=1 and B=0, P = {{c2::1}} because A AND B = 0, and NOT 0 = 1.",
                     ""
                   ],
                   "flags": 0,
@@ -1879,12 +1970,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "g4xueEoRNg",
-                  "guid": "g4xueEoRNg",
+                  "crowdanki_uuid": "eow1tYGkK4",
+                  "guid": "eow1tYGkK4",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Evaluate: A=1, B=0. What is the output of: (A AND B) OR (NOT B)?",
-                    "Step 1: A AND B = 1 AND 0 = <b>0</b><br>Step 2: NOT B = NOT 0 = <b>1</b><br>Step 3: 0 OR 1 = <b>1</b><br>Final output: <b>1</b>"
+                    "[Q1b — 1 mark] Which logic diagram correctly represents P = NOT(A AND B): an AND gate followed by a NOT gate, or an OR gate followed by a NOT gate?",
+                    "The correct diagram is an <b>AND gate followed by a NOT gate</b>.<br>The expression is NOT(A AND B), so A and B feed into an AND gate first, and the output of the AND gate feeds into a NOT gate to produce P.<br>An OR gate with NOT would represent NOT(A OR B), which is a different expression."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1892,63 +1983,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "t6QGUUutkc",
-                  "guid": "t6QGUUutkc",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Evaluate: A=1, B=1, C=0. What is: NOT(A AND B) OR C?",
-                    "Step 1: A AND B = 1 AND 1 = <b>1</b><br>Step 2: NOT 1 = <b>0</b><br>Step 3: 0 OR C = 0 OR 0 = <b>0</b><br>Final output: <b>0</b>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uEw5QcKV0L",
-                  "guid": "uEw5QcKV0L",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Evaluate: A=0, B=1, C=1. What is: A OR (NOT B AND C)?",
-                    "Step 1: NOT B = NOT 1 = <b>0</b><br>Step 2: 0 AND C = 0 AND 1 = <b>0</b><br>Step 3: A OR 0 = 0 OR 0 = <b>0</b><br>Final output: <b>0</b>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "dPqLCQRjfh",
-                  "guid": "dPqLCQRjfh",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Complete the truth table for: output = (A AND B) OR (NOT A)",
-                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>NOT A</th><th>Output</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td></tr></table>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uJ99gATdLJ",
-                  "guid": "uJ99gATdLJ",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a logic diagram (circuit)? Describe the circuit for: output = NOT A AND (B OR C).",
-                    "A logic diagram shows how logic gates are connected to form a circuit. To build NOT A AND (B OR C):<br>1. OR gate takes inputs B and C → produces intermediate output X = B OR C<br>2. NOT gate takes input A → produces Y = NOT A<br>3. AND gate takes inputs Y and X → produces final output = NOT A AND (B OR C)<br><br>Evaluation for A=1, B=1, C=0:<br>B OR C = 1. NOT A = 0. 0 AND 1 = <b>0</b>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "g4ZlGhqzMn",
-                  "guid": "g4ZlGhqzMn",
+                  "crowdanki_uuid": "fiw2EbV40h",
+                  "guid": "fiw2EbV40h",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "In Boolean logic, 1 represents {{c1::True}} and 0 represents {{c2::False}}. The AND operation is sometimes written as {{c3::A · B}} or {{c4::A ∧ B}}. OR is written as {{c5::A + B}} or {{c6::A ∨ B}}. NOT is written as {{c7::Ā}} or {{c8::¬A}}.",
+                    "P = NOT(A AND B) is implemented as an {{c1::AND}} gate whose output feeds into a {{c2::NOT}} gate. This is different from NOT(A OR B), which uses an {{c3::OR}} gate followed by a NOT gate.",
                     ""
                   ],
                   "flags": 0,
@@ -1957,12 +1996,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "edZj2pWI3Y",
-                  "guid": "edZj2pWI3Y",
+                  "crowdanki_uuid": "sojDQJGfxe",
+                  "guid": "sojDQJGfxe",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What logic gate is this? State its rule and write its truth table.<br><svg width=\"200\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"25\" x2=\"42\" y2=\"25\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"2\" y=\"21\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">A</text><line x1=\"0\" y1=\"55\" x2=\"42\" y2=\"55\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"2\" y=\"69\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">B</text><path d=\"M42,10 L42,70 Q126,70 126,40 Q126,10 42,10 Z\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"126\" y1=\"40\" x2=\"196\" y2=\"40\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"176\" y=\"36\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">Q</text></svg>",
-                    "<b>AND gate</b> — Q = A AND B<br>Output Q is <b>1 only when ALL inputs are 1</b>. If either input is 0, output is 0.<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;margin-top:6px;\"><tr><th>A</th><th>B</th><th>Q</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td style=\"background:#c8e6c9;font-weight:bold;\">1</td></tr></table>"
+                    "Complete the full truth table for P = NOT(A AND B) for all four input combinations.",
+                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></table>P is only 0 when both A and B are 1. In all other cases P = 1."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1970,12 +2009,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "JyVKLoA0ER",
-                  "guid": "JyVKLoA0ER",
+                  "crowdanki_uuid": "pdLDJ5BPGD",
+                  "guid": "pdLDJ5BPGD",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What logic gate is this? State its rule and write its truth table.<br><svg width=\"200\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"25\" x2=\"38\" y2=\"25\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"2\" y=\"21\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">A</text><line x1=\"0\" y1=\"55\" x2=\"38\" y2=\"55\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"2\" y=\"69\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">B</text><path d=\"M35,10 Q52,10 124,40 Q52,70 35,70 Q52,40 35,10 Z\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"124\" y1=\"40\" x2=\"196\" y2=\"40\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"176\" y=\"36\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">Q</text></svg>",
-                    "<b>OR gate</b> — Q = A OR B<br>Output Q is <b>1 when AT LEAST ONE input is 1</b>. Only 0 when both inputs are 0.<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;margin-top:6px;\"><tr><th>A</th><th>B</th><th>Q</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td style=\"background:#c8e6c9;font-weight:bold;\">1</td></tr><tr><td>1</td><td>0</td><td style=\"background:#c8e6c9;font-weight:bold;\">1</td></tr><tr><td>1</td><td>1</td><td style=\"background:#c8e6c9;font-weight:bold;\">1</td></tr></table>"
+                    "What are the three basic logic gates? State the rule for each.",
+                    "<b>AND gate:</b> Output is 1 only when ALL inputs are 1.<br><b>OR gate:</b> Output is 1 when AT LEAST ONE input is 1.<br><b>NOT gate:</b> Has one input; output is the OPPOSITE of the input. NOT 1 = 0; NOT 0 = 1."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1983,12 +2022,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "qACn2rgqcV",
-                  "guid": "qACn2rgqcV",
+                  "crowdanki_uuid": "lQyuAsGZ9f",
+                  "guid": "lQyuAsGZ9f",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What logic gate is this? State its rule and write its truth table.<br><svg width=\"200\" height=\"70\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"35\" x2=\"40\" y2=\"35\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"2\" y=\"30\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">A</text><polygon points=\"40,10 112,35 40,60\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"35\" r=\"6\" fill=\"white\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"124\" y1=\"35\" x2=\"196\" y2=\"35\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"176\" y=\"31\" font-family=\"Arial\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">Q</text></svg>",
-                    "<b>NOT gate</b> (inverter) — Q = NOT A<br>Output Q is the <b>inverse</b> of the input. One input only.<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;margin-top:6px;\"><tr><th>A</th><th>Q</th></tr><tr><td>0</td><td style=\"background:#c8e6c9;font-weight:bold;\">1</td></tr><tr><td>1</td><td>0</td></tr></table>"
+                    "Evaluate NOT(A AND B) when A=1 and B=1. Show your working.",
+                    "Step 1: A AND B = 1 AND 1 = <b>1</b><br>Step 2: NOT 1 = <b>0</b><br>Final output P = <b>0</b><br>This is the only combination where P = NOT(A AND B) outputs 0."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1996,12 +2035,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "kRY0u7ABIW",
-                  "guid": "kRY0u7ABIW",
+                  "crowdanki_uuid": "pyx4NHNz29",
+                  "guid": "pyx4NHNz29",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Draw the logic circuit for: Q = (A AND B) OR (NOT C)",
-                    "<svg width=\"368\" height=\"178\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"cct1\" markerWidth=\"6\" markerHeight=\"5\" refX=\"5\" refY=\"2.5\" orient=\"auto\"><polygon points=\"0,0 6,2.5 0,5\" fill=\"#444\"/></marker></defs><text x=\"3\" y=\"49\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#333\">A</text><text x=\"3\" y=\"79\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#333\">B</text><text x=\"3\" y=\"133\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#333\">C</text><line x1=\"18\" y1=\"45\" x2=\"45\" y2=\"45\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"18\" y1=\"75\" x2=\"45\" y2=\"75\" stroke=\"#444\" stroke-width=\"1.5\"/><path d=\"M45,28 L45,92 Q124,92 124,60 Q124,28 45,28 Z\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"76\" y=\"64\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">AND</text><line x1=\"124\" y1=\"60\" x2=\"192\" y2=\"60\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"18\" y1=\"130\" x2=\"45\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><polygon points=\"45,115 104,130 45,145\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"109\" cy=\"130\" r=\"5\" fill=\"white\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"67\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">NOT</text><line x1=\"114\" y1=\"130\" x2=\"192\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><path d=\"M192,60 Q209,60 282,95 Q209,130 192,130 Q209,95 192,60 Z\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"230\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OR</text><line x1=\"282\" y1=\"95\" x2=\"348\" y2=\"95\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#cct1)\"/><text x=\"352\" y=\"99\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#333\">Q</text><text x=\"184\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#777\">Q = (A AND B) OR (NOT C)</text></svg>"
+                    "Complete the truth table for A AND B (the intermediate step inside NOT(A AND B)).",
+                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>AND is only 1 when both inputs are 1. In all other cases AND = 0."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2009,12 +2048,207 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "mPjPi2onhA",
-                  "guid": "mPjPi2onhA",
+                  "crowdanki_uuid": "l6gJ555EC0",
+                  "guid": "l6gJ555EC0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A truth table with {{c1::2}} inputs has {{c2::4}} rows (2²). The inputs are listed in order: 00, 01, 10, 11. For NOT(A AND B), the output P = {{c3::0}} only when both A = 1 AND B = 1.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oXPqbu6Yhx",
+                  "guid": "oXPqbu6Yhx",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "<svg width=\"368\" height=\"178\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"cct2\" markerWidth=\"6\" markerHeight=\"5\" refX=\"5\" refY=\"2.5\" orient=\"auto\"><polygon points=\"0,0 6,2.5 0,5\" fill=\"#444\"/></marker></defs><text x=\"3\" y=\"49\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#e53935\">A=1</text><text x=\"3\" y=\"79\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#e53935\">B=0</text><text x=\"3\" y=\"133\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#e53935\">C=1</text><line x1=\"22\" y1=\"45\" x2=\"45\" y2=\"45\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"22\" y1=\"75\" x2=\"45\" y2=\"75\" stroke=\"#444\" stroke-width=\"1.5\"/><path d=\"M45,28 L45,92 Q124,92 124,60 Q124,28 45,28 Z\" fill=\"#bbdefb\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"76\" y=\"64\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">AND</text><line x1=\"124\" y1=\"60\" x2=\"192\" y2=\"60\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"22\" y1=\"130\" x2=\"45\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><polygon points=\"45,115 104,130 45,145\" fill=\"#c8e6c9\" stroke=\"#333\" stroke-width=\"1.5\"/><circle cx=\"109\" cy=\"130\" r=\"5\" fill=\"white\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"67\" y=\"134\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">NOT</text><line x1=\"114\" y1=\"130\" x2=\"192\" y2=\"130\" stroke=\"#444\" stroke-width=\"1.5\"/><path d=\"M192,60 Q209,60 282,95 Q209,130 192,130 Q209,95 192,60 Z\" fill=\"#fff9c4\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"230\" y=\"99\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#333\">OR</text><line x1=\"282\" y1=\"95\" x2=\"348\" y2=\"95\" stroke=\"#444\" stroke-width=\"1.5\" marker-end=\"url(#cct2)\"/><text x=\"352\" y=\"99\" font-family=\"Arial\" font-size=\"13\" font-weight=\"bold\" fill=\"#333\">Q</text><text x=\"184\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#777\">Q = (A AND B) OR (NOT C)</text></svg><br>Given A=1, B=0, C=1 — what is the output Q? Show your working.",
-                    "<b>Step 1:</b> AND gate — A AND B = 1 AND 0 = <b>0</b><br><b>Step 2:</b> NOT gate — NOT C = NOT 1 = <b>0</b><br><b>Step 3:</b> OR gate — 0 OR 0 = <b>0</b><br>∴ Q = <b>0</b>"
+                    "Why is NOT(A AND B) different from (NOT A) AND (NOT B)? Show with A=1, B=0.",
+                    "<b>NOT(A AND B):</b> Step 1: 1 AND 0 = 0. Step 2: NOT 0 = <b>1</b><br><b>(NOT A) AND (NOT B):</b> Step 1: NOT 1 = 0, NOT 0 = 1. Step 2: 0 AND 1 = <b>0</b><br>They give different results — they are not equivalent. This shows that NOT distributes differently (De Morgan's law states NOT(A AND B) = NOT A OR NOT B)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eNSEmyEgnJ",
+                  "guid": "eNSEmyEgnJ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "How many rows does a truth table need for a circuit with 2 inputs? How do you list the input combinations?",
+                    "A 2-input truth table needs <b>4 rows</b> (2² = 4).<br>Input combinations in order: 00, 01, 10, 11.<br>General rule: a truth table for n inputs has 2ⁿ rows. List inputs in binary counting order starting from all zeros."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pehv2kF0Vr",
+                  "guid": "pehv2kF0Vr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q5a — 4 marks] Complete the truth table for P = (A AND B) OR C. Give all 8 rows.",
+                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>C</th><th>A AND B</th><th>P = (A AND B) OR C</th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>0</td><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>0</td><td>1</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>0</td><td>1</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>1</td><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td><b>1</b></td></tr></table>P is 1 when C=1, OR when both A=1 AND B=1."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cjEFlV6xJK",
+                  "guid": "cjEFlV6xJK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "For P = (A AND B) OR C: when A=0,B=0,C=0 → P={{c1::0}}. When A=0,B=0,C=1 → P={{c2::1}}. When A=1,B=1,C=0 → P={{c3::1}}. When A=1,B=1,C=1 → P={{c4::1}}. P=1 whenever {{c5::C=1}} OR when {{c6::both A and B are 1}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lB9BUHTLuR",
+                  "guid": "lB9BUHTLuR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q5b — 3 marks] Draw the logic circuit for P = NOT A AND (B OR C). Describe the gate structure.",
+                    "The circuit has three stages:<br>1. A <b>NOT gate</b> with input A → produces NOT A<br>2. An <b>OR gate</b> with inputs B and C → produces B OR C<br>3. An <b>AND gate</b> taking NOT A and (B OR C) as inputs → produces P<br>Expression: P = (NOT A) AND (B OR C)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vfbc3GYAtX",
+                  "guid": "vfbc3GYAtX",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "For P = NOT A AND (B OR C): A passes through a {{c1::NOT}} gate. B and C pass through an {{c2::OR}} gate. The outputs of both gates feed into an {{c3::AND}} gate to produce P.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "OA4GQf5lpp",
+                  "guid": "OA4GQf5lpp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q4b — 2 marks] Identify the logic gates from their truth tables: Table 1 output 0,1,1,1; Table 2 output 0,0,0,1.",
+                    "<b>Truth table 1</b> (output 1 when at least one input is 1): <b>OR gate</b><br><b>Truth table 2</b> (output 1 only when both inputs are 1): <b>AND gate</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tEZrmaIqOO",
+                  "guid": "tEZrmaIqOO",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A gate that outputs 1 when at least one input is 1 is an {{c1::OR}} gate. A gate that outputs 1 only when ALL inputs are 1 is an {{c2::AND}} gate.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hG6PV3g3AA",
+                  "guid": "hG6PV3g3AA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q4a — 3 marks] The floodlight Q is ON when switch C is on AND motion detected (A) AND it is nighttime (NOT B). Write the Boolean expression and describe the logic diagram.",
+                    "Boolean expression: <b>Q = A AND NOT B AND C</b><br>Logic diagram:<br>1. B passes through a <b>NOT gate</b> → produces NOT B<br>2. NOT B, A, and C feed into an <b>AND gate</b> (or two AND gates chained) → produces Q<br>Q = 1 only when A=1, B=0, C=1 (motion detected, nighttime, switch on)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rOkQF3rezi",
+                  "guid": "rOkQF3rezi",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Floodlight logic Q = A AND NOT B AND C: B passes through a {{c1::NOT}} gate to get NOT B. Then A, NOT B, and C all feed into an {{c2::AND}} gate. Q=1 only when motion detected (A=1), nighttime (B={{c3::0}}), switch on (C=1).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nXllc10vpn",
+                  "guid": "nXllc10vpn",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q2a(ii) — 2 marks] Describe the purpose of a truth table.",
+                    "A truth table shows the <b>output of a logic circuit or Boolean expression for every possible combination of inputs</b>.<br>It is used to verify the logic of a circuit — listing all possible input values (0s and 1s) and the resulting output, making it easy to check all cases."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "drinIi4SLS",
+                  "guid": "drinIi4SLS",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q2a(iii) — 1 mark] How many rows (excluding headings) does the truth table for P = (A OR B) AND NOT C require?",
+                    "<b>8 rows</b> — because there are 3 inputs (A, B, C), and a truth table for n inputs has 2ⁿ rows. 2³ = 8."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rSLLCSHgNK",
+                  "guid": "rSLLCSHgNK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "A truth table for 3 inputs requires {{c1::8}} rows (2³ = 8). A truth table for 2 inputs requires {{c2::4}} rows (2² = 4). The general formula is {{c3::2ⁿ}} rows for n inputs.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "v7pryuyeJw",
+                  "guid": "v7pryuyeJw",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q2a(i) — 3 marks] Complete the logic diagram for P = (A OR B) AND NOT C. Which gates are needed?",
+                    "Three gates are needed:<br>1. An <b>OR gate</b> with inputs A and B → produces A OR B<br>2. A <b>NOT gate</b> with input C → produces NOT C<br>3. An <b>AND gate</b> taking (A OR B) and NOT C → produces P<br>So the structure is: [OR gate] and [NOT gate] → [AND gate] → P"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qbQZ6SuuvR",
+                  "guid": "qbQZ6SuuvR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "For P = (A OR B) AND NOT C: A and B enter an {{c1::OR}} gate. C enters a {{c2::NOT}} gate. The outputs of these two gates enter an {{c3::AND}} gate to produce P.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2035,12 +2269,12 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "uKPcfLJsxA",
-                  "guid": "uKPcfLJsxA",
+                  "crowdanki_uuid": "sVADxhPd5M",
+                  "guid": "sVADxhPd5M",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What are the advantages and disadvantages of high-level vs low-level programming languages?",
-                    "<b>High-level (Python, Java, C#):</b><br>Advantages: human-readable, easier to write/debug, portable (runs on different hardware), abstracted from hardware details, large standard libraries.<br>Disadvantages: translated (slower execution), less direct hardware control.<br><b>Low-level (Assembly, Machine Code):</b><br>Advantages: directly controls hardware, very fast execution, small memory footprint.<br>Disadvantages: hardware-specific (not portable), difficult to read/write/debug, time-consuming."
+                    "[Q5a — 1 mark] Why does a computer need to translate a program before it can execute it?",
+                    "To convert it to <b>binary / machine code</b>. The processor can only understand machine code — it cannot directly execute high-level language or assembly code."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2048,11 +2282,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "vKUyDaM8bC",
-                  "guid": "vKUyDaM8bC",
+                  "crowdanki_uuid": "jNEjkQtOCs",
+                  "guid": "jNEjkQtOCs",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Programming language types: {{c1::Machine code}} — binary instructions directly executed by the CPU, hardware-specific. {{c2::Assembly language}} — human-readable mnemonics (ADD, MOV) translated by an {{c3::assembler}}. {{c4::High-level languages}} — readable, portable, translated by a {{c5::compiler}} or {{c6::interpreter}}.",
+                    "A computer must translate a program before execution in order to convert it to {{c1::binary / machine code}}, because the processor can only understand {{c2::machine code}}.",
                     ""
                   ],
                   "flags": 0,
@@ -2061,12 +2295,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "qzPSGxZpQK",
-                  "guid": "qzPSGxZpQK",
+                  "crowdanki_uuid": "vAQBsmsUhb",
+                  "guid": "vAQBsmsUhb",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is an IDE (Integrated Development Environment)? Why use one?",
-                    "An IDE is a software application that provides a complete environment for writing, testing, and debugging programs. It combines multiple development tools into one interface.<br><b>Why use an IDE?</b> Increases productivity — tools like syntax highlighting, auto-completion, and integrated debugging remove friction and help find errors faster than using a plain text editor and separate tools."
+                    "[Q5b — 4 marks] Give two differences between a compiler and an interpreter.",
+                    "<b>Difference 1:</b> A compiler translates <b>all</b> the code in one go; whereas an interpreter translates <b>one line at a time</b>.<br><b>Difference 2:</b> A compiler <b>creates an executable file</b>; whereas an interpreter does not — it executes line by line.<br><b>Difference 3 (also acceptable):</b> A compiler reports errors <b>at the end</b> (after full translation); whereas an interpreter <b>stops when it finds an error</b>."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2074,11 +2308,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "k55IWuaAwO",
-                  "guid": "k55IWuaAwO",
+                  "crowdanki_uuid": "mU6Ya81CQi",
+                  "guid": "mU6Ya81CQi",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "The four tools/facilities required by OCR in an IDE: {{c1::Editor}} (write and edit code with syntax highlighting), {{c2::Error diagnostics}} (identifies and reports errors in code), {{c3::Run-time environment}} (compiles or interprets and executes the program), {{c4::Translator}} (converts source code to machine code — compiler or interpreter).",
+                    "Compiler vs Interpreter: A compiler translates {{c1::all}} the code in one go; an interpreter translates {{c2::one line at a time}}. A compiler creates {{c3::an executable file}}; an interpreter does not. A compiler reports errors {{c4::at the end}}; an interpreter stops {{c5::when it finds an error}}.",
                     ""
                   ],
                   "flags": 0,
@@ -2087,12 +2321,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "t6mrGy0Vyy",
-                  "guid": "t6mrGy0Vyy",
+                  "crowdanki_uuid": "geswun5iBF",
+                  "guid": "geswun5iBF",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What does syntax highlighting do and why is it helpful?",
-                    "Syntax highlighting colours different parts of code (keywords, strings, numbers, comments) using different colours automatically.<br><b>Benefits:</b> makes code easier to read at a glance; helps spot typos (a misspelled keyword won't be highlighted); distinguishes comments from executable code; reduces cognitive load when reading complex code."
+                    "[Q7e — 2 marks] Give two features of an IDE that could be used when writing a program.",
+                    "Acceptable answers (any two):<br>• <b>Error diagnostics</b> — highlights syntax errors as you type<br>• <b>Run-time environment</b> — allows the program to be executed within the IDE<br>• <b>Editor</b> — with syntax highlighting, auto-correct, or auto-indent<br>• <b>Translator</b> — compiles or interprets the code<br>• <b>Version control</b> — tracks changes to code<br>• <b>Breakpoint</b> — pauses execution at a specified line<br>• <b>Stepping</b> — executes code one line at a time for debugging"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2100,11 +2334,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "jsfVNEibaa",
-                  "guid": "jsfVNEibaa",
+                  "crowdanki_uuid": "q2ecSQLdrt",
+                  "guid": "q2ecSQLdrt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "A compiler translates {{c1::all}} source code at once into {{c2::machine code}}, creating a standalone {{c3::executable}} file. An interpreter translates and executes {{c4::one line at a time}}. Compilation is {{c5::faster}} to run; interpretation is {{c6::easier to debug}}. Compilers report all errors after {{c7::full translation}}; interpreters stop at the {{c8::first error}}.",
+                    "Two IDE features: {{c1::Error diagnostics}} identifies and highlights errors in code. {{c2::Run-time environment}} allows the program to be compiled/interpreted and executed within the IDE. {{c3::Breakpoints}} pause execution at a chosen line. {{c4::Stepping}} executes one line at a time.",
                     ""
                   ],
                   "flags": 0,
@@ -2113,12 +2347,155 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "geCg1I8pOE",
-                  "guid": "geCg1I8pOE",
+                  "crowdanki_uuid": "smP9nchyI8",
+                  "guid": "smP9nchyI8",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is the difference between a compiler and an interpreter? Which is used in IDEs?",
-                    "<b>Compiler:</b> translates entire source code to machine code at once → creates an executable. Errors reported after full translation. Fast execution. Used for production software (C, C++).<br><b>Interpreter:</b> translates and executes one line at a time. Stops at first error. No separate executable. Slower. Used for development/scripting (Python, JavaScript).<br><b>IDEs</b> typically support both — Python IDEs use interpreters; C++ IDEs use compilers."
+                    "What is the difference between a compiler and an interpreter in terms of error reporting?",
+                    "<b>Compiler:</b> Reports all errors after translating the entire program. The program does not run until all errors are fixed.<br><b>Interpreter:</b> Stops and reports an error as soon as it encounters one, executing line by line. This makes it easier to find and fix errors one at a time."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "g5CI5qJWqr",
+                  "guid": "g5CI5qJWqr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What does a translator do? Name the three types of translator.",
+                    "A translator converts source code into machine code (binary) so the CPU can execute it.<br><b>Three types:</b><br>1. <b>Compiler</b> — translates all code at once into an executable file<br>2. <b>Interpreter</b> — translates and executes one line at a time<br>3. <b>Assembler</b> — translates assembly language into machine code"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "7PRJI1BFVp",
+                  "guid": "7PRJI1BFVp",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is syntax highlighting in an IDE and why is it useful?",
+                    "Syntax highlighting automatically colours different parts of code (keywords, strings, comments, variables) using different colours.<br><b>Why useful:</b> makes code easier to read; helps spot typos (a misspelled keyword won't be highlighted in the correct colour); distinguishes comments from executable code."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pIQHiuWRiV",
+                  "guid": "pIQHiuWRiV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "Why must high-level language programs be translated before the CPU can run them?",
+                    "The CPU can only execute <b>machine code</b> (binary instructions). High-level languages like Python use English-like syntax that the CPU does not understand. A compiler or interpreter must convert the high-level source code into machine code first."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "v5n3uxHo4v",
+                  "guid": "v5n3uxHo4v",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q7a — 2 marks] Give two reasons why a programmer might choose to write a program in a low-level language rather than a high-level language.",
+                    "Acceptable answers (any two):<br>• Programs written in low-level language can run <b>faster/more efficiently</b><br>• Low-level language allows <b>direct manipulation/control of hardware</b> (e.g. memory addresses, registers)<br>• Programs use <b>less memory</b> (smaller file size)<br>• Low-level language can access <b>specific hardware features</b> not available in high-level"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kmLEyhegPv",
+                  "guid": "kmLEyhegPv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Reasons to use a low-level language: programs execute {{c1::faster/more efficiently}}; allows {{c2::direct control of hardware/memory}}; programs use {{c3::less memory}}; can access {{c4::specific hardware features}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qrJwOtNRJq",
+                  "guid": "qrJwOtNRJq",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q7b — 3 marks] Give three benefits of using a compiler over an interpreter.",
+                    "Acceptable answers (any three):<br>• The compiler produces an <b>executable file</b> that can be run without the compiler/translator being present<br>• Compiled programs <b>run faster</b> (no need to translate line by line at runtime)<br>• The compiler reports <b>all errors at once</b> after the full translation<br>• The compiled file can be <b>distributed/shared</b> without the source code"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "qH2FtCW0S6",
+                  "guid": "qH2FtCW0S6",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Benefits of a compiler over an interpreter: produces a standalone {{c1::executable file}} (no translator needed to run it); compiled programs run {{c2::faster}}; all errors reported {{c3::at once}} (after full translation); source code does not need to be {{c4::distributed with the program}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nfkYnRmRlz",
+                  "guid": "nfkYnRmRlz",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q1a — 4 marks] Classify each statement as low-level or high-level language: (1) same language works on different hardware; (2) allows direct memory manipulation; (3) allows English-like words; (4) always needs translating to machine code.",
+                    "1. Same language on different hardware → <b>High-level</b> (portable)<br>2. Direct memory manipulation → <b>Low-level</b><br>3. English-like words → <b>High-level</b><br>4. Always needs translating → <b>Both</b> (both need translating, but the question accepts <b>Low-level</b> as all programs need translating — however high-level is the more distinctive answer as it applies more clearly)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hbPPajzKGa",
+                  "guid": "hbPPajzKGa",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "High-level languages are {{c1::portable}} (work on different hardware) and use {{c2::English-like}} words. Low-level languages allow {{c3::direct memory manipulation}}. Both high-level and low-level languages must be {{c4::translated into machine code}} before running.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "bqS2rjMnpU",
+                  "guid": "bqS2rjMnpU",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q4b(ii) — 5 marks] Complete the description: Jack writes in a ___ language. An interpreter converts ___ line at a time; it ___ when an error is found. A compiler converts all code; code won't run until there are ___ errors. The ___ file can be run ___ the compiler.",
+                    "<b>high-level</b>; <b>one</b>; <b>stops</b>; <b>no</b>; <b>executable</b>; <b>without</b><br><br>Full passage: Jack writes in a <b>high-level</b> language. An interpreter converts <b>one</b> line of code and executes it. It <b>stops</b> when an error is found. A compiler converts all code; code won't run until there are <b>no</b> errors. The <b>executable</b> file can be run <b>without</b> the compiler."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nyHBEvfsoG",
+                  "guid": "nyHBEvfsoG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Interpreter/Compiler passage: Jack writes in a {{c1::high-level}} language. An interpreter converts {{c2::one}} line at a time; it {{c3::stops}} when an error is found. A compiler converts all code; won't run until there are {{c4::no}} errors. The {{c5::executable}} file can be run {{c6::without}} the compiler.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2139,12 +2516,12 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "nLvswZIU3F",
-                  "guid": "nLvswZIU3F",
+                  "crowdanki_uuid": "qX3D69H8na",
+                  "guid": "qX3D69H8na",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is input validation? Name and describe five types of validation check.",
-                    "Input validation ensures data is sensible and acceptable before the program processes it.<br><b>1. Range check:</b> is the value within acceptable limits? (age 0–120)<br><b>2. Type check:</b> is the data the correct type? (must be an integer, not letters)<br><b>3. Length check:</b> is the data the right length? (password 8+ characters)<br><b>4. Presence check:</b> has a required field been filled in?<br><b>5. Format check:</b> does the data match a required pattern? (email contains @, date is DD/MM/YYYY)"
+                    "[Q7a — 4 marks] Give two ways to improve the maintainability of a program. For each, give an example from the circle area program.",
+                    "Two ways (1 mark name + 1 mark example each):<br><b>1. Comments/annotation</b> — e.g. \"line 4 checks the input is valid\"<br><b>2. Indentation</b> — e.g. indenting the code within an IF statement<br><b>3. Using constants</b> (also acceptable) — e.g. π (3.142 could be stored as a constant rather than typed each time)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2152,50 +2529,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "mZYtcU1LI5",
-                  "guid": "mZYtcU1LI5",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode to validate an age input between 1 and 120.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">age = int(input(\"Enter your age: \"))<br>while age &lt; 1 OR age &gt; 120<br>    print(\"Invalid. Enter an age between 1 and 120.\")<br>    age = int(input(\"Enter your age: \"))<br>endwhile<br>print(\"Age accepted: \" + str(age))</pre>The loop keeps repeating until valid data is entered."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uUtvUXKVtC",
-                  "guid": "uUtvUXKVtC",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is the difference between a syntax error and a logic error?",
-                    "<b>Syntax error:</b> code breaks the grammatical rules of the language — the program <i>cannot run at all</i>. Found by the compiler/interpreter before execution.<br>Examples: missing colon, misspelled keyword (<code>prit</code> instead of <code>print</code>), unclosed bracket.<br><b>Logic error:</b> code runs without crashing but produces <i>wrong results</i> — the algorithm is flawed.<br>Examples: using &lt; instead of &lt;=, off-by-one error in a loop (iterating one too many or few times), wrong formula."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uPI5YarSS3",
-                  "guid": "uPI5YarSS3",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a runtime error? Give two examples.",
-                    "A runtime error occurs <i>during</i> program execution and causes the program to crash. Not detected at compile time.<br><b>Examples:</b><br>• Division by zero: <code>x = 10 / 0</code><br>• Index out of bounds: accessing <code>array[10]</code> when the array only has 5 elements<br>• Trying to open a file that does not exist<br>• Stack overflow from infinite recursion<br>• Type mismatch at runtime"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "eKCZgUST05",
-                  "guid": "eKCZgUST05",
+                  "crowdanki_uuid": "rVQmguptga",
+                  "guid": "rVQmguptga",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "The three types of test data: {{c1::Normal}} (valid data the program should accept, e.g. age = 25 for range 1–120), {{c2::Boundary/extreme}} (values at the edge of the valid range — e.g. age = 1 and age = 120; also test just outside: 0 and 121), {{c3::Erroneous/invalid}} (data that should be rejected — wrong type, out of range: e.g. age = -5, age = \"hello\").",
+                    "Ways to improve program maintainability: {{c1::Comments/annotation}} — e.g. explaining what line 4 does. {{c2::Indentation}} — e.g. indenting code inside an IF statement. {{c3::Using constants}} — e.g. storing π as a constant (3.142) rather than repeating the literal value.",
                     ""
                   ],
                   "flags": 0,
@@ -2204,12 +2542,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "oUhKWDioGt",
-                  "guid": "oUhKWDioGt",
+                  "crowdanki_uuid": "v3hCuqCJRk",
+                  "guid": "v3hCuqCJRk",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Why do we test with boundary values? What is a boundary test for age 1–120?",
-                    "Boundary values are the most likely places for logic errors — conditions using &lt;, &gt;, &lt;=, &gt;= are very commonly wrong by one.<br><b>For valid range 1–120:</b><br>Boundary values: 1 (minimum valid), 120 (maximum valid)<br>Just outside: 0 (should be rejected), 121 (should be rejected)<br>All four should be tested. A bug using &lt; instead of &lt;= would pass 119 but incorrectly reject 120."
+                    "[Q8b(i) — 3 marks] Complete the validation code for minutes played (valid range 0 to 300). Three blanks are missing.",
+                    "The three missing blanks are: <code>or</code>, <code>&gt; 300</code> (or &gt;= 301), <code>print</code><br><br>Full completed code:<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 or mins &gt; 300 then<br>    print(\"Invalid input\")<br>endif</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2217,12 +2555,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "tJN8a4Ablf",
-                  "guid": "tJN8a4Ablf",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "crowdanki_uuid": "cyKbnY1nkR",
+                  "guid": "cyKbnY1nkR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "What techniques make a program more maintainable?",
-                    "<b>1. Meaningful identifiers:</b> <code>playerScore</code> not <code>x</code><br><b>2. Comments:</b> explain the WHY (non-obvious logic), not the WHAT<br><b>3. Indentation:</b> consistent indentation makes structure visible<br><b>4. Modular design:</b> break code into subroutines (functions/procedures)<br><b>5. Constants:</b> use named constants instead of \"magic numbers\" (<code>MAX_LIVES = 3</code> not <code>3</code>)<br><b>6. Consistent style:</b> naming conventions (camelCase or snake_case consistently)"
+                    "Validation for 0–300: <code>if mins &lt; 0 {{c1::or}} mins {{c2::> 300}} then {{c3::print}}(\"Invalid input\") endif</code>. The keyword {{c4::or}} is used because the input is invalid if EITHER condition is true.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2230,12 +2568,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "l7OA1Dvbnh",
-                  "guid": "l7OA1Dvbnh",
+                  "crowdanki_uuid": "quevIpPxfu",
+                  "guid": "quevIpPxfu",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is authentication and why is it used in programs?",
-                    "Authentication confirms the identity of a user before granting access to a system or program.<br><b>Simple implementation:</b> the user enters a username and password; the program checks these against stored credentials and only allows access if they match.<br><b>Purpose:</b> prevents unauthorised access to data or functionality.<br><b>Good practice:</b> limit failed login attempts to slow down brute force attacks; use strong password requirements."
+                    "[Q8b(ii) — 2 marks] Complete the test plan for the minutes validation (valid range 0–300). Give one invalid and one boundary test.",
+                    "<b>Invalid test data:</b> any value &gt; 300 (e.g. 350) → expected result: \"Invalid input message displayed\"<br><b>Boundary test:</b> 300 → expected result: \"Value accepted\" (300 is the upper boundary and should be valid)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2243,12 +2581,246 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dgv4Z8YVeQ",
-                  "guid": "dgv4Z8YVeQ",
+                  "crowdanki_uuid": "p0G3rSbVvV",
+                  "guid": "p0G3rSbVvV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Test plan for 0–300 validation: Invalid test data example: {{c1::any value > 300 (e.g. 350)}} → expected: {{c2::\"Invalid input message displayed\"}}. Boundary test: {{c3::300}} → expected: {{c4::\"Value accepted\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "lGrCTU5L7M",
+                  "guid": "lGrCTU5L7M",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What makes a program 'robust'?",
-                    "A robust program handles all inputs and situations gracefully without crashing:<br>• <b>Input validation</b> — rejects invalid data before processing<br>• <b>Error handling</b> — gracefully manages runtime errors (try/except/catch blocks)<br>• <b>Authentication</b> — controls who can access the program<br>• <b>Testing</b> with normal, boundary and erroneous test data<br>• <b>Meaningful error messages</b> — tells the user what went wrong and how to fix it"
+                    "[Q8f — 4 marks] Give two sets of test data for a validation check that gameName length must be greater than 0 AND less than 20.",
+                    "<b>Test data 1 (invalid):</b> A string with 0 characters (empty string) OR a string with 20 or more characters → expected output: \"Game name is not valid\"<br><b>Test data 2 (valid):</b> A string with 1 to 19 characters → expected output: \"Valid game name\""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "EhwdOZpjMx",
+                  "guid": "EhwdOZpjMx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "For gameName validation (length &gt;0 AND &lt;20): invalid test data is a string with {{c1::0 or 20+ characters}} → output {{c2::\"Game name is not valid\"}}. Valid test data is a string with {{c3::1–19 characters}} → output {{c4::\"Valid game name\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "BSCes62Nxj",
+                  "guid": "BSCes62Nxj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the three types of test data and when is each used?",
+                    "<b>Normal (valid):</b> data within the acceptable range that the program should accept — e.g. mins = 150 for range 0–300.<br><b>Boundary (extreme):</b> values at the edge of the valid range — e.g. 0 and 300. Also test just outside: -1 and 301.<br><b>Erroneous (invalid):</b> data that should be rejected — out of range or wrong type — e.g. mins = 350 or mins = \"hello\"."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "kEjijzMfOk",
+                  "guid": "kEjijzMfOk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a syntax error, a logic error, and a runtime error?",
+                    "<b>Syntax error:</b> breaks the grammatical rules of the language — the program cannot run at all. Found by the translator.<br><b>Logic error:</b> the program runs but produces wrong results — the algorithm is flawed (e.g. using &lt; instead of &lt;=).<br><b>Runtime error:</b> occurs during execution and causes a crash — e.g. division by zero, index out of bounds."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "iz2YoO9mYW",
+                  "guid": "iz2YoO9mYW",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q3a — 1 mark] What is a syntax error?",
+                    "A syntax error is when the code <b>breaks the grammatical rules</b> of the programming language.<br>The program <b>cannot be run</b> — the translator detects it before execution.<br>Examples: missing colon, misspelled keyword, unclosed bracket."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hk7nWcObUz",
+                  "guid": "hk7nWcObUz",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q3b — 4 marks] Identify two logic errors in this algorithm: Line 01: total=0; Line 02: num1=5; num1=5; Line 03: total=num1+num1; Line 04: if total&gt;=10 AND total&lt;=20 then print(\"OK\"). Write the corrected lines.",
+                    "<b>Error 1 — Line 02 (or 03):</b> <code>total = num1 + num1</code> should be <code>total = num1 + num2</code> — it adds num1 to itself instead of adding num2.<br><b>Error 2 — Line 04:</b> condition should use correct boundary; acceptable answer: condition uses wrong operator (e.g. &gt;= should be &gt; or &lt;= should be &lt;) depending on specification — any clearly identified condition error accepted."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cnz1lWeFJf",
+                  "guid": "cnz1lWeFJf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Logic errors in the total algorithm: Line 03 error — <code>total = num1 + {{c1::num1}}</code> should be <code>total = num1 + {{c2::num2}}</code>. The program {{c3::runs but produces wrong results}} — this is the definition of a {{c4::logic error}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "noXvRbdjbx",
+                  "guid": "noXvRbdjbx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q4b — 2 marks] What is meant by defensive design? Give one example.",
+                    "Defensive design means writing programs to <b>anticipate and handle potential misuse or errors</b> so the program still works correctly.<br>Examples:<br>• <b>Input validation</b> — checking data is within acceptable range before using it<br>• <b>Authentication</b> — requiring a username/password before allowing access<br>• <b>Sanitisation</b> — removing potentially harmful characters from input"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nmpzxwgmah",
+                  "guid": "nmpzxwgmah",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Defensive design means anticipating {{c1::potential misuse or errors}} in a program. Examples include {{c2::input validation}} (checking data is acceptable), {{c3::authentication}} (username/password), and {{c4::sanitisation}} (removing harmful characters from input).",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hYJSLGj7Cu",
+                  "guid": "hYJSLGj7Cu",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9c(ii) — 3 marks] Give three types of test data for validating height input (valid range 40.0 to 180.0). Give a value and expected result for each.",
+                    "<b>Normal (valid):</b> e.g. 100 → expected: \"VALID\"<br><b>Boundary (extreme):</b> e.g. 40.0 or 180.0 → expected: \"VALID\" (exactly at the boundary)<br><b>Erroneous (invalid):</b> e.g. 200 or –5 → expected: \"NOT VALID\""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pn1fKeOMr8",
+                  "guid": "pn1fKeOMr8",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Test data for height validation (40.0–180.0): Normal test e.g. {{c1::100}} → {{c2::\"VALID\"}}. Boundary test e.g. {{c3::40.0 or 180.0}} → {{c4::\"VALID\"}}. Erroneous test e.g. {{c5::200 or –5}} → {{c6::\"NOT VALID\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rpfjC3tHBb",
+                  "guid": "rpfjC3tHBb",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q5a(i) — 2 marks] Explain why programs should be tested before use.",
+                    "To <b>identify and correct errors/bugs</b> before users encounter them.<br>To check that the program <b>produces the correct output</b> for all possible inputs.<br>Releasing untested programs risks producing <b>incorrect results</b> or <b>crashing</b>, which could cause harm or data loss."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eJKkV0nqsG",
+                  "guid": "eJKkV0nqsG",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q5b — 6 marks] Identify two methods of validation and explain how each can be used on an adding game (two random numbers 1–10, score out of 3).",
+                    "<b>Method 1 — Range check:</b> Checks the player's answer is within a plausible range — e.g. the answer to adding two numbers 1–10 must be between 2 and 20. Reject values outside this range.<br><b>Method 2 — Type check:</b> Checks the player has entered a number (integer) rather than a string/letter. Display an error message if non-numeric input is entered."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "i7ZapZhwJk",
+                  "guid": "i7ZapZhwJk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Two validation methods for the adding game: {{c1::Range check}} — verifies the answer is between {{c2::2 and 20}} (sum of two numbers 1–10). {{c3::Type check}} — verifies the input is a {{c4::number/integer}} not a string.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jeRnXbdr50",
+                  "guid": "jeRnXbdr50",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q4a — 2 marks] Give two ways to improve the maintainability of Jack's program that inputs 5 numbers.",
+                    "Acceptable answers (any two):<br>• Use <b>meaningful/descriptive variable names</b> — e.g. rename a, b, c, d, e to number1, number2 etc.<br>• Add <b>comments</b> to explain what the code does<br>• Use <b>indentation</b> to make the structure clear<br>• Use a <b>loop</b> instead of repetitive code (makes it easier to change the quantity)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "oy1pHq3fSl",
+                  "guid": "oy1pHq3fSl",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Maintainability improvements: use {{c1::meaningful/descriptive variable names}} (e.g. number1 instead of a); add {{c2::comments}} to explain the code; use {{c3::indentation}}; use a {{c4::loop}} instead of repetitive input lines.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dDxHJTwMNe",
+                  "guid": "dDxHJTwMNe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q5b(ii) — 3 marks] Complete the test plan for hotel nights validation (valid range 1–5 inclusive). Give test data and type for boundary (ALLOWED) and erroneous (NOT ALLOWED) rows.",
+                    "<b>Normal test:</b> data=2, type=Normal, expected=ALLOWED<br><b>Boundary test:</b> data=1 or 5, type=Boundary, expected=ALLOWED<br><b>Erroneous test:</b> data=0 or 6 (or a non-integer like \"hello\"), type=Erroneous/Invalid, expected=NOT ALLOWED"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "eGgFDFosgm",
+                  "guid": "eGgFDFosgm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Test plan for nights (1–5): Normal data e.g. {{c1::2}} → ALLOWED. Boundary data e.g. {{c2::1 or 5}} → ALLOWED. Erroneous data e.g. {{c3::0 or 6}} → NOT ALLOWED.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2269,11 +2841,24 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "r3XPfwfw3i",
-                  "guid": "r3XPfwfw3i",
+                  "crowdanki_uuid": "pLp2GxeWdj",
+                  "guid": "pLp2GxeWdj",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q3 — 3 marks] Write an SQL query to return all fields for students who take Art from a table called Results.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM Results<br>WHERE Subject = \"Art\"</pre>3 mark points: <code>SELECT *</code> (or listing all fields); <code>FROM Results</code>; <code>WHERE Subject = \"Art\"</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mEBB3t1n5W",
+                  "guid": "mEBB3t1n5W",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "OCR data types: {{c1::Integer}} (whole numbers, e.g. 42, -7), {{c2::Real/Float}} (decimal numbers, e.g. 3.14), {{c3::Boolean}} (True or False only), {{c4::Character}} (single character in single quotes, e.g. 'A'), {{c5::String}} (sequence of characters in double quotes, e.g. \"Hello\"). The correct data type reduces {{c6::memory}} use and prevents errors.",
+                    "SQL to return all fields for Art students: <code>{{c1::SELECT *}} {{c2::FROM Results}} {{c3::WHERE Subject = \"Art\"}}</code>. The * means {{c4::all fields/columns}}. The table name is {{c5::Results}}.",
                     ""
                   ],
                   "flags": 0,
@@ -2282,12 +2867,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "ukqs9w6dyC",
-                  "guid": "ukqs9w6dyC",
+                  "crowdanki_uuid": "tJYA7Oh8Y8",
+                  "guid": "tJYA7Oh8Y8",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is the difference between a variable and a constant? Give examples.",
-                    "<b>Variable:</b> a named storage location whose value <i>can change</i> during program execution.<br><code>score = 0</code> then later <code>score = score + 10</code><br><b>Constant:</b> a named storage location whose value is <i>fixed</i> — it cannot be changed once assigned. Declared using <code>const</code> in many languages.<br><code>const PI = 3.14159</code><br><b>Why use constants?</b> Improves readability (PI is clearer than 3.14159), prevents accidental changes, makes updates easier (change value in one place)."
+                    "[Q7b — 2 marks] Identify two variables used in the circle area program.",
+                    "The two variables are:<br>1. <b>radius</b><br>2. <b>area</b>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2295,24 +2880,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "lP3UOhro7Q",
-                  "guid": "lP3UOhro7Q",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is casting (type conversion)? Give three examples.",
-                    "Casting converts a value from one data type to another. Essential because user input is always returned as a string.<br><b>int(\"42\")</b> → integer 42<br><b>float(\"3.14\")</b> → float 3.14<br><b>str(100)</b> → string \"100\"<br><b>bool(0)</b> → False (0 = False, any non-zero = True)<br>Without casting, attempting arithmetic on a string causes a type error."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "bPrYOOgwyj",
-                  "guid": "bPrYOOgwyj",
+                  "crowdanki_uuid": "e0sds2rint",
+                  "guid": "e0sds2rint",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "OCR pseudocode string operations: {{c1::length(\"hello\")}} returns {{c2::5}}. {{c3::substring(\"hello\", 1, 3)}} returns {{c4::\"ell\"}} (start index 1, length 3). {{c5::upper(\"hello\")}} → \"HELLO\". {{c6::lower(\"HELLO\")}} → \"hello\". Concatenation: \"Hi\" {{c7::+}} \" there\" → \"Hi there\".",
+                    "In the circle area program, the two variables are {{c1::radius}} and {{c2::area}}. A variable is a named storage location whose value {{c3::can change}} during execution.",
                     ""
                   ],
                   "flags": 0,
@@ -2321,12 +2893,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "holgDlGpha",
-                  "guid": "holgDlGpha",
+                  "crowdanki_uuid": "rbyrJDWws4",
+                  "guid": "rbyrJDWws4",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Write pseudocode to access individual characters in a string.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">name = \"Alice\"<br>print(name[0])      // outputs \"A\"<br>print(name[4])      // outputs \"e\"<br>print(length(name)) // outputs 5<br>print(name[1:3])    // outputs \"li\" (substring)</pre>Strings are indexed from <b>0</b>. The last character is at index <b>length-1</b>."
+                    "[Q7c(i) — 1 mark] Identify one item from the circle area program that could be written as a constant.",
+                    "Acceptable answers: <b>3.142</b> (pi), <b>2</b>, <b>1</b>, or <b>30</b>.<br>These are literal values that do not change while the program runs, so they can be defined as named constants."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2334,12 +2906,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "q2c0vcbk8e",
-                  "guid": "q2c0vcbk8e",
+                  "crowdanki_uuid": "vqolbmuJHB",
+                  "guid": "vqolbmuJHB",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What is a 1D array? Write pseudocode to declare one and access elements.",
-                    "A 1D array stores multiple values of the <b>same data type</b> under one variable name, accessed by index (starting at 0).<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array scores[5]<br>scores[0] = 85<br>scores[1] = 72<br>scores[2] = 91<br>scores[3] = 68<br>scores[4] = 79<br>print(scores[2])    // outputs 91</pre>"
+                    "[Q7c(ii) — 1 mark] Why is it better to store a value like 3.142 as a constant rather than a literal number in the code?",
+                    "Acceptable answers:<br>• The number <b>does not need to be changed while the program is running</b><br>• The number can be <b>updated once</b> and it updates throughout the entire program (no need to find and replace every occurrence)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2347,63 +2919,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "sdvIWKo2Gw",
-                  "guid": "sdvIWKo2Gw",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a 2D array? Write pseudocode to declare and access it.",
-                    "A 2D array is an array of arrays — like a grid/table. Accessed using two indices: [row][column].<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array grid[3][3]<br>grid[0][0] = 1<br>grid[0][1] = 2<br>grid[1][2] = 5<br>print(grid[1][2])   // outputs 5<br><br>// Iterate all elements:<br>for row = 0 to 2<br>    for col = 0 to 2<br>        print(grid[row][col])<br>    next col<br>next row</pre>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "h1D3huGrwg",
-                  "guid": "h1D3huGrwg",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is the difference between a function and a procedure?",
-                    "<b>Procedure:</b> a named, reusable block of code that performs a task. Does <b>NOT</b> return a value. Called by name alone.<br><b>Function:</b> a named, reusable block of code that performs a task and <b>DOES return a value</b> using the <code>return</code> keyword.<br>Both can accept <b>parameters</b> (input values).<br><b>Benefits of both:</b> code reuse (write once, use many times), easier testing, shorter/cleaner code, modular design."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "tzpaZ4dF0N",
-                  "guid": "tzpaZ4dF0N",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a function with parameters and a return value.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">function multiply(a, b)<br>    return a * b<br>endfunction<br><br>result = multiply(4, 5)<br>print(result)    // outputs 20</pre>The function receives parameters <code>a</code> and <code>b</code>, calculates the product, and <b>returns</b> it to the calling code."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "iCDLLdERBg",
-                  "guid": "iCDLLdERBg",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode for a procedure with parameters.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">procedure greet(name)<br>    print(\"Hello, \" + name + \"!\")<br>endprocedure<br><br>greet(\"Alice\")    // outputs: Hello, Alice!<br>greet(\"Bob\")      // outputs: Hello, Bob!</pre>Procedures perform actions but do <b>not return</b> a value."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "sWxsiMTGqg",
-                  "guid": "sWxsiMTGqg",
+                  "crowdanki_uuid": "bZiYzp3obZ",
+                  "guid": "bZiYzp3obZ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "A {{c1::local}} variable is declared inside a function/procedure and can only be accessed {{c2::within}} that block — it ceases to exist when the function ends. A {{c3::global}} variable is declared outside all functions and can be accessed from {{c4::anywhere}} in the program. Local variables are preferred because they reduce {{c5::side effects}} and make debugging {{c6::easier}}.",
+                    "Storing 3.142 as a constant is better because: it does not need to {{c1::be changed while the program is running}}, and if it does change it can be {{c2::updated once}} and the change applies {{c3::throughout the entire program}}.",
                     ""
                   ],
                   "flags": 0,
@@ -2412,12 +2932,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "j2bPg8eV2A",
-                  "guid": "j2bPg8eV2A",
+                  "crowdanki_uuid": "lpzxzUhcSd",
+                  "guid": "lpzxzUhcSd",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "What does MOD and DIV do? Give exam-style examples.",
-                    "<b>MOD</b> returns the <b>remainder</b> after integer division.<br>17 MOD 5 = 2 (17 = 3×5 + <b>2</b>)<br>10 MOD 2 = 0 (even number check!)<br><b>DIV</b> returns the <b>quotient</b> (integer division, ignoring remainder).<br>17 DIV 5 = 3<br>10 DIV 3 = 3<br><b>Exam uses:</b> checking if a number is even (n MOD 2 == 0), extracting digits (n DIV 10 gives all digits except the last)."
+                    "[Q7d — 3 marks] Which of the three programming constructs are used in the circle area program: sequence, selection, iteration?",
+                    "<b>Sequence:</b> HAS been used (instructions run in order)<br><b>Selection:</b> HAS been used (an IF statement checks whether input is valid)<br><b>Iteration:</b> HAS NOT been used (there are no loops in the program)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2425,89 +2945,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "b2EU0viuaH",
-                  "guid": "b2EU0viuaH",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write pseudocode to find the largest value in an array of 5 integers.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array nums[5] = [3, 7, 2, 9, 4]<br>largest = nums[0]<br>for i = 1 to 4<br>    if nums[i] &gt; largest then<br>        largest = nums[i]<br>    endif<br>next i<br>print(largest)    // outputs 9</pre>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "h5YIA0dYh8",
-                  "guid": "h5YIA0dYh8",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write pseudocode to calculate the total and average of an array.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">array scores[5] = [60, 70, 80, 90, 100]<br>total = 0<br>for i = 0 to 4<br>    total = total + scores[i]<br>next i<br>average = total / 5<br>print(\"Total: \" + str(total))      // 400<br>print(\"Average: \" + str(average))  // 80.0</pre>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "nDA4v7u0iC",
-                  "guid": "nDA4v7u0iC",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write pseudocode to read from and write to a text file.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">// WRITING to a file<br>myFile = openWrite(\"data.txt\")<br>myFile.writeLine(\"Hello World\")<br>myFile.writeLine(\"Second line\")<br>myFile.close()<br><br>// READING from a file<br>myFile = openRead(\"data.txt\")<br>while NOT myFile.endOfFile()<br>    line = myFile.readLine()<br>    print(line)<br>endwhile<br>myFile.close()</pre>Always <b>close</b> the file after use to ensure data is saved/released."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "uFYwRhDn66",
-                  "guid": "uFYwRhDn66",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What are the advantages of using subroutines (functions and procedures)?",
-                    "<b>1. Code reuse:</b> write once, call many times — avoids duplicating code.<br><b>2. Easier to test:</b> each subroutine can be tested independently (unit testing).<br><b>3. Easier to maintain:</b> fix a bug in one place rather than many.<br><b>4. Shorter code:</b> the main program is cleaner and more readable.<br><b>5. Modular design:</b> large problems broken into manageable, logical units.<br><b>6. Team collaboration:</b> different programmers can write different subroutines simultaneously."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "oAJOd5KbRR",
-                  "guid": "oAJOd5KbRR",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "What is a record and how does it differ from an array?",
-                    "A <b>record</b> stores a collection of related data items that can be of <b>different data types</b> under one name — like a row in a database table.<br><b>Example:</b> a student record might store name (string), age (integer), and grade (character).<br>An <b>array</b> stores multiple items of the <b>same data type</b>.<br>Records are used when each item has multiple related fields of different types (e.g. storing details about a person, product, or booking)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "jfhTbqMCtf",
-                  "guid": "jfhTbqMCtf",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "Write OCR pseudocode to query data using SQL. What three commands must you know?",
-                    "The three required SQL commands are <b>SELECT</b>, <b>FROM</b>, and <b>WHERE</b>.<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">SELECT name, age<br>FROM students<br>WHERE age &gt; 16</pre><b>SELECT</b> — chooses which fields (columns) to return<br><b>FROM</b> — specifies which table to query<br><b>WHERE</b> — filters rows based on a condition<br>To return all fields use <code>SELECT *</code>."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "jrNKZsiZ6b",
-                  "guid": "jrNKZsiZ6b",
+                  "crowdanki_uuid": "i2waXpUug3",
+                  "guid": "i2waXpUug3",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "SQL query structure: {{c1::SELECT}} chooses which fields to return (use {{c2::*}} for all fields). {{c3::FROM}} specifies the table. {{c4::WHERE}} filters rows by a condition. Example: <code>SELECT name FROM students WHERE grade = \"A\"</code> returns the {{c5::name}} field from the {{c6::students}} table where {{c7::grade equals \"A\"}}.",
+                    "In the circle area program: Sequence — {{c1::HAS}} been used. Selection — {{c2::HAS}} been used. Iteration — {{c3::HAS NOT}} been used.",
                     ""
                   ],
                   "flags": 0,
@@ -2516,12 +2958,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "rLIMRmMf1U",
-                  "guid": "rLIMRmMf1U",
+                  "crowdanki_uuid": "dKD6hPTssr",
+                  "guid": "dKD6hPTssr",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "How do you generate a random number in OCR pseudocode?",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">// Random integer between 1 and 6 (inclusive)<br>num = random(1, 6)<br>print(num)</pre><b>random(a, b)</b> returns a random integer between a and b inclusive.<br><b>Uses:</b> simulating dice rolls, shuffling, generating test data, games."
+                    "[Q8a — 2 marks] What data type would you use to store the number of minutes a game was played, and why?",
+                    "<b>Integer</b> — because the level of accuracy needed does not require decimals; rounding to the nearest minute is sufficient / the number of seconds is not important.<br><b>OR Real/Float</b> — because the number of seconds may be important / allows fractions of a minute to be stored.<br>(Either is acceptable if the reason matches the data type.)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2529,12 +2971,532 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "qXCL3yOr13",
-                  "guid": "qXCL3yOr13",
+                  "crowdanki_uuid": "hMWqHZto5L",
+                  "guid": "hMWqHZto5L",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Data type for minutes played: {{c1::Integer}} is suitable because {{c2::level of accuracy not needed / round to nearest minute}}. Alternatively {{c3::Real/Float}} is suitable if {{c4::seconds may be important / fractions of a minute need to be stored}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gwncGbY5g9",
+                  "guid": "gwncGbY5g9",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "Write pseudocode to reverse a string.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:13px;\">function reverseString(s)<br>    reversed = \"\"<br>    for i = length(s) - 1 to 0 step -1<br>        reversed = reversed + s[i]<br>    next i<br>    return reversed<br>endfunction<br><br>print(reverseString(\"Hello\"))  // \"olleH\"</pre>"
+                    "[Q8c — 1 mark] The 2D array minsPlayed stores data where rows = days (0=Mon...4=Fri) and columns = players (0=Stuart). Write the code to output Stuart's minutes played on Friday.",
+                    "<code>print(minsPlayed[0, 4])</code><br>Stuart = column 0; Friday = row 4 (Mon=0, Tue=1, Wed=2, Thu=3, Fri=4)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gQSNE2OmTC",
+                  "guid": "gQSNE2OmTC",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "To output Stuart's minutes on Friday from the 2D array minsPlayed: <code>print(minsPlayed[{{c1::0}}, {{c2::4}}])</code> — Stuart is column {{c3::0}}, Friday is row {{c4::4}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dEITvjAt6Q",
+                  "guid": "dEITvjAt6Q",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[Q8g(ii) — 4 marks] Complete the function totalMins that takes hours and minutes as parameters and returns the total number of minutes.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = totalMins(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = (hours * 60) + minutes<br>    return total<br>endfunction</pre>Key formula: <code>(hours * 60) + minutes</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "LsWDmzWica",
+                  "guid": "LsWDmzWica",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "The function totalMins converts hours and minutes to total minutes. The formula inside is: <code>total = ({{c1::hours * 60}}) + {{c2::minutes}}</code>. The function ends with <code>{{c3::return total}}</code>. The result is stored by calling <code>finalTotal = {{c4::totalMins(hours, minutes)}}</code>.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dKtnUWI5oV",
+                  "guid": "dKtnUWI5oV",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What is the difference between a variable and a constant? Give an example from the circle area program.",
+                    "<b>Variable:</b> a named storage location whose value CAN change during program execution (e.g. radius, area).<br><b>Constant:</b> a named storage location whose value is FIXED and does not change (e.g. pi = 3.142).<br>Using constants improves maintainability — if the value needs updating, change it in one place only."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "obcnk6xt5n",
+                  "guid": "obcnk6xt5n",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "What are the three programming constructs? Define each with an example.",
+                    "<b>Sequence:</b> instructions execute one after another in order — e.g. radius = input(...) then area = 3.142 * radius^2.<br><b>Selection:</b> a decision is made using IF/ELSE — e.g. if radius &lt; 1 then print(\"invalid\").<br><b>Iteration:</b> a block of code repeats using a loop — e.g. while, for. Not used in the circle program."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mpH5GkaAa0",
+                  "guid": "mpH5GkaAa0",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q1 — 3 marks] Identify the construct used by each: if/then/endif; for/next; while/endwhile.",
+                    "<code>if/then/endif</code> → <b>Selection</b><br><code>for/next</code> → <b>Iteration</b><br><code>while/endwhile</code> → <b>Iteration</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pnccH0AaA7",
+                  "guid": "pnccH0AaA7",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "<code>if/then/endif</code> is an example of {{c1::Selection}}. <code>for/next</code> is an example of {{c2::Iteration}}. <code>while/endwhile</code> is an example of {{c3::Iteration}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "q5aPDC7Dky",
+                  "guid": "q5aPDC7Dky",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q6 — 3 marks] Given message = \"abcd1234\": what does message.upper return? What does message.left(4) return? What does int(message.right(4)) * 2 return?",
+                    "<code>message.upper</code> → <b>\"ABCD1234\"</b><br><code>message.left(4)</code> → <b>\"abcd\"</b><br><code>int(message.right(4)) * 2</code> → <code>int(\"1234\") * 2</code> → <b>2468</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gTWxe65VDm",
+                  "guid": "gTWxe65VDm",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "For message = \"abcd1234\": <code>message.upper</code> → {{c1::\"ABCD1234\"}}. <code>message.left(4)</code> → {{c2::\"abcd\"}}. <code>int(message.right(4)) * 2</code> → {{c3::2468}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "f85okGvgTv",
+                  "guid": "f85okGvgTv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9a(i) — 3 marks] State the most appropriate data type for: teamName, studentYearGroup, javelinThrow.",
+                    "<b>teamName</b> → String (stores text)<br><b>studentYearGroup</b> → Integer (whole number, e.g. 10 or 11)<br><b>javelinThrow</b> → Real/Float (distance in metres, may have decimal places)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uDYReRi7IH",
+                  "guid": "uDYReRi7IH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Data types: teamName → {{c1::String}}; studentYearGroup → {{c2::Integer}}; javelinThrow → {{c3::Real/Float}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rYmBkHM7aK",
+                  "guid": "rYmBkHM7aK",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9a(ii) — 3 marks] Complete the linear search function that searches array theTeam for studentName. What are the missing parts?",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = 0 to 5<br>        if theTeam[count] == studentName then<br>            return True<br>        endif<br>    next count<br>    return False<br>endfunction</pre>Key parts: <code>for count = 0 to 5</code>; <code>theTeam[count] == studentName</code>; <code>return True</code>; <code>return False</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dmB0NuduNS",
+                  "guid": "dmB0NuduNS",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Linear search function: loop <code>for count = {{c1::0}} to {{c2::5}}</code>. Inside: <code>if theTeam[count] {{c3::== studentName}} then return {{c4::True}}</code>. After loop: <code>return {{c5::False}}</code>.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uwfhhSjY2T",
+                  "guid": "uwfhhSjY2T",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9b — 4 marks] Trace the javelin scoring algorithm for year=10 and javelinThrow=14.3. What is the final output?",
+                    "score=0. javelinThrow=14.3 ≥ 10 → score=0+2=<b>2</b>. javelinThrow=14.3 &lt; 20 (not ≥ 20) → no extra point. yearGroup=10 ≠ 11 → score=2×2=<b>4</b>. Output: <b>\"The score is 4\"</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "v4rAlNPIE9",
+                  "guid": "v4rAlNPIE9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Javelin trace (year=10, throw=14.3): throw ≥ 10 so score = {{c1::2}}. Throw &lt; 20 so no bonus. Year ≠ 11 so score doubled → score = {{c2::4}}. Output: {{c3::\"The score is 4\"}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "coH1w7FUjv",
+                  "guid": "coH1w7FUjv",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9c(i) — 3 marks] Write a validation algorithm that inputs a height and prints \"VALID\" if 40.0 ≤ height ≤ 180.0, otherwise \"NOT VALID\".",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = input(\"Enter height\")<br>if height &gt;= 40.0 AND height &lt;= 180.0 then<br>    print(\"VALID\")<br>else<br>    print(\"NOT VALID\")<br>endif</pre>Key mark points: input; if with AND condition; correct boundaries (40.0 and 180.0); both print statements; endif."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jNmtM9cmoS",
+                  "guid": "jNmtM9cmoS",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Height validation: <code>height = {{c1::input(\"Enter height\")}}</code>. Condition: <code>if height {{c2::>= 40.0 AND height <= 180.0}} then</code>. Print {{c3::\"VALID\"}} if true; print {{c4::\"NOT VALID\"}} in else branch.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "vvOUyprUJQ",
+                  "guid": "vvOUyprUJQ",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9d — 3 marks] Write an SQL query to return StudentID and TeamName for all year 11 students from the table TblResult.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT StudentID, TeamName<br>FROM TblResult<br>WHERE YearGroup = 11</pre>3 mark points: <code>SELECT StudentID, TeamName</code>; <code>FROM TblResult</code>; <code>WHERE YearGroup = 11</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "noT4qKUP3q",
+                  "guid": "noT4qKUP3q",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9e(i) — 1 mark] The program only stores relevant student data (name, year group, throw distance). What computational thinking technique is this?",
+                    "<b>Abstraction</b> — removing or hiding irrelevant details (e.g. student address, photo, other subjects) to focus only on the data needed to solve the problem."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "nUh06owBGq",
+                  "guid": "nUh06owBGq",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2024 Q9e(ii) — 1 mark] The problem is broken into sub-problems: one function calculates the score, another performs the search. What computational thinking technique is this?",
+                    "<b>Decomposition</b> — breaking a complex problem into smaller, more manageable sub-problems (e.g. a separate function for score calculation, a separate function for searching the array)."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "tvJVQqk74h",
+                  "guid": "tvJVQqk74h",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Hiding irrelevant details to reduce complexity is called {{c1::Abstraction}}. Breaking a complex problem into smaller sub-problems is called {{c2::Decomposition}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "u2ZO5KWUW2",
+                  "guid": "u2ZO5KWUW2",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q1b — 1 mark] Write pseudocode to add num1 and num2 and store the result in total.",
+                    "<code>total = num1 + num2</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "toZm2rZlzx",
+                  "guid": "toZm2rZlzx",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q1c(i) — 1 mark] What operator raises 12 to the power of 2 in pseudocode: print(12 __ 2)?",
+                    "The operator is <b>^</b> (caret = exponentiation/power).<br>Full code: <code>print(12 ^ 2)</code> → outputs 144."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "uqpizWqsEA",
+                  "guid": "uqpizWqsEA",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q1c(ii) — 1 mark] What operator checks if a number is odd or even: if number __ 2 == 0?",
+                    "The operator is <b>MOD</b> (modulus — gives the remainder after division).<br>Full code: <code>if number MOD 2 == 0 then print(\"Even number\")</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "rlWlJ8xBqe",
+                  "guid": "rlWlJ8xBqe",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "To check if a number is even: <code>if number {{c1::MOD}} 2 {{c2::== 0}} then</code> print \"Even\". MOD gives the {{c3::remainder}} after division. To raise to a power use {{c4::^}} e.g. <code>12 ^ 2</code> = 144.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ja0hU1VsJr",
+                  "guid": "ja0hU1VsJr",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q6a — 4 marks] State the most appropriate data type for each variable: UserName, EmergencyPhoneNumber, DoorSensorActive, DoorActiveTime.",
+                    "<b>UserName</b> → String (e.g. \"Admin123\" — contains letters and numbers)<br><b>EmergencyPhoneNumber</b> → String (e.g. \"+449999999999\" — contains + symbol, cannot be used arithmetically)<br><b>DoorSensorActive</b> → Boolean (True/False)<br><b>DoorActiveTime</b> → Integer (whole number of seconds)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "na2p0oMska",
+                  "guid": "na2p0oMska",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Data types: UserName → {{c1::String}}; EmergencyPhoneNumber → {{c2::String}} (contains + symbol); DoorSensorActive → {{c3::Boolean}}; DoorActiveTime → {{c4::Integer}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gCyFTDRcva",
+                  "guid": "gCyFTDRcva",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q6c(i–v) — 5 marks] In the sensor reset program: which line has concatenation? Name a variable. What type does CheckSensorCode() return? Which line has a function call? Name two constructs used.",
+                    "(i) Concatenation: <b>line 04</b> (<code>sensorID = sensorType + sensorNumber</code>)<br>(ii) Variable identifier: e.g. <b>sensorType</b> (or sensorNumber, sensorID)<br>(iii) Return type of CheckSensorCode(): <b>Boolean</b> (returns True/False)<br>(iv) Function call: <b>line 02</b> (CheckSensorCode) or <b>line 05</b> (ResetSensor)<br>(v) Two constructs: <b>Sequence</b> and <b>Selection</b> (the if statement on line 02)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "jwCWDhTQVk",
+                  "guid": "jwCWDhTQVk",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q6d — 3 marks] Write an SQL statement to display sensor IDs of door sensors triggered for more than 20 seconds from the events table.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT SensorID<br>FROM events<br>WHERE SensorType = \"Door\" AND Length &gt; 20</pre>3 mark points: <code>SELECT SensorID</code>; <code>FROM events</code>; <code>WHERE SensorType = \"Door\" AND Length &gt; 20</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "cSTtFXEOku",
+                  "guid": "cSTtFXEOku",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2023 Q6f(i) — 1 mark] What is the process called that converts integer data to string data?",
+                    "<b>Casting</b> (also called type conversion or type casting).<br>Example: <code>str(100)</code> converts the integer 100 to the string \"100\"."
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "fr3qBZcFqy",
+                  "guid": "fr3qBZcFqy",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q1a — 4 marks] Classify each code snippet as Selection or Iteration: for/next loop; while/endwhile loop; if/endif; switch/endswitch.",
+                    "<code>for i = 1 to 10 / next i</code> → <b>Iteration</b><br><code>while score != 0 / endwhile</code> → <b>Iteration</b><br><code>if playerHit() then / endif</code> → <b>Selection</b><br><code>switch bonus: / endswitch</code> → <b>Selection</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "dnuMVDq8R9",
+                  "guid": "dnuMVDq8R9",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Constructs: <code>for/next</code> → {{c1::Iteration}}; <code>while/endwhile</code> → {{c2::Iteration}}; <code>if/endif</code> → {{c3::Selection}}; <code>switch/endswitch</code> → {{c4::Selection}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "gBI5dnaDqR",
+                  "guid": "gBI5dnaDqR",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q1b — 1 mark] Write pseudocode to increment the variable score by one.",
+                    "<code>score = score + 1</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hN2caBopHH",
+                  "guid": "hN2caBopHH",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q1c — 2 marks] Name the computational thinking technique for each: (1) breaking a complex problem into smaller problems; (2) hiding irrelevant details to reduce complexity.",
+                    "1. Breaking into smaller problems → <b>Decomposition</b><br>2. Hiding irrelevant details → <b>Abstraction</b>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "1YcAqUa6ov",
+                  "guid": "1YcAqUa6ov",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q5a(i) — 2 marks] State the most appropriate data type for: nights (number of nights stayed, 1–5); room (\"basic\" or \"premium\").",
+                    "<b>nights</b> → Integer (whole number between 1 and 5)<br><b>room</b> → String (stores text value \"basic\" or \"premium\")"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "ldLZ7JAj4z",
+                  "guid": "ldLZ7JAj4z",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q5a(iii) — 4 marks] The SQL to display bookings over 1 night is incorrect: SELECT ALL / FROM TblBookings / IF Nights &lt; 1. Rewrite it correctly.",
+                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM TblBookings<br>WHERE Nights &gt; 1</pre>Errors fixed: <code>SELECT ALL</code> → <code>SELECT *</code>; <code>IF</code> → <code>WHERE</code>; <code>Nights &lt; 1</code> → <code>Nights &gt; 1</code>"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "hAlbSVcHIf",
+                  "guid": "hAlbSVcHIf",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Corrected SQL for bookings over 1 night: <code>{{c1::SELECT *}}</code> / <code>{{c2::FROM TblBookings}}</code> / <code>{{c3::WHERE Nights > 1}}</code>. The original errors were: SELECT ALL → SELECT *; IF → {{c4::WHERE}}; Nights &lt; 1 → {{c5::Nights > 1}}.",
+                    ""
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "pOrp7Lctm5",
+                  "guid": "pOrp7Lctm5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "fields": [
+                    "[2022 Q2d(i) — 2 marks] What is casting? Give the line number where it is used in the staffID algorithm.",
+                    "<b>Casting</b> is converting a value from one data type to another (type conversion).<br>Example: <code>str(year)</code> converts the integer year to a string so it can be concatenated with the string surname.<br>Line number: <b>03</b> (<code>staffID = surname + str(year)</code>)"
+                  ],
+                  "flags": 0,
+                  "tags": [],
+                  "data": ""
+                },
+                {
+                  "__type__": "Note",
+                  "crowdanki_uuid": "mshmvFIv3F",
+                  "guid": "mshmvFIv3F",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
+                  "fields": [
+                    "Casting is converting a value from one {{c1::data type}} to another. In the staffID algorithm, <code>{{c2::str(year)}}</code> on line {{c3::03}} casts the integer year to a {{c4::String}} so it can be concatenated with surname.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
