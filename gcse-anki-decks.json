@@ -116,7 +116,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q2b — 5 marks] Write an algorithm that inputs a number, doubles it and outputs the result, repeating until the number entered is less than 0.",
-                    "5 mark points:<br>1. Use of a condition-controlled loop (while or do/until)<br>2. Checking condition: number &gt;= 0<br>3. Input a number from the user within the loop<br>4. Multiply the number by 2<br>5. Output the doubled value<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">while number &gt;= 0<br>    number = input()<br>    output(number * 2)<br>endwhile</pre>"
+                    "5 mark points:<br>1. Use of a condition-controlled loop (while or do/until)<br>2. Checking condition: number &gt;= 0<br>3. Input a number from the user within the loop<br>4. Multiply the number by 2<br>5. Output the doubled value<br><b>OCR pseudocode:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">while number &gt;= 0<br>    number = input()<br>    output(number * 2)<br>endwhile</pre><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">number = int(input())<br>while number &gt;= 0:<br>    print(number * 2)<br>    number = int(input())</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -233,7 +233,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8d — 4 marks] Rewrite this repetitive code using a loop:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>total = total + minsPlayed[2, 0]<br>total = total + minsPlayed[2, 1]<br>total = total + minsPlayed[2, 2]<br>total = total + minsPlayed[2, 3]<br>total = total + minsPlayed[2, 4]<br>print(total)</pre>",
-                    "4 mark points: initialise total=0; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
+                    "4 mark points: initialise total=0; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><b>OCR pseudocode:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x in range(5):<br>    total = total + minsPlayed[2][x]<br>print(total)</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -285,7 +285,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8g(iii) — 4 marks] Rewrite this flowchart as pseudocode: input minutes; if minutes &gt; 120, print \"You played games for too long!\"; else print \"You are under your time limit!\"",
-                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = input(\"Enter minutes played\")<br>if minutes &gt; 120 then<br>    print(\"You played games for too long!\")<br>else<br>    print(\"You are under your time limit!\")<br>endif</pre>4 mark points: input; if/then; correct condition (&gt;120); both print statements; endif."
+                    "<b>OCR pseudocode:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = input(\"Enter minutes played\")<br>if minutes &gt; 120 then<br>    print(\"You played games for too long!\")<br>else<br>    print(\"You are under your time limit!\")<br>endif</pre>4 mark points: input; if/then; correct condition (&gt;120); both print statements; endif.<br><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = int(input(\"Enter minutes played\"))<br>if minutes &gt; 120:<br>    print(\"You played games for too long!\")<br>else:<br>    print(\"You are under your time limit!\")</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -389,7 +389,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2023 Q2b — 4 marks] Identify two logic errors in this algorithm and write the corrected lines:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01 total = 0<br>02 for scoreCount = 1 to scores.length - 1<br>03     scores[scoreCount] = total + total<br>04 next scoreCount<br>05 print(total)</pre>",
-                    "<b>Error 1 — Line 02:</b> loop starts at 1, missing index 0.<br>Corrected: <code>for scoreCount = 0 to scores.length – 1</code><br><b>Error 2 — Line 03:</b> assigns to the array instead of updating total, and uses total+total instead of total+scores[scoreCount].<br>Corrected: <code>total = total + scores[scoreCount]</code>"
+                    "<b>Error 1 — Line 02:</b> loop starts at 1, missing index 0.<br>Corrected: <code>for scoreCount = 0 to scores.length – 1</code><br><b>Error 2 — Line 03:</b> assigns to the array instead of updating total, and uses total+total instead of total+scores[scoreCount].<br>Corrected: <code>total = total + scores[scoreCount]</code><br><b>Python note:</b> <code>for scoreCount in range(len(scores)):</code> and <code>total += scores[scoreCount]</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -571,7 +571,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2022 Q5d — 2 marks] Identify and fix the two logic errors in this hotel room counter:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">for count = 1 to 8<br>    total = 0<br>    total = total + room[count]<br>next count<br>print(total)</pre>",
-                    "<b>Error 1:</b> <code>total = 0</code> is inside the loop, resetting it every iteration. Fix: move <code>total = 0</code> to <b>before</b> the for loop.<br><b>Error 2:</b> loop starts at 1, missing room[0]. Fix: change to <code>for count = 0 to 8</code>."
+                    "<b>Error 1:</b> <code>total = 0</code> is inside the loop, resetting it every iteration. Fix: move <code>total = 0</code> to <b>before</b> the for loop.<br><b>Error 2:</b> loop starts at 1, missing room[0]. Fix: change to <code>for count = 0 to 8</code>.<br><b>Python note:</b> <code>for count in range(9):</code> (range(9) gives 0–8 inclusive)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1208,7 +1208,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8b(i) — 3 marks] Three parts are missing from this validation code for minutes played (valid range 0 to 300). What are the three missing parts?<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 ___ mins ___ then<br>    ______(\"Invalid input\")<br>endif</pre>",
-                    "The three missing blanks are:<br>1. <code>or</code><br>2. <code>&gt; 300</code> (or &gt;= 301)<br>3. <code>print</code>"
+                    "The three missing blanks are:<br>1. <code>or</code><br>2. <code>&gt; 300</code> (or &gt;= 301)<br>3. <code>print</code><br><b>Python note:</b> <code>or</code> is the same keyword in Python; <code>print(\"Invalid input\")</code> is identical syntax."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1676,7 +1676,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8g(ii) — 4 marks] Complete the missing parts of this function (shown as blanks):<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = __________(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = ________________<br>    ____________<br>endfunction</pre>",
-                    "Missing parts:<br>1. <code>totalMins</code> (function call)<br>2. <code>(hours * 60) + minutes</code> (formula)<br>3. <code>return total</code><br><br>Key formula: <code>(hours * 60) + minutes</code>"
+                    "Missing parts:<br>1. <code>totalMins</code> (function call)<br>2. <code>(hours * 60) + minutes</code> (formula)<br>3. <code>return total</code><br><br>Key formula: <code>(hours * 60) + minutes</code><br><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">def totalMins(hours, minutes):<br>    total = (hours * 60) + minutes<br>    return total<br><br>hours = int(input(\"Please enter number of hours played\"))<br>minutes = int(input(\"Please enter number of minutes played\"))<br>finalTotal = totalMins(hours, minutes)<br>print(finalTotal)</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1806,7 +1806,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2024 Q9a(ii) — 3 marks] Complete the missing parts of this linear search function (shown as blanks):<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = __ to __<br>        if theTeam[count] ______________ then<br>            return ____<br>        endif<br>    next count<br>    return ____<br>endfunction</pre>",
-                    "Missing parts:<br>1. <code>0</code> (start of loop)<br>2. <code>5</code> (end of loop)<br>3. <code>== studentName</code> (condition)<br>4. <code>True</code> (found)<br>5. <code>False</code> (not found)"
+                    "Missing parts:<br>1. <code>0</code> (start of loop)<br>2. <code>5</code> (end of loop)<br>3. <code>== studentName</code> (condition)<br>4. <code>True</code> (found)<br>5. <code>False</code> (not found)<br><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">def linearSearch(theTeam, studentName):<br>    for count in range(6):<br>        if theTeam[count] == studentName:<br>            return True<br>    return False</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1858,7 +1858,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2024 Q9c(i) — 3 marks] Write a validation algorithm that inputs a height and prints \"VALID\" if 40.0 ≤ height ≤ 180.0, otherwise \"NOT VALID\".",
-                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = input(\"Enter height\")<br>if height &gt;= 40.0 AND height &lt;= 180.0 then<br>    print(\"VALID\")<br>else<br>    print(\"NOT VALID\")<br>endif</pre>Key mark points: input; if with AND condition; correct boundaries (40.0 and 180.0); both print statements; endif."
+                    "<b>OCR pseudocode:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = input(\"Enter height\")<br>if height &gt;= 40.0 AND height &lt;= 180.0 then<br>    print(\"VALID\")<br>else<br>    print(\"NOT VALID\")<br>endif</pre>Key mark points: input; if with AND condition; correct boundaries (40.0 and 180.0); both print statements; endif.<br><b>Python equivalent:</b><br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = float(input(\"Enter height\"))<br>if height &gt;= 40.0 and height &lt;= 180.0:<br>    print(\"VALID\")<br>else:<br>    print(\"NOT VALID\")</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
