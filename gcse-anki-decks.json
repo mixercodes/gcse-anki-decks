@@ -241,24 +241,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "eNZskppBxR",
-                  "guid": "eNZskppBxR",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[Q8e — 4 marks] Complete the trace table for this code: x=15, y=0; while x&gt;0: y=y+1; x=x-y; endwhile; print(y)",
-                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>x</th><th>y</th></tr><tr><td>15</td><td>0</td></tr><tr><td>14</td><td>1</td></tr><tr><td>12</td><td>2</td></tr><tr><td>9</td><td>3</td></tr><tr><td>5</td><td>4</td></tr><tr><td>0</td><td>5</td></tr></table>Output: <b>5</b>. The loop ends when x=0 (not &gt; 0)."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "kR3jOUh3cx",
-                  "guid": "kR3jOUh3cx",
+                  "crowdanki_uuid": "bpHRcOusNZ",
+                  "guid": "bpHRcOusNZ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Trace of [x=15,y=0; while x&gt;0: y=y+1; x=x-y]: After iteration 1: x={{c1::14}}, y={{c2::1}}. After iteration 2: x={{c3::12}}, y={{c4::2}}. After iteration 3: x={{c5::9}}, y={{c6::3}}. After iteration 4: x={{c7::5}}, y={{c8::4}}. After iteration 5: x={{c9::0}}, y={{c10::5}}. Final output: {{c11::5}}.",
+                    "[Q8e — 4 marks] Trace this algorithm and complete the table:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">x = 15<br>y = 0<br>while x &gt; 0<br>    y = y + 1<br>    x = x - y<br>endwhile<br>print(y)</pre><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Iteration</th><th>x</th><th>y</th></tr><tr><td>Start</td><td>15</td><td>0</td></tr><tr><td>1</td><td>{{c1::14}}</td><td>{{c2::1}}</td></tr><tr><td>2</td><td>{{c3::12}}</td><td>{{c4::2}}</td></tr><tr><td>3</td><td>{{c5::9}}</td><td>{{c6::3}}</td></tr><tr><td>4</td><td>{{c7::5}}</td><td>{{c8::4}}</td></tr><tr><td>5</td><td>{{c9::0}}</td><td>{{c10::5}}</td></tr></table>Output: {{c11::5}}. Loop ends when x={{c12::0}} (condition x&gt;0 is false).",
                     ""
                   ],
                   "flags": 0,
@@ -358,24 +345,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "krUsxNjrkg",
-                  "guid": "krUsxNjrkg",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[2023 Q1d — 3 marks] Complete the trace table for: start=3; do: print(start); start=start-1; until start==-1. What values does start take and what is output?",
-                    "The do…until loop runs BEFORE checking the condition (post-condition loop).<br><table border=\"1\" cellpadding=\"5\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>start (before print)</th><th>Output</th></tr><tr><td>3</td><td>3</td></tr><tr><td>2</td><td>2</td></tr><tr><td>1</td><td>1</td></tr><tr><td>0</td><td>0</td></tr></table>Then start becomes -1 → condition true → exit loop. Final output: <b>\"Finished\"</b>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "s1EtXNlpgZ",
-                  "guid": "s1EtXNlpgZ",
+                  "crowdanki_uuid": "ceIkAMFmmb",
+                  "guid": "ceIkAMFmmb",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Trace of [start=3; do: print(start); start=start-1; until start==-1]: outputs {{c1::3, 2, 1, 0}} then prints {{c2::\"Finished\"}}. The loop runs {{c3::4}} times. A do/until loop checks the condition {{c4::after}} executing the body.",
+                    "[2023 Q1d — 3 marks] Trace this algorithm and complete the table:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">start = 3<br>do<br>    print(start)<br>    start = start - 1<br>until start == -1<br>print(\"Finished\")</pre><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>start</th><th>Output</th></tr><tr><td>3</td><td>{{c1::3}}</td></tr><tr><td>2</td><td>{{c2::2}}</td></tr><tr><td>1</td><td>{{c3::1}}</td></tr><tr><td>0</td><td>{{c4::0}}</td></tr></table>After loop: start becomes {{c5::-1}} → condition true → exit. Final print: {{c6::\"Finished\"}}. A do/until loop checks condition {{c7::after}} executing the body.",
                     ""
                   ],
                   "flags": 0,
@@ -605,24 +579,11 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dp0rqZsneS",
-                  "guid": "dp0rqZsneS",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[Q1a — 2 marks] Complete the truth table for P = NOT(A AND B). Fill in the missing values for A=0,B=1 and A=1,B=0.",
-                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>0</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></table>The two missing values are both <b>1</b>. NOT(0) = 1 in both cases."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "sTU128I5kS",
-                  "guid": "sTU128I5kS",
+                  "crowdanki_uuid": "cZHvLtr4X5",
+                  "guid": "cZHvLtr4X5",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "For P = NOT(A AND B): when A=0 and B=1, P = {{c1::1}} because A AND B = 0, and NOT 0 = 1. When A=1 and B=0, P = {{c2::1}} because A AND B = 0, and NOT 0 = 1.",
+                    "[Q1a — 2 marks] Complete the truth table for P = NOT(A AND B):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>0</td><td>{{c1::1}}</td></tr><tr><td>0</td><td>1</td><td>0</td><td>{{c2::1}}</td></tr><tr><td>1</td><td>0</td><td>0</td><td>{{c3::1}}</td></tr><tr><td>1</td><td>1</td><td>1</td><td>{{c4::0}}</td></tr></table>",
                     ""
                   ],
                   "flags": 0,
@@ -657,12 +618,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "sojDQJGfxe",
-                  "guid": "sojDQJGfxe",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "crowdanki_uuid": "mJBJwgPgC5",
+                  "guid": "mJBJwgPgC5",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Complete the full truth table for P = NOT(A AND B) for all four input combinations.",
-                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td><td>0</td></tr></table>P is only 0 when both A and B are 1. In all other cases P = 1."
+                    "Complete the full truth table for P = NOT(A AND B):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th><th>P = NOT(A AND B)</th></tr><tr><td>0</td><td>0</td><td>{{c1::0}}</td><td>{{c5::1}}</td></tr><tr><td>0</td><td>1</td><td>{{c2::0}}</td><td>{{c6::1}}</td></tr><tr><td>1</td><td>0</td><td>{{c3::0}}</td><td>{{c7::1}}</td></tr><tr><td>1</td><td>1</td><td>{{c4::1}}</td><td>{{c8::0}}</td></tr></table>P is only 0 when both A=1 and B=1.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -696,12 +657,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "pyx4NHNz29",
-                  "guid": "pyx4NHNz29",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
+                  "crowdanki_uuid": "rWWrcX109R",
+                  "guid": "rWWrcX109R",
+                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Complete the truth table for A AND B (the intermediate step inside NOT(A AND B)).",
-                    "<table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th></tr><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></table>AND is only 1 when both inputs are 1. In all other cases AND = 0."
+                    "Complete the truth table for A AND B:<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>A AND B</th></tr><tr><td>0</td><td>0</td><td>{{c1::0}}</td></tr><tr><td>0</td><td>1</td><td>{{c2::0}}</td></tr><tr><td>1</td><td>0</td><td>{{c3::0}}</td></tr><tr><td>1</td><td>1</td><td>{{c4::1}}</td></tr></table>AND outputs 1 only when both inputs are 1.",
+                    ""
                   ],
                   "flags": 0,
                   "tags": [],
@@ -748,24 +709,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "pehv2kF0Vr",
-                  "guid": "pehv2kF0Vr",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[2024 Q5a — 4 marks] Complete the truth table for P = (A AND B) OR C. Give all 8 rows.",
-                    "<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>C</th><th>A AND B</th><th>P = (A AND B) OR C</th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>0</td><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>0</td><td>1</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>0</td><td>1</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>0</td><td>0</td><td>0</td><td><b>0</b></td></tr><tr><td>1</td><td>0</td><td>1</td><td>0</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>0</td><td>1</td><td><b>1</b></td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td><b>1</b></td></tr></table>P is 1 when C=1, OR when both A=1 AND B=1."
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "cjEFlV6xJK",
-                  "guid": "cjEFlV6xJK",
+                  "crowdanki_uuid": "hixzs8ZCED",
+                  "guid": "hixzs8ZCED",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "For P = (A AND B) OR C: when A=0,B=0,C=0 → P={{c1::0}}. When A=0,B=0,C=1 → P={{c2::1}}. When A=1,B=1,C=0 → P={{c3::1}}. When A=1,B=1,C=1 → P={{c4::1}}. P=1 whenever {{c5::C=1}} OR when {{c6::both A and B are 1}}.",
+                    "[2024 Q5a — 4 marks] Complete the truth table for P = (A AND B) OR C:<br><table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>A</th><th>B</th><th>C</th><th>A AND B</th><th>P = (A AND B) OR C</th></tr><tr><td>0</td><td>0</td><td>0</td><td>{{c1::0}}</td><td>{{c9::0}}</td></tr><tr><td>0</td><td>0</td><td>1</td><td>{{c2::0}}</td><td>{{c10::1}}</td></tr><tr><td>0</td><td>1</td><td>0</td><td>{{c3::0}}</td><td>{{c11::0}}</td></tr><tr><td>0</td><td>1</td><td>1</td><td>{{c4::0}}</td><td>{{c12::1}}</td></tr><tr><td>1</td><td>0</td><td>0</td><td>{{c5::0}}</td><td>{{c13::0}}</td></tr><tr><td>1</td><td>0</td><td>1</td><td>{{c6::0}}</td><td>{{c14::1}}</td></tr><tr><td>1</td><td>1</td><td>0</td><td>{{c7::1}}</td><td>{{c15::1}}</td></tr><tr><td>1</td><td>1</td><td>1</td><td>{{c8::1}}</td><td>{{c16::1}}</td></tr></table>P=1 when C=1, or when both A=1 and B=1.",
                     ""
                   ],
                   "flags": 0,
@@ -1229,24 +1177,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "quevIpPxfu",
-                  "guid": "quevIpPxfu",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[Q8b(ii) — 2 marks] Complete the test plan for the minutes validation (valid range 0–300). Give one invalid and one boundary test.",
-                    "<b>Invalid test data:</b> any value &gt; 300 (e.g. 350) → expected result: \"Invalid input message displayed\"<br><b>Boundary test:</b> 300 → expected result: \"Value accepted\" (300 is the upper boundary and should be valid)"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "p0G3rSbVvV",
-                  "guid": "p0G3rSbVvV",
+                  "crowdanki_uuid": "mR6qA0MJUG",
+                  "guid": "mR6qA0MJUG",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Test plan for 0–300 validation: Invalid test data example: {{c1::any value > 300 (e.g. 350)}} → expected: {{c2::\"Invalid input message displayed\"}}. Boundary test: {{c3::300}} → expected: {{c4::\"Value accepted\"}}.",
+                    "[Q8b(ii) — 2 marks] Complete the test plan for minutes validation (valid range 0–300):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Type</th><th>Test data</th><th>Expected result</th></tr><tr><td>Invalid/Erroneous</td><td>{{c1::any value &gt; 300 (e.g. 350)}}</td><td>{{c2::Invalid input message displayed}}</td></tr><tr><td>Boundary</td><td>{{c3::300}}</td><td>{{c4::Value accepted}}</td></tr></table>",
                     ""
                   ],
                   "flags": 0,
@@ -1255,24 +1190,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "lGrCTU5L7M",
-                  "guid": "lGrCTU5L7M",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[Q8f — 4 marks] Give two sets of test data for a validation check that gameName length must be greater than 0 AND less than 20.",
-                    "<b>Test data 1 (invalid):</b> A string with 0 characters (empty string) OR a string with 20 or more characters → expected output: \"Game name is not valid\"<br><b>Test data 2 (valid):</b> A string with 1 to 19 characters → expected output: \"Valid game name\""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "EhwdOZpjMx",
-                  "guid": "EhwdOZpjMx",
+                  "crowdanki_uuid": "k0bG1hZZdH",
+                  "guid": "k0bG1hZZdH",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "For gameName validation (length &gt;0 AND &lt;20): invalid test data is a string with {{c1::0 or 20+ characters}} → output {{c2::\"Game name is not valid\"}}. Valid test data is a string with {{c3::1–19 characters}} → output {{c4::\"Valid game name\"}}.",
+                    "[Q8f — 4 marks] Complete the test plan for gameName validation (length &gt;0 AND &lt;20):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Type</th><th>Test data</th><th>Expected output</th></tr><tr><td>Invalid</td><td>{{c1::string with 0 or 20+ characters}}</td><td>{{c2::\"Game name is not valid\"}}</td></tr><tr><td>Valid/Normal</td><td>{{c3::string with 1–19 characters}}</td><td>{{c4::\"Valid game name\"}}</td></tr></table>",
                     ""
                   ],
                   "flags": 0,
@@ -1372,24 +1294,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "hYJSLGj7Cu",
-                  "guid": "hYJSLGj7Cu",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[2024 Q9c(ii) — 3 marks] Give three types of test data for validating height input (valid range 40.0 to 180.0). Give a value and expected result for each.",
-                    "<b>Normal (valid):</b> e.g. 100 → expected: \"VALID\"<br><b>Boundary (extreme):</b> e.g. 40.0 or 180.0 → expected: \"VALID\" (exactly at the boundary)<br><b>Erroneous (invalid):</b> e.g. 200 or –5 → expected: \"NOT VALID\""
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "pn1fKeOMr8",
-                  "guid": "pn1fKeOMr8",
+                  "crowdanki_uuid": "fjKobJeQ1H",
+                  "guid": "fjKobJeQ1H",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Test data for height validation (40.0–180.0): Normal test e.g. {{c1::100}} → {{c2::\"VALID\"}}. Boundary test e.g. {{c3::40.0 or 180.0}} → {{c4::\"VALID\"}}. Erroneous test e.g. {{c5::200 or –5}} → {{c6::\"NOT VALID\"}}.",
+                    "[2024 Q9c(ii) — 3 marks] Complete the test plan for height validation (valid range 40.0–180.0):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Type</th><th>Test data</th><th>Expected result</th></tr><tr><td>Normal</td><td>{{c1::e.g. 100}}</td><td>{{c2::\"VALID\"}}</td></tr><tr><td>Boundary</td><td>{{c3::40.0 or 180.0}}</td><td>{{c4::\"VALID\"}}</td></tr><tr><td>Erroneous</td><td>{{c5::e.g. 200 or –5}}</td><td>{{c6::\"NOT VALID\"}}</td></tr></table>",
                     ""
                   ],
                   "flags": 0,
@@ -1463,24 +1372,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dDxHJTwMNe",
-                  "guid": "dDxHJTwMNe",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[2022 Q5b(ii) — 3 marks] Complete the test plan for hotel nights validation (valid range 1–5 inclusive). Give test data and type for boundary (ALLOWED) and erroneous (NOT ALLOWED) rows.",
-                    "<b>Normal test:</b> data=2, type=Normal, expected=ALLOWED<br><b>Boundary test:</b> data=1 or 5, type=Boundary, expected=ALLOWED<br><b>Erroneous test:</b> data=0 or 6 (or a non-integer like \"hello\"), type=Erroneous/Invalid, expected=NOT ALLOWED"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "eGgFDFosgm",
-                  "guid": "eGgFDFosgm",
+                  "crowdanki_uuid": "nPyE7KQSvP",
+                  "guid": "nPyE7KQSvP",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Test plan for nights (1–5): Normal data e.g. {{c1::2}} → ALLOWED. Boundary data e.g. {{c2::1 or 5}} → ALLOWED. Erroneous data e.g. {{c3::0 or 6}} → NOT ALLOWED.",
+                    "[2022 Q5b(ii) — 3 marks] Complete the test plan for hotel nights validation (valid range 1–5 inclusive):<br><table border=\"1\" cellpadding=\"7\" style=\"border-collapse:collapse;font-size:13px;\"><tr><th>Type</th><th>Test data</th><th>Expected result</th></tr><tr><td>Normal</td><td>{{c1::2}}</td><td>{{c2::ALLOWED}}</td></tr><tr><td>Boundary</td><td>{{c3::1 or 5}}</td><td>{{c4::ALLOWED}}</td></tr><tr><td>Erroneous</td><td>{{c5::0 or 6}}</td><td>{{c6::NOT ALLOWED}}</td></tr></table>",
                     ""
                   ],
                   "flags": 0,
@@ -1645,24 +1541,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "gwncGbY5g9",
-                  "guid": "gwncGbY5g9",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[Q8c — 1 mark] The 2D array minsPlayed stores data where rows = days (0=Mon...4=Fri) and columns = players (0=Stuart). Write the code to output Stuart's minutes played on Friday.",
-                    "<code>print(minsPlayed[0, 4])</code><br>Stuart = column 0; Friday = row 4 (Mon=0, Tue=1, Wed=2, Thu=3, Fri=4)"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "gQSNE2OmTC",
-                  "guid": "gQSNE2OmTC",
+                  "crowdanki_uuid": "oHGBh3gQKt",
+                  "guid": "oHGBh3gQKt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "To output Stuart's minutes on Friday from the 2D array minsPlayed: <code>print(minsPlayed[{{c1::0}}, {{c2::4}}])</code> — Stuart is column {{c3::0}}, Friday is row {{c4::4}}.",
+                    "[Q8c — 1 mark] The 2D array minsPlayed has rows=days (0=Mon, 4=Fri) and columns=players (0=Stuart). Write the code to output Stuart's minutes on Friday:<br><code>print(minsPlayed[{{c1::0}}, {{c2::4}}])</code><br>Stuart = column {{c3::0}}; Friday = row {{c4::4}}.",
                     ""
                   ],
                   "flags": 0,
@@ -1827,24 +1710,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "uwfhhSjY2T",
-                  "guid": "uwfhhSjY2T",
-                  "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
-                  "fields": [
-                    "[2024 Q9b — 4 marks] Trace the javelin scoring algorithm for year=10 and javelinThrow=14.3. What is the final output?",
-                    "score=0. javelinThrow=14.3 ≥ 10 → score=0+2=<b>2</b>. javelinThrow=14.3 &lt; 20 (not ≥ 20) → no extra point. yearGroup=10 ≠ 11 → score=2×2=<b>4</b>. Output: <b>\"The score is 4\"</b>"
-                  ],
-                  "flags": 0,
-                  "tags": [],
-                  "data": ""
-                },
-                {
-                  "__type__": "Note",
-                  "crowdanki_uuid": "v4rAlNPIE9",
-                  "guid": "v4rAlNPIE9",
+                  "crowdanki_uuid": "vlerjfw9im",
+                  "guid": "vlerjfw9im",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000004",
                   "fields": [
-                    "Javelin trace (year=10, throw=14.3): throw ≥ 10 so score = {{c1::2}}. Throw &lt; 20 so no bonus. Year ≠ 11 so score doubled → score = {{c2::4}}. Output: {{c3::\"The score is 4\"}}.",
+                    "[2024 Q9b — 4 marks] Trace the javelin scoring algorithm with yearGroup=10 and javelinThrow=14.3. Initial score=0.<br>Step 1: javelinThrow (14.3) &gt;= 10 → score = 0 + {{c1::2}} = {{c2::2}}<br>Step 2: javelinThrow (14.3) &gt;= 20? {{c3::No}} → no bonus point added<br>Step 3: yearGroup (10) == 11? {{c4::No}} → score = score × {{c5::2}} = {{c6::4}}<br>Output: {{c7::\"The score is 4\"}}",
                     ""
                   ],
                   "flags": 0,
