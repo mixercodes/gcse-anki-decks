@@ -90,7 +90,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q2a — 5 marks] Complete the pseudocode to find the largest of two numbers. Five parts are missing — what are they?",
-                    "The five missing parts (1 mark each):<br>1. <code>num1 = input(\"enter first number\")</code><br>2. The keyword <code>if</code><br>3. The variable <code>num2</code> (after the &gt; in the condition)<br>4. <code>print(num1)</code><br>5. <code>print(num2)</code><br><br>Full correct pseudocode:<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">num1 = input(\"enter first number\")<br>num2 = input(\"enter second number\")<br>if num1 &gt; num2 then<br>    print(num1)<br>else<br>    print(num2)<br>endif</pre>"
+                    "The five missing parts (1 mark each):<br>1. <code>num1 = input(\"enter first number\")</code><br>2. The keyword <code>if</code><br>3. The variable <code>num2</code> (after the &gt; in the condition)<br>4. <code>print(num1)</code><br>5. <code>print(num2)</code><br><br>Full correct pseudocode:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">num1 = input(\"enter first number\")<br>num2 = input(\"enter second number\")<br>if num1 &gt; num2 then<br>    print(num1)<br>else<br>    print(num2)<br>endif</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -116,7 +116,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q2b — 5 marks] Write an algorithm that inputs a number, doubles it and outputs the result, repeating until the number entered is less than 0.",
-                    "5 mark points:<br>1. Use of a condition-controlled loop (while or do/until)<br>2. Checking condition: number &gt;= 0<br>3. Input a number from the user within the loop<br>4. Multiply the number by 2<br>5. Output the doubled value<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">while number &gt;= 0<br>    number = input()<br>    output(number * 2)<br>endwhile</pre>"
+                    "5 mark points:<br>1. Use of a condition-controlled loop (while or do/until)<br>2. Checking condition: number &gt;= 0<br>3. Input a number from the user within the loop<br>4. Multiply the number by 2<br>5. Output the doubled value<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">while number &gt;= 0<br>    number = input()<br>    output(number * 2)<br>endwhile</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -233,7 +233,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8d — 4 marks] Rewrite the following repetitive code using a loop. The code adds minsPlayed[2,0] through minsPlayed[2,4] to total and prints it.",
-                    "4 mark points: initialise total=0 AND print at end; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
+                    "4 mark points: initialise total=0 AND print at end; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -285,7 +285,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8g(iii) — 4 marks] Rewrite this flowchart as pseudocode: input minutes; if minutes &gt; 120, print \"You played games for too long!\"; else print \"You are under your time limit!\"",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = input(\"Enter minutes played\")<br>if minutes &gt; 120 then<br>    print(\"You played games for too long!\")<br>else<br>    print(\"You are under your time limit!\")<br>endif</pre>4 mark points: input; if/then; correct condition (&gt;120); both print statements; endif."
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">minutes = input(\"Enter minutes played\")<br>if minutes &gt; 120 then<br>    print(\"You played games for too long!\")<br>else<br>    print(\"You are under your time limit!\")<br>endif</pre>4 mark points: input; if/then; correct condition (&gt;120); both print statements; endif."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1208,7 +1208,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8b(i) — 3 marks] Complete the validation code for minutes played (valid range 0 to 300). Three blanks are missing.",
-                    "The three missing blanks are: <code>or</code>, <code>&gt; 300</code> (or &gt;= 301), <code>print</code><br><br>Full completed code:<br><pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 or mins &gt; 300 then<br>    print(\"Invalid input\")<br>endif</pre>"
+                    "The three missing blanks are: <code>or</code>, <code>&gt; 300</code> (or &gt;= 301), <code>print</code><br><br>Full completed code:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 or mins &gt; 300 then<br>    print(\"Invalid input\")<br>endif</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1507,7 +1507,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q3 — 3 marks] Write an SQL query to return all fields for students who take Art from a table called Results.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM Results<br>WHERE Subject = \"Art\"</pre>3 mark points: <code>SELECT *</code> (or listing all fields); <code>FROM Results</code>; <code>WHERE Subject = \"Art\"</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM Results<br>WHERE Subject = \"Art\"</pre>3 mark points: <code>SELECT *</code> (or listing all fields); <code>FROM Results</code>; <code>WHERE Subject = \"Art\"</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1676,7 +1676,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[Q8g(ii) — 4 marks] Complete the function totalMins that takes hours and minutes as parameters and returns the total number of minutes.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = totalMins(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = (hours * 60) + minutes<br>    return total<br>endfunction</pre>Key formula: <code>(hours * 60) + minutes</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = totalMins(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = (hours * 60) + minutes<br>    return total<br>endfunction</pre>Key formula: <code>(hours * 60) + minutes</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1806,7 +1806,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2024 Q9a(ii) — 3 marks] Complete the linear search function that searches array theTeam for studentName. What are the missing parts?",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = 0 to 5<br>        if theTeam[count] == studentName then<br>            return True<br>        endif<br>    next count<br>    return False<br>endfunction</pre>Key parts: <code>for count = 0 to 5</code>; <code>theTeam[count] == studentName</code>; <code>return True</code>; <code>return False</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = 0 to 5<br>        if theTeam[count] == studentName then<br>            return True<br>        endif<br>    next count<br>    return False<br>endfunction</pre>Key parts: <code>for count = 0 to 5</code>; <code>theTeam[count] == studentName</code>; <code>return True</code>; <code>return False</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1858,7 +1858,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2024 Q9c(i) — 3 marks] Write a validation algorithm that inputs a height and prints \"VALID\" if 40.0 ≤ height ≤ 180.0, otherwise \"NOT VALID\".",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = input(\"Enter height\")<br>if height &gt;= 40.0 AND height &lt;= 180.0 then<br>    print(\"VALID\")<br>else<br>    print(\"NOT VALID\")<br>endif</pre>Key mark points: input; if with AND condition; correct boundaries (40.0 and 180.0); both print statements; endif."
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">height = input(\"Enter height\")<br>if height &gt;= 40.0 AND height &lt;= 180.0 then<br>    print(\"VALID\")<br>else<br>    print(\"NOT VALID\")<br>endif</pre>Key mark points: input; if with AND condition; correct boundaries (40.0 and 180.0); both print statements; endif."
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1884,7 +1884,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2024 Q9d — 3 marks] Write an SQL query to return StudentID and TeamName for all year 11 students from the table TblResult.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT StudentID, TeamName<br>FROM TblResult<br>WHERE YearGroup = 11</pre>3 mark points: <code>SELECT StudentID, TeamName</code>; <code>FROM TblResult</code>; <code>WHERE YearGroup = 11</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT StudentID, TeamName<br>FROM TblResult<br>WHERE YearGroup = 11</pre>3 mark points: <code>SELECT StudentID, TeamName</code>; <code>FROM TblResult</code>; <code>WHERE YearGroup = 11</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2027,7 +2027,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2023 Q6d — 3 marks] Write an SQL statement to display sensor IDs of door sensors triggered for more than 20 seconds from the events table.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT SensorID<br>FROM events<br>WHERE SensorType = \"Door\" AND Length &gt; 20</pre>3 mark points: <code>SELECT SensorID</code>; <code>FROM events</code>; <code>WHERE SensorType = \"Door\" AND Length &gt; 20</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT SensorID<br>FROM events<br>WHERE SensorType = \"Door\" AND Length &gt; 20</pre>3 mark points: <code>SELECT SensorID</code>; <code>FROM events</code>; <code>WHERE SensorType = \"Door\" AND Length &gt; 20</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2118,7 +2118,7 @@
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
                     "[2022 Q5a(iii) — 4 marks] The SQL to display bookings over 1 night is incorrect: SELECT ALL / FROM TblBookings / IF Nights &lt; 1. Rewrite it correctly.",
-                    "<pre style=\"background:#f0f0f0;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM TblBookings<br>WHERE Nights &gt; 1</pre>Errors fixed: <code>SELECT ALL</code> → <code>SELECT *</code>; <code>IF</code> → <code>WHERE</code>; <code>Nights &lt; 1</code> → <code>Nights &gt; 1</code>"
+                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM TblBookings<br>WHERE Nights &gt; 1</pre>Errors fixed: <code>SELECT ALL</code> → <code>SELECT *</code>; <code>IF</code> → <code>WHERE</code>; <code>Nights &lt; 1</code> → <code>Nights &gt; 1</code>"
                   ],
                   "flags": 0,
                   "tags": [],
