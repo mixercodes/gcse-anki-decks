@@ -85,12 +85,12 @@
               "notes": [
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "vyfRA5Ay7e",
-                  "guid": "vyfRA5Ay7e",
+                  "crowdanki_uuid": "iRTnzy8a2J",
+                  "guid": "iRTnzy8a2J",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[Q2a — 5 marks] Complete the pseudocode to find the largest of two numbers. Five parts are missing — what are they?",
-                    "The five missing parts (1 mark each):<br>1. <code>num1 = input(\"enter first number\")</code><br>2. The keyword <code>if</code><br>3. The variable <code>num2</code> (after the &gt; in the condition)<br>4. <code>print(num1)</code><br>5. <code>print(num2)</code><br><br>Full correct pseudocode:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">num1 = input(\"enter first number\")<br>num2 = input(\"enter second number\")<br>if num1 &gt; num2 then<br>    print(num1)<br>else<br>    print(num2)<br>endif</pre>"
+                    "[Q2a — 5 marks] Five parts are missing from this pseudocode to find the largest of two numbers. What are the five missing parts?<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">___________ = input(\"enter first number\")<br>num2 = input(\"enter second number\")<br>___ num1 &gt; _____ then<br>    ______<br>else<br>    ______<br>endif</pre>",
+                    "The five missing parts (1 mark each):<br>1. <code>num1</code> (first line — variable name)<br>2. The keyword <code>if</code><br>3. The variable <code>num2</code> (after the &gt; in the condition)<br>4. <code>print(num1)</code><br>5. <code>print(num2)</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -228,12 +228,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "vOXZrAz2mt",
-                  "guid": "vOXZrAz2mt",
+                  "crowdanki_uuid": "5vBE0mNiPw",
+                  "guid": "5vBE0mNiPw",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[Q8d — 4 marks] Rewrite the following repetitive code using a loop. The code adds minsPlayed[2,0] through minsPlayed[2,4] to total and prints it.",
-                    "4 mark points: initialise total=0 AND print at end; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
+                    "[Q8d — 4 marks] Rewrite this repetitive code using a loop:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>total = total + minsPlayed[2, 0]<br>total = total + minsPlayed[2, 1]<br>total = total + minsPlayed[2, 2]<br>total = total + minsPlayed[2, 3]<br>total = total + minsPlayed[2, 4]<br>print(total)</pre>",
+                    "4 mark points: initialise total=0; use iteration (for/while); loop repeats 5 times; correctly adds using loop index.<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">total = 0<br>for x = 0 to 4<br>    total = total + minsPlayed[2, x]<br>next x<br>print(total)</pre>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -384,11 +384,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "iLDp0d8uwm",
-                  "guid": "iLDp0d8uwm",
+                  "crowdanki_uuid": "eXOjAwQOyZ",
+                  "guid": "eXOjAwQOyZ",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2023 Q2b — 4 marks] Identify two logic errors in this array total algorithm: Line 02: for scoreCount=1 to scores.length-1; Line 03: scores[scoreCount] = total + total. Write the corrected lines.",
+                    "[2023 Q2b — 4 marks] Identify two logic errors in this algorithm and write the corrected lines:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01 total = 0<br>02 for scoreCount = 1 to scores.length - 1<br>03     scores[scoreCount] = total + total<br>04 next scoreCount<br>05 print(total)</pre>",
                     "<b>Error 1 — Line 02:</b> loop starts at 1, missing index 0.<br>Corrected: <code>for scoreCount = 0 to scores.length – 1</code><br><b>Error 2 — Line 03:</b> assigns to the array instead of updating total, and uses total+total instead of total+scores[scoreCount].<br>Corrected: <code>total = total + scores[scoreCount]</code>"
                   ],
                   "flags": 0,
@@ -540,11 +540,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "tKYKCAKYS4",
-                  "guid": "tKYKCAKYS4",
+                  "crowdanki_uuid": "goxcYtQU9d",
+                  "guid": "goxcYtQU9d",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2022 Q2d(ii) — 4 marks] Trace the staffID algorithm with surname=\"Kofi\" and year=2021. What is output?",
+                    "[2022 Q2d(ii) — 4 marks] Trace this algorithm with surname=\"Kofi\" and year=2021. Complete the trace table and state the output:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01 surname = input(\"Enter surname\")<br>02 year = input(\"Enter year\")<br>03 staffID = surname + str(year)<br>04 while staffID.length &lt; 10<br>05     staffID = staffID + \"x\"<br>06 endwhile<br>07 print(\"ID \" + staffID)</pre>",
                     "surname=\"Kofi\", year=2021<br>Line 03: staffID = \"Kofi\" + str(2021) = <b>\"Kofi2021\"</b> (length 8, need 10)<br>While loop iteration 1: staffID = \"Kofi2021x\" (length 9)<br>While loop iteration 2: staffID = \"Kofi2021xx\" (length 10) → loop ends<br>Line 07 output: <b>\"ID Kofi2021xx\"</b>"
                   ],
                   "flags": 0,
@@ -566,11 +566,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "XvpRiC0xL4",
-                  "guid": "XvpRiC0xL4",
+                  "crowdanki_uuid": "nfxsenn1DV",
+                  "guid": "nfxsenn1DV",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2022 Q5d — 2 marks] The hotel room counter has two logic errors: for count=1 to 8; total=0 inside loop; total=total+room[count]. Describe how to fix both.",
+                    "[2022 Q5d — 2 marks] Identify and fix the two logic errors in this hotel room counter:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">for count = 1 to 8<br>    total = 0<br>    total = total + room[count]<br>next count<br>print(total)</pre>",
                     "<b>Error 1:</b> <code>total = 0</code> is inside the loop, resetting it every iteration. Fix: move <code>total = 0</code> to <b>before</b> the for loop.<br><b>Error 2:</b> loop starts at 1, missing room[0]. Fix: change to <code>for count = 0 to 8</code>."
                   ],
                   "flags": 0,
@@ -1203,12 +1203,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "v3hCuqCJRk",
-                  "guid": "v3hCuqCJRk",
+                  "crowdanki_uuid": "pYpgM2PlGa",
+                  "guid": "pYpgM2PlGa",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[Q8b(i) — 3 marks] Complete the validation code for minutes played (valid range 0 to 300). Three blanks are missing.",
-                    "The three missing blanks are: <code>or</code>, <code>&gt; 300</code> (or &gt;= 301), <code>print</code><br><br>Full completed code:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 or mins &gt; 300 then<br>    print(\"Invalid input\")<br>endif</pre>"
+                    "[Q8b(i) — 3 marks] Three parts are missing from this validation code for minutes played (valid range 0 to 300). What are the three missing parts?<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">if mins &lt; 0 ___ mins ___ then<br>    ______(\"Invalid input\")<br>endif</pre>",
+                    "The three missing blanks are:<br>1. <code>or</code><br>2. <code>&gt; 300</code> (or &gt;= 301)<br>3. <code>print</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1671,12 +1671,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "dEITvjAt6Q",
-                  "guid": "dEITvjAt6Q",
+                  "crowdanki_uuid": "pKDGeniZ4J",
+                  "guid": "pKDGeniZ4J",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[Q8g(ii) — 4 marks] Complete the function totalMins that takes hours and minutes as parameters and returns the total number of minutes.",
-                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = totalMins(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = (hours * 60) + minutes<br>    return total<br>endfunction</pre>Key formula: <code>(hours * 60) + minutes</code>"
+                    "[Q8g(ii) — 4 marks] Complete the missing parts of this function (shown as blanks):<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">hours = input(\"Please enter number of hours played\")<br>minutes = input(\"Please enter number of minutes played\")<br>finalTotal = __________(hours, minutes)<br>print(finalTotal)<br><br>function totalMins(hours, minutes)<br>    total = ________________<br>    ____________<br>endfunction</pre>",
+                    "Missing parts:<br>1. <code>totalMins</code> (function call)<br>2. <code>(hours * 60) + minutes</code> (formula)<br>3. <code>return total</code><br><br>Key formula: <code>(hours * 60) + minutes</code>"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -1801,12 +1801,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "rYmBkHM7aK",
-                  "guid": "rYmBkHM7aK",
+                  "crowdanki_uuid": "hn2JWAuMyj",
+                  "guid": "hn2JWAuMyj",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2024 Q9a(ii) — 3 marks] Complete the linear search function that searches array theTeam for studentName. What are the missing parts?",
-                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = 0 to 5<br>        if theTeam[count] == studentName then<br>            return True<br>        endif<br>    next count<br>    return False<br>endfunction</pre>Key parts: <code>for count = 0 to 5</code>; <code>theTeam[count] == studentName</code>; <code>return True</code>; <code>return False</code>"
+                    "[2024 Q9a(ii) — 3 marks] Complete the missing parts of this linear search function (shown as blanks):<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">function linearSearch(theTeam, studentName)<br>    for count = __ to __<br>        if theTeam[count] ______________ then<br>            return ____<br>        endif<br>    next count<br>    return ____<br>endfunction</pre>",
+                    "Missing parts:<br>1. <code>0</code> (start of loop)<br>2. <code>5</code> (end of loop)<br>3. <code>== studentName</code> (condition)<br>4. <code>True</code> (found)<br>5. <code>False</code> (not found)"
                   ],
                   "flags": 0,
                   "tags": [],
@@ -2009,11 +2009,11 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "gCyFTDRcva",
-                  "guid": "gCyFTDRcva",
+                  "crowdanki_uuid": "cLkFtGnxIt",
+                  "guid": "cLkFtGnxIt",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2023 Q6c(i–v) — 5 marks] In the sensor reset program: which line has concatenation? Name a variable. What type does CheckSensorCode() return? Which line has a function call? Name two constructs used.",
+                    "[2023 Q6c(i–v) — 5 marks] Use this sensor reset program to answer: (i) which line has concatenation? (ii) name a variable. (iii) what type does CheckSensorCode() return? (iv) which line has a function call? (v) name two constructs used.<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">01 sensorType = input(\"Enter sensor type\")<br>02 if CheckSensorCode(sensorType) then<br>03     sensorNumber = input(\"Enter sensor number\")<br>04     sensorID = sensorType + sensorNumber<br>05     ResetSensor(sensorID)<br>06 endif</pre>",
                     "(i) Concatenation: <b>line 04</b> (<code>sensorID = sensorType + sensorNumber</code>)<br>(ii) Variable identifier: e.g. <b>sensorType</b> (or sensorNumber, sensorID)<br>(iii) Return type of CheckSensorCode(): <b>Boolean</b> (returns True/False)<br>(iv) Function call: <b>line 02</b> (CheckSensorCode) or <b>line 05</b> (ResetSensor)<br>(v) Two constructs: <b>Sequence</b> and <b>Selection</b> (the if statement on line 02)"
                   ],
                   "flags": 0,
@@ -2113,12 +2113,12 @@
                 },
                 {
                   "__type__": "Note",
-                  "crowdanki_uuid": "ldLZ7JAj4z",
-                  "guid": "ldLZ7JAj4z",
+                  "crowdanki_uuid": "tW0LVWlbZz",
+                  "guid": "tW0LVWlbZz",
                   "note_model_uuid": "a1b2c3d4-0001-0001-0001-000000000003",
                   "fields": [
-                    "[2022 Q5a(iii) — 4 marks] The SQL to display bookings over 1 night is incorrect: SELECT ALL / FROM TblBookings / IF Nights &lt; 1. Rewrite it correctly.",
-                    "<pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM TblBookings<br>WHERE Nights &gt; 1</pre>Errors fixed: <code>SELECT ALL</code> → <code>SELECT *</code>; <code>IF</code> → <code>WHERE</code>; <code>Nights &lt; 1</code> → <code>Nights &gt; 1</code>"
+                    "[2022 Q5a(iii) — 4 marks] The SQL below to display bookings over 1 night has three errors. Identify and correct them:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT ALL<br>FROM TblBookings<br>IF Nights &lt; 1</pre>",
+                    "Corrected SQL:<br><pre style=\"background:#1e1e1e;color:#f8f8f2;padding:8px;border-radius:4px;font-family:monospace;font-size:12px;\">SELECT *<br>FROM TblBookings<br>WHERE Nights &gt; 1</pre>Errors fixed: <code>SELECT ALL</code> → <code>SELECT *</code>; <code>IF</code> → <code>WHERE</code>; <code>Nights &lt; 1</code> → <code>Nights &gt; 1</code>"
                   ],
                   "flags": 0,
                   "tags": [],
