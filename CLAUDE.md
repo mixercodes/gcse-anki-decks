@@ -124,6 +124,23 @@ History::Paper 3::Framlingham Castle
 
 ---
 
+## Reading PDFs (past papers, specs)
+
+Claude cannot read PDFs directly. Use `pdfplumber` to extract text first:
+
+```bash
+python -c "
+import pdfplumber, sys
+with pdfplumber.open(sys.argv[1]) as pdf:
+    for page in pdf.pages:
+        text = page.extract_text()
+        if text:
+            print(text)
+" path/to/file.pdf > output.txt
+```
+
+Then read `output.txt` with the Read tool. For large PDFs, redirect to a file and read in chunks. Extracted past paper text is cached at `C:\Users\onluc\.claude\extracted_past_papers.txt` (Sample, 2022, 2023, 2024 CS Paper 2 papers).
+
 ## Spec PDFs
 
 Official specification PDFs are stored in `specs/`. Read these to verify content before adding or auditing cards.
